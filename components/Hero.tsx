@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { ArrowRight, MessageCircle, CheckCircle } from "lucide-react";
 import { CONTACT_INFO, BUSINESS_DETAILS } from "../constants";

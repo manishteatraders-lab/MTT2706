@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import { X, Check, ArrowRight } from "lucide-react";
 import { PRODUCTS } from "../data/products";

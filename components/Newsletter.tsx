@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { Mail, Check, MessageSquare, ArrowRight, Bell } from 'lucide-react';
 import { CONTACT_INFO } from '../constants';

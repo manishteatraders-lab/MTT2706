@@ -1,12 +1,13 @@
-// Tea grade images mapped by leaf style
-import orthodoxWholeImg from '@/assets/tea-orthodox-whole.webp';
-import orthodoxBrokenImg from '@/assets/tea-orthodox-broken.webp';
-import fanningsImg from '@/assets/tea-fannings.webp';
-import dustImg from '@/assets/tea-dust.webp';
-import ctcImg from '@/assets/tea-ctc.webp';
-import whiteImg from '@/assets/tea-white.webp';
-import greenImg from '@/assets/tea-green.webp';
-import oolongImg from '@/assets/tea-oolong.webp';
+// Tea grade images mapped by leaf style — using public URL strings (Next.js static export)
+const BASE = '/assets';
+const orthodoxWholeImg = `${BASE}/tea-orthodox-whole.webp`;
+const orthodoxBrokenImg = `${BASE}/tea-orthodox-broken.webp`;
+const fanningsImg = `${BASE}/tea-fannings.webp`;
+const dustImg = `${BASE}/tea-dust.webp`;
+const ctcImg = `${BASE}/tea-ctc.webp`;
+const whiteImg = `${BASE}/tea-white.webp`;
+const greenImg = `${BASE}/tea-green.webp`;
+const oolongImg = `${BASE}/tea-oolong.webp`;
 
 import { LeafStyle, TeaCategory } from './teaGrades';
 

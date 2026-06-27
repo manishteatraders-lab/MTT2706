@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import { LOCATION_PAGES } from "../data/locationPages";
 import { MapPin, ArrowLeft, CheckCircle } from 'lucide-react';

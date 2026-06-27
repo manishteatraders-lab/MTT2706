@@ -1,8 +1,9 @@
 import { BlogPost } from '../types';
-import teaDust from '../assets/tea-dust.webp';
-import teaCtc from '../assets/tea-ctc.webp';
-import teaOrthodoxWhole from '../assets/tea-orthodox-whole.webp';
-import teaOrthodoxBroken from '../assets/tea-orthodox-broken.webp';
+
+const teaDust = '/assets/tea-dust.webp';
+const teaCtc = '/assets/tea-ctc.webp';
+const teaOrthodoxWhole = '/assets/tea-orthodox-whole.webp';
+const teaOrthodoxBroken = '/assets/tea-orthodox-broken.webp';
 
 export const BLOG_POSTS: BlogPost[] = [
   {

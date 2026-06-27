@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import { BLOG_POSTS } from '../data/blogPosts';
 import { Calendar, User, ArrowLeft, ArrowRight } from 'lucide-react';
