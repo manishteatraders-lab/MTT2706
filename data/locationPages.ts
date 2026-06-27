@@ -124,7 +124,6 @@ export const LOCATION_PAGES: LocationPage[] = [
       <p><strong>Address:</strong> Manish Tea Traders, Ganga Nagar, Mahananda Para, Siliguri, WB – 734005.</p>
       <p>Stop paying middleman commissions. Source directly from the source. Call <strong>+91 70019 58588</strong> or visit us to discuss how we can fuel your business growth with Siliguri's finest tea.</p>
 
-      <p class="text-xs text-gray-400 mt-8"><em>Keywords: tea wholesaler siliguri, bulk tea supplier west bengal, ctc tea wholesale siliguri, assam tea bulk siliguri, darjeeling tea wholesale, tea auction siliguri prices, fresh garden tea siliguri trader, tea business india, wholesale tea price list 2026.</em></p>
     `,
     lang: 'en',
     translationId: 'siliguri',

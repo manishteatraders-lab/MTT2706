@@ -40,8 +40,8 @@ const Hero: React.FC = () => {
             ★ Top Rated Wholesale Supplier | Est. 2004
           </span>
           <h1 className="text-5xl lg:text-7xl font-bold text-white font-serif mb-6 leading-tight drop-shadow-lg">
-            Siliguri's Trusted <br /> Tea Wholesaler
-            <span className="text-tea-300 block text-2xl lg:text-3xl mt-4 font-sans tracking-wide">Direct from Siliguri</span>
+            Manish Tea Traders
+            <span className="text-tea-300 block text-2xl lg:text-3xl mt-4 font-sans tracking-wide">Siliguri's Trusted Tea Wholesaler</span>
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-100 mb-2 leading-relaxed font-light">
             Sourced directly from Siliguri's wholesale tea market — we supply CTC, Darjeeling, Assam &amp; Nepal tea in bulk to retailers, distributors, hotels, and private label brands across India.

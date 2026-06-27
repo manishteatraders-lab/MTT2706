@@ -7,6 +7,7 @@ import {
 import { CONTACT_INFO, BUSINESS_DETAILS } from '../../constants';
 import Reviews from '../../components/Reviews';
 import OptimizedImage from '../../components/OptimizedImage';
+import Contact from '../../components/Contact';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -49,9 +50,7 @@ export default function RequestSamples() {
 
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                       <a
-                          href={BUSINESS_DETAILS.sampleFormUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                          href="#sample-form"
                           className="inline-flex items-center justify-center gap-2 bg-yellow-500 text-tea-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 hover:scale-105 transition-all shadow-[0_0_20px_rgba(234,179,8,0.4)]"
                       >
                           <ClipboardList className="w-6 h-6" />
@@ -122,9 +121,7 @@ export default function RequestSamples() {
                               <Leaf className="w-8 h-8 mx-auto text-tea-400 mb-4 group-hover:text-tea-600" />
                               <h3 className="font-bold text-gray-900 mb-4">{product}</h3>
                               <a
-                                  href={BUSINESS_DETAILS.sampleFormUrl}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
+                                  href="#sample-form"
                                   className="text-sm font-semibold text-tea-600 hover:text-tea-800 underline decoration-2 underline-offset-4 cursor-pointer block mt-2"
                               >
                                   Request Sample
@@ -191,9 +188,7 @@ export default function RequestSamples() {
                   </div>
                   <div className="mt-10">
                       <a
-                          href={BUSINESS_DETAILS.sampleFormUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                          href="#sample-form"
                           className="inline-flex items-center gap-2 bg-tea-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-tea-700 transition-colors"
                       >
                           Start Process <ClipboardList className="w-5 h-5" />
@@ -339,7 +334,12 @@ export default function RequestSamples() {
               </div>
           </section>
 
-          {/* 11. Testimonials */}
+          {/* 11. Sample Request Form */}
+          <div className="bg-white" id="sample-form">
+              <Contact selectedProduct="Free Sample Request" />
+          </div>
+
+          {/* 12. Testimonials */}
           <Reviews />
 
       </main>

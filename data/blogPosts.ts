@@ -44,7 +44,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "how to blend tea, tea blending techniques, tea packing business, start tea brand, tea mixing ratio",
-    imageUrl: "/blog-images/tea-tasting-lab.png",
+    imageUrl: "/blog-images/private-label-packaging.webp",
     lang: 'en'
   },
   {
@@ -85,7 +85,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "chaye blending kaise kare, tea blending ideas hindi, tea packing business hindi, chai pati business, tea business trick",
-    imageUrl: "/blog-images/tea-tasting-lab.png",
+    imageUrl: "/blog-images/tea-business-ideas-concept.webp",
     lang: 'hi'
   },
   {
@@ -129,7 +129,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea blend calculator, tea blending ratio, how to blend tea, wholesale tea blending, tea business tools",
-    imageUrl: "/blog-images/tea-tasting-lab.png",
+    imageUrl: "/blog-images/tea-quality-testing.webp",
     lang: 'en'
   },
   {
@@ -173,7 +173,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea blend calculator hindi, chaye blending kaise kare, chai vyapar ideas hindi, tea blending ratio hindi, tea business profit",
-    imageUrl: "/blog-images/tea-tasting-lab.png",
+    imageUrl: "/blog-images/tea-sourcing-expert.webp",
     lang: 'hi'
   },
   {
@@ -217,7 +217,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "wholesale tea market India, Siliguri tea market, Kolkata tea auction, buy bulk tea India",
-    imageUrl: "/blog-images/tea_market_india_map.png",
+    imageUrl: "/blog-images/tea_market_india_map.webp",
     lang: 'en'
   },
   {
@@ -256,7 +256,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea blending techniques, how to blend tea, tea tasting guide, profitable tea business",
-    imageUrl: "/blog-images/tea-tasting-lab.png",
+    imageUrl: "/blog-images/tea-business-planning.webp",
     lang: 'en'
   },
   {
@@ -289,7 +289,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "Siliguri tea wholesale, tea suppliers Siliguri, benefits buying tea Siliguri",
-    imageUrl: "/blog-images/tea-business-planning.png",
+    imageUrl: "/blog-images/tea-business-planning.webp",
     lang: 'en'
   },
   {
@@ -371,7 +371,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "start tea business India, private label tea supplier, FSSAI for tea",
-    imageUrl: "/blog-images/tea-branding-design.png",
+    imageUrl: "/blog-images/tea-branding-design.webp",
     lang: 'en',
     faqSchema: [
       { question: "How can I start a tea business in India with ₹25,000?", answer: "You can start a small-scale tea distribution business with ₹25,000 — buy 100–150 kg of bulk CTC tea from Siliguri at ₹150–200/kg, repack in 250g or 500g pouches, and sell to local retailers and tea stalls. No factory is needed; Manish Tea Traders also offers private label packaging from low MOQ of 50 kg so you can launch a branded product immediately." },
@@ -410,7 +410,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "Assam vs Darjeeling tea, tea difference guide, wholesale tea selection",
-    imageUrl: "/blog-images/assam-vs-darjeeling.png",
+    imageUrl: "/blog-images/assam-vs-darjeeling.webp",
     lang: 'en'
   },
   {
@@ -447,7 +447,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea quality check, how to taste tea, bulk tea buying guide",
-    imageUrl: "/blog-images/tea-quality-testing.png",
+    imageUrl: "/blog-images/tea-quality-testing.webp",
     lang: 'en'
   },
   {
@@ -525,7 +525,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea business profit margin, tea wholesale price India, is tea business profitable",
-    imageUrl: "/blog-images/tea-profit-calculator.png",
+    imageUrl: "/blog-images/tea-profit-calculator.webp",
     lang: 'en',
     translationId: 'tea-profit',
     faqSchema: [
@@ -610,7 +610,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "how to store tea, bulk tea storage, tea warehouse guide",
-    imageUrl: "/blog-images/tea-warehouse.png",
+    imageUrl: "/blog-images/tea-warehouse.webp",
     lang: 'en'
   },
   {
@@ -649,7 +649,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea packaging ideas, private label tea packaging, tea pouch design",
-    imageUrl: "/blog-images/tea-pouch-mockups.png",
+    imageUrl: "/blog-images/tea-pouch-mockups.webp",
     lang: 'en'
   },
   {
@@ -692,7 +692,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea business license, FSSAI for tea, GST on tea, trade license for tea shop",
-    imageUrl: "/blog-images/tea-business-licenses.png",
+    imageUrl: "/blog-images/tea-business-licenses.webp",
     lang: 'en'
   },
   {
@@ -729,7 +729,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "how to sell tea to stalls, tea marketing strategy, tea sales pitch",
-    imageUrl: "/blog-images/tea-wholesale-market-scene.png",
+    imageUrl: "/blog-images/tea-wholesale-market-scene.webp",
     lang: 'en'
   },
   {
@@ -763,7 +763,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "marketing ideas for tea business, digital marketing tea, sell tea online",
-    imageUrl: "/blog-images/tea-digital-marketing.png",
+    imageUrl: "/blog-images/tea-digital-marketing.webp",
     lang: 'en'
   },
   {
@@ -806,7 +806,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea business name ideas, chai brand names, tea shop names",
-    imageUrl: "/blog-images/tea-business-naming.png",
+    imageUrl: "/blog-images/tea-business-naming.webp",
     lang: 'en'
   },
   {
@@ -842,7 +842,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea wholesalers siliguri list, verify tea supplier, best tea wholesaler siliguri",
-    imageUrl: "/blog-images/siliguri-tea-market.png",
+    imageUrl: "/blog-images/siliguri-tea-market.webp",
     lang: 'en'
   },
   {
@@ -903,7 +903,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "siliguri tea wholesale market, tea wholesalers in siliguri, best tea market siliguri, buy tea bulk siliguri",
-    imageUrl: "/blog-images/siliguri-market-entrance.png",
+    imageUrl: "/blog-images/siliguri-market-entrance.webp",
     lang: 'en',
     faqSchema: [
       { question: "What is Siliguri famous for in the tea business?", answer: "Siliguri is India's largest tea trading hub, located at the junction of Darjeeling, Dooars, Terai, and Assam tea-producing regions. The Siliguri Tea Auction Centre (STAC) handles thousands of kilograms weekly, making it the primary price discovery point for North Bengal tea. Buyers from Bihar, UP, Delhi and exporters source from Siliguri for the freshest tea and best wholesale prices." },
@@ -983,7 +983,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea wholesale price siliguri, current tea price siliguri, buy tea bulk price, siliguri tea market rates",
-    imageUrl: "/blog-images/tea-auction-bidding.png",
+    imageUrl: "/blog-images/tea-auction-bidding.webp",
     lang: 'en'
   },
   {
@@ -1042,7 +1042,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea companies in siliguri, list of tea wholesalers siliguri, best tea company siliguri",
-    imageUrl: "/blog-images/top-tea-companies-siliguri.png",
+    imageUrl: "/blog-images/top-tea-companies-siliguri.webp",
     lang: 'en'
   },
   {
@@ -1097,7 +1097,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea profit margin, tea business profitability, wholesale tea margin, retail tea margin",
-    imageUrl: "/blog-images/private-label-packaging.png",
+    imageUrl: "/blog-images/private-label-packaging.webp",
     lang: 'en'
   },
     {
@@ -1142,7 +1142,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "चाय व्यापार मुनाफा, थोक चाय व्यापार, चाय बिजनेस प्रॉफिट, tea profit margin hindi",
-    imageUrl: "/blog-images/tea-profit-calculator.png",
+    imageUrl: "/blog-images/tea-profit-calculator.webp",
     lang: 'hi',
     translationId: 'tea-profit',
     faqSchema: [
@@ -1181,7 +1181,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "अपना चाय ब्रांड कैसे शुरू करें, चाय व्यापार गाइड, सिलीगुड़ी चाय थोक, start tea brand india hindi",
-    imageUrl: "/blog-images/tea-branding-design.png",
+    imageUrl: "/blog-images/tea-branding-design.webp",
     lang: 'hi'
   },
   {
@@ -1223,7 +1223,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "sourcing tea india, buy tea wholesale, tea supplier verification, tea sample testing",
-    imageUrl: "/blog-images/tea-sourcing-expert.png",
+    imageUrl: "/blog-images/tea-sourcing-expert.webp",
     lang: 'en',
     translationId: 'start-brand'
   },
@@ -1467,7 +1467,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea wholesale, tea moq, tea wholesale pricing, tea logistics, wholesale tea dealers",
-    imageUrl: "/blog-images/tea-logistics-truck.png",
+    imageUrl: "/blog-images/tea-logistics-truck.webp",
     lang: 'en'
   },
   {
@@ -1518,7 +1518,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "start tea business low investment, tea business under 25000, small tea business idea",
-    imageUrl: "/blog-images/low-investment-tea-setup.png",
+    imageUrl: "/blog-images/low-investment-tea-setup.webp",
     lang: 'en'
   },
   {
@@ -1708,7 +1708,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <ul>
       </ul>
     `,
-    keywords: "tea business ideas, profitable tea business, tea startup ideas", imageUrl: "/blog-images/tea-business-ideas-concept.png",
+    keywords: "tea business ideas, profitable tea business, tea startup ideas", imageUrl: "/blog-images/tea-business-ideas-concept.webp",
     lang: 'en'
   },
   {
@@ -1772,7 +1772,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "private label tea packaging, tea packaging cost, private label tea supplier, tea brand packaging",
-    imageUrl: "/blog-images/private-label-packaging.png",
+    imageUrl: "/blog-images/private-label-packaging.webp",
     lang: 'en'
   },
   {
@@ -1980,7 +1980,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <ul>
       </ul>
     `,
-    keywords: "tea suppliers kolkata, tea suppliers siliguri, kolkata vs siliguri tea, tea wholesale kolkata", imageUrl: "/blog-images/tea-business-risk.png",
+    keywords: "tea suppliers kolkata, tea suppliers siliguri, kolkata vs siliguri tea, tea wholesale kolkata", imageUrl: "/blog-images/tea-business-risk.webp",
     lang: 'en'
   },
   {
@@ -2049,7 +2049,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea bag manufacturers near me, tea bags supplier, tea bag making, wholesale tea bags",
-    imageUrl: "/blog-images/tea-bag-production.png",
+    imageUrl: "/blog-images/tea-bag-production.webp",
     lang: 'en'
   },
   {
@@ -2139,7 +2139,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "packet manufacturer near me, packaging dealers near me, tea pouch suppliers, tea packaging material",
-    imageUrl: "/blog-images/tea-packaging-rolls.png",
+    imageUrl: "/blog-images/tea-packaging-rolls.webp",
     lang: 'en'
   },
   {
@@ -2234,7 +2234,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "private label tea, tea brand, start tea business, own tea brand, tea business startup",
-    imageUrl: "/blog-images/private-label-packaging.png",
+    imageUrl: "/blog-images/private-label-packaging.webp",
     lang: 'en'
   },
   {
@@ -2491,7 +2491,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "north bengal tea hub, siliguri tea, tea hub india, siliguri tea market, north bengal tea",
-    imageUrl: "/blog-images/north-bengal-tea-hub.png",
+    imageUrl: "/blog-images/north-bengal-tea-hub.webp",
     lang: 'en'
   },
   {
@@ -2587,7 +2587,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "सिलीगुड़ी में चाय थोक व्यापारी, चाय थोक बाजार, सिलीगुड़ी चाय, थोक चाय",
-    imageUrl: "/blog-images/siliguri-tea-market.png",
+    imageUrl: "/blog-images/siliguri-tea-market.webp",
     lang: 'en'
   },
   {
@@ -2670,7 +2670,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "सिलीगुड़ी चाय बाजार, चाय बाजार सिलीगुड़ी, थोक चाय खरीदें",
-    imageUrl: "/blog-images/siliguri-tea-market.png",
+    imageUrl: "/blog-images/siliguri-tea-market.webp",
     lang: 'en'
   },
   {
@@ -2769,7 +2769,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "चाय का व्यवसाय, थोक चाय व्यापार, चाय बिजनेस कैसे शुरू करें",
-    imageUrl: "/blog-images/hindi-tea-business.png",
+    imageUrl: "/blog-images/hindi-tea-business.webp",
     lang: 'en'
   },
   {
@@ -2880,7 +2880,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "असम चाय, दार्जिलिंग चाय, असम बनाम दार्जिलिंग, चाय तुलना",
-    imageUrl: "/blog-images/assam-vs-darjeeling.png",
+    imageUrl: "/blog-images/assam-vs-darjeeling.webp",
     lang: 'en'
   },
   {
@@ -2980,7 +2980,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "siliguri tea history, tea trading hub, siliguri tea market history",
-    imageUrl: "/blog-images/vintage-tea-train.png",
+    imageUrl: "/blog-images/vintage-tea-train.webp",
     lang: 'en'
   },
   {
@@ -3119,7 +3119,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "verify tea supplier, genuine tea supplier, tea supplier verification, tea business fraud",
-    imageUrl: "/blog-images/tea-quality-testing.png",
+    imageUrl: "/blog-images/tea-quality-testing.webp",
     lang: 'en'
   },
   {
@@ -3259,7 +3259,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "export tea from india, tea export documentation, tea export license, MRL compliance tea",
-    imageUrl: "/blog-images/tea-export-port.png",
+    imageUrl: "/blog-images/tea-export-port.webp",
     lang: 'en'
   },
   {
@@ -3419,7 +3419,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea trading trends, tea industry future, tea business opportunities, india tea market",
-    imageUrl: "/blog-images/future-tea-tech.png",
+    imageUrl: "/blog-images/future-tea-tech.webp",
     lang: 'en'
   },
 ];

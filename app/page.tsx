@@ -10,7 +10,7 @@ import Reviews from "../components/Reviews";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Manish Tea Traders Siliguri — Wholesale Tea Supplier Since 2004",
+  title: "Bulk CTC & Assam Tea Wholesaler Siliguri | Manish Tea Traders — Since 2004",
   description: "Buy wholesale CTC, Assam & Darjeeling tea directly from Siliguri. Min order 5 kg. Free samples. Get today's price list in 1 click.",
   alternates: {
     canonical: "https://manishteatraders.in/"

@@ -6,8 +6,8 @@ import OptimizedImage from '../../../components/OptimizedImage';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Private Label Tea Manufacturing India — Your Brand in 30 Days",
-  description: "Launch your own tea brand in 30 days. We handle blending, packaging & printing. MOQ 50 kg. 200+ brands launched across India.",
+  title: "Private Label Tea Packaging India | Start Your Own Tea Brand | Manish Tea Traders Siliguri",
+  description: "Start your own tea brand in 30 days. We offer end-to-end private label tea manufacturing, blending, custom packaging and brand printing in India. MOQ 50 kg.",
   alternates: {
     canonical: "https://manishteatraders.in/services/private-label-tea/"
   },

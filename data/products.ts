@@ -1505,7 +1505,7 @@ export const PRODUCTS: Product[] = [
       <section>
         <h3>Why Partner With Us?</h3>
         <ul>
-          <li><strong>Low MOQs:</strong> Start with as little as 1000 kg per SKU (industry standard is often 5-10 tons).</li>
+          <li><strong>Low MOQs:</strong> Start with as little as 50 kg per SKU (industry standard is often 5-10 tons).</li>
           <li><strong>Quality Consistency:</strong> Your brand's reputation is safe with our consistent blending standards.</li>
           <li><strong>Industry Guidance:</strong> We advise on pricing strategies and market trends.</li>
         </ul>
@@ -1537,13 +1537,13 @@ export const PRODUCTS: Product[] = [
     imageUrl: "/images/products/private_label.webp",
     imageAlt: "Private Label Tea Packaging Service - Manish Tea Traders Siliguri",
     sku: "SVC-PLB-001",
-    moq: "1000 kg",
+    moq: "50 kg",
     stockStatus: "Service",
     specifications: {
       "Service": "End-to-End Private Labeling",
       "Packet Sizes": "50g to 1kg",
       "Material": "Poly / Met-PET / Box",
-      "Min Volume": "1000 kg per SKU",
+      "Min Volume": "50 kg per SKU",
       "Turnaround": "15-20 Days (after material receipt)"
     }
   },

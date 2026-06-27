@@ -83,7 +83,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="absolute -inset-4 bg-tea-100 rounded-xl transform rotate-2"></div>
             <OptimizedImage
-              src="https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574&auto=format&fit=crop"
+              src="/blog-images/tea-warehouse.webp"
               alt="Tea tasting and selection at Manish Tea Traders"
               className="relative rounded-xl shadow-2xl w-full object-cover h-[500px]"
             />

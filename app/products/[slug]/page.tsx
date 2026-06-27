@@ -9,7 +9,7 @@ const CATEGORY_MAP: Record<string, { name: string, title: string, desc: string, 
     'ctc-tea': {
         name: 'CTC Tea',
         title: 'Wholesale CTC Tea Suppliers | BP, OF & Blends',
-        desc: 'Premium Assam and Dooars CTC tea aggregates. Available in loose sacks (30kg). Consistent blend for retailers.',
+        desc: "Buy CTC tea in bulk from Siliguri — BP, OF, PD, Dust & BOPSM grades. Direct from Assam & Dooars gardens. MOQ 30 kg. Free samples dispatched within 48 hrs. WhatsApp for today's rate.",
         filter: ['CTC', 'Blend']
     },
     'tea-dust': {
