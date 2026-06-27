@@ -23,7 +23,7 @@ export const BUSINESS_DETAILS = {
   shipmentMode: "By Road (All India)",
   indiamartProfile: "https://www.indiamart.com/manishteatraders",
   justdialProfile: "https://www.justdial.com/Siliguri/Manish-Tea-Traders-Mahananda-Para/9999PX353-X353-241126070451-T2Z7_BZDET",
-  sampleFormUrl: "https://forms.gle/gpZAjNoz8QAriJMe8"
+  sampleFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLScFyImy-vM2I66AM_IKujtmmCb8TW9XxIrJIc8txis2bNoogQ/viewform?usp=send_form"
 };
 
 export const NAV_ITEMS: NavItem[] = [
