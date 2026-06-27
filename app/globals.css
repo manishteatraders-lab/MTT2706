@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tea-50: #fcfdf5;
+  --color-tea-100: #f7fae6;
+  --color-tea-200: #ebf4c5;
+  --color-tea-300: #daea9a;
+  --color-tea-400: #c1dd66;
+  --color-tea-500: #a5c83b;
+  --color-tea-600: #81a32b;
+  --color-tea-700: #627d24;
+  --color-tea-800: #4f6322;
+  --color-tea-900: #425321;
+  --color-brand-gold: #d4af37;
+  --color-brand-dark: #2d3436;
+  --font-sans: "Inter", "sans-serif";
+  --font-serif: "Merriweather", "serif";
+
+  /* Custom Tea Category Colors */
+  --color-orthodox: hsl(142 40% 38%);
+  --color-orthodox-light: hsl(142 35% 92%);
+  --color-ctc: hsl(30 55% 40%);
+  --color-ctc-light: hsl(30 40% 92%);
+  --color-specialty: hsl(42 65% 50%);
+  --color-specialty-light: hsl(42 50% 92%);
+
+  /* Custom Shadows/Gradients for Explorer */
+  --shadow-tea-card: 0 2px 12px -2px hsl(30 20% 20% / 0.06);
+  --shadow-tea-medium: 0 8px 30px -8px hsl(30 20% 20% / 0.12);
+
+  /* Blend Calculator Theme Tokens */
+  --color-success: hsl(142 60% 40%);
+  --color-success-foreground: hsl(0 0% 100%);
+  --color-warning: hsl(38 92% 50%);
+  --color-warning-foreground: hsl(150 30% 15%);
+
+  --gradient-tea: linear-gradient(135deg, hsl(152, 45%, 25%) 0%, hsl(152, 40%, 35%) 100%);
+  --gradient-amber: linear-gradient(135deg, hsl(35, 85%, 55%) 0%, hsl(40, 90%, 60%) 100%);
+  --gradient-cream: linear-gradient(180deg, hsl(40, 40%, 99%) 0%, hsl(40, 30%, 96%) 100%);
+}
+
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Typography styles for rich content */
+.prose {
+  @apply text-stone-700 leading-relaxed;
+}
+
+.prose section {
+  @apply mb-10 last:mb-0;
+}
+
+.prose h2 {
+  @apply text-2xl font-serif font-bold text-stone-900 mb-4 pb-2 border-b border-stone-200 mt-8 first:mt-0;
+}
+
+.prose h3 {
+  @apply text-xl font-bold text-tea-800 mb-3 mt-6;
+}
+
+.prose h4 {
+  @apply text-lg font-bold text-stone-800 mb-2 mt-4;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+.prose ul {
+  @apply list-disc pl-5 mb-6 space-y-2;
+}
+
+.prose ol {
+  @apply list-decimal pl-5 mb-6 space-y-3;
+}
+
+.prose li {
+  @apply pl-1;
+}
+
+.prose strong {
+  @apply font-bold text-stone-900;
+}
+
+.prose dl {
+  @apply space-y-6;
+}
+
+.prose dt {
+  @apply text-lg font-bold text-tea-900 mb-1;
+}
+
+.prose dd {
+  @apply text-stone-600 pl-0;
+}
+
+/* Modal specific tweaks */
+.prose-sm h2 {
+  @apply text-xl mb-3;
+}
+
+.prose-sm h3 {
+  @apply text-lg mb-2;
+}
+
+.prose-sm section {
+  @apply mb-6;
+}
+
+/* Table Styles for Rich Content */
+.prose table {
+  @apply w-full border-collapse mb-8 text-sm bg-white rounded-lg overflow-hidden border border-stone-200 mt-4;
+}
+
+.prose thead {
+  @apply bg-stone-50;
+}
+
+.prose th {
+  @apply border-b border-stone-200 p-3 text-left font-bold text-stone-900 uppercase tracking-wider text-[10px];
+}
+
+.prose td {
+  @apply border-b border-stone-100 p-3 text-stone-700 leading-relaxed align-top;
+}
+
+.prose tr:last-child td {
+  @apply border-b-0;
+}
+
+.prose tr:nth-child(even) {
+  @apply bg-stone-50/50;
+}
+
+.overflow-x-auto {
+  @apply overflow-x-auto;
+}
