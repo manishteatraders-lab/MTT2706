@@ -37,11 +37,11 @@ const Hero: React.FC = () => {
         {/* ── Desktop Content (≥ 768px) ── */}
         <div className="hidden md:block w-full">
           <span className="inline-block py-1 px-3 rounded-full bg-tea-500/90 text-white text-sm font-semibold mb-6 backdrop-blur-sm shadow-lg border border-tea-400/30">
-            ★ Top Rated Wholesale Supplier
+            ★ Top Rated Wholesale Supplier | Est. 2004
           </span>
           <h1 className="text-5xl lg:text-7xl font-bold text-white font-serif mb-6 leading-tight drop-shadow-lg">
             Siliguri's Trusted <br /> Tea Wholesaler
-            <span className="text-tea-300 block text-2xl lg:text-3xl mt-4 font-sans tracking-wide">Darjeeling, Assam CTC &amp; Nepal Tea — Direct from Source</span>
+            <span className="text-tea-300 block text-2xl lg:text-3xl mt-4 font-sans tracking-wide">Direct from Siliguri</span>
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-100 mb-2 leading-relaxed font-light">
             Sourced directly from Siliguri's wholesale tea market — we supply CTC, Darjeeling, Assam &amp; Nepal tea in bulk to retailers, distributors, hotels, and private label brands across India.
@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
             <div className="w-px h-6 bg-white/30"></div>
             <div className="flex items-center gap-2 text-white font-medium text-base">
               <CheckCircle className="h-5 w-5 text-yellow-400 fill-yellow-400/20" />
-              <span className="drop-shadow-sm">FSSAI Registered</span>
+              <span className="drop-shadow-sm">GST & Tea Board Reg.</span>
             </div>
           </div>
 
@@ -86,8 +86,8 @@ const Hero: React.FC = () => {
             </a>
           </div>
           <div className="mt-6 flex justify-center">
-            <a href={BUSINESS_DETAILS.sampleFormUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-tea-100 hover:text-white bg-white/10 hover:bg-white/20 border border-white/20 px-6 py-2.5 rounded-full text-sm font-medium transition-colors shadow-sm backdrop-blur-sm tracking-wide">
-              <span>🍵</span> Request Free Sample
+            <a href="/request-free-tea-samples" className="inline-flex items-center gap-2 text-tea-900 bg-tea-400 hover:bg-tea-300 px-6 py-2.5 rounded-full text-sm font-bold transition-colors shadow-sm tracking-wide">
+              <span>🍵</span> Free Samples Available — Dispatched within 48 hours
             </a>
           </div>
         </div>
@@ -97,7 +97,7 @@ const Hero: React.FC = () => {
           {/* Top Badge */}
           <div className="self-center mb-6">
             <span className="bg-[#588157]/80 backdrop-blur-sm text-white border border-white/20 text-[11px] font-bold py-1.5 px-5 rounded-full inline-flex items-center shadow-lg tracking-wide">
-              ★ Top Rated Wholesale Supplier
+              ★ Top Rated Wholesale Supplier | Est. 2004
             </span>
           </div>
 
@@ -115,10 +115,9 @@ const Hero: React.FC = () => {
 
           {/* Keyword Pills - simplified to match old layout text links */}
           <div className="flex flex-wrap items-center justify-center gap-1.5 mb-8 text-tea-200 text-[13px] font-medium tracking-wide">
-            <span>CTC</span> <span>•</span>
-            <span>ASSAM</span> <span>•</span>
-            <span>NEPAL</span> <span>•</span>
-            <span>LOOSE TEA</span>
+            <span>Direct from Siliguri</span> <span>•</span>
+            <span>MOQ 5 kg</span> <span>•</span>
+            <span>Free Samples</span>
           </div>
 
           {/* Buttons - Stacked Full Width like Old Design */}
@@ -142,8 +141,8 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="flex justify-center mb-6">
-            <a href={BUSINESS_DETAILS.sampleFormUrl} target="_blank" rel="noopener noreferrer" className="bg-[#789b37]/90 text-white hover:bg-[#789b37] border border-white/20 px-6 py-2.5 rounded-full text-[13px] font-bold shadow-lg flex items-center gap-2 transition-colors">
-              <span className="text-xl leading-none">📋</span> Request Tea Samples
+            <a href="/request-free-tea-samples" className="bg-[#a5c83b] text-[#11130d] hover:bg-[#c1dd66] px-6 py-3 rounded-full text-[14px] font-extrabold shadow-lg flex items-center gap-2 transition-colors w-full justify-center">
+              <span className="text-xl leading-none">🍵</span> Free Samples (Dispatched in 48h)
             </a>
           </div>
 
@@ -153,7 +152,7 @@ const Hero: React.FC = () => {
               <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-[#3574d3]" /> Justdial Verified</span>
               <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-[#00a650]" /> IndiaMART Verified</span>
             </div>
-            <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-yellow-500" /> FSSAI Registered</span>
+            <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-yellow-500" /> GST & Tea Board Reg.</span>
           </div>
         </div>
       </div>

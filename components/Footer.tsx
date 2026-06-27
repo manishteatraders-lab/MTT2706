@@ -26,13 +26,13 @@ const Footer: React.FC = () => {
               Your trusted partner for wholesale tea in Siliguri. Providing quality CTC and Orthodox teas since {BUSINESS_DETAILS.established}.
             </p>
             <div className="flex flex-col gap-2 pt-2">
-              <span className="text-[10px] bg-tea-800 px-2 py-1 rounded text-tea-300 w-fit">GST: {BUSINESS_DETAILS.gst}</span>
-              {BUSINESS_DETAILS.fssai && BUSINESS_DETAILS.fssai !== 'XXXXXXXXXXXXXX' && (
-                <span className="text-[10px] bg-tea-800 px-2 py-1 rounded text-tea-300 w-fit">FSSAI: {BUSINESS_DETAILS.fssai}</span>
-              )}
-              {(!BUSINESS_DETAILS.fssai || BUSINESS_DETAILS.fssai === 'XXXXXXXXXXXXXX') && (
-                <span className="text-[10px] bg-tea-800 px-2 py-1 rounded text-tea-300 w-fit">FSSAI Registered</span>
-              )}
+              <span className="text-[10px] bg-tea-800 px-2 py-1 rounded text-tea-300 w-fit">GST: 19AHJPR0891G1ZX</span>
+              <span className="text-[10px] bg-tea-800 px-2 py-1 rounded text-tea-300 w-fit">Tea Board of India (KOL/B-7410)</span>
+            </div>
+            <div className="pt-4">
+              <a href="/request-free-tea-samples" className="inline-block bg-tea-500 hover:bg-tea-400 text-tea-900 font-bold px-4 py-2 rounded-full text-sm transition-colors">
+                🍵 Request Free Samples
+              </a>
             </div>
           </div>
 
@@ -47,7 +47,6 @@ const Footer: React.FC = () => {
               <li><Link href="/tea-blend-calculator" className="hover:text-white transition-colors">Tea Blend Calculator</Link></li>
               <li><Link href="/tea-grades" className="hover:text-white transition-colors">Tea Grades Guide</Link></li>
               <li><Link href="/locations" className="hover:text-white transition-colors">Service Areas</Link></li>
-              <li><a href={BUSINESS_DETAILS.sampleFormUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors font-semibold text-yellow-400">Request Free Samples</a></li>
               <li className="pt-2 border-t border-tea-800/50 mt-2">
                 <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors text-xs">Privacy Policy</Link>
               </li>

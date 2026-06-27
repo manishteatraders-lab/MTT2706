@@ -30,7 +30,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${product.name} | Wholesale Tea Supplier Siliguri`,
     description: product.description,
     alternates: {
-      canonical: `https://manishteatraders.in/product/${product.slug}/`
+      canonical: `https://manishteatraders.in/product/${product.slug}/`,
+      languages: {
+        'en-IN': `https://manishteatraders.in/product/${product.slug}/`
+      }
     },
     openGraph: {
       images: [

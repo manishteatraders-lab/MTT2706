@@ -26,7 +26,7 @@ export default function RequestSamples() {
               <div className="absolute inset-0 z-0 opacity-40">
                   <OptimizedImage 
                       src="https://images.unsplash.com/photo-1563822249509-cab272d568c8?q=80&w=1600" 
-                      alt="Tea Leaves"
+                      alt="Tea Leaves - Manish Tea Traders Siliguri"
                       className="w-full h-full object-cover"
                       priority={true}
                   />
@@ -159,7 +159,7 @@ export default function RequestSamples() {
                       <div className="relative h-64 lg:h-full min-h-[300px] rounded-2xl overflow-hidden">
                           <OptimizedImage
                               src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=1200"
-                              alt="Tea Warehouse Siliguri"
+                              alt="Tea Warehouse - Manish Tea Traders Siliguri"
                               className="absolute inset-0 w-full h-full object-cover"
                           />
                       </div>

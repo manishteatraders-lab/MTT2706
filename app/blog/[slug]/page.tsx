@@ -66,6 +66,28 @@ export default async function BlogPost({ params }: Props) {
 
   const currentLang = post.lang || 'en';
 
+  const injectCTA = (html: string) => {
+    const ctaHtml = `
+      <div class="my-10 p-6 sm:p-8 bg-tea-50 border-l-4 border-tea-600 rounded-r-xl shadow-sm not-prose">
+        <h4 class="text-tea-900 font-bold text-xl mt-0 mb-2">${currentLang === 'hi' ? 'अपने व्यापार के लिए चाय खोज रहे हैं?' : 'Sourcing tea for your business?'}</h4>
+        <p class="text-tea-700 text-base mb-5">${currentLang === 'hi' ? 'थोक रेट पर प्रीमियम CTC, असम और दार्जिलिंग चाय प्राप्त करें। हम 48 घंटे के भीतर पूरे भारत में मुफ्त सैंपल भेजते हैं।' : 'Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.'}</p>
+        <a href="/request-free-tea-samples" class="inline-block bg-tea-600 text-white px-6 py-2.5 rounded-lg font-bold hover:bg-tea-700 transition-colors shadow-sm">
+          ${currentLang === 'hi' ? 'मुफ्त सैंपल का अनुरोध करें →' : 'Request Free Samples →'}
+        </a>
+      </div>
+    `;
+
+    // Try to split by H2 to find a good middle spot
+    const parts = html.split('<h2>');
+    if (parts.length >= 3) {
+      const middleIndex = Math.floor(parts.length / 2);
+      parts.splice(middleIndex, 0, ctaHtml + '<h2>');
+      return parts.join('<h2>').replace('<h2><h2>', '<h2>');
+    }
+    
+    return html + ctaHtml; // Fallback to end if not enough H2s
+  };
+
   const blogSchema = {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
@@ -147,7 +169,7 @@ export default async function BlogPost({ params }: Props) {
 
                       <article
                           className="prose prose-lg prose-tea max-w-none text-gray-800 leading-normal"
-                          dangerouslySetInnerHTML={{ __html: post.content }}
+                          dangerouslySetInnerHTML={{ __html: injectCTA(post.content) }}
                       />
 
                       {/* FAQ Accordion */}
@@ -244,8 +266,8 @@ export default async function BlogPost({ params }: Props) {
                                   Chat on WhatsApp
                               </a>
                               <div className="text-xs text-tea-300 space-y-1 pt-2 border-t border-white/10">
-                                  <p>✓ FSSAI Registered</p>
-                                  <p>✓ GST Compliant</p>
+                                  <p>✓ GST: 19AHJPR0891G1ZX</p>
+                                  <p>✓ Tea Board of India (KOL/B-7410)</p>
                                   <p>✓ Free samples available</p>
                               </div>
                           </div>

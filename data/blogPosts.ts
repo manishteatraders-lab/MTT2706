@@ -37,6 +37,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Getting Started with Your First Blend</h2>
       <p>If you're unsure, don't worry. At <strong>Manish Tea Traders</strong>, we have over 20 years of blending experience. When you opt for our <a href="/services/private-label-tea">Private Label Tea Service</a>, our master blenders will reverse-engineer a blend specifically for your target demographic and budget.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "how to blend tea, tea blending techniques, tea packing business, start tea brand, tea mixing ratio",
     imageUrl: "/blog-images/tea-tasting-lab.png",
@@ -73,6 +78,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>अपने पहले ब्लेंड के साथ शुरुआत कैसे करें?</h2>
       <p>यदि आप असमंजस में हैं कि कौन सी पत्ती कितनी मिलाएं, तो चिंता न करें। <strong>Manish Tea Traders</strong> के पास ब्लेंडिंग का 20 से अधिक वर्षों का अनुभव है। जब आप हमारी <a href="/services/private-label-tea">प्राइवेट लेबल चाय सेवा</a> चुनते हैं, तो हमारे विशेषज्ञ आपके बजट और क्षेत्र के अनुसार आपके लिए एक परफैक्ट मिक्सचर तैयार करते हैं।</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "chaye blending kaise kare, tea blending ideas hindi, tea packing business hindi, chai pati business, tea business trick",
     imageUrl: "/blog-images/tea-tasting-lab.png",
@@ -112,6 +122,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>10% Darjeeling Fannings (Aroma)</li>
       </ul>
       <p>Experiment with the numbers until you hit your target wholesale price. If you need help sourcing these exact grades, Manish Tea Traders supplies them all direct from the Siliguri auction center.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea blend calculator, tea blending ratio, how to blend tea, wholesale tea blending, tea business tools",
     imageUrl: "/blog-images/tea-tasting-lab.png",
@@ -151,6 +166,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>10% दार्जिलिंग फैनिंग्स (सुगंध)</li>
       </ul>
       <p>जब तक आप अपनी लक्षित थोक कीमत (target wholesale price) तक नहीं पहुंच जाते, तब तक नंबरों के साथ प्रयोग करें। यदि आपको इन ग्रेड्स की आवश्यकता है, तो Manish Tea Traders सिलीगुड़ी नीलामी केंद्र (Siliguri Auction) से सीधा माल सप्लाई करते हैं।</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea blend calculator hindi, chaye blending kaise kare, chai vyapar ideas hindi, tea blending ratio hindi, tea business profit",
     imageUrl: "/blog-images/tea-tasting-lab.png",
@@ -190,6 +210,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Which One Should You Choose?</h2>
       <p>If you are starting a new brand, you need a balance of <strong>Quality + Price + Consistency</strong>. Traveling to auctions can be expensive. That’s why <strong>Manish Tea Traders</strong> (Siliguri) brings the best of the Siliguri market directly to your doorstep. We source directly from the gardens, saving you the travel and brokerage costs.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "wholesale tea market India, Siliguri tea market, Kolkata tea auction, buy bulk tea India",
     imageUrl: "/blog-images/tea_market_india_map.png",
@@ -224,6 +249,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>5. Taste Before You Buy</h2>
       <p>Never buy bulk tea based on photos. Always ask for samples. At <strong>Manish Tea Traders</strong>, we send samples of our signature blends so you know exactly what you are paying for.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea blending techniques, how to blend tea, tea tasting guide, profitable tea business",
     imageUrl: "/blog-images/tea-tasting-lab.png",
@@ -252,6 +282,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Freshness is Currency</h2>
       <p>Tea is hygroscopic—it absorbs moisture. The more it travels and sits in godowns, the more flavor it loses. Buying from Siliguri ensures you get the "New Season" stock while it still smells like the garden.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "Siliguri tea wholesale, tea suppliers Siliguri, benefits buying tea Siliguri",
     imageUrl: "/blog-images/tea-business-planning.png",
@@ -289,6 +324,11 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <p>Looking for authentic Darjeeling Leaf? Check our <strong>Products page</strong> for current availability.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "Darjeeling tea flushes, first flush vs second flush, buy darjeeling tea",
     imageUrl: teaOrthodoxWhole,
@@ -324,6 +364,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Step 4: Packaging (Private Label)</h2>
       <p>You don't need a factory. We offer <strong>Private Label Packaging</strong>. You choose the blend (e.g., our <em>Rajni Gold</em>), and we pack it in pouches with your brand name and logo. You focus on marketing; we handle the manufacturing.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "start tea business India, private label tea supplier, FSSAI for tea",
     imageUrl: "/blog-images/tea-branding-design.png",
@@ -358,6 +403,11 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <p>At Manish Tea Traders, we supply both. Our <strong>Assam Granules</strong> are a bestseller for the milk-tea segment, while our <strong>Darjeeling Orthodox</strong> caters to the premium niche.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "Assam vs Darjeeling tea, tea difference guide, wholesale tea selection",
     imageUrl: "/blog-images/assam-vs-darjeeling.png",
@@ -390,6 +440,11 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <p><strong>Want to train your palate?</strong> Order our <strong>Sample Kit</strong> to taste the difference between premium and standard grades.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea quality check, how to taste tea, bulk tea buying guide",
     imageUrl: "/blog-images/tea-quality-testing.png",
@@ -422,6 +477,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>The Family Blend</h2>
       <p>Many families prefer a mix. A popular strategy is to sell a "Family Blend" which is 70% Leaf (for taste) and 30% Dust (for strength). We help you create this perfect ratio.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea dust vs leaf tea, hotel tea powder, best tea for tea stall",
     imageUrl: teaDust,
@@ -458,6 +518,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <p>If you sell just <strong>100 kg per month</strong> (which is very low), you make ₹12,000 - ₹17,000 profit. A successful local brand easily sells 1000kg+ per month.</p>
       <p><em>Note: Prices fluctuate. Contact us for today's live wholesale rates.</em></p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea business profit margin, tea wholesale price India, is tea business profitable",
     imageUrl: "/blog-images/tea-profit-calculator.png",
@@ -498,6 +563,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>The Secret: Blending</h2>
       <p>Most successful brands don't sell just one grade. They blend. A common mix is <strong>60% BP (for flavor) + 40% OF (for color)</strong>. At Manish Tea Traders, we have ready-made blends like <em>Rajni Gold</em> and <em>Begam Gold</em> that are pre-mixed for the perfect cup.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "CTC tea grades, difference BP OF dust tea, best tea for hotel",
     imageUrl: teaCtc,
@@ -533,6 +603,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Original Sacks:</strong> Good for 3-4 months if the erratic inner liner is intact.</li>
         <li><strong>Jars:</strong> For loose retail, transfer to airtight steel or glass jars immediately.</li>
       </ul>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "how to store tea, bulk tea storage, tea warehouse guide",
     imageUrl: "/blog-images/tea-warehouse.png",
@@ -566,6 +641,11 @@ export const BLOG_POSTS: BlogPost[] = [
       <ul>
         <li><strong>Cost:</strong> Higher. Requires cardboard boxes or PET jars.</li>
         <li><strong>Pros:</strong> Perceived as "Premium". Excellent for Green Tea or Orthodox Leaf.</li>
+      </ul>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
       </ul>
     `,
     keywords: "tea packaging ideas, private label tea packaging, tea pouch design",
@@ -605,6 +685,11 @@ export const BLOG_POSTS: BlogPost[] = [
       <ul>
         <li><strong>Optional but Good:</strong> Helps in getting bank loans and government subsidies.</li>
       </ul>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea business license, FSSAI for tea, GST on tea, trade license for tea shop",
     imageUrl: "/blog-images/tea-business-licenses.png",
@@ -637,6 +722,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Recommended Product</h2>
       <p>Pitch our <strong>Hotel Dust</strong> or <strong>Kadak Blend</strong>. It's designed for them.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "how to sell tea to stalls, tea marketing strategy, tea sales pitch",
     imageUrl: "/blog-images/tea-wholesale-market-scene.png",
@@ -666,6 +756,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>4. Your Own Website</h2>
       <p>Like <strong>ManishTeaTraders.in</strong>. It builds trust. If a wholesale buyer from another city Googles you and finds a professional site, they trust you with their money.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "marketing ideas for tea business, digital marketing tea, sell tea online",
     imageUrl: "/blog-images/tea-digital-marketing.png",
@@ -704,6 +799,11 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <p><strong>Tip:</strong> Always check if the domain name (.com) is available!</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea business name ideas, chai brand names, tea shop names",
     imageUrl: "/blog-images/tea-business-naming.png",
@@ -735,6 +835,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Why Manish Tea Traders?</h2>
       <p>We are a registered, GST-compliant firm operating since 2004. We are Auction Buyers. We welcome you to visit our office in Siliguri, taste our teas, and then do business.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea wholesalers siliguri list, verify tea supplier, best tea wholesaler siliguri",
     imageUrl: "/blog-images/siliguri-tea-market.png",
@@ -791,6 +896,11 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Why Choose Manish Tea Traders?</h2>
       <p>Located in the heart of Siliguri, we've spent two decades building relationships with estates in Darjeeling and Dooars. We skip the middlemen of the <strong>Siliguri tea wholesale market</strong>, offering you garden-fresh prices and quality verification that only an on-ground partner can provide.</p>
       <p>Ready to source? <a href="/contact-us">Contact us today</a> for a current price list of our top-selling blends.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "siliguri tea wholesale market, tea wholesalers in siliguri, best tea market siliguri, buy tea bulk siliguri",
     imageUrl: "/blog-images/siliguri-market-entrance.png",
@@ -866,6 +976,11 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Get a Custom Quote</h2>
       <p>At <strong>Manish Tea Traders</strong>, we believe in transparent pricing. Because we source directly from the gardens of North Bengal and Assam, our <strong>tea wholesale price in Siliguri</strong> remains competitive without sacrificing the "punch" your customers expect.</p>
       <p><a href="/contact-us">Click here</a> to request today's garden rates and sample availability.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea wholesale price siliguri, current tea price siliguri, buy tea bulk price, siliguri tea market rates",
     imageUrl: "/blog-images/tea-auction-bidding.png",
@@ -920,6 +1035,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Guidance:</strong> We help new entrepreneurs understand the market.</li>
       </ul>
       <p>Partner with one of the most trusted <strong>tea companies in Siliguri</strong>. <a href="/contact-us">Contact us</a> to start your journey.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea companies in siliguri, list of tea wholesalers siliguri, best tea company siliguri",
     imageUrl: "/blog-images/top-tea-companies-siliguri.png",
@@ -970,6 +1090,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Create a Blend:</strong> Don't sell straight grades. Create a signature blend that customers can't find elsewhere.</li>
         <li><strong>Hold Stock:</strong> Buy heavy during peak season (June-Oct) when quality is high and prices are stable.</li>
       </ul>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea profit margin, tea business profitability, wholesale tea margin, retail tea margin",
     imageUrl: "/blog-images/private-label-packaging.png",
@@ -1010,6 +1135,11 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <p>मनीष टी ट्रेडर्स आपको सिलीगुड़ी से सीधे गार्डन ताजी चाय उपलब्ध कराता है ताकि आपका मुनाफा अधिकतम हो सके।</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "चाय व्यापार मुनाफा, थोक चाय व्यापार, चाय बिजनेस प्रॉफिट, tea profit margin hindi",
     imageUrl: "/blog-images/tea-profit-calculator.png",
@@ -1044,6 +1174,11 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>शुरुआत में अपनी मशीनरी लगाने की जरूरत नहीं है। हम **प्राइवेट लेबल पैकेजिंग (Private Label)** सेवा देते हैं। हम आपके ब्रांड नाम से पैकेट पैक करके तैयार कर सकते हैं।</p>
 
       <p>आज ही अपना व्यापार शुरू करने के लिए हमसे संपर्क करें।</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "अपना चाय ब्रांड कैसे शुरू करें, चाय व्यापार गाइड, सिलीगुड़ी चाय थोक, start tea brand india hindi",
     imageUrl: "/blog-images/tea-branding-design.png",
@@ -1081,6 +1216,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Step 4: Payment Terms</h2>
       <p>Most wholesale deals in Siliguri are <strong>Advance Payment</strong>. Credit is only given to long-term partners (3+ years). Scammers often offer credit to lure you in—be careful.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "sourcing tea india, buy tea wholesale, tea supplier verification, tea sample testing",
     imageUrl: "/blog-images/tea-sourcing-expert.png",
@@ -1320,6 +1460,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>Understanding MOQ, pricing, and logistics helps you optimize costs in <strong>tea wholesale</strong>. At <strong>Manish Tea Traders</strong>, we offer flexible MOQ (100 kg), transparent pricing, and reliable pan-India delivery. <a href="/contact-us">Contact us</a> for a detailed quotation.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea wholesale, tea moq, tea wholesale pricing, tea logistics, wholesale tea dealers",
     imageUrl: "/blog-images/tea-logistics-truck.png",
@@ -1366,6 +1511,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>With ₹25,000, you are buying a job, not a business. But if you reinvest your profits, in 6 months, you will have ₹1 Lakh capital. That's how empires used to be built.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "start tea business low investment, tea business under 25000, small tea business idea",
     imageUrl: "/blog-images/low-investment-tea-setup.png",
@@ -1552,6 +1702,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>Starting a <strong>tea wholesale business</strong> in India offers excellent opportunities for entrepreneurs. With proper planning, reliable sourcing, and good customer service, you can build a profitable venture. Partner with <strong>Manish Tea Traders</strong> for reliable sourcing from Siliguri. <a href="/contact-us">Contact us</a> to discuss wholesale supply for your new business.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea business ideas, profitable tea business, tea startup ideas", imageUrl: "/blog-images/tea-business-ideas-concept.png",
     lang: 'en'
@@ -1610,6 +1765,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Pan-India delivery</li>
       </ul>
       <p><a href="/services/private-label-tea">Learn more about our private label service</a> or <a href="/contact-us">contact us</a> for a quote.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "private label tea packaging, tea packaging cost, private label tea supplier, tea brand packaging",
     imageUrl: "/blog-images/private-label-packaging.png",
@@ -1814,6 +1974,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>For most wholesale buyers ordering 100+ kg regularly, <strong>Siliguri suppliers</strong> offer better value through lower prices, fresher tea, and wider variety. Kolkata suppliers are ideal for local buyers needing small quantities or same-day delivery. At <strong>Manish Tea Traders</strong> in Siliguri, we serve buyers across India including Kolkata with competitive pricing and reliable delivery. <a href="/contact-us">Contact us</a> for samples and pricing comparison.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea suppliers kolkata, tea suppliers siliguri, kolkata vs siliguri tea, tea wholesale kolkata", imageUrl: "/blog-images/tea-business-risk.png",
     lang: 'en'
@@ -1877,6 +2042,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Working with Manish Tea Traders</h2>
       <p>While we specialize in bulk tea supply, we can connect you with trusted tea bag manufacturers in Siliguri. <a href="/contact-us">Contact us</a> for recommendations and integrated solutions.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea bag manufacturers near me, tea bags supplier, tea bag making, wholesale tea bags",
     imageUrl: "/blog-images/tea-bag-production.png",
@@ -1962,6 +2132,11 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <p>At <strong>Manish Tea Traders</strong>, we can recommend trusted packaging suppliers in Siliguri. <a href="/contact-us">Contact us</a> for complete tea + packaging solutions.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "packet manufacturer near me, packaging dealers near me, tea pouch suppliers, tea packaging material",
     imageUrl: "/blog-images/tea-packaging-rolls.png",
@@ -2052,6 +2227,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Business guidance</li>
       </ul>
       <p>Ready to launch your brand? <a href="/services/private-label-tea">Explore our private label service</a> or <a href="/contact-us">contact us</a> for a consultation.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "private label tea, tea brand, start tea business, own tea brand, tea business startup",
     imageUrl: "/blog-images/private-label-packaging.png",
@@ -2304,6 +2484,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>Siliguri's dominance as the <strong>North Bengal tea hub</strong> is built on geographic advantage, robust infrastructure, and decades of expertise. For wholesale buyers, sourcing from Siliguri means accessing the freshest tea at the best prices with maximum variety. At <strong>Manish Tea Traders</strong>, we've been part of this ecosystem since 2004. <a href="/contact-us">Contact us</a> to experience the Siliguri advantage.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "north bengal tea hub, siliguri tea, tea hub india, siliguri tea market, north bengal tea",
     imageUrl: "/blog-images/north-bengal-tea-hub.png",
@@ -2395,6 +2580,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>प्रतिस्पर्धी कीमतें</li>
       </ul>
       <p><a href="/contact-us">संपर्क करें</a> नमूने और कीमत के लिए।</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "सिलीगुड़ी में चाय थोक व्यापारी, चाय थोक बाजार, सिलीगुड़ी चाय, थोक चाय",
     imageUrl: "/blog-images/siliguri-tea-market.png",
@@ -2473,6 +2663,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>पूरे भारत में डिलीवरी</li>
       </ul>
       <p><a href="/contact-us">आज ही संपर्क करें</a></p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "सिलीगुड़ी चाय बाजार, चाय बाजार सिलीगुड़ी, थोक चाय खरीदें",
     imageUrl: "/blog-images/siliguri-tea-market.png",
@@ -2567,6 +2762,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>क्रेडिट सुविधा (स्थापित ग्राहकों के लिए)</li>
       </ul>
       <p><a href="/contact-us">आज ही शुरुआत करें</a></p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "चाय का व्यवसाय, थोक चाय व्यापार, चाय बिजनेस कैसे शुरू करें",
     imageUrl: "/blog-images/hindi-tea-business.png",
@@ -2673,6 +2873,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>मिश्रण सेवा (Custom Blends)</li>
       </ul>
       <p><a href="/products/ctc-tea">असम CTC देखें</a> | <a href="/products/orthodox-leaf">दार्जिलिंग Orthodox देखें</a></p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "असम चाय, दार्जिलिंग चाय, असम बनाम दार्जिलिंग, चाय तुलना",
     imageUrl: "/blog-images/assam-vs-darjeeling.png",
@@ -2768,6 +2973,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Pan-India distribution</li>
       </ul>
       <p><a href="/about-us">Learn about our journey</a> or <a href="/contact-us">partner with us</a>.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "siliguri tea history, tea trading hub, siliguri tea market history",
     imageUrl: "/blog-images/vintage-tea-train.png",
@@ -2902,6 +3112,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>References:</strong> 500+ satisfied clients</li>
       </ul>
       <p><a href="/contact-us">Visit us in Siliguri</a> or request our credentials.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "verify tea supplier, genuine tea supplier, tea supplier verification, tea business fraud",
     imageUrl: "/blog-images/tea-quality-testing.png",
@@ -3037,6 +3252,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Quality certification</li>
       </ul>
       <p><a href="/contact-us">Contact us</a> for export-ready tea.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "export tea from india, tea export documentation, tea export license, MRL compliance tea",
     imageUrl: "/blog-images/tea-export-port.png",
@@ -3192,6 +3412,11 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Sustainable sourcing partnerships</li>
       </ul>
       <p><a href="/contact-us">Partner with us</a> for future-ready tea trading.</p>
+    
+
+      <h3>Related Reading</h3>
+      <ul>
+      </ul>
     `,
     keywords: "tea trading trends, tea industry future, tea business opportunities, india tea market",
     imageUrl: "/blog-images/future-tea-tech.png",

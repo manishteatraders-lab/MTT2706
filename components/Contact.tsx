@@ -159,7 +159,7 @@ const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
                       {CONTACT_INFO.address}, <br />
                       {CONTACT_INFO.city}, {CONTACT_INFO.state} - {CONTACT_INFO.zip}
                     </p>
-                    <a href={CONTACT_INFO.mapEmbedUrl} target="_blank" rel="noreferrer" className="text-tea-600 text-sm font-medium mt-1 inline-block hover:underline">
+                    <a href={CONTACT_INFO.mapShareUrl} target="_blank" rel="noreferrer" className="text-tea-600 text-sm font-medium mt-1 inline-block hover:underline">
                       Get Directions
                     </a>
                   </div>
@@ -188,8 +188,11 @@ const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
                     <p className="text-sm text-gray-600 mt-1">
                       <span className="font-semibold">Proprietor:</span> {BUSINESS_DETAILS.proprietor}
                     </p>
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm text-gray-600 mt-1">
                       <span className="font-semibold">GST No:</span> {BUSINESS_DETAILS.gst}
+                    </p>
+                    <p className="text-sm text-gray-600 mt-1">
+                      <span className="font-semibold">Tea Board (TOMCO):</span> {BUSINESS_DETAILS.tomco}
                     </p>
                   </div>
                 </div>

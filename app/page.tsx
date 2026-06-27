@@ -22,8 +22,9 @@ const jsonLd = {
   "@graph": [
     {
       "@id": "https://manishteatraders.in/#organization",
-      "@type": "WholesaleStore",
+      "@type": ["LocalBusiness", "WholesaleStore"],
       "name": "Manish Tea Traders",
+      "description": "Wholesale CTC, Assam and Darjeeling tea supplier in Siliguri since 2004.",
       "image": "https://manishteatraders.in/logo.png",
       "priceRange": "₹₹",
       "founder": {
@@ -31,12 +32,12 @@ const jsonLd = {
         "name": "Jaleshwar Ray"
       },
       "foundingDate": "2004",
-      "identifier": "FSSAI: XXXXXXXXXXXXXX",
+      "identifier": ["GST: 19AHJPR0891G1ZX", "Tea Board: KOL/B-7410"],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Ganga Nagar, Mahananda Para",
         "addressLocality": "Siliguri",
-        "addressRegion": "WB",
+        "addressRegion": "West Bengal",
         "postalCode": "734005",
         "addressCountry": "IN"
       },
@@ -45,14 +46,18 @@ const jsonLd = {
         "latitude": 26.7271,
         "longitude": 88.3953
       },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        "opens": "09:00",
-        "closes": "20:00"
-      },
+      "areaServed": "India",
       "telephone": "+917001958588",
       "url": "https://manishteatraders.in",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Wholesale Tea Products",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Bulk CTC Tea" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Assam Orthodox Tea" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Private Label Tea" } }
+        ]
+      },
       "sameAs": [
         "https://www.indiamart.com/manishteatraders",
         "https://www.justdial.com/Siliguri/Manish-Tea-Traders-Mahananda-Para/9999PX353-X353-241126070451-T2Z7_BZDET"

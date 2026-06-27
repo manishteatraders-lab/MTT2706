@@ -27,7 +27,7 @@ const Gallery: React.FC = () => {
           <div className="md:col-span-2 md:row-span-2 group relative rounded-2xl overflow-hidden shadow-md">
             <OptimizedImage
               src="/images/products/finetea.webp"
-              alt="Lush Tea Gardens"
+              alt="Lush Tea Gardens - Manish Tea Traders Siliguri"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90"></div>
@@ -44,7 +44,7 @@ const Gallery: React.FC = () => {
           <div className="md:col-span-1 md:row-span-2 group relative rounded-2xl overflow-hidden shadow-md">
             <OptimizedImage
               src="/images/products/readystock.webp"
-              alt="Bulk Warehouse Stock"
+              alt="Bulk Warehouse Stock - Manish Tea Traders Siliguri"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90"></div>
@@ -60,7 +60,7 @@ const Gallery: React.FC = () => {
           <div className="md:col-span-1 md:row-span-1 group relative rounded-2xl overflow-hidden shadow-md">
             <OptimizedImage
               src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=800&auto=format&fit=crop"
-              alt="Tea Tasting Process"
+              alt="Tea Tasting Process - Manish Tea Traders Siliguri"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors"></div>
@@ -75,7 +75,7 @@ const Gallery: React.FC = () => {
           <div className="md:col-span-1 md:row-span-1 group relative rounded-2xl overflow-hidden shadow-md">
             <OptimizedImage
               src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop"
-              alt="CTC Granules Texture"
+              alt="CTC Granules Texture - Manish Tea Traders Siliguri"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors"></div>

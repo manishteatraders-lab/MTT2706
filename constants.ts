@@ -8,12 +8,13 @@ export const CONTACT_INFO: ContactInfo = {
   phone: "917001958588",
   displayPhone: "+91 70019 58588",
   mapEmbedUrl: "https://maps.google.com/maps?q=Manish+Tea+Traders,26.70445006858671,88.41120717507069&hl=en&z=17&output=embed",
+  mapShareUrl: "https://share.google/xSalNg6M7uyYZQc4V",
   whatsappChannel: "https://whatsapp.com/channel/0029VbC2xZKH5JLpQV5Y9I0x"
 };
 
 export const BUSINESS_DETAILS = {
   gst: "19AHJPR0891G1ZX",
-  fssai: "XXXXXXXXXXXXXX",
+  tomco: "KOL/B-7410",
   proprietor: "Jaleshwar Ray",
   established: "2004",
   natureOfBusiness: "Wholesaler / Distributor",

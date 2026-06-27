@@ -59,10 +59,19 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-md py-2" : "bg-white/90 backdrop-blur-md shadow-sm py-4"
+      className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-md" : "bg-white/90 backdrop-blur-md shadow-sm"
         }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Trust Bar */}
+      <div className="bg-tea-900 text-tea-50 text-[10px] sm:text-xs font-medium py-1.5 px-4 text-center tracking-wide">
+        <span className="opacity-90">GST: 19AHJPR0891G1ZX</span>
+        <span className="mx-2 opacity-50">|</span>
+        <span className="opacity-90">Tea Board of India (KOL/B-7410)</span>
+        <span className="mx-2 opacity-50">|</span>
+        <span className="opacity-90">Est. 2004</span>
+      </div>
+
+      <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-300 ${isScrolled ? "py-2" : "py-4"}`}>
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group" onClick={() => window.scrollTo(0, 0)}>
@@ -100,6 +109,10 @@ const Navbar: React.FC = () => {
             <Link href="/locations" className="text-sm font-medium text-gray-700 hover:text-tea-600 transition-colors">Locations</Link>
             <Link href="/blog" className="text-sm font-medium text-gray-700 hover:text-tea-600 transition-colors">Blog</Link>
             <Link href="/contact-us" className="text-sm font-medium text-gray-700 hover:text-tea-600 transition-colors">Contact</Link>
+            
+            <Link href="/request-free-tea-samples" className="text-sm font-bold text-tea-700 bg-tea-100 hover:bg-tea-200 px-4 py-2 rounded-full transition-colors">
+              Free Samples
+            </Link>
 
             <a
               href={`tel:${CONTACT_INFO.phone}`}
@@ -141,6 +154,10 @@ const Navbar: React.FC = () => {
             <Link href="/locations" onClick={() => setIsOpen(false)} className="block px-3 py-3 rounded-lg text-lg font-medium text-gray-700 hover:bg-tea-50">Locations</Link>
             <Link href="/blog" onClick={() => setIsOpen(false)} className="block px-3 py-3 rounded-lg text-lg font-medium text-gray-700 hover:bg-tea-50">Blog</Link>
             <Link href="/contact-us" onClick={() => setIsOpen(false)} className="block px-3 py-3 rounded-lg text-lg font-medium text-gray-700 hover:bg-tea-50">Contact</Link>
+
+            <Link href="/request-free-tea-samples" onClick={() => setIsOpen(false)} className="block px-3 py-3 rounded-lg text-lg font-bold text-tea-700 bg-tea-100 mt-2 text-center">
+              Request Free Samples
+            </Link>
 
             <a
               href={`tel:${CONTACT_INFO.phone}`}

@@ -158,8 +158,56 @@ export default async function ProductCategory({ params }: Props) {
               ))}
           </div>
 
+          {/* Grading Table for CTC and Dust */}
+          {['ctc-tea', 'tea-dust'].includes(slug) && (
+              <div className="mt-16 bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm">
+                  <div className="bg-tea-900 text-white p-6 md:p-8">
+                      <h2 className="text-2xl font-bold font-serif">Tea Grading Guide (CTC & Dust)</h2>
+                      <p className="text-tea-200 text-sm mt-2">Understand which grade fits your target market.</p>
+                  </div>
+                  <div className="overflow-x-auto">
+                      <table className="w-full text-left border-collapse min-w-[600px]">
+                          <thead>
+                              <tr className="bg-tea-50 text-tea-900 border-b border-tea-100">
+                                  <th className="p-4 md:p-6 font-bold text-sm uppercase tracking-wide">Grade</th>
+                                  <th className="p-4 md:p-6 font-bold text-sm uppercase tracking-wide">Target Market</th>
+                                  <th className="p-4 md:p-6 font-bold text-sm uppercase tracking-wide">Price Range (Est.)</th>
+                                  <th className="p-4 md:p-6 font-bold text-sm uppercase tracking-wide">Visual Characteristics</th>
+                              </tr>
+                          </thead>
+                          <tbody className="divide-y divide-gray-100 text-gray-700">
+                              <tr className="hover:bg-gray-50 transition-colors">
+                                  <td className="p-4 md:p-6 font-bold text-gray-900">BP (Broken Pekoe)</td>
+                                  <td className="p-4 md:p-6 text-sm">Premium Retail, Households, Family Blends</td>
+                                  <td className="p-4 md:p-6 text-sm font-bold text-tea-700">₹180 - ₹300/kg</td>
+                                  <td className="p-4 md:p-6 text-sm">Large, even granules. Brews slower, yields excellent flavor.</td>
+                              </tr>
+                              <tr className="hover:bg-gray-50 transition-colors">
+                                  <td className="p-4 md:p-6 font-bold text-gray-900">BOPSM</td>
+                                  <td className="p-4 md:p-6 text-sm">Standard Retail, Kirana Stores</td>
+                                  <td className="p-4 md:p-6 text-sm font-bold text-tea-700">₹160 - ₹260/kg</td>
+                                  <td className="p-4 md:p-6 text-sm">Medium sized granules. Balances flavor with briskness.</td>
+                              </tr>
+                              <tr className="hover:bg-gray-50 transition-colors">
+                                  <td className="p-4 md:p-6 font-bold text-gray-900">OF (Orange Fannings)</td>
+                                  <td className="p-4 md:p-6 text-sm">Economy Retail, Mixed Blends</td>
+                                  <td className="p-4 md:p-6 text-sm font-bold text-tea-700">₹140 - ₹220/kg</td>
+                                  <td className="p-4 md:p-6 text-sm">Smaller than BP. Quick infusion, dark red color.</td>
+                              </tr>
+                              <tr className="hover:bg-gray-50 transition-colors">
+                                  <td className="p-4 md:p-6 font-bold text-gray-900">PD / Dust</td>
+                                  <td className="p-4 md:p-6 text-sm">Hotels, Tea Stalls (Chaiwalas), Canteens</td>
+                                  <td className="p-4 md:p-6 text-sm font-bold text-tea-700">₹120 - ₹180/kg</td>
+                                  <td className="p-4 md:p-6 text-sm">Fine powder-like texture. Instant extraction of maximum strength.</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          )}
+
           {/* B2B Content Block - Trust Signals */}
-          <div className="mt-20 bg-gray-50 rounded-2xl p-8 md:p-12 border border-gray-200">
+          <div className="mt-16 bg-gray-50 rounded-2xl p-8 md:p-12 border border-gray-200">
               <h2 className="text-2xl font-bold font-serif text-tea-900 mb-6">Why Source {categoryData.name} From Us?</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div>

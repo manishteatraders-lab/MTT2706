@@ -38,6 +38,16 @@ const faqSchema = {
             "@type": "Question",
             "name": "Do I need an FSSAI license to launch a private label tea brand?",
             "acceptedAnswer": { "@type": "Answer", "text": "Yes, you need an FSSAI registration or license to sell packaged food including tea. Basic FSSAI Registration (for turnover under ₹12 lakh/year) costs approximately ₹100/year. A State License (for turnover ₹12–20 crore) costs ₹2,000–5,000/year. We can guide you through the process. GST registration is also recommended for claiming input tax credit on wholesale purchases." }
+        },
+        {
+            "@type": "Question",
+            "name": "What file format do I need for my packaging design?",
+            "acceptedAnswer": { "@type": "Answer", "text": "We require vector artwork in AI, EPS, or PDF format. If you are submitting raster images (like PNG or JPG) as part of the design, they must be at least 300 DPI to ensure crisp, high-quality printing on the pouches or boxes." }
+        },
+        {
+            "@type": "Question",
+            "name": "Can you replicate the taste of an existing tea brand?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes, reverse-engineering is our specialty. Send us a sample of any regional or national tea brand you wish to compete with, and our master blenders will create an identical or superior blend customized to your local water profile and budget." }
         }
     ]
 };
@@ -62,7 +72,32 @@ const serviceSchema = {
     }
 };
 
-const schemas = [serviceSchema, faqSchema];
+const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Private Label Tea Manufacturing Services",
+    "description": "Start your own tea brand with Manish Tea Traders. We offer blending, packaging, and printing with a low MOQ of 50kg.",
+    "image": "https://images.unsplash.com/photo-1567922045116-2a00fae2ed03?q=80&w=2000&auto=format&fit=crop",
+    "brand": {
+      "@type": "Brand",
+      "name": "Manish Tea Traders"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://manishteatraders.in/services/private-label-tea",
+      "priceCurrency": "INR",
+      "price": "220",
+      "priceValidUntil": "2027-12-31",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Manish Tea Traders"
+      }
+    }
+};
+
+const schemas = [serviceSchema, faqSchema, productSchema];
 
 export default function PrivateLabelPage() {
     const whatsappUrl = "https://wa.me/917001958588?text=Hello%2C%20I%20want%20to%20start%20a%20private%20label%20tea%20brand.%20Please%20share%20details.";
@@ -78,7 +113,7 @@ export default function PrivateLabelPage() {
                 <div className="absolute inset-0 z-0">
                     <OptimizedImage
                         src="https://images.unsplash.com/photo-1567922045116-2a00fae2ed03?q=80&w=2000&auto=format&fit=crop"
-                        alt="Tea Packaging Factory"
+                        alt="Tea Packaging Factory - Manish Tea Traders Siliguri"
                         className="w-full h-full object-cover"
                         priority={true}
                     />
@@ -132,19 +167,20 @@ export default function PrivateLabelPage() {
                 </div>
             </section>
 
-            {/* How It Works (4-step diagram) */}
+            {/* How It Works (5-step diagram) */}
             <section className="py-16 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <h2 className="text-3xl font-serif font-bold text-tea-900 mb-3 text-center">How Private Label Works</h2>
-                    <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">From first call to delivery in your warehouse — here&apos;s exactly what happens.</p>
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+                    <h2 className="text-3xl font-serif font-bold text-tea-900 mb-3 text-center">Our 5-Step Private Label Process</h2>
+                    <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">From first call to delivery in your warehouse — here&apos;s exactly what happens over the 30-day timeline.</p>
+                    <div className="grid grid-cols-1 md:grid-cols-5 gap-6 relative">
                         {/* connector line (desktop only) */}
-                        <div className="hidden md:block absolute top-10 left-[12.5%] right-[12.5%] h-0.5 bg-tea-200 z-0" />
+                        <div className="hidden md:block absolute top-10 left-[10%] right-[10%] h-0.5 bg-tea-200 z-0" />
                         {[
-                            { step: "01", title: "Choose Your Blend", desc: "Select from our existing catalogue (CTC, Dust, Darjeeling) or commission a custom blend matched to your local market's taste and water profile.", icon: "🍵" },
-                            { step: "02", title: "Design Your Pack", desc: "Share your brand name, logo and color scheme. Our design team creates print-ready artwork for your pouches — 50g to 1 kg sizes.", icon: "🎨" },
-                            { step: "03", title: "Approve a Sample", desc: "We send a physical sample of your tea in your branded pack. You approve the taste and design before any bulk production begins.", icon: "✅" },
-                            { step: "04", title: "Receive & Sell", desc: "Full production is completed in 15–20 days. Finished packs arrive at your warehouse FSSAI-labelled and shelf-ready.", icon: "🚚" },
+                            { step: "01", title: "Blend Selection", desc: "Select from our existing catalogue or send us a competitor's sample. We will reverse-engineer a custom blend matched to your local water profile.", icon: "🍵" },
+                            { step: "02", title: "Packaging Strategy", desc: "Choose your format: stand-up pouches, center-seal bags, pet jars, or mono-carton boxes. We help you choose the most economical option for your market.", icon: "📦" },
+                            { step: "03", title: "Artwork & Design", desc: "Share your logo. Our designers create print-ready files (AI, PDF) ensuring 300 DPI resolution, FSSAI compliance, and nutritional facts are perfectly placed.", icon: "🎨" },
+                            { step: "04", title: "Sample Approval", desc: "We dispatch a physical sample of the exact tea blend. You taste and approve it before we commence bulk manufacturing.", icon: "✅" },
+                            { step: "05", title: "Produce & Dispatch", desc: "We print, blend, fill, and seal your order. Within 15-20 days, shelf-ready retail packs arrive at your warehouse.", icon: "🚚" },
                         ].map((s) => (
                             <div key={s.step} className="relative z-10 text-center bg-white">
                                 <div className="w-20 h-20 rounded-full bg-tea-50 border-2 border-tea-200 flex items-center justify-center text-3xl mx-auto mb-4 shadow-sm">
@@ -156,6 +192,31 @@ export default function PrivateLabelPage() {
                             </div>
                         ))}
                     </div>
+                </div>
+            </section>
+
+            {/* Design & Specifications */}
+            <section className="py-16 bg-white border-t border-gray-100">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-tea prose-lg">
+                    <h2 className="text-3xl font-serif font-bold text-tea-900 text-center mb-8">Design & Packaging Specifications</h2>
+                    <p>To ensure your final product looks premium on supermarket shelves, we enforce strict quality standards for your artwork and packaging materials. If you do not have an in-house designer, our agency partners can assist you in creating stunning labels from scratch.</p>
+                    
+                    <h3>Artwork Requirements</h3>
+                    <ul>
+                        <li><strong>Format:</strong> All files must be submitted as vector artwork in <strong>.AI (Adobe Illustrator)</strong>, <strong>.EPS</strong>, or editable <strong>.PDF</strong> formats.</li>
+                        <li><strong>Images:</strong> Any raster graphics (like photos of tea leaves or cups) must be embedded as <strong>.PNG</strong> or <strong>.JPG</strong> at a minimum resolution of <strong>300 DPI</strong> to prevent pixelation during printing.</li>
+                        <li><strong>Color Profile:</strong> Artwork must be designed in CMYK mode, not RGB.</li>
+                        <li><strong>Fonts:</strong> All text must be outlined, or font files must be included in the submission package.</li>
+                    </ul>
+
+                    <h3>Packaging Formats Available</h3>
+                    <p>We offer diverse options to suit different price tiers and demographics:</p>
+                    <ul>
+                        <li><strong>Stand-up Pouches (with or without zipper):</strong> The industry standard for premium CTC blends. Available in matte, gloss, or metallic finishes.</li>
+                        <li><strong>Center-Seal Bags:</strong> Economical pillow-style pouches ideal for mass-market 50g, 100g, and 250g SKUs.</li>
+                        <li><strong>PET Jars:</strong> Transparent or opaque jars that protect delicate Orthodox and Green teas from crushing.</li>
+                        <li><strong>Mono-Carton Boxes:</strong> Perfect for Darjeeling Leaf or gifting segments, providing a classic, rigid structure.</li>
+                    </ul>
                 </div>
             </section>
 
@@ -320,15 +381,13 @@ export default function PrivateLabelPage() {
                             <Phone className="h-5 w-5" /> Call +91 70019 58588
                         </a>
                         <a
-                            href={BUSINESS_DETAILS.sampleFormUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="/request-free-tea-samples"
                             className="border-2 border-tea-400 text-tea-200 px-8 py-4 rounded-xl font-bold hover:bg-tea-800 transition inline-flex items-center justify-center gap-2"
                         >
                             <ArrowRight className="h-5 w-5" /> Request Free Sample First
                         </a>
                     </div>
-                    <p className="text-tea-400 text-sm">Manish Tea Traders · Ganga Nagar, Mahananda Para, Siliguri, WB 734005 · FSSAI Registered · Since 2004</p>
+                    <p className="text-tea-400 text-sm">Manish Tea Traders · Ganga Nagar, Mahananda Para, Siliguri, WB 734005 · GST: 19AHJPR0891G1ZX · Tea Board Reg: KOL/B-7410</p>
                 </div>
             </section>
         </>
