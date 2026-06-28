@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
             <span className="text-tea-300 block text-2xl lg:text-3xl mt-4 font-sans tracking-wide">Siliguri's Trusted Tea Trader</span>
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-100 mb-2 leading-relaxed font-light">
-            Sourced directly from Siliguri's wholesale tea market — we supply CTC, Darjeeling, Assam &amp; Nepal tea in bulk to retailers, distributors, hotels, and private label brands across India.
+            Sourced directly from tea auctions and private factories — we supply CTC, Darjeeling, Assam &amp; Nepal tea in bulk to retailers, distributors, hotels, and private label brands across India.
           </p>
           <p className="max-w-3xl mx-auto text-xl text-gray-200 mb-6 leading-relaxed font-medium">
             Get same-day price lists, free samples, and flexible MOQ.
@@ -96,7 +96,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* ── Mobile Redesign (< 768px) ── */}
-        <div className="md:hidden flex flex-col w-full max-w-sm mx-auto px-2 relative z-10 h-full justify-center mt-8">
+        <div className="md:hidden flex flex-col w-full max-w-sm mx-auto px-2 relative z-10 h-full justify-center mt-8 pb-24">
           {/* Top Badge */}
           <div className="self-center mb-6">
             <span className="bg-[#588157]/80 backdrop-blur-sm text-white border border-white/20 text-[11px] font-bold py-1.5 px-5 rounded-full inline-flex items-center shadow-lg tracking-wide">
@@ -114,7 +114,7 @@ const Hero: React.FC = () => {
 
           {/* Description — matches desktop */}
           <p className="text-gray-100 text-[14px] leading-[1.6] mb-2 px-1 text-center drop-shadow-md font-light">
-            Sourced directly from Siliguri's wholesale tea market — we supply CTC, Darjeeling, Assam &amp; Nepal tea in bulk to retailers, distributors, hotels, and private label brands across India.
+            Sourced directly from tea auctions and private factories — we supply CTC, Darjeeling, Assam &amp; Nepal tea in bulk to retailers, distributors, hotels, and private label brands across India.
           </p>
           <p className="text-gray-200 text-[14px] leading-[1.6] mb-6 px-1 text-center drop-shadow-md font-medium">
             Get same-day price lists, free samples, and flexible MOQ.
