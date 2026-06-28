@@ -130,8 +130,21 @@ const Hero: React.FC = () => {
             ))}
           </div>
 
+          {/* Trust Bar — moved above CTAs so it's always visible inside overflow-hidden viewport */}
+          <div className="bg-white/10 backdrop-blur-md rounded-xl py-3 px-4 flex flex-col items-center justify-center border border-white/10 shadow-2xl mb-5 w-full gap-y-2">
+            <div className="flex items-center justify-center gap-6 w-full text-white text-[12px] font-bold">
+              <a href={BUSINESS_DETAILS.justdialProfile} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-blue-200 transition-colors">
+                <CheckCircle className="h-4 w-4 text-blue-400 fill-blue-400/20" /> Justdial Verified
+              </a>
+              <a href={BUSINESS_DETAILS.indiamartProfile} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-green-200 transition-colors">
+                <CheckCircle className="h-4 w-4 text-green-400 fill-green-400/20" /> IndiaMART Verified
+              </a>
+            </div>
+            <span className="flex items-center gap-1.5 text-white text-[12px] font-bold"><CheckCircle className="h-4 w-4 text-yellow-400 fill-yellow-400/20" /> GST &amp; Tea Board Reg.</span>
+          </div>
+
           {/* Buttons — Stacked Full Width */}
-          <div className="flex flex-col gap-3 mb-5 w-full">
+          <div className="flex flex-col gap-3 mb-4 w-full">
             <a
               href="#contact"
               onClick={handleScrollToContact}
@@ -150,26 +163,13 @@ const Hero: React.FC = () => {
             </a>
           </div>
 
-          <div className="flex flex-col justify-center gap-3 mb-6 w-full">
+          <div className="flex flex-col justify-center gap-3 w-full">
             <a href="/request-free-tea-samples" className="bg-[#a5c83b] text-[#11130d] hover:bg-[#c1dd66] px-6 py-3 rounded-full text-[14px] font-extrabold shadow-lg flex items-center gap-2 transition-colors w-full justify-center">
               <span className="text-xl leading-none">🍵</span> Free Samples (Dispatched in 48h)
             </a>
             <a href="/tea-blend-calculator" className="bg-tea-800 text-white border border-tea-600 hover:bg-tea-700 px-6 py-3 rounded-full text-[14px] font-extrabold shadow-lg flex items-center gap-2 transition-colors w-full justify-center">
               🧮 Free Blend Cost Calculator →
             </a>
-          </div>
-
-          {/* Trust Bar — matches desktop */}
-          <div className="bg-white/10 backdrop-blur-md rounded-xl py-4 px-4 flex flex-col items-center justify-center border border-white/10 shadow-2xl mt-2 mb-4 w-full gap-y-3">
-            <div className="flex items-center justify-center gap-6 w-full text-white text-[12px] font-bold">
-              <a href={BUSINESS_DETAILS.justdialProfile} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-blue-200 transition-colors">
-                <CheckCircle className="h-4 w-4 text-blue-400 fill-blue-400/20" /> Justdial Verified
-              </a>
-              <a href={BUSINESS_DETAILS.indiamartProfile} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-green-200 transition-colors">
-                <CheckCircle className="h-4 w-4 text-green-400 fill-green-400/20" /> IndiaMART Verified
-              </a>
-            </div>
-            <span className="flex items-center gap-1.5 text-white text-[12px] font-bold"><CheckCircle className="h-4 w-4 text-yellow-400 fill-yellow-400/20" /> GST &amp; Tea Board Reg.</span>
           </div>
         </div>
       </div>
