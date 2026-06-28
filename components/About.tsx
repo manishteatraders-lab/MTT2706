@@ -38,9 +38,9 @@ const About: React.FC = () => {
         {/* Intro Section */}
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center mb-20">
           <div className="mb-12 lg:mb-0">
-            <h2 className="text-3xl font-serif font-bold text-tea-900 sm:text-4xl mb-6">
-              Who We Are
-            </h2>
+            <h1 className="text-3xl font-serif font-bold text-tea-900 sm:text-4xl mb-6">
+              About Manish Tea Traders – Wholesale Tea Supplier Since 2004
+            </h1>
             <div className="w-20 h-1 bg-tea-500 mb-6"></div>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed font-medium">
               Manish Tea Traders is a trusted wholesale tea supplier located in Siliguri, West Bengal. Established in {BUSINESS_DETAILS.established}.
@@ -50,6 +50,9 @@ const About: React.FC = () => {
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Located in the heart of the tea region, Siliguri, we have direct access to the best tea gardens in Darjeeling, Dooars, and Assam. This allows us to source the freshest leaves and deliver them to your doorstep without unnecessary middlemen, ensuring you get the best value for your money. Whether you need loose tea, packet tea, or custom blends, Manish Tea Traders is your reliable partner for all bulk tea requirements.
+            </p>
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              Manish Tea Traders is FSSAI licensed and registered with the Tea Board of India (KOL/B-7410), ensuring every batch we supply meets regulatory quality standards. Since 2004, we have served over 200 buyers across India — from small kirana retailers to large hotel chains and FMCG packers. Our GST registered business (19AHJPR0891G1ZX) operates transparently with proper invoicing, making us a compliant and trustworthy wholesale partner for businesses of all sizes.
             </p>
 
             {/* Mission Card - Enhanced Visuals */}
