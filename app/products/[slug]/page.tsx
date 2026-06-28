@@ -119,7 +119,7 @@ export default async function ProductCategory({ params }: Props) {
           "@type": "ListItem",
           "position": 2,
           "name": "Products",
-          "item": "https://manishteatraders.in/#products"
+          "item": "https://manishteatraders.in/products/"
       }, {
           "@type": "ListItem",
           "position": 3,
