@@ -8,13 +8,13 @@ import { Metadata } from 'next';
 const CATEGORY_MAP: Record<string, { name: string, title: string, desc: string, filter: string[] }> = {
     'ctc-tea': {
         name: 'CTC Tea',
-        title: 'Bulk CTC Tea Wholesale Siliguri | BP, OF, PD, Dust Grades | Trial Orders Accepted',
+        title: 'Wholesale CTC Tea Siliguri 2026 | BP, OF, PD, Dust Grades | Direct Supply',
         desc: "Buy CTC tea in bulk from Siliguri — BP, OF, PD, Dust & BOPSM grades. Direct from Assam & Dooars auctions. Trial orders accepted. Free samples dispatched in 48 hrs. WhatsApp for today's rate.",
         filter: ['CTC', 'Blend']
     },
     'tea-dust': {
         name: 'Tea Dust',
-        title: 'Tea Dust Wholesale Supplier Siliguri | PD, RD, Hotel Grade | Bulk CTC Dust',
+        title: 'Tea Dust Wholesale 2026 Rates | PD, RD, Hotel Grade Supplier Siliguri',
         desc: 'Wholesale tea dust supplier in Siliguri. Hotel Special, PD & RD grades for chaiwalas, canteens & restaurants. Maximum TDS, instant colour. Trial orders accepted. Free samples available.',
         filter: ['Dust']
     },
@@ -71,6 +71,35 @@ export default async function ProductCategory({ params }: Props) {
   }
 
   const products = PRODUCTS.filter(p => categoryData.filter.includes(p.category));
+
+  let lowPrice = "120";
+  let highPrice = "450";
+  
+  if (slug === 'ctc-tea') {
+      lowPrice = "130";
+      highPrice = "320";
+  } else if (slug === 'tea-dust') {
+      lowPrice = "120";
+      highPrice = "180";
+  } else if (slug === 'orthodox-leaf') {
+      lowPrice = "350";
+      highPrice = "1200";
+  }
+
+  const productSchema = {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": `${categoryData.name} — Wholesale Supply`,
+      "brand": { "@type": "Brand", "name": "Manish Tea Traders" },
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": lowPrice,
+        "highPrice": highPrice,
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "seller": { "@type": "Organization", "name": "Manish Tea Traders" }
+      }
+  };
 
   const schemas = [{
       "@context": "https://schema.org",
@@ -141,7 +170,7 @@ export default async function ProductCategory({ params }: Props) {
           }
         }
       ]
-  }];
+  }, productSchema];
 
   return (
     <>
