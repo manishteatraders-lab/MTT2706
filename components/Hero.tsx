@@ -104,31 +104,38 @@ const Hero: React.FC = () => {
             </span>
           </div>
 
-          {/* Heading Structure - Match Old Layout */}
+          {/* Heading Structure — matches desktop */}
           <div className="mb-4 text-center mt-2">
-            <h1 className="text-white text-[32px] font-serif font-bold leading-[1.1] mb-2 drop-shadow-lg">
-              Premium Darjeeling Tea & <br /> Assam CTC Tea
+            <h1 className="text-white text-[32px] font-serif font-bold leading-[1.1] mb-3 drop-shadow-lg">
+              Manish Tea Traders
+              <span className="text-tea-300 block text-[18px] mt-3 font-sans tracking-wide font-normal">Siliguri's Trusted Tea Wholesaler</span>
             </h1>
           </div>
 
-          {/* Description */}
-          <p className="text-tea-200 text-[14px] leading-[1.6] mb-6 px-1 text-center drop-shadow-md font-medium">
-            We provide high-quality Premium Darjeeling Tea & Assam CTC Tea sourced directly from the best estates in West Bengal. Our tea is perfect for retailers, distributors, hotels, cafés, and bulk buyers looking for authentic taste and competitive wholesale rates.
+          {/* Description — matches desktop */}
+          <p className="text-gray-100 text-[14px] leading-[1.6] mb-2 px-1 text-center drop-shadow-md font-light">
+            Sourced directly from Siliguri's wholesale tea market — we supply CTC, Darjeeling, Assam &amp; Nepal tea in bulk to retailers, distributors, hotels, and private label brands across India.
+          </p>
+          <p className="text-gray-200 text-[14px] leading-[1.6] mb-6 px-1 text-center drop-shadow-md font-medium">
+            Get same-day price lists, free samples, and flexible MOQ.
           </p>
 
-          {/* Keyword Pills - simplified to match old layout text links */}
-          <div className="flex flex-wrap items-center justify-center gap-1.5 mb-8 text-tea-200 text-[13px] font-medium tracking-wide">
-            <span>Direct from Siliguri</span> <span>•</span>
-            <span>MOQ 5 kg</span> <span>•</span>
-            <span>Free Samples</span>
+          {/* Keyword Pills — matches desktop */}
+          <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 mb-8 text-tea-100/80 text-[12px] font-medium tracking-wide uppercase">
+            {["CTC", "Darjeeling", "Assam", "Nepal", "Tea Powder", "Private Label", "Bulk Supply"].map((kw, i) => (
+              <React.Fragment key={kw}>
+                <span>{kw}</span>
+                {i < 6 && <span className="text-tea-400/50">•</span>}
+              </React.Fragment>
+            ))}
           </div>
 
-          {/* Buttons - Stacked Full Width like Old Design */}
+          {/* Buttons — Stacked Full Width */}
           <div className="flex flex-col gap-3 mb-5 w-full">
             <a
               href="#contact"
               onClick={handleScrollToContact}
-              className="bg-[#789b37] hover:bg-[#688a2e] text-white py-4 rounded-lg font-bold text-[15px] flex items-center justify-center gap-2 shadow-lg transition-colors w-full"
+              className="bg-tea-600 hover:bg-tea-700 text-white py-4 rounded-lg font-bold text-[15px] flex items-center justify-center gap-2 shadow-lg transition-colors w-full"
             >
               Get Today's Price List <ArrowRight className="h-4 w-4" />
             </a>
@@ -152,13 +159,13 @@ const Hero: React.FC = () => {
             </a>
           </div>
 
-          {/* Trust Bar - Match Old Design */}
-          <div className="bg-[#11130d]/90 rounded-xl py-4 flex flex-col items-center justify-center border border-white/5 shadow-2xl mt-2 mb-4 w-full px-4 text-[12px] font-bold text-gray-300 gap-y-3">
-            <div className="flex items-center justify-center gap-6 w-full">
-              <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-[#3574d3]" /> Justdial Verified</span>
-              <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-[#00a650]" /> IndiaMART Verified</span>
+          {/* Trust Bar — matches desktop */}
+          <div className="bg-white/10 backdrop-blur-md rounded-xl py-4 px-4 flex flex-col items-center justify-center border border-white/10 shadow-2xl mt-2 mb-4 w-full gap-y-3">
+            <div className="flex items-center justify-center gap-6 w-full text-white text-[12px] font-bold">
+              <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-blue-400 fill-blue-400/20" /> Justdial Verified</span>
+              <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-green-400 fill-green-400/20" /> IndiaMART Verified</span>
             </div>
-            <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-yellow-500" /> GST & Tea Board Reg.</span>
+            <span className="flex items-center gap-1.5 text-white text-[12px] font-bold"><CheckCircle className="h-4 w-4 text-yellow-400 fill-yellow-400/20" /> GST &amp; Tea Board Reg.</span>
           </div>
         </div>
       </div>
