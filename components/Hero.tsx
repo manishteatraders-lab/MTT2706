@@ -85,9 +85,12 @@ const Hero: React.FC = () => {
               WhatsApp Us Directly <MessageCircle className="h-5 w-5 text-green-600" />
             </a>
           </div>
-          <div className="mt-6 flex justify-center">
+          <div className="mt-6 flex justify-center flex-wrap gap-4">
             <a href="/request-free-tea-samples" className="inline-flex items-center gap-2 text-tea-900 bg-tea-400 hover:bg-tea-300 px-6 py-2.5 rounded-full text-sm font-bold transition-colors shadow-sm tracking-wide">
               <span>🍵</span> Free Samples Available — Dispatched within 48 hours
+            </a>
+            <a href="/tea-blend-calculator" className="inline-flex items-center gap-2 text-white bg-tea-800 hover:bg-tea-700 border border-tea-600 px-6 py-2.5 rounded-full text-sm font-bold transition-colors shadow-sm tracking-wide">
+              🧮 Free Blend Cost Calculator →
             </a>
           </div>
         </div>
@@ -140,9 +143,12 @@ const Hero: React.FC = () => {
             </a>
           </div>
 
-          <div className="flex justify-center mb-6">
+          <div className="flex flex-col justify-center gap-3 mb-6 w-full">
             <a href="/request-free-tea-samples" className="bg-[#a5c83b] text-[#11130d] hover:bg-[#c1dd66] px-6 py-3 rounded-full text-[14px] font-extrabold shadow-lg flex items-center gap-2 transition-colors w-full justify-center">
               <span className="text-xl leading-none">🍵</span> Free Samples (Dispatched in 48h)
+            </a>
+            <a href="/tea-blend-calculator" className="bg-tea-800 text-white border border-tea-600 hover:bg-tea-700 px-6 py-3 rounded-full text-[14px] font-extrabold shadow-lg flex items-center gap-2 transition-colors w-full justify-center">
+              🧮 Free Blend Cost Calculator →
             </a>
           </div>
 

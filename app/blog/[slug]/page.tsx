@@ -67,7 +67,13 @@ export default async function BlogPost({ params }: Props) {
   const currentLang = post.lang || 'en';
 
   const injectCTA = (html: string) => {
-    const ctaHtml = `
+    const isBlendingPost = post.keywords.toLowerCase().includes('blend') || 
+                           post.slug.includes('blend') || 
+                           post.title.toLowerCase().includes('blend') ||
+                           post.keywords.toLowerCase().includes('margin') ||
+                           post.title.toLowerCase().includes('profit');
+
+    const generalCtaHtml = `
       <div class="my-10 p-6 sm:p-8 bg-tea-50 border-l-4 border-tea-600 rounded-r-xl shadow-sm not-prose">
         <h4 class="text-tea-900 font-bold text-xl mt-0 mb-2">${currentLang === 'hi' ? 'अपने व्यापार के लिए चाय खोज रहे हैं?' : 'Sourcing tea for your business?'}</h4>
         <p class="text-tea-700 text-base mb-5">${currentLang === 'hi' ? 'थोक रेट पर प्रीमियम CTC, असम और दार्जिलिंग चाय प्राप्त करें। हम 48 घंटे के भीतर पूरे भारत में मुफ्त सैंपल भेजते हैं।' : 'Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.'}</p>
@@ -77,15 +83,27 @@ export default async function BlogPost({ params }: Props) {
       </div>
     `;
 
+    const blendCtaHtml = `
+      <div class="my-10 p-6 sm:p-8 bg-tea-900 text-white rounded-xl shadow-lg not-prose">
+        <h4 class="text-white font-bold text-xl mt-0 mb-2">${currentLang === 'hi' ? 'मुफ़्त टी ब्लेंड कैलकुलेटर' : 'Free Tea Blend Calculator'}</h4>
+        <p class="text-tea-100 text-base mb-5">${currentLang === 'hi' ? 'अपने लाभ मार्जिन और रेसिपी को तुरंत ऑप्टिमाइज़ करें। थोक खरीदारों और प्राइवेट लेबल ब्रांड्स के लिए मुफ्त टूल।' : 'Instantly calculate blend ratios, batch cost per kg, and selling margin. Built for wholesale buyers and private label brands.'}</p>
+        <a href="/tea-blend-calculator" class="inline-block bg-white text-tea-900 px-6 py-2.5 rounded-lg font-bold hover:bg-gray-100 transition-colors shadow-sm">
+          ${currentLang === 'hi' ? 'मुफ्त कैलकुलेटर खोलें →' : 'Open Free Calculator →'}
+        </a>
+      </div>
+    `;
+
+    const finalCta = isBlendingPost ? blendCtaHtml : generalCtaHtml;
+
     // Try to split by H2 to find a good middle spot
     const parts = html.split('<h2>');
     if (parts.length >= 3) {
       const middleIndex = Math.floor(parts.length / 2);
-      parts.splice(middleIndex, 0, ctaHtml + '<h2>');
+      parts.splice(middleIndex, 0, finalCta + '<h2>');
       return parts.join('<h2>').replace('<h2><h2>', '<h2>');
     }
     
-    return html + ctaHtml; // Fallback to end if not enough H2s
+    return html + finalCta; // Fallback to end if not enough H2s
   };
 
   const blogSchema = {
