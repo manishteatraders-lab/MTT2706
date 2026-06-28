@@ -37,13 +37,18 @@ const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-tea-600 font-semibold tracking-wide uppercase text-sm">Wholesale Inquiries</span>
-          <h2 className="text-3xl font-serif font-bold text-tea-900 sm:text-4xl mt-2">
+          <h1 className="text-3xl font-serif font-bold text-tea-900 sm:text-4xl mt-2">
+            Contact Manish Tea Traders – Bulk Tea Wholesale Enquiries
+          </h1>
+          <p className="mt-6 text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            We supply CTC tea, Tea Dust, and Orthodox Leaf in bulk to retailers, distributors, and private label packers across India. Share your preferred tea grade and monthly requirement — we'll send you today's updated wholesale price list along with free sample options. Our team responds within a few hours on WhatsApp.
+          </p>
+        </div>
+
+        <div className="text-center mb-12">
+          <h2 className="text-2xl font-serif font-bold text-tea-900 mt-2">
             Get Today’s Updated Price List
           </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Share your preferred grade and monthly requirement, and we’ll provide the best wholesale rates along with sample options.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -146,7 +151,7 @@ const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
           {/* Contact Info & Map */}
           <div className="space-y-8 order-1 lg:order-2">
             <div className="bg-tea-50 p-8 rounded-2xl border border-tea-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-6">Contact Details</h3>
+              <h2 className="text-xl font-bold text-gray-900 mb-6">Contact Details</h2>
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -154,7 +159,7 @@ const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
                     <MapPin className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Visit Us</h4>
+                    <h3 className="font-semibold text-gray-900">Visit Us</h3>
                     <p className="text-gray-600 mt-1">
                       {CONTACT_INFO.address}, <br />
                       {CONTACT_INFO.city}, {CONTACT_INFO.state} - {CONTACT_INFO.zip}
@@ -170,7 +175,7 @@ const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
                     <Phone className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Call / WhatsApp</h4>
+                    <h3 className="font-semibold text-gray-900">Call / WhatsApp</h3>
                     <p className="text-gray-800 font-bold mt-1 text-lg font-mono">{CONTACT_INFO.displayPhone}</p>
                     <div className="flex items-center gap-2 mt-1">
                       <CheckCircle className="h-4 w-4 text-green-600" />
@@ -184,7 +189,7 @@ const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
                     <CreditCard className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Business Info</h4>
+                    <h3 className="font-semibold text-gray-900">Business Info</h3>
                     <p className="text-sm text-gray-600 mt-1">
                       <span className="font-semibold">Proprietor:</span> {BUSINESS_DETAILS.proprietor}
                     </p>
@@ -202,7 +207,7 @@ const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
                     <ExternalLink className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Verified Seller On</h4>
+                    <h3 className="font-semibold text-gray-900">Verified Seller On</h3>
                     <div className="mt-2 space-y-2">
                       <a
                         href={BUSINESS_DETAILS.indiamartProfile}
@@ -229,7 +234,7 @@ const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
                     <Clock className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Opening Hours</h4>
+                    <h3 className="font-semibold text-gray-900">Opening Hours</h3>
                     <p className="text-gray-600 mt-1">10:00 AM – 8:00 PM</p>
                     <p className="text-gray-500 text-sm">Sunday Closed</p>
                   </div>
