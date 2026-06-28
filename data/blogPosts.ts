@@ -248,7 +248,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Yes, water matters! Hard water kills tea flavor. If you sell in an area with hard water, you need a stronger, maltier blend (more Assam).</p>
 
       <h2>5. Taste Before You Buy</h2>
-      <p>Never buy bulk tea based on photos. Always ask for samples. At <strong>Manish Tea Traders</strong>, we send samples of our signature blends so you know exactly what you are paying for.</p>
+      <p>Never buy bulk tea based on photos. Always ask for samples. At <strong>Manish Tea Traders</strong>, you can <a href="/request-free-tea-samples/">get a free sample to test</a> our signature blends so you know exactly what you are paying for.</p>
     
 
       <h3>Related Reading</h3>
@@ -278,7 +278,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <h2>The Logistics Advantage</h2>
-      <p>Because we are at the source, logistics costs are minimal. When you buy from a wholesaler in Delhi, they have already paid for transport from Siliguri to Delhi, plus their margin. When you buy from <strong>Manish Tea Traders</strong> in Siliguri, you cut out that middle leg.</p>
+      <p>Because we are at the source, logistics costs are minimal. When you buy from a wholesaler in Delhi, they have already paid for transport from Siliguri to Delhi, plus their margin. When you buy <a href="/wholesale-supply/siliguri-tea-supplier/">direct from Siliguri supplier</a> <strong>Manish Tea Traders</strong>, you cut out that middle leg.</p>
 
       <h2>Freshness is Currency</h2>
       <p>Tea is hygroscopic—it absorbs moisture. The more it travels and sits in godowns, the more flavor it loses. Buying from Siliguri ensures you get the "New Season" stock while it still smells like the garden.</p>
@@ -306,7 +306,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>This is the very first harvest after the winter dormancy. The leaves are tender and light green.</p>
       <ul>
         <li><strong>Taste:</strong> Very light, floral, grassy, and delicate. The liquor is pale yellow.</li>
-        <li><strong>Market:</strong> Highly prized for exports. Sold as premium "Champagne of Teas".</li>
+        <li><strong>Market:</strong> Highly prized for exports. Sold as premium "Champagne of Teas" in the <a href="/products/orthodox-leaf/">Darjeeling orthodox wholesale</a> market.</li>
       </ul>
 
       <h2>Second Flush (Summer: May - June)</h2>
@@ -363,7 +363,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <h2>Step 4: Packaging (Private Label)</h2>
-      <p>You don't need a factory. We offer <strong>Private Label Packaging</strong>. You choose the blend (e.g., our <em>Rajni Gold</em>), and we pack it in pouches with your brand name and logo. You focus on marketing; we handle the manufacturing.</p>
+      <p>You don't need a factory. We offer <a href="/services/private-label-tea/"><strong>private label tea packaging</strong></a>. You choose the blend (e.g., our <em>Rajni Gold</em>), and we pack it in pouches with your brand name and logo. You focus on marketing; we handle the manufacturing.</p>
     
 
       <h3>Related Reading</h3>
@@ -465,7 +465,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <ul>
         <li><strong>Pros:</strong> Brews instantly, gives very strong color, highly affordable.</li>
         <li><strong>Target Audience:</strong> Tea Stalls (Dhabas), Railway Stations, Commercial Canteens, and lower-income households.</li>
-        <li><strong>Best Selling Grade:</strong> "Hotel Dust" or "Primary Dust".</li>
+        <li><strong>Best Selling Grade:</strong> "Hotel Dust" or "Primary Dust". We supply <a href="/products/tea-dust/">wholesale tea dust for hotels</a> across India.</li>
       </ul>
 
       <h2>Leaf Tea (The Household Favorite)</h2>
@@ -495,7 +495,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: "Manish Tea Traders",
     excerpt: "See exactly how much profit tea business makes — 20% to 40% margins explained with real cost breakdowns. Free calculator logic included.",
     content: `
-      <p>Let's talk numbers. Is selling tea profitable? Here is a simple breakdown for a small tea packer.</p>
+      <p>Let's talk numbers. Is selling tea profitable? If you <a href="/services/private-label-tea/">start your own tea brand</a> and <a href="/products/ctc-tea/">source CTC tea from Siliguri</a>, the margins are highly attractive. Here is a simple breakdown for a small tea packer.</p>
 
       <h3>The Cost Breakdown (Per Kg) - Example</h3>
       <ul>
@@ -557,7 +557,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>For Households (The Flavorful Cup)</h3>
       <p>Home consumers prefer a balance of flavor and strength. They don't like the "muddy" texture of pure dust.</p>
       <ul>
-        <li><strong>Recommended Grades:</strong> BP (Broken Pekoe) or BOP (Broken Orange Pekoe).</li>
+        <li><strong>Recommended Grades:</strong> BP (Broken Pekoe) or BOP (Broken Orange Pekoe). Many households <a href="/products/ctc-tea/">buy BP grade tea in bulk</a> for everyday consumption.</li>
         <li><strong>Why:</strong> These larger granules take 3-4 minutes to brew but provide a richer, smoother taste.</li>
       </ul>
 
@@ -2150,7 +2150,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: "Manish Tea Traders",
     excerpt: "Launch your tea brand from scratch. Step-by-step guide covering sourcing, packaging, licensing, branding, and distribution strategies.",
     content: `
-      <p>Dreaming of your own tea brand? You don't need a factory. With <strong>private label partnerships</strong>, you can launch a professional tea brand in 30-45 days.</p>
+      <p>Dreaming of your own tea brand? You don't need a factory. With <strong>private label partnerships</strong>, you can launch a professional tea brand in 30-45 days. We highly recommend you <a href="/services/private-label-tea/">start with a trial order from Siliguri</a> to test your market.</p>
 
       <h2>Step 1: Define Your Brand Positioning</h2>
       <h3>Choose Your Niche</h3>
