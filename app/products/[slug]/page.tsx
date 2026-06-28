@@ -5,24 +5,33 @@ import { PRODUCTS } from '../../../data/products';
 import OptimizedImage from '../../../components/OptimizedImage';
 import { Metadata } from 'next';
 
-const CATEGORY_MAP: Record<string, { name: string, title: string, desc: string, filter: string[] }> = {
+const CATEGORY_MAP: Record<string, { name: string, title: string, desc: string, filter: string[], schemaName: string, schemaDesc: string, schemaCategory: string }> = {
     'ctc-tea': {
         name: 'CTC Tea',
         title: 'Wholesale CTC Tea Siliguri 2026 | BP, OF, PD, Dust Grades | Direct Supply',
         desc: "Buy CTC tea in bulk from Siliguri — BP, OF, PD, Dust & BOPSM grades. Direct from Assam & Dooars auctions. Trial orders accepted. Free samples dispatched in 48 hrs. WhatsApp for today's rate.",
-        filter: ['CTC', 'Blend']
+        filter: ['CTC', 'Blend'],
+        schemaName: 'Bulk CTC Tea — Wholesale Supply (BP, OF, PD, Dust)',
+        schemaDesc: 'Wholesale CTC tea in BP, OF, PD, Dust and BOPSM grades. Assam and Dooars origin. Direct from Siliguri auctions. Trial orders accepted.',
+        schemaCategory: 'Tea / CTC Tea'
     },
     'tea-dust': {
         name: 'Tea Dust',
         title: 'Tea Dust Wholesale 2026 Rates | PD, RD, Hotel Grade Supplier Siliguri',
         desc: 'Wholesale tea dust supplier in Siliguri. Hotel Special, PD & RD grades for chaiwalas, canteens & restaurants. Maximum TDS, instant colour. Trial orders accepted. Free samples available.',
-        filter: ['Dust']
+        filter: ['Dust'],
+        schemaName: 'Bulk Tea Dust — Wholesale Supply (PD, RD, Hotel Grade)',
+        schemaDesc: 'Wholesale tea dust supplier in Siliguri. Hotel Special, PD & RD grades for chaiwalas, canteens & restaurants. Maximum TDS, instant colour.',
+        schemaCategory: 'Tea / Tea Dust'
     },
     'orthodox-leaf': {
         name: 'Orthodox Leaf',
         title: 'Wholesale Darjeeling & Orthodox Leaf Tea | Bulk B2B Supply from Siliguri | All Flushes',
         desc: 'Wholesale Darjeeling & Assam orthodox leaf tea from Siliguri. First & Second Flush, OP/FOP/TGFOP grades. Ideal for premium HoReCa, export & specialty retail. Trial orders accepted. Free samples.',
-        filter: ['Orthodox']
+        filter: ['Orthodox'],
+        schemaName: 'Bulk Orthodox Leaf Tea — Wholesale Supply',
+        schemaDesc: 'Wholesale Darjeeling & Assam orthodox leaf tea from Siliguri. First & Second Flush, OP/FOP/TGFOP grades. Ideal for premium HoReCa, export & specialty retail.',
+        schemaCategory: 'Tea / Orthodox Leaf'
     }
 };
 
@@ -89,8 +98,10 @@ export default async function ProductCategory({ params }: Props) {
   const productSchema = {
       "@context": "https://schema.org",
       "@type": "Product",
-      "name": `${categoryData.name} — Wholesale Supply`,
+      "name": categoryData.schemaName,
+      "description": categoryData.schemaDesc,
       "brand": { "@type": "Brand", "name": "Manish Tea Traders" },
+      "category": categoryData.schemaCategory,
       "offers": {
         "@type": "AggregateOffer",
         "lowPrice": lowPrice,
