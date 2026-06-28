@@ -7,9 +7,10 @@ import { CONTACT_INFO, BUSINESS_DETAILS } from "../constants";
 
 interface ContactProps {
   selectedProduct?: string;
+  isHomePage?: boolean;
 }
 
-const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
+const Contact: React.FC<ContactProps> = ({ selectedProduct, isHomePage = false }) => {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -37,12 +38,20 @@ const Contact: React.FC<ContactProps> = ({ selectedProduct }) => {
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-3xl font-serif font-bold text-tea-900 sm:text-4xl mt-2">
-            Contact Manish Tea Traders – Bulk Tea Wholesale Enquiries
-          </h1>
-          <p className="mt-6 text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            We supply CTC tea, Tea Dust, and Orthodox Leaf in bulk to retailers, distributors, and private label packers across India. Share your preferred tea grade and monthly requirement — we'll send you today's updated wholesale price list along with free sample options. Our team responds within a few hours on WhatsApp.
-          </p>
+          {isHomePage ? (
+            <h2 className="text-3xl font-serif font-bold text-tea-900 sm:text-4xl mt-2">
+              Wholesale Inquiries
+            </h2>
+          ) : (
+            <>
+              <h1 className="text-3xl font-serif font-bold text-tea-900 sm:text-4xl mt-2">
+                Contact Manish Tea Traders – Bulk Tea Wholesale Enquiries
+              </h1>
+              <p className="mt-6 text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                We supply CTC tea, Tea Dust, and Orthodox Leaf in bulk to retailers, distributors, and private label packers across India. Share your preferred tea grade and monthly requirement — we'll send you today's updated wholesale price list along with free sample options. Our team responds within a few hours on WhatsApp.
+              </p>
+            </>
+          )}
         </div>
 
         <div className="text-center mb-12">

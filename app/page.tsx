@@ -107,14 +107,14 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Hero />
-      <About />
+      <About isHomePage={true} />
       <Products />
       <Suspense fallback={<LoadingFallback />}>
         <Gallery />
       </Suspense>
 
       <div id="contact">
-        <Contact selectedProduct="" />
+        <Contact selectedProduct="" isHomePage={true} />
       </div>
 
       <Suspense fallback={<LoadingFallback />}>
