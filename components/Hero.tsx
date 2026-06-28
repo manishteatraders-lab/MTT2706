@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
           </span>
           <h1 className="text-5xl lg:text-7xl font-bold text-white font-serif mb-6 leading-tight drop-shadow-lg">
             Manish Tea Traders
-            <span className="text-tea-300 block text-2xl lg:text-3xl mt-4 font-sans tracking-wide">Siliguri's Trusted Tea Wholesaler</span>
+            <span className="text-tea-300 block text-2xl lg:text-3xl mt-4 font-sans tracking-wide">Siliguri's Trusted Tea Trader</span>
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-100 mb-2 leading-relaxed font-light">
             Sourced directly from Siliguri's wholesale tea market — we supply CTC, Darjeeling, Assam &amp; Nepal tea in bulk to retailers, distributors, hotels, and private label brands across India.
@@ -108,7 +108,7 @@ const Hero: React.FC = () => {
           <div className="mb-4 text-center mt-2">
             <h1 className="text-white text-[32px] font-serif font-bold leading-[1.1] mb-3 drop-shadow-lg">
               Manish Tea Traders
-              <span className="text-tea-300 block text-[18px] mt-3 font-sans tracking-wide font-normal">Siliguri's Trusted Tea Wholesaler</span>
+              <span className="text-tea-300 block text-[18px] mt-3 font-sans tracking-wide font-normal">Siliguri's Trusted Tea Trader</span>
             </h1>
           </div>
 
@@ -162,8 +162,12 @@ const Hero: React.FC = () => {
           {/* Trust Bar — matches desktop */}
           <div className="bg-white/10 backdrop-blur-md rounded-xl py-4 px-4 flex flex-col items-center justify-center border border-white/10 shadow-2xl mt-2 mb-4 w-full gap-y-3">
             <div className="flex items-center justify-center gap-6 w-full text-white text-[12px] font-bold">
-              <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-blue-400 fill-blue-400/20" /> Justdial Verified</span>
-              <span className="flex items-center gap-1.5"><CheckCircle className="h-4 w-4 text-green-400 fill-green-400/20" /> IndiaMART Verified</span>
+              <a href={BUSINESS_DETAILS.justdialProfile} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-blue-200 transition-colors">
+                <CheckCircle className="h-4 w-4 text-blue-400 fill-blue-400/20" /> Justdial Verified
+              </a>
+              <a href={BUSINESS_DETAILS.indiamartProfile} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-green-200 transition-colors">
+                <CheckCircle className="h-4 w-4 text-green-400 fill-green-400/20" /> IndiaMART Verified
+              </a>
             </div>
             <span className="flex items-center gap-1.5 text-white text-[12px] font-bold"><CheckCircle className="h-4 w-4 text-yellow-400 fill-yellow-400/20" /> GST &amp; Tea Board Reg.</span>
           </div>
