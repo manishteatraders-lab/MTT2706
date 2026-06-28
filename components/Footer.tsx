@@ -85,8 +85,8 @@ const Footer: React.FC = () => {
             <h3 className="text-white font-semibold mb-4 underline decoration-tea-500 decoration-2 underline-offset-8">Contact Us</h3>
             <address className="not-italic space-y-3 text-sm">
               <div className="flex items-start gap-2">
-                <span className="text-tea-400">📍</span>
-                <span>{CONTACT_INFO.address}, {CONTACT_INFO.city}, {CONTACT_INFO.state}</span>
+                <span className="text-tea-400 mt-1">📍</span>
+                <span>{CONTACT_INFO.address}<br />{CONTACT_INFO.city}, {CONTACT_INFO.state}, India, {CONTACT_INFO.zip}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-tea-400">📞</span>

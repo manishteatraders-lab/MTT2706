@@ -1,7 +1,7 @@
 import { ContactInfo, NavItem } from "./types";
 
 export const CONTACT_INFO: ContactInfo = {
-  address: "Ganga Nagar, Mahananda Para, Ward No. 5",
+  address: "H/8811/204/4, Ganga Nagar, Mahananda Para, Ward No. 5",
   city: "Siliguri",
   state: "West Bengal",
   zip: "734005",
