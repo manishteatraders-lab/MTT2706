@@ -104,12 +104,12 @@ const Hero: React.FC = () => {
             </span>
           </div>
 
-          {/* Heading Structure — matches desktop */}
+          {/* Heading Structure — h2 on mobile to avoid duplicate H1 (desktop has the canonical H1) */}
           <div className="mb-4 text-center mt-2">
-            <h1 className="text-white text-[32px] font-serif font-bold leading-[1.1] mb-3 drop-shadow-lg">
+            <h2 className="text-white text-[32px] font-serif font-bold leading-[1.1] mb-3 drop-shadow-lg">
               Manish Tea Traders
               <span className="text-tea-300 block text-[18px] mt-3 font-sans tracking-wide font-normal">Siliguri's Trusted Tea Trader</span>
-            </h1>
+            </h2>
           </div>
 
           {/* Description — matches desktop */}

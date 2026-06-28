@@ -10,8 +10,8 @@ import Reviews from "../components/Reviews";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Bulk CTC & Assam Tea Wholesaler Siliguri | Manish Tea Traders — Since 2004",
-  description: "Direct B2B tea supplier from Siliguri since 2004. CTC, Assam, Darjeeling & private label in bulk. Tea Board of India Reg: KOL/B-7410. FSSAI certified. Trial orders accepted. Free samples in 48 hrs.",
+  title: "Bulk CTC & Leaf Tea Supplier | Manish Tea Traders",
+  description: "Direct B2B tea supplier from Siliguri. CTC, Assam, Darjeeling & private label teas in bulk. Tea Board of India Reg: KOL/B-7410. Trial orders accepted. Free samples in 48 hrs.",
   alternates: {
     canonical: "https://manishteatraders.in/"
   }
