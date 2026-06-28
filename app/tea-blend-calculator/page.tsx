@@ -3,8 +3,8 @@ import BlendCalculatorComponent from '../../components/BlendCalculator/BlendCalc
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Tea Blend Cost & Ratio Calculator | Manish Tea Traders B2B Utility",
-  description: "Calculate tea blend ratios, wholesale costs, and margins accurately. An essential tool for tea traders, blenders, and private label brands.",
+  title: "Free Tea Blend Calculator | Cost & Ratio Tool for Wholesale Buyers | Manish Tea Traders",
+  description: "Free tea blend calculator for wholesale buyers and private label brands. Calculate blend ratios, batch cost per kg, and selling margin. Built by Siliguri tea traders since 2004.",
   alternates: {
     canonical: "https://manishteatraders.in/tea-blend-calculator/"
   }

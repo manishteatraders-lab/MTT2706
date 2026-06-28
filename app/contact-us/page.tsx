@@ -3,8 +3,8 @@ import Contact from '../../components/Contact';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Contact Us | Wholesale Tea Enquiries | Manish Tea Traders",
-  description: "Contact Manish Tea Traders for bulk tea orders. Phone: +91 70019 58588. Visit us in Siliguri, West Bengal.",
+  title: "Contact Manish Tea Traders | Bulk Tea Wholesale Enquiry | Siliguri, West Bengal",
+  description: "Contact for bulk tea pricing, free samples & wholesale enquiries. GST: 19AHJPR0891G1ZX | Tea Board of India Reg: KOL/B-7410. Address: Ganga Nagar, Siliguri 734005. Mon–Sat 10am–8pm.",
   alternates: {
     canonical: "https://manishteatraders.in/contact-us/"
   }

@@ -6,8 +6,8 @@ import OptimizedImage from '../../components/OptimizedImage';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Tea Industry Blog | Wholesale Market Insights | Manish Tea Traders",
-  description: "Read our latest insights on the Indian tea market, wholesale guides, and tips for starting a tea brand in India.",
+  title: "Tea Business & Wholesale Blog 2026 | Market Prices, Grades & Tips | Manish Tea Traders",
+  description: "Expert guides on wholesale tea prices, CTC grades, profit margins & starting your tea brand in India. Updated 2026 market data from Siliguri's leading tea wholesaler.",
   alternates: {
     canonical: "https://manishteatraders.in/blog/",
     languages: {

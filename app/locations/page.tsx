@@ -5,8 +5,8 @@ import { MapPin } from 'lucide-react';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Tea Wholesale Supply Network | Major Cities in India",
-  description: "We supply wholesale tea to major cities across West Bengal, Bihar, UP, Jharkhand and beyond. Check our network coverage.",
+  title: "Wholesale Tea Supply Across India | 20+ Cities Served from Siliguri | Manish Tea Traders",
+  description: "Bulk tea supply from Siliguri to Delhi, Mumbai, Kolkata, Patna, Hyderabad, Bangalore & 15+ more cities. CTC, Assam & Darjeeling wholesale. Trial orders accepted. Free samples nationwide.",
   alternates: {
     canonical: "https://manishteatraders.in/locations/"
   },

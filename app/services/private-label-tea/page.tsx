@@ -7,7 +7,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Private Label Tea Packaging India | Start Your Own Tea Brand | Manish Tea Traders Siliguri",
-  description: "Start your own tea brand in 30 days. We offer end-to-end private label tea manufacturing, blending, custom packaging and brand printing in India. MOQ 50 kg.",
+  description: "Start your own tea brand in 30 days. End-to-end private label tea: sourcing, blending, custom printing & packing. FSSAI compliant. Tea Board of India Reg: KOL/B-7410. Trial orders accepted. WhatsApp now.",
   alternates: {
     canonical: "https://manishteatraders.in/services/private-label-tea/"
   },

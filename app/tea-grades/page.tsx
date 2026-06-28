@@ -3,8 +3,8 @@ import { TeaGradingSystem } from '../../components/TeaGradeExplorer/TeaGradingSy
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Tea Grading System Guide - Understanding Indian Tea Grades",
-  description: "Explore our comprehensive guide to Indian tea grading. Learn about Orthodox, CTC, and Specialty tea grades, leaf sizes, and brewing recommendations.",
+  title: "Indian Tea Grades Explained — CTC, Orthodox & Specialty | BP, OF, PD, TGFOP Guide 2026",
+  description: "Complete guide to Indian tea grades: BP, BOP, OF, PD, Dust (CTC) and OP, FOP, TGFOP (Orthodox). Explains particle size, cup strength & which grade to buy for your market. From Manish Tea Traders, Siliguri.",
   alternates: {
     canonical: "https://manishteatraders.in/tea-grades/"
   }

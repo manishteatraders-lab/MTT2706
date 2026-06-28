@@ -3,8 +3,8 @@ import About from "../../components/About";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Manish Tea Traders | Heritage & Sourcing | Siliguri Tea Wholesaler",
-  description: "Learn about our journey from a small tea shop to a major wholesale supplier in Siliguri. Direct sourcing from Assam & Darjeeling gardens.",
+  title: "About Us | FSSAI Certified Tea Wholesaler Since 2004 | Manish Tea Traders Siliguri",
+  description: "FSSAI licensed & Tea Board of India registered (KOL/B-7410) wholesale tea supplier in Siliguri since 2004. CTC, Assam & Darjeeling tea. Trial orders accepted. 200+ buyers across India.",
   alternates: {
     canonical: "https://manishteatraders.in/about-us/"
   },

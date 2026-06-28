@@ -8,20 +8,20 @@ import { Metadata } from 'next';
 const CATEGORY_MAP: Record<string, { name: string, title: string, desc: string, filter: string[] }> = {
     'ctc-tea': {
         name: 'CTC Tea',
-        title: 'Wholesale CTC Tea Suppliers | BP, OF & Blends',
-        desc: "Buy CTC tea in bulk from Siliguri — BP, OF, PD, Dust & BOPSM grades. Direct from Assam & Dooars gardens. MOQ 30 kg. Free samples dispatched within 48 hrs. WhatsApp for today's rate.",
+        title: 'Bulk CTC Tea Wholesale Siliguri | BP, OF, PD, Dust Grades | Trial Orders Accepted',
+        desc: "Buy CTC tea in bulk from Siliguri — BP, OF, PD, Dust & BOPSM grades. Direct from Assam & Dooars auctions. Trial orders accepted. Free samples dispatched in 48 hrs. WhatsApp for today's rate.",
         filter: ['CTC', 'Blend']
     },
     'tea-dust': {
         name: 'Tea Dust',
-        title: 'Tea Dust Wholesale for Hotels & Canteens',
-        desc: 'Strong Red Tea Dust (PD) for hotels, chaiwalas and canteens. Rapid color release and high strength.',
+        title: 'Tea Dust Wholesale Supplier Siliguri | PD, RD, Hotel Grade | Bulk CTC Dust',
+        desc: 'Wholesale tea dust supplier in Siliguri. Hotel Special, PD & RD grades for chaiwalas, canteens & restaurants. Maximum TDS, instant colour. Trial orders accepted. Free samples available.',
         filter: ['Dust']
     },
     'orthodox-leaf': {
         name: 'Orthodox Leaf',
-        title: 'Premium Orthodox & Darjeeling Leaf Tea',
-        desc: 'High-grown Himalayan leaf tea. First flush, second flush and green tea for premium cafes and gifting.',
+        title: 'Wholesale Darjeeling & Orthodox Leaf Tea | Bulk B2B Supply from Siliguri | All Flushes',
+        desc: 'Wholesale Darjeeling & Assam orthodox leaf tea from Siliguri. First & Second Flush, OP/FOP/TGFOP grades. Ideal for premium HoReCa, export & specialty retail. Trial orders accepted. Free samples.',
         filter: ['Orthodox']
     }
 };
