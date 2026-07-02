@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "About Manish Tea Traders | Tea Wholesaler Since 2004 | Siliguri",
   description: "FSSAI licensed & Tea Board registered wholesale tea supplier in Siliguri since 2004. Direct sourcing from Assam & Darjeeling gardens. 200+ buyers across India.",
   alternates: {
-    canonical: "https://manishteatraders.in/about-us/"
+    canonical: "https://www.manishteatraders.in/about-us/"
   },
   openGraph: {
     images: [
@@ -42,13 +42,13 @@ const jsonLd = {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://manishteatraders.in"
+          "item": "https://www.manishteatraders.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "About Us",
-          "item": "https://manishteatraders.in/about-us/"
+          "item": "https://www.manishteatraders.in/about-us/"
         }
       ]
     }

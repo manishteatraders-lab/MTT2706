@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Request Free Tea Samples | Wholesale Tea Supplier Siliguri | Manish Tea Traders",
   description: "Get free CTC, Assam & Darjeeling tea samples dispatched from Siliguri within 48 hours. No payment required. Trusted by 500+ wholesale buyers across India. Fill the form now.",
   alternates: {
-    canonical: "https://manishteatraders.in/request-free-tea-samples/"
+    canonical: "https://www.manishteatraders.in/request-free-tea-samples/"
   }
 };
 

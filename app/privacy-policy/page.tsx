@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy | Manish Tea Traders",
   description: "Privacy Policy for Manish Tea Traders. Detailed information on how we handle your data, including WhatsApp API communications.",
   alternates: {
-    canonical: "https://manishteatraders.in/privacy-policy/"
+    canonical: "https://www.manishteatraders.in/privacy-policy/"
   }
 };
 

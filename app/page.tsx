@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Bulk CTC & Leaf Tea Supplier | Manish Tea Traders",
   description: "Direct B2B tea supplier from Siliguri. CTC, Assam, Darjeeling & private label teas in bulk. Tea Board of India Reg: KOL/B-7410. Trial orders accepted. Free samples in 48 hrs.",
   alternates: {
-    canonical: "https://manishteatraders.in/"
+    canonical: "https://www.manishteatraders.in/"
   }
 };
 
@@ -24,7 +24,7 @@ const jsonLd = [
     "name": "Manish Tea Traders",
     "description": "Wholesale CTC, Assam and Darjeeling tea supplier in Siliguri, West Bengal since 2004.",
     "foundingDate": "2004",
-    "url": "https://manishteatraders.in",
+    "url": "https://www.manishteatraders.in",
     "telephone": "+917001958588",
     "address": {
       "@type": "PostalAddress",

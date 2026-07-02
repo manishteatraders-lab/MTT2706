@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Wholesale Tea Supply Across India | 20+ Cities Served from Siliguri | Manish Tea Traders",
   description: "Bulk tea supply from Siliguri to Delhi, Mumbai, Kolkata, Patna, Hyderabad, Bangalore & 15+ more cities. CTC, Assam & Darjeeling wholesale. Trial orders accepted. Free samples nationwide.",
   alternates: {
-    canonical: "https://manishteatraders.in/locations/"
+    canonical: "https://www.manishteatraders.in/locations/"
   },
   openGraph: {
     images: [

@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const merriweather = Merriweather({ weight: ["300", "400", "700", "900"], subsets: ["latin"], variable: "--font-serif" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://manishteatraders.in"),
+  metadataBase: new URL("https://www.manishteatraders.in"),
   title: "Manish Tea Traders | Wholesale Tea Suppliers in India",
   description: "Premium wholesale tea suppliers in Siliguri, India. Sourcing CTC, Orthodox, and Green tea directly from Assam and Darjeeling estates.",
   alternates: {

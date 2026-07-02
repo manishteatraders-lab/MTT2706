@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Contact Manish Tea Traders | Bulk Tea Wholesale | Siliguri",
   description: "Contact Manish Tea Traders for bulk tea pricing, free samples & wholesale enquiries. Based in Siliguri, West Bengal. Call or WhatsApp: +91 70019 58588. Mon–Sat, 10am–8pm.",
   alternates: {
-    canonical: "https://manishteatraders.in/contact-us/"
+    canonical: "https://www.manishteatraders.in/contact-us/"
   }
 };
 

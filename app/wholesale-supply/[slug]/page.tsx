@@ -31,13 +31,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : null;
 
   const alternates: Metadata['alternates'] = {
-    canonical: `https://manishteatraders.in/wholesale-supply/${activeData.slug}/`
+    canonical: `https://www.manishteatraders.in/wholesale-supply/${activeData.slug}/`
   };
 
   if (translation) {
     alternates.languages = {
-      [currentLang]: `https://manishteatraders.in${currentLang === 'hi' ? '/hi' : ''}/wholesale-supply/${activeData.slug}/`,
-      [translation.lang]: `https://manishteatraders.in${translation.lang === 'hi' ? '/hi' : ''}/wholesale-supply/${translation.slug}/`
+      [currentLang]: `https://www.manishteatraders.in${currentLang === 'hi' ? '/hi' : ''}/wholesale-supply/${activeData.slug}/`,
+      [translation.lang]: `https://www.manishteatraders.in${translation.lang === 'hi' ? '/hi' : ''}/wholesale-supply/${translation.slug}/`
     };
   }
 
@@ -67,7 +67,7 @@ export default async function LocationPage({ params }: Props) {
       "@type": "WholesaleStore",
       "name": `Manish Tea Traders - Wholesale Tea Supplier in ${activeData.city}`,
       "description": activeData.metaDescription,
-      "url": `https://manishteatraders.in/wholesale-supply/${activeData.slug}`,
+      "url": `https://www.manishteatraders.in/wholesale-supply/${activeData.slug}`,
       "telephone": "+91-7001958588",
       "address": {
           "@type": "PostalAddress",
@@ -113,9 +113,9 @@ export default async function LocationPage({ params }: Props) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": currentLang === 'hi' ? "होम" : "Home", "item": "https://manishteatraders.in/" },
-          { "@type": "ListItem", "position": 2, "name": currentLang === 'hi' ? "सेवा क्षेत्र" : "Service Areas", "item": `https://manishteatraders.in${currentLang === 'hi' ? '/hi' : ''}/locations` },
-          { "@type": "ListItem", "position": 3, "name": activeData.city, "item": `https://manishteatraders.in${currentLang === 'hi' ? '/hi' : ''}/wholesale-supply/${activeData.slug}` }
+          { "@type": "ListItem", "position": 1, "name": currentLang === 'hi' ? "होम" : "Home", "item": "https://www.manishteatraders.in/" },
+          { "@type": "ListItem", "position": 2, "name": currentLang === 'hi' ? "सेवा क्षेत्र" : "Service Areas", "item": `https://www.manishteatraders.in${currentLang === 'hi' ? '/hi' : ''}/locations` },
+          { "@type": "ListItem", "position": 3, "name": activeData.city, "item": `https://www.manishteatraders.in${currentLang === 'hi' ? '/hi' : ''}/wholesale-supply/${activeData.slug}` }
       ]
   };
 

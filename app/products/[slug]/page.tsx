@@ -58,12 +58,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: categoryData.title,
     description: categoryData.desc,
     alternates: {
-      canonical: `https://manishteatraders.in/products/${slug}/`
+      canonical: `https://www.manishteatraders.in/products/${slug}/`
     },
     openGraph: {
       images: [
         {
-          url: `https://manishteatraders.in/images/products/${slug.replace('-', '_')}_user.webp`
+          url: `https://www.manishteatraders.in/images/products/${slug.replace('-', '_')}_user.webp`
         }
       ]
     }
@@ -117,7 +117,7 @@ export default async function ProductCategory({ params }: Props) {
       "@type": "CollectionPage",
       "name": categoryData.title,
       "description": categoryData.desc,
-      "url": `https://manishteatraders.in/products/${slug}/`
+      "url": `https://www.manishteatraders.in/products/${slug}/`
   }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -125,17 +125,17 @@ export default async function ProductCategory({ params }: Props) {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://manishteatraders.in/"
+          "item": "https://www.manishteatraders.in/"
       }, {
           "@type": "ListItem",
           "position": 2,
           "name": "Products",
-          "item": "https://manishteatraders.in/products/"
+          "item": "https://www.manishteatraders.in/products/"
       }, {
           "@type": "ListItem",
           "position": 3,
           "name": categoryData.name,
-          "item": `https://manishteatraders.in/products/${slug}/`
+          "item": `https://www.manishteatraders.in/products/${slug}/`
       }]
   }, {
       "@type": "FAQPage",

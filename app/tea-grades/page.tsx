@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Indian Tea Grades Explained — CTC, Orthodox & Specialty | BP, OF, PD, TGFOP Guide 2026",
   description: "Complete guide to Indian tea grades: BP, BOP, OF, PD, Dust (CTC) and OP, FOP, TGFOP (Orthodox). Explains particle size, cup strength & which grade to buy for your market. From Manish Tea Traders, Siliguri.",
   alternates: {
-    canonical: "https://manishteatraders.in/tea-grades/"
+    canonical: "https://www.manishteatraders.in/tea-grades/"
   }
 };
 

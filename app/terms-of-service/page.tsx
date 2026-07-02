@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Terms of Service | Manish Tea Traders",
   description: "Terms of Service for wholesale purchases from Manish Tea Traders, Siliguri.",
   alternates: {
-    canonical: "https://manishteatraders.in/terms-of-service/"
+    canonical: "https://www.manishteatraders.in/terms-of-service/"
   }
 };
 

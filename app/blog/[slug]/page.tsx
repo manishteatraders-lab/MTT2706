@@ -34,13 +34,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : null;
 
   const alternates: Metadata['alternates'] = {
-    canonical: `https://manishteatraders.in/blog/${post.slug}/`
+    canonical: `https://www.manishteatraders.in/blog/${post.slug}/`
   };
 
   if (translation) {
     alternates.languages = {
-      [currentLang]: `https://manishteatraders.in${currentLang === 'hi' ? '/hi' : ''}/blog/${post.slug}/`,
-      [translation.lang]: `https://manishteatraders.in${translation.lang === 'hi' ? '/hi' : ''}/blog/${translation.slug}/`
+      [currentLang]: `https://www.manishteatraders.in${currentLang === 'hi' ? '/hi' : ''}/blog/${post.slug}/`,
+      [translation.lang]: `https://www.manishteatraders.in${translation.lang === 'hi' ? '/hi' : ''}/blog/${translation.slug}/`
     };
   }
 
@@ -118,12 +118,12 @@ export default async function BlogPost({ params }: Props) {
           "name": post.author,
           "jobTitle": AUTHORS[post.author]?.role || "Expert",
           "description": AUTHORS[post.author]?.bio || "",
-          "url": "https://manishteatraders.in/about-us"
+          "url": "https://www.manishteatraders.in/about-us"
       },
       "publisher": {
           "@type": "Organization",
           "name": "Manish Tea Traders",
-          "logo": { "@type": "ImageObject", "url": "https://manishteatraders.in/logo.png" }
+          "logo": { "@type": "ImageObject", "url": "https://www.manishteatraders.in/logo.png" }
       }
   };
 

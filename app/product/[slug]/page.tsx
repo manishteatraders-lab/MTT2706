@@ -30,15 +30,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${product.name} | Wholesale Tea Supplier Siliguri`,
     description: product.description,
     alternates: {
-      canonical: `https://manishteatraders.in/product/${product.slug}/`,
+      canonical: `https://www.manishteatraders.in/product/${product.slug}/`,
       languages: {
-        'en-IN': `https://manishteatraders.in/product/${product.slug}/`
+        'en-IN': `https://www.manishteatraders.in/product/${product.slug}/`
       }
     },
     openGraph: {
       images: [
         {
-          url: `https://manishteatraders.in${product.imageUrl}`
+          url: `https://www.manishteatraders.in${product.imageUrl}`
         }
       ]
     }
@@ -58,7 +58,7 @@ export default async function ProductDetail({ params }: Props) {
       "@context": "https://schema.org",
       "@type": "Product",
       "name": product.name,
-      "image": `https://manishteatraders.in${product.imageUrl}`,
+      "image": `https://www.manishteatraders.in${product.imageUrl}`,
       "description": product.description,
       "sku": product.sku,
       "offers": {

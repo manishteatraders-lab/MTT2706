@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: "Tea Business & Wholesale Blog 2026 | Market Prices, Grades & Tips | Manish Tea Traders",
   description: "Expert guides on wholesale tea prices, CTC grades, profit margins & starting your tea brand in India. Updated 2026 market data from Siliguri's leading tea wholesaler.",
   alternates: {
-    canonical: "https://manishteatraders.in/blog/",
+    canonical: "https://www.manishteatraders.in/blog/",
     languages: {
-      'en': 'https://manishteatraders.in/blog/',
-      'hi': 'https://manishteatraders.in/hi/blog/'
+      'en': 'https://www.manishteatraders.in/blog/',
+      'hi': 'https://www.manishteatraders.in/hi/blog/'
     }
   },
   openGraph: {

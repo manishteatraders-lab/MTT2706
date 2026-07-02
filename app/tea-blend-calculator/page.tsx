@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Free Tea Blend Calculator | Cost & Ratio Tool for Wholesale Buyers | Manish Tea Traders",
   description: "Free tea blend calculator for wholesale buyers and private label brands. Calculate blend ratios, batch cost per kg, and selling margin. Built by Siliguri tea traders since 2004.",
   alternates: {
-    canonical: "https://manishteatraders.in/tea-blend-calculator/"
+    canonical: "https://www.manishteatraders.in/tea-blend-calculator/"
   }
 };
 

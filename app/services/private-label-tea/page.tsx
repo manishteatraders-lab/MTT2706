@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Private Label Tea Packaging India | Start Your Own Tea Brand | Manish Tea Traders Siliguri",
   description: "Start your own tea brand in 30 days. End-to-end private label tea: sourcing, blending, custom printing & packing. FSSAI compliant. Tea Board of India Reg: KOL/B-7410. Trial orders accepted. WhatsApp now.",
   alternates: {
-    canonical: "https://manishteatraders.in/services/private-label-tea/"
+    canonical: "https://www.manishteatraders.in/services/private-label-tea/"
   },
   openGraph: {
     images: [
@@ -59,7 +59,7 @@ const serviceSchema = {
     "provider": {
         "@type": "WholesaleStore",
         "name": "Manish Tea Traders",
-        "image": "https://manishteatraders.in/logo.png"
+        "image": "https://www.manishteatraders.in/logo.png"
     },
     "serviceType": "Co-packing and Private Labeling",
     "areaServed": { "@type": "Country", "name": "India" },
@@ -84,7 +84,7 @@ const productSchema = {
     },
     "offers": {
       "@type": "Offer",
-      "url": "https://manishteatraders.in/services/private-label-tea",
+      "url": "https://www.manishteatraders.in/services/private-label-tea",
       "priceCurrency": "INR",
       "price": "220",
       "priceValidUntil": "2027-12-31",
