@@ -29,6 +29,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/hero.webp"
+          {...{ fetchPriority: "high" }}
+        />
+      </head>
       <body className={`${inter.variable} ${merriweather.variable} font-sans bg-tea-50 text-stone-800 antialiased`}>
         <Navbar />
         <main className="pt-20 min-h-screen">
