@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="relative md:min-h-screen flex flex-col pt-24 pb-12 md:pt-32 bg-[#3A4D23] md:bg-transparent">
+    <section id="home" className="relative flex flex-col md:min-h-screen pt-24 pb-12 md:pt-32 bg-[#3A4D23] md:bg-transparent" style={{ minHeight: '100svh' }}>
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <OptimizedImage
@@ -96,7 +96,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* ── Mobile Redesign (< 768px) ── */}
-        <div className="md:hidden flex flex-col w-full max-w-sm mx-auto px-2 relative z-10 justify-center">
+        <div className="md:hidden flex flex-col w-full max-w-sm mx-auto px-2 relative z-10 justify-center pb-20">
           {/* Top Badge */}
           <div className="self-center mb-6">
             <span className="bg-[#588157]/80 backdrop-blur-sm text-white border border-white/20 text-[11px] font-bold py-1.5 px-5 rounded-full inline-flex items-center shadow-lg tracking-wide">
