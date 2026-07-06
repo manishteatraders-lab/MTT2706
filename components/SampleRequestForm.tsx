@@ -648,11 +648,13 @@ export default function SampleRequestForm() {
 
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
               <p className="text-sm text-yellow-900 leading-relaxed font-medium">
-                Based on your pincode (<strong>{data.pincode}</strong>), courier charges of <strong>₹200</strong> will be applicable. <span className="font-bold underline">The tea samples are completely free of cost.</span>
+                <span className="font-bold text-green-700 text-base block mb-1">✓ The tea samples are completely free.</span>
+                Based on your delivery pincode (<strong>{data.pincode}</strong>), courier charges of <strong>₹200</strong> will be applicable.<br/>
+                <span className="font-bold text-tea-800 mt-1 block">Good News: This entire courier cost will be adjusted and refunded in your first bulk order with us!</span>
               </p>
               <div className="flex gap-2 mt-4 text-xs text-yellow-800">
                 <Check className="w-4 h-4 flex-none mt-0.5" />
-                <p>Once you submit your details, our team will connect with you to collect the payment and dispatch your samples.</p>
+                <p>Once you submit your details, our team will connect with you to collect the courier payment and dispatch your samples.</p>
               </div>
             </div>
 
