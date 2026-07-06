@@ -12,14 +12,27 @@ export async function POST(req: NextRequest) {
     }
 
     // Basic server-side validation
-    const required = ["name", "firmName", "primaryMobile", "whatsappNumber", "gstNumber", "state", "city", "deliveryAddress"];
+    const required = ["name", "firmName", "primaryMobile", "whatsappNumber", "street", "city", "state", "pincode"];
     for (const field of required) {
       if (!body[field]?.trim()) {
         return NextResponse.json({ error: `${field} is required` }, { status: 400 });
       }
     }
+    
+    // Only validate GST if they haven't explicitly marked it as false (New Startup)
+    if (body.hasGst !== false && !body.gstNumber?.trim()) {
+      return NextResponse.json({ error: "gstNumber is required" }, { status: 400 });
+    }
+
     if (!body.teaGrades || body.teaGrades.length === 0) {
       return NextResponse.json({ error: "teaGrades is required" }, { status: 400 });
+    }
+
+    // Assemble deliveryAddress for legacy API compatibility
+    body.deliveryAddress = `${body.street}, ${body.city}, ${body.state} - ${body.pincode}`;
+    // Format GST for the sheet
+    if (body.hasGst === false) {
+      body.gstNumber = "New Startup (No GST)";
     }
 
     const submissionId = Date.now();

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1783350739134,
+    "submittedAt": "2026-07-06T15:12:19.134Z",
+    "name": "munna",
+    "firmName": "tera",
+    "primaryMobile": "9876543210",
+    "whatsappNumber": "9876543210",
+    "gstNumber": "19AWTPS9578C1ZH",
+    "state": "Ladakh",
+    "city": "ee",
+    "deliveryAddress": "Maan",
+    "teaGrades": [
+      "CTC (BP / OF / PD)",
+      "Tea Dust / Fanning",
+      "Private Label (Custom Blend)"
+    ],
+    "priceRange": "₹150 – ₹250 / kg (Standard)",
+    "businessType": "Tea Bag Manufacturer",
+    "purchaseFrom": "Online Platform",
+    "purchaseFromOther": "",
+    "hearAboutUs": "WhatsApp / Referral",
+    "hearAboutUsOther": "",
+    "description": "",
+    "website": ""
+  }
+]
