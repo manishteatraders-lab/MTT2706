@@ -338,6 +338,13 @@ export default function SampleRequestForm() {
         </div>
       </div>
 
+      <div className="bg-orange-50 border-b border-orange-100 px-6 py-3.5 flex items-start gap-3">
+        <span className="text-orange-600 mt-0.5 text-sm">⚠️</span>
+        <p className="text-xs text-orange-900 font-medium leading-relaxed">
+          <strong>Please Note:</strong> This sample service is strictly for businesses and serious buyers who want to order bulk tea. We do not process sample requests for individual home consumption.
+        </p>
+      </div>
+
       <form onSubmit={(e) => e.preventDefault()} noValidate className="p-6 md:p-8">
         
         {/* ── Section 1: Contact & Address ── */}
