@@ -249,7 +249,7 @@ export default async function BlogPost({ params }: Props) {
                                   {currentLang === 'hi' ? "संपर्क करें" : "Contact Sales Team"}
                               </Link>
                               <a
-                                  href={BUSINESS_DETAILS.sampleFormUrl}
+                                  href="/request-free-tea-samples/#sample-form"
                                   target="_blank"
                                   rel="noopener noreferrer"
                                   className="inline-block bg-white border-2 border-tea-600 text-tea-700 px-8 py-3 rounded-full font-bold hover:bg-tea-50 transition"
@@ -292,7 +292,7 @@ export default async function BlogPost({ params }: Props) {
 
                           {/* Free Sample CTA */}
                           <a
-                              href={BUSINESS_DETAILS.sampleFormUrl}
+                              href="/request-free-tea-samples/#sample-form"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="block bg-gradient-to-br from-tea-50 to-tea-100 border border-tea-200 rounded-2xl p-5 hover:shadow-md transition text-center group"

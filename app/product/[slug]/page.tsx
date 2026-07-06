@@ -151,7 +151,7 @@ export default async function ProductDetail({ params }: Props) {
                                   Get Bulk Quotation <ArrowRight size={20} />
                               </Link>
                               <a
-                                  href={BUSINESS_DETAILS.sampleFormUrl}
+                                  href="/request-free-tea-samples/#sample-form"
                                   target="_blank"
                                   rel="noopener noreferrer"
                                   className="w-full flex items-center justify-center gap-2 bg-white text-stone-800 border-2 border-stone-200 hover:border-tea-600 font-bold py-4 rounded-2xl transition-all"

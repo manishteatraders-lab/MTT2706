@@ -185,7 +185,7 @@ export default async function LocationPage({ params }: Props) {
                   </p>
               </div>
               <a
-                  href={BUSINESS_DETAILS.sampleFormUrl}
+                  href="/request-free-tea-samples/#sample-form"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-tea-600 text-white px-5 py-2.5 rounded-lg font-bold hover:bg-tea-700 transition text-sm whitespace-nowrap"

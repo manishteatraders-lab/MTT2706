@@ -113,7 +113,7 @@ const Products: React.FC = () => {
                       <Info className="h-4 w-4" /> View Details
                     </Link>
                     <a
-                      href={BUSINESS_DETAILS.sampleFormUrl}
+                      href="/request-free-tea-samples/#sample-form"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full text-center bg-tea-600 hover:bg-tea-700 text-white font-medium py-2 rounded-lg transition-all border border-transparent flex items-center justify-center gap-2 text-sm"

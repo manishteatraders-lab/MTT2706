@@ -2,16 +2,17 @@ import React from 'react';
 import {
     ClipboardList, CheckCircle, Truck, HelpCircle,
     MapPin, Users, Award, Package, Leaf, Globe,
-    ShieldCheck, DollarSign, Box
+    ShieldCheck, DollarSign, Box, Star
 } from 'lucide-react';
 import { CONTACT_INFO, BUSINESS_DETAILS } from '../../constants';
 import Reviews from '../../components/Reviews';
 import OptimizedImage from '../../components/OptimizedImage';
+import SampleRequestForm from '../../components/SampleRequestForm';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Request Free Tea Samples | Wholesale Tea Supplier Siliguri | Manish Tea Traders",
-  description: "Get free CTC, Assam & Darjeeling tea samples dispatched from Siliguri within 48 hours. No payment required. Trusted by 500+ wholesale buyers across India. Fill the form now.",
+  title: "Free Tea Samples for Business & Serious Buyers | Manish Tea Traders",
+  description: "Get free CTC, Assam & Darjeeling tea samples for your business. For wholesalers, retailers & serious bulk buyers only — dispatched from Siliguri in 48 hours.",
   alternates: {
     canonical: "https://www.manishteatraders.in/request-free-tea-samples/"
   }
@@ -71,12 +72,13 @@ export default function RequestSamples() {
               type="application/ld+json"
               dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
           />
+
           {/* 1. Hero Section */}
           <section className="bg-tea-900 text-white py-20 lg:py-28 relative overflow-hidden">
               <div className="absolute inset-0 bg-black/40 z-10"></div>
               <div className="absolute inset-0 z-0 opacity-40">
-                  <OptimizedImage 
-                      src="https://images.unsplash.com/photo-1563822249509-cab272d568c8?q=80&w=1600" 
+                  <OptimizedImage
+                      src="https://images.unsplash.com/photo-1563822249509-cab272d568c8?q=80&w=1600"
                       alt="Tea Leaves - Manish Tea Traders Siliguri"
                       className="w-full h-full object-cover"
                       priority={true}
@@ -86,29 +88,27 @@ export default function RequestSamples() {
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center">
                   <div className="flex justify-center gap-4 mb-8 text-sm font-semibold tracking-wider text-yellow-300">
                       <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> Free Samples</span>
-                      <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> No Minimum Order</span>
-                      <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> Export Quality</span>
+                      <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> No Payment</span>
+                      <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> 48hr Dispatch</span>
                   </div>
+
+                  {/* ── NEW H1 ── */}
                   <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold mb-6 leading-tight">
-                      Request Free Tea Samples from<br />
-                      <span className="text-yellow-400">Siliguri&apos;s Leading Tea Wholesaler</span>
+                      Free Tea Samples for Business<br />
+                      <span className="text-yellow-400">&amp; Serious Buyers</span>
                   </h1>
                   <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mb-10 leading-relaxed">
-                      Experience premium Assam and Darjeeling tea quality before bulk ordering.
-                      Trusted by tea traders, retailers, and private label brands across India.
+                      For wholesalers, retailers, and private label buyers only.
+                      Fill the form below — samples dispatched from Siliguri within 48 hours.
                   </p>
 
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                      <a
-                          href={BUSINESS_DETAILS.sampleFormUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center justify-center gap-2 bg-yellow-500 text-tea-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 hover:scale-105 transition-all shadow-[0_0_20px_rgba(234,179,8,0.4)]"
-                      >
-                          <ClipboardList className="w-6 h-6" />
-                          Request Free Samples
-                      </a>
-                  </div>
+                  <a
+                      href="#sample-form"
+                      className="inline-flex items-center justify-center gap-2 bg-yellow-500 text-tea-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 hover:scale-105 transition-all shadow-[0_0_20px_rgba(234,179,8,0.4)]"
+                  >
+                      <ClipboardList className="w-6 h-6" />
+                      Fill the Sample Request Form
+                  </a>
 
                   <div className="mt-12 flex flex-wrap justify-center gap-8 text-gray-300 text-sm">
                       <div className="flex items-center gap-2">
@@ -119,23 +119,108 @@ export default function RequestSamples() {
                           <Users className="w-5 h-5 text-yellow-400" />
                           <span>500+ Satisfied Wholesalers</span>
                       </div>
+                      <div className="flex items-center gap-2">
+                          <Star className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                          <span>4.8 ★ Google Rating</span>
+                      </div>
                   </div>
               </div>
           </section>
 
-          {/* 2. Introduction Section */}
-          <section className="py-16 bg-white">
-              <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-lg leading-relaxed text-gray-700">
-                  <p className="mb-6">
-                      At <strong>Manish Tea Traders</strong>, we understand that seeing is believing—and in the tea business, <em>tasting</em> is everything. Before you commit to a bulk order, explore the premium range of our <strong>tea wholesale near me</strong> collection.
-                  </p>
-                  <p className="mb-6">
-                      Based in the heart of the <strong>Siliguri tea wholesale market</strong>, we source directly from the finest gardens in Assam and Dooars. Whether you are a retailer looking for &quot;Garden Fresh&quot; quality or a <strong>tea bag manufacturer</strong> seeking consistent dust grades, our samples will prove why we are the preferred <strong>tea suppliers</strong> for businesses across India.
-                  </p>
+          {/* 2. Trust bar */}
+          <section className="bg-tea-50 border-b border-tea-100 py-4">
+              <div className="max-w-5xl mx-auto px-4 flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm font-medium text-tea-800">
+                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> FSSAI Licensed</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> Tea Board of India Reg: KOL/B-7410</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> GST Registered: 19AHJPR0891G1ZX</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> No payment required for samples</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> 500+ wholesale buyers trust us</span>
               </div>
           </section>
 
-          {/* 3. Why Request Our Tea Samples */}
+          {/* 3. Form + sidebar two-column layout */}
+          <section id="sample-form" className="py-16 bg-white scroll-mt-24">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                  <div className="text-center mb-12">
+                      <span className="text-tea-600 font-bold tracking-wider uppercase text-xs">Step 1 of a long partnership</span>
+                      <h2 className="text-3xl font-serif font-bold text-tea-900 mt-2 mb-3">Request Your Free Tea Samples</h2>
+                      <p className="text-gray-600 max-w-xl mx-auto text-sm leading-relaxed">
+                          No payment. No obligation. For serious bulk buyers only.<br />
+                          Our team reviews every request and responds on WhatsApp within a few hours.
+                      </p>
+                  </div>
+
+                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+
+                      {/* ── Form column ── */}
+                      <div className="lg:col-span-2">
+                          <SampleRequestForm />
+                      </div>
+
+                      {/* ── Sidebar ── */}
+                      <div className="space-y-6">
+                          {/* What happens next */}
+                          <div className="bg-tea-50 border border-tea-100 rounded-2xl p-6">
+                              <h3 className="font-serif font-bold text-tea-900 text-lg mb-4">What happens next?</h3>
+                              <ol className="space-y-4">
+                                  {[
+                                      { step: "01", title: "We review your request", desc: "Our team checks your requirement and selects the right grades." },
+                                      { step: "02", title: "WhatsApp confirmation", desc: "We reach out to confirm address and dispatch details within a few hours." },
+                                      { step: "03", title: "Samples dispatched", desc: "Free samples couriered from Siliguri within 48 hours of confirmation." },
+                                      { step: "04", title: "Follow-up price list", desc: "We send today's updated wholesale rates along with the samples." },
+                                  ].map((item) => (
+                                      <li key={item.step} className="flex gap-3">
+                                          <div className="flex-none w-8 h-8 bg-tea-600 text-white rounded-full flex items-center justify-center text-xs font-bold">{item.step}</div>
+                                          <div>
+                                              <p className="font-bold text-sm text-gray-900">{item.title}</p>
+                                              <p className="text-xs text-gray-500 leading-relaxed">{item.desc}</p>
+                                          </div>
+                                      </li>
+                                  ))}
+                              </ol>
+                          </div>
+
+                          {/* Contact alternatives */}
+                          <div className="bg-white border border-gray-200 rounded-2xl p-6">
+                              <h3 className="font-bold text-gray-900 text-base mb-4">Prefer to talk directly?</h3>
+                              <div className="space-y-3">
+                                  <a
+                                      href={`https://wa.me/${CONTACT_INFO.phone}?text=Hi, I want to request free tea samples for my business.`}
+                                      target="_blank" rel="noopener noreferrer"
+                                      className="flex items-center gap-3 bg-[#25D366] text-white px-4 py-3 rounded-xl font-bold text-sm hover:bg-green-600 transition-colors"
+                                  >
+                                      <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current flex-none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                                      WhatsApp Us Now
+                                  </a>
+                                  <a
+                                      href={`tel:${CONTACT_INFO.phone}`}
+                                      className="flex items-center gap-3 border border-gray-200 text-gray-700 px-4 py-3 rounded-xl font-bold text-sm hover:bg-gray-50 transition-colors"
+                                  >
+                                      <span className="text-lg">📞</span>
+                                      {CONTACT_INFO.displayPhone}
+                                  </a>
+                                  <p className="text-xs text-gray-400 text-center">Mon–Sat, 10am–8pm IST</p>
+                              </div>
+                          </div>
+
+                          {/* Grades available */}
+                          <div className="bg-white border border-gray-200 rounded-2xl p-6">
+                              <h3 className="font-bold text-gray-900 text-base mb-3">Sample grades available</h3>
+                              <ul className="space-y-2 text-sm text-gray-600">
+                                  {["CTC — BP, OF, PD, Dust", "Assam Orthodox Leaf", "Darjeeling First & Second Flush", "Nepal High Grown", "Green Tea", "Custom Blends / Private Label"].map((g) => (
+                                      <li key={g} className="flex items-start gap-2">
+                                          <CheckCircle className="w-4 h-4 text-tea-500 flex-none mt-0.5" />
+                                          {g}
+                                      </li>
+                                  ))}
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+
+          {/* 4. Why Choose Our Samples */}
           <section className="py-16 bg-tea-50">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   <h2 className="text-3xl font-serif font-bold text-tea-900 text-center mb-12">Why Choose Our Samples?</h2>
@@ -158,12 +243,11 @@ export default function RequestSamples() {
               </div>
           </section>
 
-          {/* 4. Our Tea Products Section */}
+          {/* 5. Tea Products */}
           <section className="py-16">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   <h2 className="text-3xl font-serif font-bold text-tea-900 text-center mb-4">Our Tea Products</h2>
                   <p className="text-center text-gray-600 mb-12">Select the samples you need for your business</p>
-
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                       {[
                           "Assam Tea Varieties", "Darjeeling Tea Collection", "Premium CTC Tea", "Bopsm blend",
@@ -173,9 +257,7 @@ export default function RequestSamples() {
                               <Leaf className="w-8 h-8 mx-auto text-tea-400 mb-4 group-hover:text-tea-600" />
                               <h3 className="font-bold text-gray-900 mb-4">{product}</h3>
                               <a
-                                  href={BUSINESS_DETAILS.sampleFormUrl}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
+                                  href="#sample-form"
                                   className="text-sm font-semibold text-tea-600 hover:text-tea-800 underline decoration-2 underline-offset-4 cursor-pointer block mt-2"
                               >
                                   Request Sample
@@ -186,7 +268,7 @@ export default function RequestSamples() {
               </div>
           </section>
 
-          {/* 5. Who We Serve */}
+          {/* 6. Who We Serve */}
           <section className="py-16 bg-tea-900 text-white">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -218,18 +300,16 @@ export default function RequestSamples() {
               </div>
           </section>
 
-          {/* 6. Sample Request Process */}
+          {/* 7. Sample Request Process */}
           <section className="py-16 bg-white">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                   <h2 className="text-3xl font-serif font-bold text-tea-900 mb-12">Sample Request Process</h2>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
-                      {/* Connector Line */}
-                      <div className="hidden md:block absolute top-1/4 left-1/6 right-1/6 h-0.5 bg-gray-200 -z-10 bg-tea-100"></div>
-
+                      <div className="hidden md:block absolute top-1/4 left-1/6 right-1/6 h-0.5 bg-tea-100 -z-10"></div>
                       {[
-                          { step: "01", title: "Fill the Form", desc: "Complete our simple sample request form with your business details." },
+                          { step: "01", title: "Fill the Form", desc: "Complete the sample request form above with your business details." },
                           { step: "02", title: "Quality Selection", desc: "Our team selects the exact grades matching your market requirements." },
-                          { step: "03", title: "Free Delivery", desc: "Receive samples at your doorstep across India via courier." }
+                          { step: "03", title: "Free Delivery", desc: "Receive samples at your doorstep across India via courier within 3–7 days." }
                       ].map((item, idx) => (
                           <div key={idx} className="bg-white p-6">
                               <div className="w-16 h-16 bg-tea-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg relative z-10">
@@ -242,18 +322,16 @@ export default function RequestSamples() {
                   </div>
                   <div className="mt-10">
                       <a
-                          href={BUSINESS_DETAILS.sampleFormUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                          href="#sample-form"
                           className="inline-flex items-center gap-2 bg-tea-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-tea-700 transition-colors"
                       >
-                          Start Process <ClipboardList className="w-5 h-5" />
+                          Start the Process <ClipboardList className="w-5 h-5" />
                       </a>
                   </div>
               </div>
           </section>
 
-          {/* 7. About Our Tea Business */}
+          {/* 8. About Our Tea Business */}
           <section className="py-16 bg-stone-50">
               <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                   <h2 className="text-3xl font-serif font-bold text-tea-900 mb-6">About Our Tea Business</h2>
@@ -264,14 +342,11 @@ export default function RequestSamples() {
                       <p>
                           Our strategic location in Siliguri—the gateway to the North East—allows us to source fresh tea directly from the gardens, bypassing multiple middlemen. This ensures that our clients receive <strong>factory-fresh quality</strong> at unbeatable prices.
                       </p>
-                      <p>
-                          We are proud to be one of the top <strong>tea manufacturers in Siliguri</strong> offering end-to-end solutions, including private labeling and export-grade sourcing.
-                      </p>
                   </div>
               </div>
           </section>
 
-          {/* 8. Service Areas & Delivery */}
+          {/* 9. Service Areas & Delivery */}
           <section className="py-16">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="bg-tea-50 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-10">
@@ -296,13 +371,12 @@ export default function RequestSamples() {
                                   <Globe className="w-6 h-6 text-tea-600 flex-shrink-0" />
                                   <div>
                                       <strong className="block text-gray-900">International Export</strong>
-                                      <span className="text-gray-600">serving clients globally with export-standard tea.</span>
+                                      <span className="text-gray-600">Serving clients globally with export-standard tea.</span>
                                   </div>
                               </li>
                           </ul>
                       </div>
                       <div className="flex-1 w-full h-64 md:h-auto bg-gray-200 rounded-xl overflow-hidden relative">
-                          {/* Placeholder for Map */}
                           <iframe
                               src={CONTACT_INFO.mapEmbedUrl}
                               width="100%"
@@ -317,23 +391,22 @@ export default function RequestSamples() {
               </div>
           </section>
 
-          {/* 9. Pricing & Packaging */}
+          {/* 10. Pricing & Packaging */}
           <section className="py-16 bg-white">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   <h2 className="text-3xl font-serif font-bold text-tea-900 text-center mb-12">Pricing & Packaging Options</h2>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                       <div className="border border-gray-200 p-8 rounded-xl text-center hover:border-tea-500 transition-colors">
                           <h3 className="text-xl font-bold text-tea-800 mb-4">Bulk Wholesale</h3>
-                          <p className="text-3xl font-bold text-gray-900 mb-2">₹120 - ₹250</p>
+                          <p className="text-3xl font-bold text-gray-900 mb-2">₹120 – ₹250</p>
                           <span className="text-sm text-gray-500">per kg (variable)</span>
                           <ul className="mt-6 space-y-2 text-gray-600 text-sm mb-6">
-                              <li>26kg - 35kg Jute Bags</li>
+                              <li>26kg – 35kg Jute Bags</li>
                               <li>Economy to Premium Grades</li>
                               <li>MOQ: 1 Lot</li>
                           </ul>
                           <span className="inline-block px-4 py-1 bg-gray-100 text-gray-600 rounded-full text-xs font-bold">Best for Re-sellers</span>
                       </div>
-
                       <div className="border-2 border-yellow-400 p-8 rounded-xl text-center relative transform md:-translate-y-4 bg-white shadow-xl">
                           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-yellow-400 text-tea-900 px-4 py-1 rounded-full text-xs font-bold tracking-wide">MOST POPULAR</div>
                           <h3 className="text-xl font-bold text-tea-800 mb-4">Private Label</h3>
@@ -346,7 +419,6 @@ export default function RequestSamples() {
                           </ul>
                           <span className="inline-block px-4 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs font-bold">Best for Brands</span>
                       </div>
-
                       <div className="border border-gray-200 p-8 rounded-xl text-center hover:border-tea-500 transition-colors">
                           <h3 className="text-xl font-bold text-tea-800 mb-4">Premium Export</h3>
                           <p className="text-3xl font-bold text-gray-900 mb-2">₹400+</p>
@@ -362,7 +434,7 @@ export default function RequestSamples() {
               </div>
           </section>
 
-          {/* 10. Extended FAQ */}
+          {/* 11. Extended FAQ */}
           <section className="py-16 bg-gray-50">
               <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="text-center mb-12">
@@ -370,13 +442,13 @@ export default function RequestSamples() {
                   </div>
                   <div className="space-y-4">
                       {[
-                          { q: "How do I request tea samples?", a: "Simply click the 'Request Free Samples' button and fill out the form. We will contact you to confirm the details." },
+                          { q: "How do I request tea samples?", a: "Fill the form on this page. We will contact you on WhatsApp within a few hours to confirm your sample details." },
                           { q: "Is there any charge for samples?", a: "The tea samples are free. We may charge a nominal courier fee for new clients, which is refundable on your first order." },
-                          { q: "What information do I need to provide?", a: "We need your business name, full address with PIN code, and your rough monthly requirement to send the right grades." },
-                          { q: "How long does sample delivery take?", a: "Once confirmed, samples are dispatched within 24 hours. Delivery takes 3-7 days depending on your location." },
-                          { q: "Do you offer private label tea packaging?", a: "Yes! We specialize in private labeling. We can pack tea in your branded pouches." },
+                          { q: "What information do I need to provide?", a: "We need your business name, GST number, full address with PIN code, and your preferred tea grade to send the right samples." },
+                          { q: "How long does sample delivery take?", a: "Once confirmed, samples are dispatched within 48 hours. Delivery takes 3–7 days depending on your location." },
+                          { q: "Do you offer private label tea packaging?", a: "Yes! We specialize in private labeling. We can pack tea in your branded pouches starting from 500kg." },
                           { q: "What areas do you deliver to?", a: "We deliver to all states in India. We also have export licenses for international shipment." },
-                          { q: "What's your minimum order quantity?", a: "For samples: No minimum. For bulk orders: Usually 1 Lot for loose tea." }
+                          { q: "What's your minimum order quantity?", a: "For samples: No minimum. For bulk orders: Usually 1 Lot for loose tea, or 500kg for private label." }
                       ].map((item, idx) => (
                           <div key={idx} className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
                               <h3 className="font-bold text-gray-900 mb-2 flex gap-3 text-lg">
@@ -390,7 +462,7 @@ export default function RequestSamples() {
               </div>
           </section>
 
-          {/* 11. Testimonials */}
+          {/* 12. Testimonials */}
           <Reviews />
 
       </main>
