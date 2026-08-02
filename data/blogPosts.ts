@@ -855,6 +855,8 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>Walk into any tea wholesale market in Siliguri on a weekday morning, and you'll witness a scene that has remained largely unchanged for decades: traders examining tea leaves with practiced hands, the aroma of fresh CTC and orthodox teas filling the air, and negotiations happening in rapid-fire Bengali and Hindi. This is the <strong>Siliguri tea wholesale market</strong>—the nerve center of India's tea trade.</p>
 
+      <p>If you're sourcing bulk shipments, partner with a verified <a href="/wholesale-supply/siliguri-tea-supplier/">Siliguri tea supplier</a> to get garden-fresh <a href="/products/ctc-tea/">CTC tea</a> direct from the tea estates.</p>
+
       <h2>Why Siliguri Dominates India's Tea Wholesale Trade</h2>
       <p>Siliguri's position as India's premier tea wholesale hub isn't accidental. The city sits at a unique geographical crossroads:</p>
       <ul>
@@ -1047,11 +1049,11 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b21",
-    title: "Tea Business Profit Margin Guide (2026)",
+    title: "Tea Business Profit Margin in 2026: Real Numbers & Breakdown",
     slug: "tea-business-profit-margin-guide-2025",
     date: "January 18, 2026",
     author: "Manish Tea Traders",
-    excerpt: "Detailed breakdown of profit margins in tea wholesale, retail, and franchise models. Know your numbers before you start.",
+    excerpt: "What is the actual profit margin in tea business? 20–50% explained with real cost data: wholesale, retail pouch, and private label models compared.",
     content: `
       <p>The first question every entrepreneur asks: "How much will I make?" In the tea business, margins depend heavily on your business model. Here is the realistic breakdown for 2026.</p>
 
@@ -1086,7 +1088,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>How to Maximize Profit</h2>
       <ul>
-        <li><strong>Source from Siliguri:</strong> Cut out the Kolkata/Delhi middlemen to save ₹30-₹50/kg.</li>
+        <li><strong>Source from Siliguri:</strong> Cut out the Kolkata/Delhi middlemen to save ₹30-₹50/kg by partnering directly with <a href="/wholesale-supply/siliguri-tea-supplier/">wholesale tea suppliers in Siliguri</a>.</li>
         <li><strong>Create a Blend:</strong> Don't sell straight grades. Create a signature blend that customers can't find elsewhere.</li>
         <li><strong>Hold Stock:</strong> Buy heavy during peak season (June-Oct) when quality is high and prices are stable.</li>
       </ul>
@@ -1472,11 +1474,11 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b24",
-    title: "How to Start a Tea Business with ₹25,000 Investment",
+    title: "Start Tea Business with ₹25,000: Step-by-Step Plan That Works",
     slug: "start-tea-business-25000",
     date: "January 18, 2026",
     author: "Manish Tea Traders",
-    excerpt: "Low budget? No problem. A step-by-step plan to start a profitable tea business with just ₹25k. Sourcing, packaging, and sales.",
+    excerpt: "Exact ₹25,000 budget split for starting a profitable tea business in 2026. Stock, packaging, licensing, and your first 100 customers — all covered.",
     content: `
       <p>You don't need lakhs to start. Many successful tea tycoons started with a bicycle and a few bags. Here is a ₹25,000 budget plan.</p>
 
@@ -1523,13 +1525,15 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b25",
-    title: "5 High-Profit Tea Business Ideas (Beyond Just Selling Loose Tea)",
+    title: "7 High-Profit Tea Business Ideas in India (2026)",
     slug: "high-profit-tea-business-ideas",
     date: "January 18, 2026",
     author: "Manish Tea Traders",
-    excerpt: "Think outside the box. Explore subscription boxes, tea gifting, private label, and other creative ways to make money with tea.",
+    excerpt: "From private label to corporate gifting: 7 high-margin tea business models with real startup costs and profit data from a Siliguri wholesale supplier.",
     content: `
       <p>Selling loose tea is competitive. Here are 5 niche ideas with higher margins.</p>
+
+      <p>Before launching, we highly recommend requesting <a href="/request-free-tea-samples/">free B2B tea samples</a> to evaluate different garden grades. If you want custom packaging, explore our <a href="/services/private-label-tea/">private label tea packaging service</a>.</p>
 
       <h2>1. Corporate Gifting</h2>
       <p>Companies spend huge amounts on Diwali/New Year gifts. Create "Wellness Tea Sets" (Green Tea + Glass Mug) in a nice wooden box.</p>
@@ -3244,24 +3248,20 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <h2>Manish Tea Traders Export Support</h2>
-      <p>We assist with export orders:</p>
-      <ul>
-        <li>MRL-compliant tea sourcing</li>
-        <li>Export documentation support</li>
-        <li>Container stuffing supervision</li>
-        <li>Quality certification</li>
-      </ul>
-      <p><a href="/contact-us">Contact us</a> for export-ready tea.</p>
+      <p>Ready to export? <a href="/services/private-label-tea/">Explore our private label export-packing service</a> or <a href="/contact-us/">contact our sales team</a> to request export-grade tea samples directly from Siliguri.</p>
     
-
       <h3>Related Reading</h3>
       <ul>
       </ul>
     `,
     keywords: "export tea from india, tea export documentation, tea export license, MRL compliance tea",
     imageUrl: "/blog-images/tea-export-port.webp",
-    lang: 'en'
-  },
+    lang: 'en',
+    faqSchema: [
+      { question: "How to export tea from India?", answer: "To export tea from India, you need an Import Export Code (IEC) from DGFT, a Tea Board exporter license, an FSSAI exporter registration, and APEDA membership. You must also comply with target country Maximum Residue Limits (MRLs) and verify shipping documentation. Manish Tea Traders can assist you with sourcing and documentation." },
+      { question: "What is IEC in tea export?", answer: "IEC stands for Import Export Code, which is a 10-digit code issued by the Directorate General of Foreign Trade (DGFT), Ministry of Commerce, Government of India. It is mandatory for exporting commercial shipments of tea." },
+      { question: "Which licenses are needed for tea export?", answer: "You need: 1. IEC, 2. FSSAI Exporter Registration, 3. Tea Board of India Exporter License, 4. RCMC from Tea Board / APEDA, 5. Phytosanitary Certificate (if required by destination country)." }
+    ]},
   {
     id: "b39",
     title: "Tea Trading in India: Future Trends & Opportunities (2026-2030)",

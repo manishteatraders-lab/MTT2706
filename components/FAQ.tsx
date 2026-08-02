@@ -1,9 +1,6 @@
-"use client";
+import React from "react";
 
-import React, { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
-
-const faqs = [
+export const faqs = [
   {
     question: "Do you provide samples?",
     answer: "Yes, samples can be provided for serious bulk buyers so you can check quality before placing a large order."
@@ -26,7 +23,7 @@ const faqs = [
   },
   {
     question: "What is the shelf life of your tea?",
-    answer: "Our tea is sourced fresh. When stored correctly in airtight containers away from moisture and direct sunlight, it retains its quality and aroma for 12-18 months."
+    answer: "Our tea is sourced fresh. When stored correctly in airtight containers away from moisture and direct sunlight, it retains its quality and aroma for 12–18 months."
   },
   {
     question: "Do you offer organic tea options?",
@@ -39,8 +36,6 @@ const faqs = [
 ];
 
 const FAQ: React.FC = () => {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
-
   return (
     <section className="py-16 bg-tea-50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -49,29 +44,26 @@ const FAQ: React.FC = () => {
         </h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div
+            <details
               key={index}
-              className="bg-white rounded-lg border border-gray-200 overflow-hidden shadow-sm transition-all hover:shadow-md"
+              className="group bg-white rounded-lg border border-gray-200 overflow-hidden shadow-sm transition-all hover:shadow-md"
+              {...(index === 0 ? { open: true } : {})}
             >
-              <button
-                className="w-full flex justify-between items-center p-5 text-left focus:outline-none"
-                onClick={() => setOpenIndex(openIndex === index ? null : index)}
-              >
-                <span className={`font-semibold text-lg ${openIndex === index ? 'text-tea-700' : 'text-gray-800'}`}>
+              <summary className="w-full flex justify-between items-center p-5 text-left cursor-pointer list-none focus:outline-none focus-visible:ring-2 focus-visible:ring-tea-500">
+                <span className="font-semibold text-lg text-gray-800 group-open:text-tea-700">
                   {faq.question}
                 </span>
-                {openIndex === index ? (
-                  <ChevronUp className="h-5 w-5 text-tea-600" />
-                ) : (
-                  <ChevronDown className="h-5 w-5 text-gray-400" />
-                )}
-              </button>
-              <div
-                className={`px-5 pb-5 text-gray-600 leading-relaxed transition-all duration-300 ${openIndex === index ? 'block opacity-100' : 'hidden opacity-0'}`}
-              >
+                <svg
+                  className="h-5 w-5 text-gray-400 group-open:text-tea-600 group-open:rotate-180 transition-transform duration-200 flex-shrink-0 ml-4"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="px-5 pb-5 text-gray-600 leading-relaxed">
                 {faq.answer}
-              </div>
-            </div>
+              </p>
+            </details>
           ))}
         </div>
       </div>

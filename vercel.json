@@ -1,5 +1,53 @@
 {
   "outputDirectory": "out",
   "trailingSlash": true,
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "manishteatraders.in" }],
+      "destination": "https://www.manishteatraders.in/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tea-business-profit-margin/",
+      "destination": "/blog/tea-business-profit-margin-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/siliguri-tea-market/",
+      "destination": "/blog/siliguri-tea-wholesale-market-guide-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tea-wholesalers-in-siliguri/",
+      "destination": "/blog/siliguri-tea-wholesale-market-guide-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tea-wholesale-price-siliguri-2026/",
+      "destination": "/blog/siliguri-tea-wholesale-market-guide-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/siliguri-chai-bazaar-guide-2026/",
+      "destination": "/blog/siliguri-tea-wholesale-market-guide-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/north-bengal-tea-hub-siliguri-dominance-2026/",
+      "destination": "/blog/siliguri-tea-wholesale-market-guide-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/assam-vs-darjeeling/",
+      "destination": "/blog/assam-vs-darjeeling-chai-comparison-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/product/private-label-tea/",
+      "destination": "/services/private-label-tea/",
+      "permanent": true
+    }
+  ]
 }

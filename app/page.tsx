@@ -5,13 +5,13 @@ import Products from "../components/Products";
 import Contact from "../components/Contact";
 import Newsletter from "../components/Newsletter";
 import Gallery from "../components/Gallery";
-import FAQ from "../components/FAQ";
+import FAQ, { faqs } from "../components/FAQ";
 import Reviews from "../components/Reviews";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Bulk CTC & Leaf Tea Supplier | Manish Tea Traders",
-  description: "Direct B2B tea supplier from Siliguri. CTC, Assam, Darjeeling & private label teas in bulk. Tea Board of India Reg: KOL/B-7410. Trial orders accepted. Free samples in 48 hrs.",
+  title: "Wholesale Tea Supplier Siliguri | CTC, Assam & Darjeeling",
+  description: "B2B tea supplier from Siliguri since 2004. CTC, Assam, Darjeeling & private label teas for businesses. Tea Board Reg: KOL/B-7410. Free samples in 48 hrs.",
   alternates: {
     canonical: "https://www.manishteatraders.in/"
   }
@@ -87,7 +87,15 @@ const jsonLd = [
           "@type": "Answer",
           "text": "Yes. We are FSSAI licensed and registered with the Tea Board of India (KOL/B-7410). GST No: 19AHJPR0891G1ZX."
         }
-      }
+      },
+      ...faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
     ]
   }
 ];
@@ -119,8 +127,8 @@ export default function Home() {
 
       <Suspense fallback={<LoadingFallback />}>
         <Reviews />
-        <FAQ />
       </Suspense>
+      <FAQ />
       <Newsletter />
     </>
   );
