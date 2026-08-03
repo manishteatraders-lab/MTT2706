@@ -53,6 +53,11 @@
       "source": "/blog/tea-blending-secrets/",
       "destination": "/blog/how-to-blend-tea-for-packing/",
       "permanent": true
+    },
+    {
+      "source": "/blog/how-siliguri-became-tea-trading-hub-history-2026/",
+      "destination": "/blog/north-bengal-tea-hub-siliguri-dominance-2026/",
+      "permanent": true
     }
   ]
 }

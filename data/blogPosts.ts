@@ -2492,259 +2492,75 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b31",
-    title: "North Bengal Tea Hub: Why Siliguri Dominates India's Tea Trade (2026)",
+    title: "Why Siliguri Is One of India's Key Tea Trading Hubs",
     slug: "north-bengal-tea-hub-siliguri-dominance-2026",
     date: "January 18, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Discover why Siliguri is North Bengal's tea capital and India's primary tea trading hub. Learn about geographic advantages, market dynamics, and sourcing benefits.",
+    author: "Jaleshwar Ray",
+    excerpt: "Why Siliguri is a key tea trading hub in India: proximity to Darjeeling, Dooars & Assam, lower logistics costs, auction history, and sourcing advantages.",
     content: `
-      <p>Siliguri's position as the <strong>North Bengal tea hub</strong> and India's primary tea trading center isn't accidental—it's the result of unique geographic, economic, and historical factors. Understanding this dominance helps wholesale buyers appreciate the value of sourcing from Siliguri.</p>
+      <p>Check the back of a Tata Tea or Red Label packet and you'll sometimes see "Sourced from West Bengal" or a mention of North Bengal gardens. There's a reason for that. Siliguri isn't India's single biggest tea market by volume — that title actually belongs to Kolkata and Guwahati, the country's two largest tea auction centres. But Siliguri has something those markets don't: it sits closer to the gardens than almost anywhere else in India, and for a wholesale buyer, that's often worth more than raw size.</p>
 
-      <h2>Geographic Advantage</h2>
-
-      <h3>The Perfect Location</h3>
-      <p>Siliguri sits at the convergence of India's major tea-producing regions:</p>
+      <h2>The Chicken's Neck Corridor</h2>
+      <p>Siliguri sits in the narrow Siliguri Corridor — often called the "Chicken's Neck" — the strip of land connecting Northeast India to the rest of the country. This location happens to place it right in the middle of three major tea-growing regions:</p>
       <ul>
-        <li><strong>30 km from Dooars:</strong> Home to 150+ tea estates producing robust CTC teas</li>
-        <li><strong>50 km from Darjeeling:</strong> 87 estates producing world-renowned orthodox teas</li>
-        <li><strong>15 km from Terai:</strong> High-quality CTC and orthodox production</li>
-        <li><strong>Direct highway to Assam:</strong> India's largest tea-producing state (700 million kg annually)</li>
+        <li><strong>North:</strong> Darjeeling — the "Champagne of Teas," about 30-50 km away</li>
+        <li><strong>East:</strong> Dooars — the heavy-bodied CTC belt, roughly 20-40 km away</li>
+        <li><strong>Further East:</strong> Assam — India's largest tea-producing state, reachable by direct highway</li>
       </ul>
+      <p>No other trading centre in India sits this close to all three regions at once.</p>
 
-      <h3>The "Chicken's Neck" Corridor</h3>
-      <p>Siliguri occupies the narrow Siliguri Corridor (22 km wide) connecting:</p>
-      <ul>
-        <li>Mainland India to Northeast states</li>
-        <li>All tea from Assam, Arunachal Pradesh must pass through Siliguri</li>
-        <li>Creates natural consolidation point for tea trade</li>
-      </ul>
+      <h2>A Short History</h2>
+      <p>Tea has been grown in this part of India for a long time. Darjeeling's first tea plants went in around 1835, and the wider Dooars and Terai gardens developed through the late 1800s as the railway network expanded into North Bengal, making it easier to move tea out of the hills and into the rest of the country.</p>
 
-      <h2>Market Dynamics</h2>
+      <p>The market you see today has a specific starting point: the <strong>Siliguri Tea Auction Centre</strong> was officially inaugurated on 29th October 1976. At launch, it had just 16 seller members, 132 buyer members, and 7 broker members, working out of under 40,000 sq. ft of warehouse space. Today the centre has grown many times over, with hundreds of registered sellers and buyers and a much larger warehouse footprint — though it remains, by the auction committee's own figures, the third-largest tea auction centre in India by volume, after Kolkata and Guwahati.</p>
 
-      <h3>Volume Statistics</h3>
-      <p>Siliguri handles:</p>
-      <ul>
-        <li><strong>200+ million kg of tea annually</strong></li>
-        <li><strong>60% of North Bengal's tea production</strong></li>
-        <li><strong>30% of India's total tea trade</strong></li>
-        <li><strong>₹3,000+ crores in annual tea transactions</strong></li>
-      </ul>
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
 
-      <h3>Market Participants</h3>
-      <ul>
-        <li><strong>500+ registered tea traders</strong></li>
-        <li><strong>200+ blending houses</strong></li>
-        <li><strong>100+ export-focused companies</strong></li>
-        <li><strong>50+ tea auction buyers</strong></li>
-      </ul>
+      <h2>Why Buyers Still Choose Siliguri</h2>
+      <p>Being third by volume doesn't mean it's the wrong place to buy from — for many buyers, it's actually the better choice, for reasons that have nothing to do with size:</p>
 
-      <h2>Infrastructure Advantages</h2>
+      <h3>1. Freshness</h3>
+      <p>Tea is hygroscopic — it absorbs moisture from the air. The longer it travels and sits in a godown, the more flavour and aroma it loses. Because Siliguri sits right next to the gardens, tea often reaches buyers here while it's still close to "new season" freshness, rather than after weeks in transit and storage.</p>
 
-      <h3>Transportation Network</h3>
+      <h3>2. Lower Logistics Cost</h3>
+      <p>When you buy from a wholesaler in Delhi or Mumbai, you're paying for tea that already travelled from Siliguri (or further) to reach them — plus their margin on top. Buying <a href="/wholesale-supply/siliguri-tea-supplier/">direct from a Siliguri supplier</a> like Manish Tea Traders cuts out that extra leg of the journey and its added cost.</p>
 
-      <h4>Road Connectivity</h4>
-      <ul>
-        <li><strong>NH 31:</strong> Direct route to Kolkata (600 km)</li>
-        <li><strong>NH 27:</strong> Connection to Assam and Northeast</li>
-        <li><strong>NH 10:</strong> Route to Darjeeling and Sikkim</li>
-        <li><strong>Asian Highway 2:</strong> International connectivity</li>
-      </ul>
+      <h3>3. Access to All Three Regions in One Place</h3>
+      <p>Because Darjeeling, Dooars, and Assam are all within reach of Siliguri, a single supplier here can offer real variety — light, aromatic Darjeeling; heavy-bodied Dooars CTC; and strong, malty Assam — without you needing to source from three separate parts of the country.</p>
 
-      <h4>Rail Network</h4>
-      <ul>
-        <li><strong>New Jalpaiguri (NJP) Junction:</strong> Major railway hub</li>
-        <li><strong>Direct trains to:</strong> Delhi, Mumbai, Kolkata, Chennai, Bangalore</li>
-        <li><strong>Goods trains:</strong> Dedicated tea cargo services</li>
-      </ul>
-
-      <h4>Air Connectivity</h4>
-      <ul>
-        <li><strong>Bagdogra Airport:</strong> 12 km from Siliguri</li>
-        <li><strong>Cargo facilities:</strong> For premium tea exports</li>
-        <li><strong>Daily flights to:</strong> Delhi, Mumbai, Kolkata, Bangalore</li>
-      </ul>
-
-      <h3>Warehousing Facilities</h3>
-      <ul>
-        <li><strong>500+ private warehouses</strong></li>
-        <li><strong>Climate-controlled storage</strong> for premium teas</li>
-        <li><strong>Bonded warehouses</strong> for export</li>
-        <li><strong>Total capacity:</strong> 50+ million kg</li>
-      </ul>
-
-      <h2>Tea Auction System</h2>
-
-      <h3>Siliguri Tea Auction Center</h3>
-      <p>One of India's three major tea auction centers (along with Kolkata and Guwahati):</p>
-      <ul>
-        <li><strong>Weekly auctions:</strong> Every Tuesday and Thursday</li>
-        <li><strong>Volume:</strong> 3-5 million kg per auction</li>
-        <li><strong>Participants:</strong> 100+ registered buyers</li>
-        <li><strong>Transparency:</strong> Price discovery mechanism</li>
-      </ul>
-
-      <h3>How Auctions Work</h3>
-      <ol>
-        <li><strong>Pre-Auction Tasting:</strong> Buyers sample all lots (Monday)</li>
-        <li><strong>Catalog Release:</strong> Details of all lots available</li>
-        <li><strong>Bidding:</strong> Competitive bidding on Tuesday/Thursday</li>
-        <li><strong>Price Setting:</strong> Market rates established</li>
-        <li><strong>Delivery:</strong> Tea delivered to winning bidders</li>
-      </ol>
-
-      <h2>Ecosystem Benefits</h2>
-
-      <h3>Supporting Services</h3>
-
-      <h4>Quality Testing Labs</h4>
-      <ul>
-        <li>Moisture testing</li>
-        <li>Grade verification</li>
-        <li>Pesticide residue testing (MRL compliance)</li>
-        <li>Certification for exports</li>
-      </ul>
-
-      <h4>Packaging Suppliers</h4>
-      <ul>
-        <li>Jute sacks manufacturers</li>
-        <li>PP bag suppliers</li>
-        <li>Custom packaging for private labels</li>
-        <li>Printing and labeling services</li>
-      </ul>
-
-      <h4>Logistics Partners</h4>
-      <ul>
-        <li>Dedicated tea transport companies</li>
-        <li>GPS-tracked vehicles</li>
-        <li>Pan-India delivery networks</li>
-        <li>Customs clearance for exports</li>
-      </ul>
-
-      <h3>Knowledge Hub</h3>
-      <ul>
-        <li><strong>Tea Tasting Expertise:</strong> Generations of tasting experience</li>
-        <li><strong>Blending Knowledge:</strong> Custom blend creation</li>
-        <li><strong>Market Intelligence:</strong> Real-time price and quality information</li>
-        <li><strong>Estate Relationships:</strong> Direct connections with 300+ estates</li>
-      </ul>
-
-      <h2>Economic Impact</h2>
-
-      <h3>Employment</h3>
-      <ul>
-        <li><strong>Direct:</strong> 50,000+ people in tea trading</li>
-        <li><strong>Indirect:</strong> 200,000+ in supporting services</li>
-        <li><strong>Seasonal:</strong> Additional workers during peak flush</li>
-      </ul>
-
-      <h3>Revenue Generation</h3>
-      <ul>
-        <li><strong>Annual Turnover:</strong> ₹3,000+ crores</li>
-        <li><strong>GST Revenue:</strong> ₹200+ crores annually</li>
-        <li><strong>Export Earnings:</strong> ₹500+ crores</li>
-      </ul>
-
-      <h2>Why Buyers Choose Siliguri</h2>
-
-      <h3>1. Unbeatable Freshness</h3>
-      <p>Tea reaches Siliguri within 24-48 hours of production:</p>
-      <ul>
-        <li>Maximum flavor and aroma retention</li>
-        <li>Longer shelf life for end customers</li>
-        <li>Better quality perception</li>
-      </ul>
-
-      <h3>2. Best Pricing</h3>
-      <p>Factory-gate rates without middlemen:</p>
-      <ul>
-        <li>15-25% cheaper than secondary markets</li>
-        <li>Direct estate pricing</li>
-        <li>Auction-based price discovery</li>
-      </ul>
-
-      <h3>3. Maximum Variety</h3>
-      <p>Access to all tea types and grades:</p>
-      <ul>
-        <li>Assam CTC (all grades)</li>
-        <li>Darjeeling Orthodox (all flushes)</li>
-        <li>Dooars specialty teas</li>
-        <li>Terai premium CTC</li>
-      </ul>
-
-      <h3>4. Reliable Supply</h3>
-      <p>Year-round availability:</p>
-      <ul>
-        <li>Multiple estate sources</li>
-        <li>Large inventory buffers</li>
-        <li>Established supply chains</li>
-      </ul>
-
-      <h3>5. Expert Guidance</h3>
-      <p>Traders with deep knowledge:</p>
-      <ul>
-        <li>Quality assessment</li>
-        <li>Blend creation</li>
-        <li>Market trends</li>
-        <li>Customer matching</li>
-      </ul>
-
-      <h2>Future Outlook</h2>
-
-      <h3>Growth Drivers</h3>
-      <ul>
-        <li><strong>Infrastructure Development:</strong> New highways, rail upgrades</li>
-        <li><strong>Digital Integration:</strong> Online auctions, e-trading platforms</li>
-        <li><strong>Export Focus:</strong> Growing international demand</li>
-        <li><strong>Organic/Specialty Teas:</strong> Premium segment expansion</li>
-      </ul>
-
-      <h3>Challenges</h3>
-      <ul>
-        <li>Climate change affecting production</li>
-        <li>Competition from other origins (Kenya, Sri Lanka)</li>
-        <li>Need for modernization</li>
-        <li>Quality consistency requirements</li>
-      </ul>
+      <h3>4. An Established, Working Auction System</h3>
+      <p>Even as the third-largest centre, Siliguri runs a real, functioning auction market with a long track record — tea sold here goes through proper price discovery, sample tasting, and transparent bidding, the same as the larger centres.</p>
 
       <h2>Frequently Asked Questions</h2>
 
-      <h3>Why is Siliguri called the tea capital of India?</h3>
-      <p>Siliguri handles 30% of India's tea trade, sits at the convergence of all major tea-producing regions (Darjeeling, Dooars, Terai, Assam), and hosts one of India's three major tea auction centers. Its strategic location makes it the primary trading hub.</p>
-
-      <h3>Is all North Bengal tea sold through Siliguri?</h3>
-      <p>Not all, but majority (60-70%). Some estates sell directly to large buyers, but most tea passes through Siliguri's auction system or private traders for price discovery and distribution.</p>
-
-      <h3>Can small buyers access Siliguri market?</h3>
-      <p>Yes! While auctions require large volumes, many Siliguri traders serve small buyers with MOQ as low as 100 kg. At Manish Tea Traders, we welcome buyers of all sizes.</p>
-
-      <h3>How does Siliguri compare to Kolkata for tea trading?</h3>
-      <p>Siliguri is the primary market (source), Kolkata is secondary (distribution). Siliguri offers:</p>
-      <ul>
-        <li>15-20% lower prices</li>
-        <li>Fresher tea (5-7 days earlier)</li>
-        <li>Better variety and estate access</li>
-      </ul>
-
-      <h3>Do I need to visit Siliguri to buy tea?</h3>
-      <p>Not mandatory, but recommended for first-time buyers to:</p>
-      <ul>
-        <li>Meet suppliers face-to-face</li>
-        <li>Understand market dynamics</li>
-        <li>Test multiple samples</li>
-        <li>Build long-term relationships</li>
-      </ul>
-      <p>Many buyers order remotely after initial visit.</p>
-
-      <h2>Conclusion</h2>
-      <p>Siliguri's dominance as the <strong>North Bengal tea hub</strong> is built on geographic advantage, robust infrastructure, and decades of expertise. For wholesale buyers, sourcing from Siliguri means accessing the freshest tea at the best prices with maximum variety. At <strong>Manish Tea Traders</strong>, we've been part of this ecosystem since 2004. <a href="/contact-us">Contact us</a> to experience the Siliguri advantage.</p>
-    
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Is Siliguri India's biggest tea market?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">No — Kolkata and Guwahati are larger by trading volume. Siliguri is the third-largest tea auction centre in India, but its close proximity to the Darjeeling, Dooars, and Assam growing regions makes it a strong choice for freshness and lower logistics cost, even without being the biggest by volume.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Do I need to visit Siliguri to buy tea?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Not necessarily. Many buyers order remotely once they've built a relationship with a supplier, though a first visit can help you meet suppliers, see samples in person, and understand the market before committing to regular orders.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Can small buyers source from Siliguri?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Yes. While formal auctions typically deal in large lots, many Siliguri-based traders — including Manish Tea Traders — serve smaller buyers directly, often with MOQs well below what the auction system itself requires.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/siliguri-tea-wholesale-market-guide-2026/">Siliguri Tea Wholesale Market 2026: Price List, MOQ &amp; Supplier Guide</a></li>
+        <li><a href="/blog/wholesale-tea-markets-india/">Where to Source Wholesale Tea in India: A Region-by-Region Buying Guide</a></li>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a></li>
       </ul>
     `,
-    keywords: "north bengal tea hub, siliguri tea, tea hub india, siliguri tea market, north bengal tea",
-    imageUrl: "/blog-images/north-bengal-tea-hub.webp",
+    keywords: "Siliguri tea hub, North Bengal tea trade, Siliguri tea auction center history, buy wholesale tea Siliguri, tea trading hub India",
+    imageUrl: "/blog-images/private-label-packaging.webp",
     lang: 'en'
   },
   {
@@ -3136,106 +2952,7 @@ export const BLOG_POSTS: BlogPost[] = [
     imageUrl: "/blog-images/assam-vs-darjeeling.webp",
     lang: 'en'
   },
-  {
-    id: "b36",
-    title: "How Siliguri Became India's Major Tea Trading Hub: Complete History (2026)",
-    slug: "how-siliguri-became-tea-trading-hub-history-2026",
-    date: "January 19, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Discover how Siliguri evolved from a small town to India's largest tea trading center. The complete historical journey.",
-    content: `
-      <p>Today, <strong>Siliguri</strong> handles over 30% of India's tea trade. But how did this small town become the nation's tea capital?</p>
 
-      <h2>The Geographic Advantage</h2>
-      <h3>The Chicken's Neck Corridor</h3>
-      <p>Siliguri sits in the narrow Siliguri Corridor, connecting Northeast India to the mainland:</p>
-      <ul>
-        <li><strong>North:</strong> Darjeeling hills (30 km)</li>
-        <li><strong>East:</strong> Dooars tea belt (20-40 km)</li>
-        <li><strong>Further East:</strong> Assam valley (200 km)</li>
-        <li><strong>Strategic Position:</strong> Gateway to 3 major tea regions</li>
-      </ul>
-
-      <h2>Historical Timeline</h2>
-      <h3>1835-1900: The Beginning</h3>
-      <ul>
-        <li><strong>1835:</strong> First tea planted in Darjeeling</li>
-        <li><strong>1856:</strong> Siliguri established as railway junction</li>
-        <li><strong>1880s:</strong> Dooars tea gardens developed</li>
-        <li><strong>1890s:</strong> First tea warehouses in Siliguri</li>
-      </ul>
-
-      <h3>1900-1947: Colonial Era Growth</h3>
-      <ul>
-        <li><strong>1905:</strong> Siliguri Tea Auction Center established</li>
-        <li><strong>1920s:</strong> Railway expansion to Assam</li>
-        <li><strong>1930s:</strong> Major trading houses set up offices</li>
-        <li><strong>1947:</strong> Partition increases strategic importance</li>
-      </ul>
-
-      <h3>1947-2000: Post-Independence Boom</h3>
-      <ul>
-        <li><strong>1950s:</strong> Government tea auctions regularized</li>
-        <li><strong>1970s:</strong> CTC processing revolution</li>
-        <li><strong>1980s:</strong> Private traders flourish</li>
-        <li><strong>1990s:</strong> Export market expansion</li>
-      </ul>
-
-      <h3>2000-Present: Modern Era</h3>
-      <ul>
-        <li><strong>2000s:</strong> Digital transformation begins</li>
-        <li><strong>2010s:</strong> E-auctions introduced</li>
-        <li><strong>2020s:</strong> Pan-India distribution networks</li>
-      </ul>
-
-      <h2>Why Siliguri Dominates</h2>
-      <h3>1. Proximity to Source</h3>
-      <p>Tea reaches Siliguri within 24-48 hours of production, ensuring maximum freshness.</p>
-
-      <h3>2. Infrastructure</h3>
-      <ul>
-        <li>Major railway junction</li>
-        <li>NH31 highway connectivity</li>
-        <li>Bagdogra Airport (12 km)</li>
-        <li>Modern warehousing facilities</li>
-      </ul>
-
-      <h3>3. Auction System</h3>
-      <p>One of India's 3 major tea auction centers, providing transparent price discovery.</p>
-
-      <h3>4. Expertise Concentration</h3>
-      <ul>
-        <li>200+ registered tea traders</li>
-        <li>Generations of tea tasting expertise</li>
-        <li>Established buyer-seller networks</li>
-      </ul>
-
-      <h2>Economic Impact Today</h2>
-      <ul>
-        <li><strong>Annual Turnover:</strong> ₹3,000+ crores</li>
-        <li><strong>Direct Employment:</strong> 50,000+ people</li>
-        <li><strong>Tea Volume:</strong> 200+ million kg annually</li>
-        <li><strong>Export Contribution:</strong> ₹500+ crores</li>
-      </ul>
-
-      <h2>Manish Tea Traders Legacy</h2>
-      <p>Since 2004, we've been part of Siliguri's tea trading heritage:</p>
-      <ul>
-        <li>Direct estate relationships</li>
-        <li>Quality-first approach</li>
-        <li>Pan-India distribution</li>
-      </ul>
-      <p><a href="/about-us">Learn about our journey</a> or <a href="/contact-us">partner with us</a>.</p>
-    
-
-      <h3>Related Reading</h3>
-      <ul>
-      </ul>
-    `,
-    keywords: "siliguri tea history, tea trading hub, siliguri tea market history",
-    imageUrl: "/blog-images/vintage-tea-train.webp",
-    lang: 'en'
-  },
   {
     id: "b37",
     title: "How to Verify a Genuine Tea Supplier in India: Complete Checklist (2026)",
