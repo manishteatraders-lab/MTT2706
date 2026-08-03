@@ -2560,7 +2560,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "Siliguri tea hub, North Bengal tea trade, Siliguri tea auction center history, buy wholesale tea Siliguri, tea trading hub India",
-    imageUrl: "/blog-images/private-label-packaging.webp",
+    imageUrl: "/blog-images/siliguri-tea-hub-map.webp",
     lang: 'en'
   },
   {
