@@ -11,39 +11,122 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How to Blend Tea for Your Own Tea Packing Brand",
     slug: "how-to-blend-tea-for-packing",
     date: "April 24, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Starting a tea brand? Don't just pack single-source tea. Learn the professional art of tea blending to create a signature taste profile that your customers will love.",
+    author: "Jaleshwar Ray",
+    excerpt: "Learn the professional 40-50% base / 30-40% strength / 10-20% aroma formula used to blend tea for your own packing brand. Tested for local water and profitability.",
     content: `
-      <p>When starting a tea packaging brand, many new entrepreneurs make the mistake of buying just one grade of tea and packing it directly. However, the secret behind every successful national brand—from Tata Tea to Wagh Bakri—is <strong>expert blending</strong>. Blending ensures that your product tastes identical in July as it does in November, despite natural agricultural variations.</p>
+      <p>Many new tea brand owners make one big mistake: they buy just one type of tea and pack it as it is. But the real secret behind big national brands like Tata Tea and Wagh Bakri is <strong>expert blending</strong>. A good blend tastes the same every month, even if the raw tea leaves change a little with the season. That is what blending does — it keeps the taste steady, batch after batch.</p>
 
-      <h2>The Structure of a Perfect Tea Blend</h2>
-      <p>A professional blend consists of three distinct components:</p>
+      <h2>The 3 Parts of a Good Tea Blend</h2>
+      <p>A good blend has three parts. Think of them as three knobs you adjust until the tea tastes right:</p>
 
-      <h3>1. The Base (Body & Thickness) - 40% to 50%</h3>
-      <p>Your base tea provides the "thickness" or "karak-pan". Most North Indian and Central Indian brands use <strong>Dooars CTC (BOPSM or BP grades)</strong> for this. It gives a heavy, satisfying mouthfeel that holds up well against boiling milk.</p>
+      <h3>1. The Base (Body) — 40% to 50%</h3>
+      <p>This gives the tea its "thickness," or <em>karak-pan</em>. Most North and Central Indian brands use <strong>Dooars CTC (BOPSM or BP grade)</strong> for this. It makes the tea feel strong and full, especially with milk — which is how most Indians drink their tea.</p>
 
-      <h3>2. The Strength (Color & Briskness) - 30% to 40%</h3>
-      <p>To get that bright golden-red liquor, you need strength. Premium <strong>Assam CTC</strong> is the undisputed king here. While Assam tea is more expensive, mixing it into your base elevates the entire cup, giving it a brisk, lively kick.</p>
+      <h3>2. The Strength (Colour) — 30% to 40%</h3>
+      <p>This gives the tea its bright red-golden colour. <strong>Assam CTC</strong> is the best for this. It costs more than Dooars tea, but even a small amount makes the tea brighter and stronger.</p>
 
-      <h3>3. The Top Note (Aroma & Flavor) - 10% to 20%</h3>
-      <p>The final touch is the aroma you smell when the packet is opened. A small percentage of High-grown <strong>Darjeeling Dust or Fannings</strong>, or specific fragrant orthodox leaves, provide this signature scent. This small addition makes the tea feel "premium" to the customer.</p>
+      <h3>3. The Top Note (Smell) — 10% to 20%</h3>
+      <p>This is the smell you notice when you open the packet. A little bit of high-grown <strong>Darjeeling dust</strong> or a fragrant leaf does the job. It's a small amount, but it makes the tea feel "premium."</p>
 
-      <h2>How to Match Your Local Water Quality</h2>
-      <p>Water chemistry changes how tea brews! If you are selling in an area with "hard water" (high mineral content like calcium), you must increase your Assam ratio for extra strength to break through the minerals. If selling in a "soft water" area, a lighter Dooars blend will brew beautifully.</p>
+      <h2>How Professional Blenders Test Before Blending: The Table Blend Method</h2>
+      <p>Good blenders don't just guess a ratio and make a full batch. Every batch of tea leaves is a little different, so they test first. This is called a "table blend." Here's how it works:</p>
 
-      <div style="text-align: center; margin: 30px 0;">
-        <a href="/tea-blend-calculator" style="background-color: #588157; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Need Help? Use our Free Tea Blend Calculator →</a>
+      <ul>
+        <li><strong>Test each tea alone first.</strong> Before mixing anything, smell and taste each tea by itself. Brew a small amount (2-3 grams in 100-150ml water) and check the colour, smell, and taste.</li>
+        <li><strong>Throw out any tea that fails on its own.</strong> If a tea tastes flat, raw, or harsh, don't use it — even a small amount will hurt the final blend. It's much easier to start with good tea than to fix bad tea later.</li>
+        <li><strong>Make a small trial batch — 50g to 100g.</strong> Mix your teas at the ratio you want, but only a small amount first.</li>
+        <li><strong>Taste the mix, not just the parts.</strong> Sometimes two good teas don't taste good together. Watch out for an uneven colour — this often happens when you mix a golden tea and a red tea without enough tea to bridge them.</li>
+        <li><strong>Add milk before you judge.</strong> Most people in India drink tea with milk. So always taste your blend with milk before deciding if it's good. A blend can look perfect without milk but taste flat once milk is added.</li>
+        <li><strong>Adjust and try again.</strong> If it's not right, change the ratio a little (try 5% at a time) and taste again. Only move to a full batch once the small trial tastes right.</li>
+      </ul>
+      <p>This takes more time than just guessing a ratio once. But it's the reason some blends taste the same every time, and others don't.</p>
+
+      <h2>Why Tasting Matters More Than the Ratio</h2>
+      <p>It's easy to think a ratio is like a fixed recipe — "45% Dooars, 35% Assam, 15% Darjeeling, done." But real tea isn't that simple. The same type of tea from two different weeks can taste different.</p>
+      <p>So a ratio is just a starting point, not a fixed rule. This is why tasting is the most important skill for anyone running a tea brand. A trained tongue can catch a bad batch before it goes into full production. If you're new to this, practice tasting often. Compare your blend to a tea you're trying to match. Write down what "good" tastes like, so you don't have to rely only on memory.</p>
+
+      <h2>Match Your Blend to Your Local Water</h2>
+      <p>Water changes how tea tastes. This is something many new brand owners forget:</p>
+      <ul>
+        <li><strong>Hard water</strong> (water with more minerals — common in parts of Rajasthan, Gujarat, Delhi-NCR, and Punjab-Haryana) makes tea taste weaker and duller. In these places, use more Assam tea to get a strong, bright cup.</li>
+        <li><strong>Soft water</strong> (water with fewer minerals — common in West Bengal, the North East, and parts of coastal India) brings out colour and strength easily. A lighter Dooars-based blend works well here.</li>
+        <li><strong>Mineral-heavy water</strong> in industrial and mining areas (like parts of Jharkhand) needs special care too. A blend that tastes great in Kolkata might taste flat or bitter there.</li>
+      </ul>
+      <p>If you sell in more than one area, don't use the same blend everywhere. Test your blend with the actual water from each area you plan to sell in.</p>
+
+      <h2>A Simple Cost Example</h2>
+      <p>Say you want your blend to cost ₹280-300/kg. Here's how the three parts might add up:</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Part</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Ratio</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Cost per kg</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Cost in the blend</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Base — Dooars CTC (BOPSM/BP)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">45%</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹150/kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹67.50</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Strength — Assam CTC</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">35%</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹280/kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹98.00</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Top note — Darjeeling dust</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">20%</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹450/kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹90.00</td>
+          </tr>
+          <tr style="font-weight: bold; background-color: #f9fafb;">
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Total blend cost</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">100%</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">—</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">≈ ₹255.50/kg</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><em>(These prices are just examples. Garden prices change with the season, so check current rates before you finalise your blend.)</em></p>
+
+      <p>This leaves about ₹25-45/kg for packing, labour, and profit — a workable gap for a family-style blend. If your trial batch costs too much, try cutting the top note a little (it's the most expensive part) and add a bit more base instead. Then taste again to make sure the smell is still good.</p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0; text-align: center;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">You don't need to do this math by hand. Our free Tea Blend Calculator does it for you — just enter your ratios and it shows your cost per kg and your profit margin:</p>
+        <a href="/tea-blend-calculator" style="background-color: #15803d; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Open Free Tea Blend Calculator →</a>
       </div>
 
-      <h2>Getting Started with Your First Blend</h2>
-      <p>If you're unsure, don't worry. At <strong>Manish Tea Traders</strong>, we have over 20 years of blending experience. When you opt for our <a href="/services/private-label-tea">Private Label Tea Service</a>, our master blenders will reverse-engineer a blend specifically for your target demographic and budget.</p>
-    
+      <h2>A Quick Checklist Before You Make a Full Batch</h2>
+      <p>Check for these warning signs before scaling up your trial blend:</p>
+      <ul>
+        <li><strong>Uneven colour</strong> — mixing a golden tea and a red tea without enough of a bridging tea often looks patchy.</li>
+        <li><strong>Weak smell</strong> — if the top note isn't strong enough, the packet won't smell good when opened.</li>
+        <li><strong>Harsh or raw taste</strong> — this usually means one tea wasn't tested and rejected before mixing.</li>
+        <li><strong>Good without milk, bad with milk</strong> — always do your final check with milk, since that's how most people drink it.</li>
+      </ul>
+
+      <h2>Getting Started With Your First Blend</h2>
+      <p>Not sure where to start? You don't have to figure it out alone. At <strong>Manish Tea Traders</strong>, we've been sourcing and blending tea from Siliguri since 2004. We use the same table-blend and taste-test method described above, batch after batch, for over 20 years.</p>
+      <p>If you choose our <a href="/services/private-label-tea">Private Label Tea Service</a>, our team will build a blend made for your customers, your local water, and your budget — so you can skip the trial and error.</p>
+
+      <div style="margin: 25px 0;">
+        <a href="/services/private-label-tea" style="background-color: #3a4d23; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Learn more about our Private Label Tea Service →</a>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/tea-grades">Tea Grades Explained: Understanding BP, BOP, Dust &amp; Orthodox Leaf</a></li>
+        <li><a href="/blog/starting-own-tea-brand-private-label-guide-2026/">Starting Your Own Tea Brand in India: A Private Label Guide</a></li>
+        <li><a href="/blog/tea-business-profit-margin-guide-2025/">Tea Business Profit Margin Guide (2026)</a></li>
       </ul>
     `,
-    keywords: "how to blend tea, tea blending techniques, tea packing business, start tea brand, tea mixing ratio",
+    keywords: "how to blend tea, tea blending techniques, tea packing business, start tea brand, tea mixing ratio, tea tasting guide",
     imageUrl: "/blog-images/private-label-packaging.webp",
     lang: 'en'
   },
