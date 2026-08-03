@@ -102,6 +102,64 @@ export const BLOG_POSTS: BlogPost[] = [
         <a href="/tea-blend-calculator" style="background-color: #15803d; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Open Free Tea Blend Calculator →</a>
       </div>
 
+      <h2>Real Example: A ₹160/kg Hotel Blend We Built for a Client</h2>
+      <p>The family blend example above is good for a retail packet brand. But not every client needs the same thing. Here's a real case to show how different the ratios can be.</p>
+
+      <p>A hotel client came to us needing a tea for mass chai service — made in large batches all day, served to guests, and brewed in big urns with milk and sugar. Their target was a strict <strong>₹160/kg</strong>. Hotels care about strength and colour per gram, not aroma. The tea gets diluted at scale, so it needs to be strong enough to hold up.</p>
+
+      <p>Here's the blend we built:</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Part</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Ratio</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Cost/kg</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Contribution</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Base — Dooars CTC (BP/Dust, for max strength)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">70%</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹150/kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹105.00</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Strength — Assam CTC (economy grade)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">30%</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹183/kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹54.90</td>
+          </tr>
+          <tr style="font-weight: bold; background-color: #f9fafb;">
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Total</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">100%</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">—</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">≈ ₹160/kg</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><em>(Illustrative figures — actual garden rates shift with the season.)</em></p>
+
+      <p>Notice what changed compared to the family blend: the base jumped to <strong>70%</strong> instead of 40-50%, and there's <strong>no top note at all</strong>. That's because hotel chai doesn't need a nice opening smell — it just needs to be strong, consistent, and hold up well with milk and sugar. Cutting the Darjeeling top note entirely is what kept the cost exactly on target.</p>
+
+      <p><strong>What about adding Darjeeling fannings?</strong> We can add a small amount (around 5%) if a client wants a slightly rounder aroma — but it pushes cost above ₹160/kg. For most hotel chai service, the plain two-component blend does the job. We only add it when the client specifically asks.</p>
+
+      <p>We tested this the same way as any other blend: tasted each component alone first, ran a 50g trial, then confirmed it with milk (the way the hotel kitchen actually brews it). The blend landed right on ₹160/kg.</p>
+
+      <div style="margin: 25px 0; border-radius: 12px; overflow: hidden; background: #000; aspect-ratio: 9/16; max-width: 320px;">
+        <iframe
+          src="https://www.youtube.com/embed/n6aKKW5fx-o"
+          title="Hotel Tea Blend — Manish Tea Traders"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="width: 100%; height: 100%; border: none;"
+        ></iframe>
+      </div>
+
+      <p>This is the kind of work our <a href="/services/private-label-tea">Private Label Tea Service</a> does — a blend built for your price point, your use case, and tested before it ever reaches your kitchen.</p>
+
       <h2>A Quick Checklist Before You Make a Full Batch</h2>
       <p>Check for these warning signs before scaling up your trial blend:</p>
       <ul>
