@@ -95,8 +95,8 @@ export default async function BlogPost({ params }: Props) {
 
     const finalCta = isBlendingPost ? blendCtaHtml : generalCtaHtml;
 
-    // Skip injection if the post already has a calculator link inline (avoids duplicates)
-    if (html.includes('/tea-blend-calculator')) {
+    // Skip injection if the post already has a calculator or sample link inline (avoids duplicates)
+    if (html.includes('/tea-blend-calculator') || html.includes('/request-free-tea-samples')) {
       return html;
     }
 
