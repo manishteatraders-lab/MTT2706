@@ -48,6 +48,11 @@
       "source": "/product/private-label-tea/",
       "destination": "/services/private-label-tea/",
       "permanent": true
+    },
+    {
+      "source": "/blog/tea-blending-secrets/",
+      "destination": "/blog/how-to-blend-tea-for-packing/",
+      "permanent": true
     }
   ]
 }

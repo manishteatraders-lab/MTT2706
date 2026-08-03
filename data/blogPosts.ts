@@ -509,45 +509,6 @@ export const BLOG_POSTS: BlogPost[] = [
     lang: 'en'
   },
   {
-    id: "b2",
-    title: "5 Secrets to Profitable Tea Blending",
-    slug: "tea-blending-secrets",
-    date: "January 20, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Tea blending is an art and a science. Learn how to mix different grades to create the perfect cup for your customers.",
-    content: `
-      <p>Ever wondered why "Tata Tea Gold" or "Taj Mahal" tastes the same every single time, year after year? It's not magic; it's <strong>blending</strong>.</p>
-
-      <h2>1. Consistency is King</h2>
-      <p>Tea is a natural agricultural product. A batch plucked in June tastes different from a batch plucked in October. A blender's job is to mix them so the final packet tastes identical.</p>
-
-      <h2>2. The Ratio Rule (Example)</h2>
-      <p>A classic household blend often uses:</p>
-      <ul>
-        <li><strong>50% Dooars CTC (for body/thickness)</strong></li>
-        <li><strong>30% Assam CTC (for strength/color)</strong></li>
-        <li><strong>20% Darjeeling/Orthodox (for aroma)</strong></li>
-      </ul>
-
-      <h2>3. Never Compromise on Base Tea</h2>
-      <p>You can hide a weak aroma with additives, but you cannot hide a watery tea. Always ensure your base (usually Dooars or Assam CTC) has good "keeping quality".</p>
-
-      <h2>4. Know Your Customer's Water</h2>
-      <p>Yes, water matters! Hard water kills tea flavor. If you sell in an area with hard water, you need a stronger, maltier blend (more Assam).</p>
-
-      <h2>5. Taste Before You Buy</h2>
-      <p>Never buy bulk tea based on photos. Always ask for samples. At <strong>Manish Tea Traders</strong>, you can <a href="/request-free-tea-samples/">get a free sample to test</a> our signature blends so you know exactly what you are paying for.</p>
-    
-
-      <h3>Related Reading</h3>
-      <ul>
-      </ul>
-    `,
-    keywords: "tea blending techniques, how to blend tea, tea tasting guide, profitable tea business",
-    imageUrl: "/blog-images/tea-business-planning.webp",
-    lang: 'en'
-  },
-  {
     id: "b3",
     title: "Why Siliguri is India’s Biggest Tea Trading Hub",
     slug: "siliguri-tea-market",
