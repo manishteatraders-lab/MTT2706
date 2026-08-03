@@ -392,7 +392,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea blend calculator, tea blending ratio, how to blend tea, wholesale tea blending, tea business tools",
-    imageUrl: "/blog-images/tea-quality-testing.webp",
+    imageUrl: "/blog-images/tea-blend-calculator-guide.webp",
     lang: 'en'
   },
   {
