@@ -39,9 +39,9 @@ const Hero: React.FC = () => {
           <span className="inline-block py-1 px-3 rounded-full bg-tea-500/90 text-white text-sm font-semibold mb-6 backdrop-blur-sm shadow-lg border border-tea-400/30">
             ★ Top Rated Wholesale Supplier | Est. 2004
           </span>
-          <h1 className="text-5xl lg:text-7xl font-bold text-white font-serif mb-6 leading-tight drop-shadow-lg">
+          <h1 className="text-4xl lg:text-6xl font-bold text-white font-serif mb-6 leading-tight drop-shadow-lg">
             Manish Tea Traders
-            <span className="text-tea-300 block text-2xl lg:text-3xl mt-4 font-sans tracking-wide">Siliguri's Trusted Tea Trader</span>
+            <span className="text-tea-300 block text-xl lg:text-2xl mt-4 font-sans tracking-wide font-normal">Wholesale Tea Supplier &amp; Tea Trader in Siliguri — Bulk CTC, Darjeeling &amp; Assam Tea</span>
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-100 mb-2 leading-relaxed font-light">
             Sourced directly from tea auctions and private factories — we supply CTC, Darjeeling, Assam &amp; Nepal tea in bulk to retailers, distributors, hotels, and private label brands across India.
@@ -106,9 +106,9 @@ const Hero: React.FC = () => {
 
           {/* Heading Structure — h2 on mobile to avoid duplicate H1 (desktop has the canonical H1) */}
           <div className="mb-4 text-center mt-2">
-            <h2 className="text-white text-[32px] font-serif font-bold leading-[1.1] mb-3 drop-shadow-lg">
+            <h2 className="text-white text-[26px] font-serif font-bold leading-[1.2] mb-3 drop-shadow-lg">
               Manish Tea Traders
-              <span className="text-tea-300 block text-[18px] mt-3 font-sans tracking-wide font-normal">Siliguri's Trusted Tea Trader</span>
+              <span className="text-tea-300 block text-[15px] mt-2 font-sans tracking-wide font-normal">Wholesale Tea Supplier &amp; Tea Trader in Siliguri — Bulk CTC, Darjeeling &amp; Assam Tea</span>
             </h2>
           </div>
 

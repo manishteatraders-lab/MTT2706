@@ -71,11 +71,11 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-white font-semibold mb-4 underline decoration-tea-500 decoration-2 underline-offset-8">Supply Network</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="/wholesale-supply/siliguri-tea-supplier" className="hover:text-white transition-colors">Siliguri (HQ)</Link></li>
-              <li><Link href="/wholesale-supply/kolkata-tea-supplier" className="hover:text-white transition-colors">Kolkata</Link></li>
-              <li><Link href="/wholesale-supply/tea-wholesaler-patna-bihar" className="hover:text-white transition-colors">Patna / Bihar</Link></li>
-              <li><Link href="/wholesale-supply/tea-wholesaler-jaipur-rajasthan" className="hover:text-white transition-colors">Jaipur</Link></li>
-              <li><Link href="/wholesale-tea-suppliers-india" className="hover:text-white transition-colors">Wholesale India</Link></li>
+              <li><Link href="/wholesale-supply/siliguri-tea-supplier" className="hover:text-white transition-colors">Tea Supplier in Siliguri (HQ)</Link></li>
+              <li><Link href="/wholesale-supply/kolkata-tea-supplier" className="hover:text-white transition-colors">Wholesale Tea Supplier in Kolkata</Link></li>
+              <li><Link href="/wholesale-supply/tea-wholesaler-patna-bihar" className="hover:text-white transition-colors">Tea Wholesaler in Patna (Bihar)</Link></li>
+              <li><Link href="/wholesale-supply/tea-wholesaler-jaipur-rajasthan" className="hover:text-white transition-colors">Tea Wholesaler in Jaipur</Link></li>
+              <li><Link href="/wholesale-tea-suppliers-india" className="hover:text-white transition-colors">Wholesale Tea Suppliers India</Link></li>
               <li><Link href="/locations" className="text-tea-400 hover:text-white transition-colors font-semibold mt-2 inline-block">View All Cities →</Link></li>
             </ul>
           </div>

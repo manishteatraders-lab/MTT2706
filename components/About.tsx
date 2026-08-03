@@ -52,8 +52,11 @@ const About: React.FC<AboutProps> = ({ isHomePage = false }) => {
               </h1>
             )}
             <div className="w-20 h-1 bg-tea-500 mb-6"></div>
-            <p className="text-lg text-gray-700 mb-6 leading-relaxed font-medium">
-              Manish Tea Traders is a trusted wholesale tea supplier located in Siliguri, West Bengal. Established in {BUSINESS_DETAILS.established}.
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed font-medium">
+              Manish Tea Traders is a trusted wholesale tea supplier located in Siliguri, West Bengal. Established in {BUSINESS_DETAILS.established}, we specialize in direct garden sourcing of CTC, Assam, and Darjeeling teas.
+            </p>
+            <p className="text-gray-600 mb-6 leading-relaxed">
+              Starting a tea business or looking to expand your supply? We supply everything from bulk CTC tea to private-label blends for tea stalls, kirana stores, retailers, and distributors across India. Read our <a href="/blog/high-profit-tea-business-ideas/" className="text-tea-700 font-bold underline hover:text-tea-900">7 High-Profit Tea Business Ideas</a> or explore our <a href="/blog/tea-business-profit-margin-guide-2025/" className="text-tea-700 font-bold underline hover:text-tea-900">Tea Business Profit Margin Guide</a> to plan your business.
             </p>
             
             {!isHomePage && (

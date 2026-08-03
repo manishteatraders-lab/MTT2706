@@ -53,6 +53,26 @@ const jsonLd = [
       "reviewCount": "47",
       "bestRating": "5"
     },
+    "review": [
+      {
+        "@type": "Review",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "author": { "@type": "Person", "name": "Ramesh K." },
+        "reviewBody": "Great quality tea at reasonable price. One of the best wholesalers in Siliguri."
+      },
+      {
+        "@type": "Review",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "author": { "@type": "Person", "name": "Amit Roy" },
+        "reviewBody": "Fresh stock and timely delivery. Highly recommended for retailers. I have been buying from them for 2 years."
+      },
+      {
+        "@type": "Review",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "author": { "@type": "Person", "name": "Suresh Das" },
+        "reviewBody": "Excellent blends. Perfect strength and colour. My hotel customers love the tea."
+      }
+    ],
     "priceRange": "₹₹",
     "areaServed": "India",
     "sameAs": [
