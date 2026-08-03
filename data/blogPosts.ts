@@ -639,12 +639,7 @@ export const BLOG_POSTS: BlogPost[] = [
     `,
     keywords: "Darjeeling tea flushes, first flush vs second flush, buy darjeeling tea wholesale, monsoon flush darjeeling, autumn flush darjeeling",
     imageUrl: teaOrthodoxWhole,
-    lang: 'en',
-    faqSchema: [
-      { question: "What is the difference between First Flush and Second Flush Darjeeling?", answer: "First Flush (March–April) is light, floral and delicate with pale yellow liquor — priced ₹800–2500/kg for the premium market. Second Flush (May–June) has the famous muscatel grape-like character with amber liquor, stronger body and better commercial viability at ₹500–1500/kg. Second Flush is the better choice for wholesale and retail blends." },
-      { question: "Which Darjeeling flush is best for wholesale business?", answer: "Second Flush Darjeeling offers the best value for wholesale — it has the signature muscatel character buyers recognise at more accessible prices than First Flush. Monsoon Flush is ideal for labelled blends and tea bags where origin matters but budget is key. For export, First Flush commands the highest premiums." },
-      { question: "What is the wholesale price of Darjeeling tea in 2026?", answer: "Darjeeling Orthodox tea wholesale prices in 2026 range from ₹350–500/kg for blend grade, ₹800–2000/kg for Second Flush from reputable gardens, and ₹1200–3000/kg for prized First Flush. Prices vary significantly by garden reputation and flush season. Contact Manish Tea Traders for current availability and pricing." }
-    ]
+    lang: 'en'
   },
   {
     id: "b5",
