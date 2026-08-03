@@ -543,43 +543,101 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b4",
-    title: "Darjeeling Tea Flush Guide 2026 — First vs Second Flush Complete Guide",
+    title: "Darjeeling Tea Flush Guide for Wholesale Buyers: First, Second, Monsoon & Autumn Explained",
     slug: "darjeeling-tea-flush-guide",
     date: "February 1, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "First Flush is floral and rare, Second Flush is Muscatel magic. We explain the taste profiles, price differences and why it matters for your wholesale business.",
+    author: "Jaleshwar Ray",
+    excerpt: "A complete wholesale buyer's guide to Darjeeling tea flushes — First, Second, Monsoon, and Autumn explained with taste profiles, price ranges, and sourcing advice.",
     content: `
-      <p>Darjeeling tea is unique because it tastes completely different depending on <em>when</em> it is plucked. These harvest periods are called "Flushes".</p>
+      <p>If you're a distributor, exporter, or wholesaler looking to stock Darjeeling tea, you'll keep running into one word: <strong>flush</strong>. It's the single biggest factor that decides the taste, the price, and the right use case for any batch of Darjeeling tea you buy. Get the flush wrong for your market, and you'll either overpay for a delicate tea your customers don't appreciate, or underwhelm buyers expecting the real "Champagne of Teas" experience.</p>
 
-      <h2>First Flush (Spring: Feb - April)</h2>
-      <p>This is the very first harvest after the winter dormancy. The leaves are tender and light green.</p>
+      <p>This guide explains all four Darjeeling flushes in plain language, and — more importantly for a wholesale buyer — which one actually fits your business.</p>
+
+      <h2>What Is a "Flush"?</h2>
+      <p>A flush is simply a harvest period. Darjeeling's tea bushes don't grow leaf continuously through the year — they go through cycles of active growth and rest, driven by the region's seasons. Each harvest window produces leaf with a noticeably different taste, colour, and aroma, even though it's the same tea bushes on the same estate. This is what makes Darjeeling unique among Indian teas: the "vintage" matters almost as much as the garden.</p>
+
+      <p>There are four recognised flushes. Most buyer guides only talk about the first two — but if you're sourcing for blends, tea bags, or budget-conscious retail, the ones people skip are often the most useful to you.</p>
+
+      <h2>1. First Flush (Spring: February–April)</h2>
+      <p>The first harvest after winter dormancy. The leaves are young, tender, and light green.</p>
       <ul>
-        <li><strong>Taste:</strong> Very light, floral, grassy, and delicate. The liquor is pale yellow.</li>
-        <li><strong>Market:</strong> Highly prized for exports. Sold as premium "Champagne of Teas" in the <a href="/products/orthodox-leaf/">Darjeeling orthodox wholesale</a> market.</li>
+        <li><strong>Taste:</strong> Very light, floral, and grassy, with a delicate character and a pale yellow liquor.</li>
+        <li><strong>Best for:</strong> Premium retail packs and export. This is the flush that earns Darjeeling its "Champagne of Teas" reputation, and it commands the highest prices of the year — the very top micro-lots from famous estates have occasionally fetched extraordinary record prices (well into five figures per kg) at auction, though that's the exception, not what typical wholesale trade looks like.</li>
+        <li><strong>Wholesale price range:</strong> Roughly ₹800–2,500/kg for standard garden lots, depending on estate reputation and grade. Ultra-premium micro-lots go well beyond this.</li>
       </ul>
 
-      <h2>Second Flush (Summer: May - June)</h2>
-      <p>The sun is stronger, and the leaves mature. This is the most famous Darjeeling tea.</p>
+      <h2>2. Second Flush (Summer: May–June)</h2>
+      <p>The sun is stronger and the leaves mature, producing what most people picture when they think of "real" Darjeeling tea.</p>
       <ul>
-        <li><strong>Taste:</strong> The famous "Muscatel" flavor (tastes like muscat grapes). The liquor is amber/copper.</li>
-        <li><strong>Market:</strong> The standard for a good cup of black Darjeeling tea without milk.</li>
+        <li><strong>Taste:</strong> The famous muscatel character — a grape-like sweetness, with a fuller body and amber/copper liquor.</li>
+        <li><strong>Best for:</strong> Wholesale and retail black tea, sold without milk. This is the most commercially recognisable flush, and often the best balance of price and quality for a wholesale buyer building a Darjeeling range.</li>
+        <li><strong>Wholesale price range:</strong> Roughly ₹500–1,500/kg from reputable gardens.</li>
       </ul>
 
-      <h2>Autumn Flush (Oct - Nov)</h2>
-      <p>Harvested before winter sets in.</p>
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
+
+      <h2>3. Monsoon Flush (June/July–September) — The One Most Guides Skip</h2>
+      <p>Harvested during the rainy season, when growth is fast but the leaf quality is less refined than spring or summer picks.</p>
       <ul>
-        <li><strong>Taste:</strong> Stronger, darker, slightly creamy. Can sometimes take a drop of milk.</li>
-        <li><strong>Price:</strong> Generally more affordable than First/Second flush.</li>
+        <li><strong>Taste:</strong> Stronger, plainer, and less aromatic than First or Second Flush — but still recognisably Darjeeling.</li>
+        <li><strong>Best for:</strong> This is genuinely important for a wholesale buyer to know: Monsoon Flush is the standard choice for commercial tea bags, blends, and iced tea formats, where a lighter, more affordable Darjeeling character is needed as a component rather than the star of the cup. If you're building a private-label blend and want a genuine Darjeeling top note without paying First or Second Flush prices, this is usually the right flush to ask for.</li>
+        <li><strong>Wholesale price range:</strong> Typically the most affordable of the four — often under ₹350–500/kg, making it the practical choice for blending at scale.</li>
       </ul>
 
-      <p>Looking for authentic Darjeeling Leaf? Check our <strong>Products page</strong> for current availability.</p>
-    
+      <h2>4. Autumn Flush (October–November)</h2>
+      <p>Harvested as the plants prepare for winter dormancy.</p>
+      <ul>
+        <li><strong>Taste:</strong> Stronger, darker, and slightly rounder than the earlier flushes, with less of the sharp brightness of First Flush. Some buyers find it takes a small amount of milk better than First or Second Flush.</li>
+        <li><strong>Best for:</strong> A good middle-ground option — more character than Monsoon Flush, generally more affordable than First or Second Flush.</li>
+        <li><strong>Wholesale price range:</strong> Generally positioned between Monsoon and Second Flush pricing, though it varies by garden.</li>
+      </ul>
+
+      <h2>Which Flush Should You Actually Buy?</h2>
+      <p>This is the real question for a distributor or exporter, and the answer depends entirely on what you're selling:</p>
+
+      <ul>
+        <li><strong>Exporting or building a premium retail line?</strong> First Flush, for the prestige and price point buyers expect from authentic Darjeeling.</li>
+        <li><strong>Selling standard black Darjeeling to retail or wholesale customers?</strong> Second Flush — the best-known, most in-demand style, and usually the easiest to sell at a fair margin.</li>
+        <li><strong>Building a private-label blend, tea bag line, or iced tea product?</strong> Monsoon Flush — genuine Darjeeling character at a price that works for blending.</li>
+        <li><strong>Want something distinctive between the extremes?</strong> Autumn Flush — a good option for buyers who want more character than Monsoon Flush without paying premium-season prices.</li>
+      </ul>
+
+      <h2>A Note on MOQ and Sourcing</h2>
+      <p>Wholesale Darjeeling doesn't need to mean container-scale orders. Many Siliguri-based suppliers — including <strong>Manish Tea Traders</strong> — work with distributors and smaller importers on MOQs well below what you'd need to buy directly from an estate or a full auction lot. If you're a first-time Darjeeling buyer, requesting samples across two or three flushes before committing to a bulk order is the safest way to match the right flush to your market.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is the difference between First Flush and Second Flush Darjeeling?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">First Flush (February–April) is light, floral, and delicate, with a pale yellow liquor — generally the most expensive of the four flushes. Second Flush (May–June) has the famous muscatel, grape-like character, a fuller body, and amber liquor, and is usually the better commercial choice for standard wholesale and retail black tea.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Which Darjeeling flush is best for a wholesale or private-label business?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">For standard retail black tea, Second Flush offers the best balance of recognisable quality and commercial price. For blends, tea bags, or budget-conscious private label, Monsoon Flush gives you genuine Darjeeling character at the most affordable price point. For export or premium positioning, First Flush commands the highest prices and prestige.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is the wholesale price of Darjeeling tea in 2026?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Indicative wholesale ranges: Monsoon Flush blend-grade from roughly ₹350–500/kg, Autumn Flush in between, Second Flush from reputable gardens around ₹500–1,500/kg, and First Flush from ₹800–2,500/kg for standard garden lots (exceptional micro-lots can go far higher). Prices vary significantly by garden reputation, grade, and season — contact us for current availability and exact rates.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Do I need to buy a full auction lot to source Darjeeling tea?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">No. Many Siliguri-based wholesalers work with much smaller MOQs than a full auction lot requires, making it practical for smaller distributors and private-label brands to source authentic Darjeeling without container-scale commitments.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/assam-vs-darjeeling-chai-comparison-2026/">Assam vs. Darjeeling: What's the Difference?</a></li>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a></li>
+        <li><a href="/tea-grades">Tea Grades Explained: Understanding BP, BOP, Dust &amp; Orthodox Leaf</a></li>
       </ul>
     `,
-    keywords: "Darjeeling tea flushes, first flush vs second flush, buy darjeeling tea",
+    keywords: "Darjeeling tea flushes, first flush vs second flush, buy darjeeling tea wholesale, monsoon flush darjeeling, autumn flush darjeeling",
     imageUrl: teaOrthodoxWhole,
     lang: 'en',
     faqSchema: [
