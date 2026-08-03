@@ -441,7 +441,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b1",
-    title: "Best Wholesale Tea Markets in India (2026 Guide)",
+    title: "Where to Source Wholesale Tea in India: A Region-by-Region Buying Guide",
     slug: "wholesale-tea-markets-india",
     date: "January 15, 2026",
     author: "Jaleshwar Ray",
