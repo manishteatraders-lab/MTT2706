@@ -445,41 +445,66 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "wholesale-tea-markets-india",
     date: "January 15, 2026",
     author: "Jaleshwar Ray",
-    excerpt: "Looking for the best wholesale tea markets in India? From Siliguri to Kolkata, we rank the top markets for price, variety, and freshness.",
+    excerpt: "Where to source wholesale tea in India: a region-by-region buying guide covering Siliguri, Kolkata, Guwahati, Nilgiris (Coonoor/Kochi), and Jalpaiguri.",
     content: `
-      <p>Tea is the second most consumed beverage in the world, and in India, it's a religion. For a tea business owner, sourcing is everything. If you buy right, you sell right.</p>
+      <p>Tea is the second most consumed beverage in the world, and in India, it's a religion. For a tea business owner, sourcing is everything — if you buy right, you sell right. India runs its tea trade through a small number of official auction centres, each tied to a different growing region, and each with its own character. Here's a real, working guide to which region to source from and why.</p>
 
-      <h2>1. Siliguri Tea Auction Center (West Bengal)</h2>
-      <p><strong>The Hub of North Bengal.</strong> Siliguri is the gateway to the Northeast and sits right in the middle of the tea-growing regions (Darjeeling, Dooars, and Terai).</p>
+      <h2>1. Siliguri (West Bengal) — North Bengal's Trading Hub</h2>
+      <p>Siliguri is the gateway to the Northeast and sits right in the middle of the tea-growing regions — Darjeeling, Dooars, and Terai — giving it the freshest stock of any market, since it's closest to the gardens. It's also where we're based, so we've written a full, dedicated breakdown of the market, current price ranges, top trading areas, and buying process:</p>
+
+      <p><a href="/blog/siliguri-tea-wholesale-market-guide-2026/"><strong>Read the Full Siliguri Tea Wholesale Market Guide →</strong></a></p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
+
+      <h2>2. Kolkata — The Historic Giant</h2>
+      <p>Kolkata's is the oldest tea auction in India and the second-oldest in the world, running continuously since 1861. It handles premium Darjeelings and high-quality Assam orthodox teas, and remains the trade's traditional benchmark market.</p>
       <ul>
-        <li><strong>Best For:</strong> Fresh CTC Leaf, Dust, and basic Darjeeling blends.</li>
-        <li><strong>Why Buy Here:</strong> It has the freshest stock because it's closest to the gardens. Logistics are faster to Bihar, UP, and Delhi.</li>
-        <li><strong>Insider Tip:</strong> Visit Sevoke Road for local wholesalers who offer better rates than the big auction houses for smaller quantities.</li>
+        <li><strong>Best for:</strong> Premium Darjeeling, Assam Orthodox, and export-quality blends.</li>
+        <li><strong>Why buy here:</strong> If you're targeting the premium segment, gift packs, or export-grade orthodox tea, Kolkata is where the top lots move.</li>
       </ul>
 
-      <h2>2. Kolkata Tea Auction Center (West Bengal)</h2>
-      <p><strong>The Historic Giant.</strong> Kolkata handles premium Darjeelings and high-quality Assam orthodox teas.</p>
+      <h2>3. Guwahati (Assam) — The World's Largest CTC Market</h2>
+      <p>Established in 1970, Guwahati is where the heavy-bodied Assam liquor comes from — and it's not just India's biggest CTC auction, it's the largest CTC tea auction centre in the world by volume. This is the engine room of everyday "kadak chai" tea.</p>
       <ul>
-        <li><strong>Best For:</strong> Premium Darjeeling, Assam Orthodox, and Export-quality blends.</li>
-        <li><strong>Why Buy Here:</strong> If you are targeting the premium segment or gift packs, Kolkata is your place.</li>
+        <li><strong>Best for:</strong> Strong, malty CTC tea with a deep reddish colour.</li>
+        <li><strong>Why buy here:</strong> Ideal for the strong, milk-forward "kadak chai" style popular across Maharashtra and Gujarat, and for buyers who need volume above all else.</li>
       </ul>
 
-      <h2>3. Guwahati Tea Auction Center (Assam)</h2>
-      <p><strong>The Source of Strength.</strong> This is where the heavy-bodied Assam liquor comes from.</p>
+      <h2>4. Coonoor, Coimbatore &amp; Cochin — The Overlooked Southern Market</h2>
+      <p>Most sourcing guides stop at West Bengal and Assam, but South India runs its own significant auction system across three centres — Coonoor and Coimbatore in Tamil Nadu's Nilgiris district, and Cochin (Kochi) in Kerala. Together they handle tea from a completely different growing region, with its own flavour profile: Nilgiris tea is typically brighter, more fragrant, and quicker-brewing than the heavier Assam or Dooars leaf.</p>
       <ul>
-        <li><strong>Best For:</strong> Strong, malty CTC tea that gives a reddish color.</li>
-        <li><strong>Why Buy Here:</strong> Ideal for "Kadak Chai" blends popular in Maharashtra and Gujarat.</li>
+        <li><strong>Best for:</strong> South Indian CTC and orthodox grades, tea suited to iced/cold-brew formats, and export blends where a lighter, brisk character is wanted.</li>
+        <li><strong>Why buy here:</strong> If you're building a product for South Indian markets, or an export/iced-tea line where a heavier Assam base isn't the right fit, this region is worth sourcing from directly rather than substituting a North Indian grade that doesn't quite match.</li>
       </ul>
+
+      <h2>5. Jalpaiguri — The Smaller Regional Player</h2>
+      <p>The North Bengal Tea Auction Committee has run the Jalpaiguri auction since 2005. It's smaller in volume than Siliguri or Kolkata, but it's a useful secondary market if you're already sourcing from North Bengal and want to compare rates or pick up smaller regional lots.</p>
 
       <h2>Which One Should You Choose?</h2>
-      <p>If you are starting a new brand, you need a balance of <strong>Quality + Price + Consistency</strong>. Traveling to auctions can be expensive. That’s why <strong>Manish Tea Traders</strong> (Siliguri) brings the best of the Siliguri market directly to your doorstep. We source directly from the gardens, saving you the travel and brokerage costs.</p>
-    
+      <p>If you're starting a new brand, you need a balance of quality, price, and consistency — not just the cheapest lot you can find. A few practical rules of thumb:</p>
+
+      <ul>
+        <li><strong>Buying fresh, close to the garden, with fast logistics to North/East India?</strong> Siliguri — see our <a href="/blog/siliguri-tea-wholesale-market-guide-2026/">full Siliguri guide</a> for current prices and where to go.</li>
+        <li><strong>Building a strong, everyday CTC blend?</strong> Guwahati.</li>
+        <li><strong>Building a premium or gift-segment product?</strong> Kolkata.</li>
+        <li><strong>Building for export, iced tea, or a lighter regional taste?</strong> Look South — Coonoor, Coimbatore, or Cochin.</li>
+        <li><strong>Buying in smaller quantities and want flexibility?</strong> Jalpaiguri as a secondary regional option, or the smaller Siliguri wholesalers covered in our Siliguri guide.</li>
+      </ul>
+
+      <p>Travelling to auctions yourself is expensive and time-consuming — flights or long drives, days spent at the auction floor, and you still need warehousing and logistics sorted on the other end. That's why <strong>Manish Tea Traders (Siliguri)</strong> brings the best of the Siliguri market directly to your doorstep. We source directly from the gardens, saving you the travel and brokerage costs, and we can guide you toward the right region for your specific blend — even when that means pointing you toward grades we don't stock ourselves.</p>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a></li>
+        <li><a href="/tea-grades">Tea Grades Explained: Understanding BP, BOP, Dust &amp; Orthodox Leaf</a></li>
+        <li><a href="/blog/assam-vs-darjeeling-chai-comparison-2026/">Assam vs. Darjeeling: What's the Difference?</a></li>
       </ul>
     `,
-    keywords: "wholesale tea market India, Siliguri tea market, Kolkata tea auction, buy bulk tea India",
+    keywords: "wholesale tea market India, Siliguri tea market, Kolkata tea auction, Guwahati tea auction, Coonoor tea auction, buy bulk tea India",
     imageUrl: "/blog-images/tea_market_india_map.webp",
     lang: 'en'
   },
