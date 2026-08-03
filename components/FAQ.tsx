@@ -38,32 +38,24 @@ export const faqs = [
 const FAQ: React.FC = () => {
   return (
     <section className="py-16 bg-tea-50">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-serif font-bold text-center text-tea-900 mb-10">
           Frequently Asked Questions
         </h2>
-        <div className="space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {faqs.map((faq, index) => (
-            <details
+            <div
               key={index}
-              className="group bg-white rounded-lg border border-gray-200 overflow-hidden shadow-sm transition-all hover:shadow-md"
-              {...(index === 0 ? { open: true } : {})}
+              className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm flex flex-col justify-start"
             >
-              <summary className="w-full flex justify-between items-center p-5 text-left cursor-pointer list-none focus:outline-none focus-visible:ring-2 focus-visible:ring-tea-500">
-                <span className="font-semibold text-lg text-gray-800 group-open:text-tea-700">
-                  {faq.question}
-                </span>
-                <svg
-                  className="h-5 w-5 text-gray-400 group-open:text-tea-600 group-open:rotate-180 transition-transform duration-200 flex-shrink-0 ml-4"
-                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
-              </summary>
-              <p className="px-5 pb-5 text-gray-600 leading-relaxed">
+              <h3 className="font-semibold text-lg text-tea-900 mb-3 flex items-start gap-2">
+                <span className="text-tea-600 font-bold">Q.</span>
+                <span>{faq.question}</span>
+              </h3>
+              <p className="text-gray-600 leading-relaxed text-sm pl-6 border-l-2 border-tea-300">
                 {faq.answer}
               </p>
-            </details>
+            </div>
           ))}
         </div>
       </div>
