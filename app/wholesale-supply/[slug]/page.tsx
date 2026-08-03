@@ -245,15 +245,15 @@ export default async function LocationPage({ params }: Props) {
               <h3 className="text-2xl font-serif font-bold text-tea-900 mb-6">
                   {currentLang === 'hi' ? "अक्सर पूछे जाने वाले प्रश्न" : "Frequently Asked Questions"}
               </h3>
-              <div className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {faqItems.map((faq, i) => (
-                      <details key={i} className="bg-white p-6 rounded-lg border border-gray-100 shadow-sm group">
-                          <summary className="font-bold text-gray-900 cursor-pointer list-none flex justify-between items-start gap-3">
+                      <div key={i} className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm flex flex-col justify-start">
+                          <h4 className="font-semibold text-base text-tea-900 mb-2 flex items-start gap-2">
+                              <span className="text-tea-600 font-bold">Q.</span>
                               <span>{faq.question}</span>
-                              <span className="text-tea-500 group-open:rotate-180 transition-transform shrink-0 mt-0.5">▼</span>
-                          </summary>
-                          <p className="text-gray-600 text-sm mt-3 leading-relaxed">{faq.answer}</p>
-                      </details>
+                          </h4>
+                          <p className="text-gray-600 text-sm leading-relaxed pl-6 border-l-2 border-tea-300">{faq.answer}</p>
+                      </div>
                   ))}
               </div>
           </div>

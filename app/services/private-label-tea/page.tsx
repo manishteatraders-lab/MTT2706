@@ -342,17 +342,17 @@ export default function PrivateLabelPage() {
 
             {/* FAQ Section */}
             <section className="py-16 bg-white">
-                <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-serif font-bold text-tea-900 mb-8 text-center">Frequently Asked Questions</h2>
-                    <div className="space-y-3">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         {faqSchema.mainEntity.map((faq, i) => (
-                            <details key={i} className="bg-tea-50 border border-tea-100 rounded-xl p-5 group">
-                                <summary className="font-bold text-tea-900 cursor-pointer list-none flex justify-between items-start gap-3">
+                            <div key={i} className="bg-tea-50/60 border border-tea-100 rounded-xl p-5 flex flex-col justify-start">
+                                <h3 className="font-bold text-tea-900 mb-2 text-base flex items-start gap-2">
+                                    <span className="text-tea-600 font-bold">Q.</span>
                                     <span>{faq.name}</span>
-                                    <span className="text-tea-500 group-open:rotate-180 transition-transform shrink-0 mt-0.5">▼</span>
-                                </summary>
-                                <p className="mt-3 text-gray-700 leading-relaxed text-sm">{faq.acceptedAnswer.text}</p>
-                            </details>
+                                </h3>
+                                <p className="text-gray-700 leading-relaxed text-sm pl-5 border-l-2 border-tea-300">{faq.acceptedAnswer.text}</p>
+                            </div>
                         ))}
                     </div>
                 </div>

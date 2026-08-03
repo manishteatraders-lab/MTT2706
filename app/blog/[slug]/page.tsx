@@ -190,21 +190,21 @@ export default async function BlogPost({ params }: Props) {
                           dangerouslySetInnerHTML={{ __html: injectCTA(post.content) }}
                       />
 
-                      {/* FAQ Accordion */}
+                      {/* FAQ Section */}
                       {post.faqSchema && post.faqSchema.length > 0 && (
                           <div className="mt-12 border-t border-gray-100 pt-10">
                               <h2 className="text-2xl font-serif font-bold text-tea-900 mb-6">
                                   {currentLang === 'hi' ? "अक्सर पूछे जाने वाले प्रश्न" : "Frequently Asked Questions"}
                               </h2>
-                              <div className="space-y-3">
+                              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                   {post.faqSchema.map((faq, i) => (
-                                      <details key={i} className="bg-tea-50 border border-tea-100 rounded-xl p-5 group">
-                                          <summary className="font-bold text-tea-900 cursor-pointer list-none flex justify-between items-start gap-3">
+                                      <div key={i} className="bg-tea-50/60 border border-tea-100 rounded-xl p-5 flex flex-col justify-start">
+                                          <h3 className="font-bold text-tea-900 mb-2 text-base flex items-start gap-2">
+                                              <span className="text-tea-600 font-bold">Q.</span>
                                               <span>{faq.question}</span>
-                                              <span className="text-tea-500 group-open:rotate-180 transition-transform shrink-0 mt-0.5">▼</span>
-                                          </summary>
-                                          <p className="mt-3 text-gray-700 leading-relaxed text-sm">{faq.answer}</p>
-                                      </details>
+                                          </h3>
+                                          <p className="text-gray-700 leading-relaxed text-sm pl-5 border-l-2 border-tea-300">{faq.answer}</p>
+                                      </div>
                                   ))}
                               </div>
                           </div>
