@@ -231,42 +231,164 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b42",
-    title: "How to Use a Tea Blend Calculator to Maximize Profit",
+    title: "Tea Blend Calculator: Calculate Your Blend Cost & Profit Margin in Minutes",
     slug: "tea-blend-calculator-guide",
     date: "April 24, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Learn how to use our free Tea Blend Calculator to create consistent, high-profit tea blends that match your customer's taste preferences and water quality.",
+    author: "Jaleshwar Ray",
+    excerpt: "Learn how to use our free Tea Blend Calculator to calculate bag counts, cost per kg, and profit margins for your wholesale or retail tea brand.",
     content: `
-      <p>Tea blending is essential for any successful wholesale or retail tea business. It allows you to maintain a consistent taste profile year-round while controlling your costs. However, calculating the exact ratios and final cost per kg can be tricky. That's why we built a free tool for our customers.</p>
+      <p>Tea blending is essential for any successful wholesale or retail tea business. It keeps your taste profile consistent year-round, even as the raw tea itself shifts with the season. But there's a second, quieter reason blending matters just as much: it's how you control your cost per kg and protect your profit margin. Get the ratio wrong, or guess instead of calculating, and you can end up selling a blend that costs more to make than you priced it for. That's exactly the gap our free Tea Blend Calculator is built to close.</p>
 
       <h2>Why You Need to Blend Tea</h2>
-      <p>A single garden's tea will change flavor from season to season (flush to flush). By blending Assam (for strength and color) with Dooars (for body) and a touch of Darjeeling (for aroma), you create a unique product that your competitors cannot easily copy. It also protects your margins if the price of one specific tea grade spikes.</p>
+      <p>A single garden's tea changes flavour from one flush to the next — the same grade bought in March can taste noticeably different from the same grade bought in July. Blending solves this. By combining a body-giving base (typically Dooars CTC) with a colour-and-strength component (typically Assam CTC) and, optionally, a small aromatic top note (Darjeeling dust or fannings), you build a product that tastes the same to your customer every time, regardless of what any single garden is doing that month. It also protects your margin: if one grade spikes in price for a season, a well-designed blend lets you absorb that shift without the whole batch cost jumping.</p>
 
-      <h2>Using the Tea Blend Calculator</h2>
-      <p>Our interactive calculator lets you input:</p>
+      <p>The catch is that doing this math by hand — weighing out bags, working out blended cost per kg, checking it against your target selling price — gets tedious and error-prone once you're managing more than one or two blends. That's what the calculator automates.</p>
+
+      <h2>How the Tea Blend Calculator Actually Works</h2>
+      <p>The tool is built around how tea is actually bought and sold in the trade — by the bag, not just by a percentage on paper. Here's exactly what you'll enter:</p>
+
       <ul>
-        <li>The different grades of tea you are using (e.g., BP, BOPSM, Dust)</li>
-        <li>The price per kg of each grade</li>
-        <li>The percentage ratio of each grade in your final mix</li>
+        <li><strong>Blend Name</strong> — label your blend so you can save and compare different formulas (e.g., "Hotel Special 160," "Family Blend Standard").</li>
+        <li><strong>Currency</strong> — defaults to ₹, adjustable if you're pricing for export.</li>
+        <li><strong>Advanced Batch Controls</strong> — optional settings for larger, multi-item batches.</li>
+        <li><strong>Inventory Items</strong> — this is the core of the tool. For each tea you're blending in, enter:
+          <ul>
+            <li><em>Garden / Estate</em> — where the lot is from (useful for your own records and traceability)</li>
+            <li><em>Grade</em> — e.g., BP, BOPSM, Dust, OF</li>
+            <li><em>Bags</em> — how many bags of this grade you're using</li>
+            <li><em>Wt/Bag (kg)</em> — the weight of each bag</li>
+            <li><em>Rate/kg (₹)</em> — what you paid per kg for this lot</li>
+          </ul>
+          The calculator automatically works out the Total Qty (bags × weight per bag) and Total Value (quantity × rate) for that item.
+        </li>
+        <li><strong>Add Next Item</strong> — repeat the above for each additional tea grade in your blend (base, strength, top note, etc.).</li>
+        <li><strong>Calculate Master Blend</strong> — once all your items are entered, this button adds everything together and gives you your blended batch's total quantity, total cost, and cost per kg — the number you need to compare against your target selling price to know your real margin.</li>
       </ul>
-      <p>The tool will instantly show you the <strong>Final Blended Price per Kg</strong>. This prevents costly math errors and helps you formulate an exact recipe for your market.</p>
 
-      <div style="text-align: center; margin: 30px 0;">
-        <a href="/tea-blend-calculator" style="background-color: #588157; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Open Free Tea Blend Calculator →</a>
+      <p>This bag-based approach matters because it mirrors how you actually buy tea — in fixed-weight bags at a quoted rate — rather than forcing you to convert everything into percentages first. You can enter your real purchase numbers directly.</p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0; text-align: center;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Ready to calculate your blend cost?</p>
+        <a href="/tea-blend-calculator" style="background-color: #15803d; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Open Free Tea Blend Calculator →</a>
       </div>
 
-      <h2>A Standard Recipe to Start</h2>
-      <p>If you are unsure where to begin for a standard household mix, try this ratio in the calculator:</p>
+      <h2>Worked Example: A Standard Family Blend</h2>
+      <p>Let's say you're building a standard household blend using the classic three-part structure: a Dooars base for body, Assam for strength, and a small Darjeeling top note for aroma.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Item</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Grade</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Bags</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Wt/Bag</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Rate/kg</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Total Qty</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Total Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Dooars CTC (Base)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">BP</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">2</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">50 kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹150</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">100 kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹15,000</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Assam CTC (Strength)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">BP</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">1</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">50 kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹190</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">50 kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹9,500</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Darjeeling (Top note)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Fannings</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">1</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">25 kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹450</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">25 kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹11,250</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Hit <strong>Calculate Master Blend</strong>, and the tool adds it up for you:</p>
       <ul>
-        <li>60% Assam BP (Strong color and maltiness)</li>
-        <li>30% Dooars BOPSM (Thickness and body)</li>
-        <li>10% Darjeeling Fannings (Aroma)</li>
+        <li>Total quantity: 175 kg</li>
+        <li>Total value: ₹35,750</li>
+        <li>Blended cost per kg: ≈ <strong>₹204/kg</strong></li>
       </ul>
-      <p>Experiment with the numbers until you hit your target wholesale price. If you need help sourcing these exact grades, Manish Tea Traders supplies them all direct from the Siliguri auction center.</p>
-    
+
+      <p>This works out to roughly a 57% Dooars / 29% Assam / 14% Darjeeling mix by weight — close to the standard 40-50% base / 30-40% strength / 10-20% top note structure we recommend in our full <a href="/blog/how-to-blend-tea-for-packing/">tea blending guide</a>. If your target retail price is, say, ₹260/kg, you can see immediately that you have roughly ₹56/kg to cover packaging, labour, and profit — and you can adjust the bag counts and re-calculate instantly to see how the cost shifts before you commit to a real purchase.</p>
+
+      <h2>Worked Example: A Commercial Hotel Blend</h2>
+      <p>The calculator works just as well for a leaner, commercial-volume blend. We recently used this exact process to build a ₹160/kg hotel blend for a client — full case study in our <a href="/blog/how-to-blend-tea-for-packing/">blending guide</a> — using just two components instead of three:</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Item</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Grade</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Bags</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Wt/Bag</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Rate/kg</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Total Qty</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Total Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Dooars CTC (Base)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">BP/Dust</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">2</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">50 kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹150</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">100 kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹15,000</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Assam CTC (Strength)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Economy</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">1</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">50 kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹183</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">50 kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹9,150</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>Calculate Master Blend</strong> gives:</p>
+      <ul>
+        <li>Total quantity: 150 kg</li>
+        <li>Total value: ₹24,150</li>
+        <li>Blended cost per kg: ≈ <strong>₹161/kg</strong></li>
+      </ul>
+
+      <p>No top note at all here — for high-volume hotel chai service, strength and consistency matter more than aroma, and skipping the Darjeeling component kept the cost close to target (this simplified 2:1 bag example lands at ₹161/kg; fine-tuning the exact bag split, as we did for the real client order, gets it to exactly ₹160/kg). This is a good example of how the same tool flexes for very different use cases: a delicate three-part household blend, or a lean two-part commercial one.</p>
+
+      <h2>A Standard Recipe to Start</h2>
+      <p>If you're building your first blend and aren't sure where to begin, this is a solid household starting point — matching the structure in our full blending guide:</p>
+
+      <ul>
+        <li><strong>45% Dooars CTC (BOPSM/BP)</strong> — for body and thickness</li>
+        <li><strong>35% Assam CTC</strong> — for colour and strength</li>
+        <li><strong>20% Darjeeling Fannings</strong> — for aroma (optional — skip it for a leaner, more commercial-style blend)</li>
+      </ul>
+
+      <p>Enter these as bags and rates in the calculator, hit Calculate Master Blend, and adjust the quantities until you land on your target cost per kg. If you need help sourcing any of these exact grades, Manish Tea Traders supplies them all direct from the Siliguri auction centre.</p>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a> — the full blending method, including our table-blend testing process and the ₹160/kg hotel case study</li>
+        <li><a href="/blog/tea-business-profit-margin-guide-2025/">Tea Business Profit Margin Guide (2026)</a> — how blend cost translates into real business profitability</li>
+        <li><a href="/tea-grades">Tea Grades Explained</a> — understanding BP, BOPSM, Dust, and Orthodox grades before you start blending</li>
       </ul>
     `,
     keywords: "tea blend calculator, tea blending ratio, how to blend tea, wholesale tea blending, tea business tools",
