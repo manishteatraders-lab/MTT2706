@@ -95,6 +95,11 @@ export default async function BlogPost({ params }: Props) {
 
     const finalCta = isBlendingPost ? blendCtaHtml : generalCtaHtml;
 
+    // Skip injection if the post already has a calculator link inline (avoids duplicates)
+    if (html.includes('/tea-blend-calculator')) {
+      return html;
+    }
+
     // Try to split by H2 to find a good middle spot
     const parts = html.split('<h2>');
     if (parts.length >= 3) {
