@@ -185,7 +185,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "how to blend tea, tea blending techniques, tea packing business, start tea brand, tea mixing ratio, tea tasting guide",
-    imageUrl: "/blog-images/private-label-packaging.webp",
+    imageUrl: "/blog-images/how-to-blend-tea-for-packing.jpg",
     lang: 'en'
   },
   {
