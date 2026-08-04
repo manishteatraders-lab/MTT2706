@@ -902,7 +902,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "Assam CTC vs Dooars CTC, Assam tea supplier, bulk Dooars tea, wholesale CTC tea, tea blending base",
-    imageUrl: "/blog-images/assam-vs-darjeeling.webp",
+    imageUrl: "/blog-images/assam-vs-dooars-ctc.jpg",
     lang: 'en'
   },
   {
