@@ -995,7 +995,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea quality check, how to taste tea, bulk tea buying guide, ISO 3103 tea testing, tea briskness, infusa tea leaves",
-    imageUrl: "/blog-images/tea-quality-testing.webp",
+    imageUrl: "/blog-images/good-tea-vs-bad-tea.jpg",
     lang: 'en'
   },
   {
