@@ -910,35 +910,91 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How to Identify Good Quality Tea for Bulk Buying",
     slug: "identify-quality-tea",
     date: "February 15, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Don't get cheated. Learn the 3 sensory tests to judge tea quality like a pro: Appearance, Aroma, and Liquor.",
+    author: "Jaleshwar Ray",
+    excerpt: "Learn the 4-step professional tea tasting method (ISO 3103) to test bulk tea quality before buying — dry leaf, aroma, liquor briskness, and used leaf evaluation.",
     content: `
-      <p>When buying 300kg or 500kg of tea, a small difference in quality can ruin your reputation. Here is how professional tea tasters judge quality.</p>
+      <p>When you buy 300kg or 500kg of tea in one order, even a small quality problem can hurt your reputation. Not just your money — your name with every customer who opens that batch. Professional tea tasters have a simple, proven way to catch problems before the tea even leaves the warehouse. Here's how they do it, explained in plain language so you can do it too.</p>
 
-      <h2>1. Visual Test (Leaf Appearance)</h2>
+      <h2>The Real Tasting Process: 4 Steps, Not 3</h2>
+      <p>Tea tasters around the world follow a set method (there's even an international standard for it, called <strong>ISO 3103</strong>, used by tea labs and traders everywhere). It has four steps. Most guides only tell you about three — and skip the one many professional tasters think matters most.</p>
+
+      <h2>Step 1: Look at the Dry Leaf</h2>
       <ul>
-        <li><strong>Blackness:</strong> Good processed black tea should be black or dark brown, not gray or fiber-filled.</li>
-        <li><strong>Size Uniformity:</strong> In a specific grade (like BP), all granules should be roughly the same size. Too much dust in a leaf grade is bad.</li>
+        <li><strong>Colour:</strong> Good black tea should be black or dark brown. Not grey. Not full of fibre. Grey leaf usually means it wasn't processed properly.</li>
+        <li><strong>Size:</strong> Within one grade (like BP), all the pieces should be roughly the same size. Too much dust or fibre in the mix means someone wasn't careful while sorting it.</li>
+        <li><strong>A simple moisture check:</strong> Well-dried black tea feels crisp, almost brittle. Take a small pinch and press it between your fingers. It should feel dry and slightly crumbly — not soft or rubbery. If it feels soft, there's likely too much moisture in it, and that tea won't stay fresh for long.</li>
       </ul>
 
-      <h2>2. Aroma Test (Smell)</h2>
-      <p>Take a handful of dry leaves and breathe on them (to warm them up). Then smell deeply. It should smell fresh, sweet, or malty. If it smells like damp cardboard or hay, it's old or moisture-damaged.</p>
+      <h2>Step 2: Smell the Dry Leaf</h2>
+      <p>Take a handful of dry leaves, breathe on them to warm them up a little, then smell deeply. It should smell fresh, sweet, or malty. If it smells like wet cardboard or old hay, the tea is either stale or picked up moisture somewhere in storage.</p>
 
-      <h2>3. Liquor Test (The Brew)</h2>
-      <p>This is the final verdict. Brew 3 grams in 150ml boiling water for 5 minutes.</p>
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
+
+      <h2>Step 3: Brew It and Check the Liquor</h2>
+      <p>This is where most guides stop. But it's only step three of four. The standard way to brew a test cup: about 3 grams of tea in 150ml of boiling water, for 5 minutes.</p>
       <ul>
-        <li><strong>Color:</strong> Should be bright red or copper. Dull brown is bad.</li>
-        <li><strong>Briskness:</strong> Good tea makes your gums feel "dry" or lively. This "briskness" is the sign of high caffeine and polyphenols.</li>
+        <li><strong>Colour:</strong> Should be bright red or copper. A dull, muddy brown is a bad sign.</li>
+        <li><strong>Briskness:</strong> Good tea gives your mouth a light, lively, slightly dry feeling. This comes from natural compounds in the tea (called tannins) reacting with your saliva. Tasters call this "briskness," and it's actually a good sign, not a flaw. If the tea tastes flat or lifeless, with none of that lively feeling, that's a real problem — tasters call this "flat" or "thin."</li>
       </ul>
 
-      <p><strong>Want to train your palate?</strong> Order our <strong>Sample Kit</strong> to taste the difference between premium and standard grades.</p>
-    
+      <h2>Step 4: Check the Used Leaves — The Step Everyone Skips</h2>
+      <p>Once you've poured out the liquor, don't throw the leftover leaves away. Look at them. This one small step tells you things the liquor alone can't.</p>
+      <ul>
+        <li><strong>Colour evenness:</strong> Good tea leaves an even, coppery-bright colour after brewing. If the used leaves look patchy, dull, or blackish in spots — even if the tea tasted okay — it usually means the batch wasn't processed evenly.</li>
+        <li><strong>Why this matters for a big order:</strong> Tea like this can taste fine on the day you test it, but it often doesn't hold up as well over the weeks it takes to reach your customers. Checking the used leaves catches problems the taste test alone might miss.</li>
+      </ul>
+
+      <h2>A Few Words Worth Knowing</h2>
+      <p>Learning a few real tea-trade words helps you explain exactly what you're tasting — instead of just saying "good" or "not good" to your supplier:</p>
+      <ul>
+        <li><strong>Body:</strong> How full and heavy the tea feels in your mouth — light, medium, or full.</li>
+        <li><strong>Bright:</strong> A fresh, lively-looking liquor. A good sign.</li>
+        <li><strong>Brisk:</strong> That lively, clean feeling in your mouth. A sign of a well-made tea.</li>
+        <li><strong>Malty:</strong> The rich, slightly sweet taste of good Assam tea.</li>
+        <li><strong>Coarse:</strong> Too much fibre in the tea — usually means a cheaper, poorly sorted batch.</li>
+        <li><strong>Flat / Thin:</strong> Weak and lifeless tea, with none of that briskness. A real problem, not just a taste preference.</li>
+        <li><strong>Dull:</strong> A liquor that isn't clear or bright — often caused by poor drying or too much moisture.</li>
+      </ul>
+
+      <h2>How to Actually Test a Sample Before You Buy in Bulk</h2>
+      <p>Knowing the four steps is only half the job. Here's how to use them before you commit to 300–500kg:</p>
+      <ul>
+        <li><strong>Always ask for a sample first</strong> — even from a supplier you've bought from before. No two batches are exactly the same.</li>
+        <li><strong>Run all four checks, not just a quick taste.</strong> The used-leaf check only takes two extra minutes, and it catches things the liquor won't show you.</li>
+        <li><strong>Compare it to something you know is good</strong> — your last batch, or a sample from another supplier. It's much easier to spot a problem side by side than on its own.</li>
+        <li><strong>If a sample fails even one check, don't ignore it.</strong> A batch that looks fine but smells off, or tastes okay but leaves patchy used leaves, is still risky at bulk quantity. Problems like this usually get worse, not better, once it's sitting in your storage for a few weeks.</li>
+      </ul>
+      <p>Want to get good at this before your next order? Request a sample from us and try all four steps yourself — it's the quickest way to train your eye and your palate on tea you already trust.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What's the easiest way to check tea quality before buying in bulk?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Run all four checks on a sample first: look at the dry leaf, smell it, brew it and taste the liquor, and — the step most people forget — check the used leaves after brewing. Each step catches something different.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What does "briskness" mean, and why does it matter?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">It's that light, lively, slightly dry feeling good black tea gives your mouth. It comes from natural compounds in the tea reacting with your saliva. It's actually a sign of good quality — tea without it is called "flat" or "thin," which is a real problem.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Why should I bother checking the used leaves, not just the tea itself?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Because the brewed tea can taste fine even from a batch that wasn't processed properly. Checking the used leaves for even, coppery colour (instead of patchy or blackish spots) often shows problems the taste alone won't — and can warn you if the batch won't hold up well during storage and shipping.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/tea-grades">Tea Grades Explained: Understanding BP, BOP, Dust &amp; Orthodox Leaf</a></li>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a></li>
+        <li><a href="/blog/assam-vs-darjeeling/">Assam CTC vs. Dooars CTC: Which Should You Stock for Wholesale?</a></li>
       </ul>
     `,
-    keywords: "tea quality check, how to taste tea, bulk tea buying guide",
+    keywords: "tea quality check, how to taste tea, bulk tea buying guide, ISO 3103 tea testing, tea briskness, infusa tea leaves",
     imageUrl: "/blog-images/tea-quality-testing.webp",
     lang: 'en'
   },
