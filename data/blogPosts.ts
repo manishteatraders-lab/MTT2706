@@ -780,7 +780,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "start tea business India, tea business with 25000, FSSAI tea business, private label tea supplier, tea business profit India",
-    imageUrl: "/blog-images/tea-branding-design.webp",
+    imageUrl: "/blog-images/start-tea-business-25k.jpg",
     lang: 'en'
   },
   {
