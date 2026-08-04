@@ -785,35 +785,123 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b6",
-    title: "Assam Tea vs Darjeeling Tea – Which Is Better for Wholesale?",
+    title: "Assam CTC Tea vs. Dooars CTC Tea: Which Should You Stock for Wholesale?",
     slug: "assam-vs-darjeeling",
     date: "February 10, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Comparing the strong, malty Assam tea with the delicate, floral Darjeeling tea. Which one suits your customers?",
+    author: "Jaleshwar Ray",
+    excerpt: "Assam CTC vs. Dooars CTC — a practical wholesale buyer's comparison of taste, colour, sourcing hubs, blending suitability, and cost for everyday milk chai.",
     content: `
-      <p>As a retailer, you might wonder: should I stock Assam Tea or Darjeeling Tea? The answer depends entirely on <em>how</em> your customers drink their tea.</p>
+      <p>If you're sourcing strong, milk-friendly CTC tea for your wholesale business, the real decision isn't Assam vs. Darjeeling — those serve completely different customers. The comparison that actually matters for most retailers, distributors, and private label brands is <strong>Assam CTC vs. Dooars CTC</strong> — two workhorse teas that genuinely compete for the same shelf space in India's biggest tea category: everyday milk chai.</p>
 
-      <h2>The Milk Test</h2>
-      <p>This is the easiest way to decide.</p>
+      <p>Here's how to tell them apart, and which one fits your business.</p>
+
+      <h2>Assam CTC Tea: Bold, Malty, and the Benchmark for Strength</h2>
+      <p>Assam CTC comes from India's largest tea-producing state, in the Brahmaputra valley. It's known for a deep, malty character and a strong, reddish liquor — the tea most people picture when they think of a "proper" cup of Indian chai.</p>
       <ul>
-        <li><strong>Assam Tea:</strong> Bold, Malty, Strong. It is designed to be drunk with Milk and Sugar. It cuts through the milk to give a rich color. This is the "Chai" of India.</li>
-        <li><strong>Darjeeling Tea:</strong> Delicate, Floral, Astringent. It is usually drunk Black (without milk) or with lemon. Adding milk often ruins the flavor.</li>
+        <li><strong>Taste:</strong> Strong, malty, brisk. Holds up well against a heavy pour of milk.</li>
+        <li><strong>Colour:</strong> Deep reddish-brown liquor.</li>
+        <li><strong>Best for:</strong> Retailers and cafes serving traditional milk chai, and any blend where colour and strength are the priority.</li>
+        <li><strong>Where it's sourced:</strong> Most Assam CTC moves through the Guwahati Tea Auction Centre — the largest CTC tea auction centre in the world by volume. If you're looking for an Assam CTC tea manufacturer or Assam CTC tea supplier, Guwahati is the traditional hub, though buying through an established Siliguri-based trader with direct Assam sourcing relationships is often more practical for small and mid-size orders than dealing with the auction system directly.</li>
       </ul>
 
-      <h2>The Customer Profile</h2>
+      <h2>Dooars CTC Tea: Full-Bodied, Reliable, and Built for Volume</h2>
+      <p>Dooars CTC comes from the foothills of the Eastern Himalayas in North Bengal — geographically much closer to Siliguri than Assam is. It's the tea most commonly used as the base in commercial blends, prized for its thick body and consistent character rather than standing out on its own.</p>
       <ul>
-        <li><strong>Stock Assam (CTC) If:</strong> Your customers are general households, tea stalls, offices, or cafes serving Masala Chai.</li>
-        <li><strong>Stock Darjeeling (Orthodox) If:</strong> You cater to health-conscious people, gift buyers, or premium cafes serving "English Breakfast" style tea.</li>
+        <li><strong>Taste:</strong> Full-bodied, less sharp than Assam, with a smoother, rounder character.</li>
+        <li><strong>Colour:</strong> Solid, though generally a touch lighter than a strong Assam CTC.</li>
+        <li><strong>Best for:</strong> The base component in blended teas, private label formulations, and high-volume commercial supply where consistency matters more than a bold standalone flavour.</li>
+        <li><strong>Where it's sourced:</strong> Dooars tea moves primarily through the Siliguri Tea Auction Centre, which sits right next to the Dooars gardens — giving buyers who source from Siliguri a genuine freshness advantage over tea that's travelled further to reach them.</li>
+        <li><strong>Popular for private label:</strong> Because of its reliable, blend-friendly character and comparatively lower cost than Assam, Dooars tea is a common private label base — if you're building your own tea brand and want a dependable, cost-effective foundation to blend against, Dooars CTC is usually where to start.</li>
       </ul>
 
-      <p>At Manish Tea Traders, we supply both. Our <strong>Assam Granules</strong> are a bestseller for the milk-tea segment, while our <strong>Darjeeling Orthodox</strong> caters to the premium niche.</p>
-    
+      <h2>Side-by-Side Comparison</h2>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Feature</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Assam CTC</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Dooars CTC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">Character</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Bold, malty, strong</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Full-bodied, smoother</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">Liquor colour</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Deep reddish-brown</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Slightly lighter, solid</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">Role in a blend</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Strength component</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Base component</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">Relative cost</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Higher</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Generally more affordable</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">Best suited for</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Standalone milk chai, colour-forward blends</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Private label bases, high-volume commercial supply</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">Main auction hub</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Guwahati Tea Auction Centre</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Siliguri Tea Auction Centre</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Which Should You Actually Stock?</h2>
+      <p><strong>Selling straightforward, strong milk chai to retail customers?</strong> Assam CTC on its own is a safe, recognisable choice.</p>
+      <p><strong>Building a private label blend or a high-volume commercial supply line?</strong> Start with Dooars CTC as your base — it's the more cost-effective, blend-friendly foundation, and pairing it with a smaller ratio of Assam gives you strength without the full Assam price tag (see our <a href="/blog/how-to-blend-tea-for-packing/">tea blending guide</a> for exact ratios).</p>
+      <p><strong>Not sure yet?</strong> Most serious wholesale buyers end up stocking both — Assam for standalone strength, Dooars for blending — rather than picking just one.</p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
+
+      <h2>Why Buy Both From One Supplier</h2>
+      <p>Here's the practical problem with sourcing Assam and Dooars separately: Assam CTC typically routes through the Guwahati Tea Auction, while Dooars CTC routes through the Siliguri Tea Auction — two different regions, two different auction systems, two separate sets of relationships to manage if you're dealing with growers or auction brokers directly.</p>
+      <p>At <strong>Manish Tea Traders</strong>, we trade in both — in genuinely large volumes, not token quantities — so as an Assam CTC tea manufacturer and supplier and a bulk Dooars tea supplier, you get one point of contact for both origins instead of juggling two separate supply chains. Whether you need a straightforward Assam CTC order, a Dooars-based private label formulation, or a custom blend of both, we handle the sourcing, quality checks, and logistics from a single Siliguri base.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is Assam CTC tea used for?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Assam CTC is used mainly for strong, milk-based chai — it's the standard choice for retailers, tea stalls, and cafes serving traditional Indian tea, and it's also used as the strength component in many commercial blends.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is Dooars CTC tea best used for?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Dooars CTC is most commonly used as the base of a blend, particularly in private label tea brands, because of its full body, smooth character, and comparatively lower cost. It's a popular choice for buyers who want a reliable, cost-effective foundation to build a custom blend on.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Where can I find a reliable Assam CTC tea manufacturer or supplier?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Most Assam CTC trade routes through the Guwahati Tea Auction Centre, but for smaller and mid-size wholesale orders, working with an established supplier who already has direct Assam sourcing relationships — like Manish Tea Traders — is usually more practical than approaching the auction system directly.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">I need a bulk Dooars tea supplier for private label — what should I look for?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Look for a supplier close to the Dooars growing region (Siliguri-based suppliers have a natural freshness and logistics advantage), with experience in private label blending and a minimum order quantity that fits your batch size. Manish Tea Traders supplies Dooars CTC in bulk and offers private label packaging with MOQs suited to first-time brands as well as established buyers.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a></li>
+        <li><a href="/services/private-label-tea/">Private Label Tea Packaging Service</a></li>
+        <li><a href="/blog/wholesale-tea-markets-india/">Where to Source Wholesale Tea in India: A Region-by-Region Buying Guide</a></li>
       </ul>
     `,
-    keywords: "Assam vs Darjeeling tea, tea difference guide, wholesale tea selection",
+    keywords: "Assam CTC vs Dooars CTC, Assam tea supplier, bulk Dooars tea, wholesale CTC tea, tea blending base",
     imageUrl: "/blog-images/assam-vs-darjeeling.webp",
     lang: 'en'
   },
