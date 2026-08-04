@@ -3150,17 +3150,18 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Export Tea from India: Complete Documentation Guide (2026)",
     slug: "export-tea-from-india-documentation-guide-2026",
     date: "January 19, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Start tea export business from India. Complete guide to licenses, documentation, MRL compliance, and shipping procedures.",
+    author: "Jaleshwar Ray",
+    excerpt: "A complete guide to exporting tea from India — licenses, documentation, MRL compliance, Darjeeling GI requirements, packaging, shipping, and payment terms.",
     content: `
-      <p>India exports 250+ million kg of tea annually. Learn how to <strong>export tea from India</strong> with proper documentation.</p>
+      <p>India exports 250+ million kg of tea annually. If you're setting up an export business or sourcing Indian tea for an international buyer, getting the documentation right is not optional — one missing certificate can hold a shipment at customs or fail an import inspection. This guide covers everything you need, including a section on Darjeeling tea's additional GI compliance requirements that most export guides miss entirely.</p>
 
       <h2>Essential Licenses & Registrations</h2>
+
       <h3>1. IEC (Import Export Code)</h3>
       <ul>
         <li><strong>Issued by:</strong> DGFT (Directorate General of Foreign Trade)</li>
         <li><strong>Cost:</strong> ₹500 (online)</li>
-        <li><strong>Time:</strong> 2-3 days</li>
+        <li><strong>Time:</strong> 2–3 days</li>
         <li><strong>Validity:</strong> Lifetime</li>
       </ul>
 
@@ -3185,8 +3186,9 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <h2>Quality & Testing Requirements</h2>
+
       <h3>MRL (Maximum Residue Limits) Compliance</h3>
-      <p>Different countries have different pesticide limits:</p>
+      <p>Different countries have different pesticide limits. Know your destination before you test:</p>
       <ul>
         <li><strong>EU:</strong> Strictest standards (400+ pesticides tested)</li>
         <li><strong>USA:</strong> FDA regulations</li>
@@ -3198,20 +3200,21 @@ export const BLOG_POSTS: BlogPost[] = [
       <ul>
         <li>Tea Research Association, Kolkata</li>
         <li>FSSAI approved labs</li>
-        <li><strong>Cost:</strong> ₹15,000-₹30,000 per test</li>
-        <li><strong>Time:</strong> 7-10 days</li>
+        <li><strong>Cost:</strong> ₹15,000–₹30,000 per test</li>
+        <li><strong>Time:</strong> 7–10 days</li>
       </ul>
 
       <h2>Export Documentation</h2>
+
       <h3>Pre-Shipment Documents</h3>
-      <ol>
+      <ul>
         <li><strong>Proforma Invoice:</strong> Detailed quotation</li>
         <li><strong>Purchase Order:</strong> From buyer</li>
         <li><strong>Letter of Credit:</strong> Payment guarantee (if applicable)</li>
-      </ol>
+      </ul>
 
       <h3>Shipping Documents</h3>
-      <ol>
+      <ul>
         <li><strong>Commercial Invoice:</strong> Final bill</li>
         <li><strong>Packing List:</strong> Container details</li>
         <li><strong>Bill of Lading:</strong> Shipping receipt</li>
@@ -3219,9 +3222,41 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Phytosanitary Certificate:</strong> Plant health certificate</li>
         <li><strong>Test Report:</strong> MRL compliance</li>
         <li><strong>FSSAI Certificate:</strong> Food safety compliance</li>
-      </ol>
+      </ul>
+
+      <h2>Exporting Darjeeling Tea: Extra Requirements</h2>
+      <p>If you're exporting Darjeeling tea specifically, there's a compliance layer on top of everything above that doesn't apply to CTC, Assam, or Dooars tea — and getting it wrong can get a shipment held at customs.</p>
+
+      <h3>Why Darjeeling Tea Is Different</h3>
+      <p>Darjeeling was the first product in India to receive <strong>Geographical Indication (GI) protection</strong>, granted in 2004. This status exists because tea from Kenya, Sri Lanka, and Nepal has repeatedly been mislabelled and sold internationally as "Darjeeling" — the GI system exists specifically to stop that.</p>
+
+      <h3>The Tea Board License Requirement</h3>
+      <p>Since February 2000, it's been mandatory for anyone dealing in Darjeeling tea — including exporters and traders, not just growers — to hold a valid license agreement with the Tea Board of India. Without it, customs will not clear a Darjeeling tea shipment for export.</p>
+      <ul>
+        <li><strong>Certificate of Origin is mandatory</strong> for every export consignment. Issued only after the Tea Board cross-checks the shipment against the originating garden's invoice records — so the paper trail has to be genuine and traceable back to an actual licensed Darjeeling garden.</li>
+        <li><strong>No blending with tea of other origin is permitted.</strong> A shipment can't legally carry the "Darjeeling" name if it's blended with CTC, Dooars, Nepal, or any other tea — even a small percentage disqualifies it.</li>
+        <li><strong>The Darjeeling logo is a protected certification trademark.</strong> Only licensed dealers of certified, unblended Darjeeling tea are permitted to use it on packaging.</li>
+        <li><strong>International buyers often check for this themselves.</strong> Serious importers in the EU, Japan, and North America may specifically request proof of Tea Board licensing and Certificate of Origin before finalising an order.</li>
+      </ul>
+
+      <h3>Flush Matters for Export Positioning</h3>
+      <ul>
+        <li><strong>First Flush</strong> is what most premium export buyers in Japan and Europe specifically request — it commands the highest per-kg prices and is usually the flush worth the extra documentation effort for a small, high-value shipment.</li>
+        <li><strong>Second Flush</strong> is the most broadly recognised style internationally and often the easiest to move in larger export volumes at a strong margin.</li>
+        <li><strong>Monsoon and Autumn Flush</strong> are less common in export orders but can suit private-label or blended international products where "Darjeeling" is a component — though once blended with non-Darjeeling tea, it can no longer legally carry the certified Darjeeling name.</li>
+      </ul>
+
+      <h3>Working with a Licensed Siliguri Supplier</h3>
+      <p>Because Manish Tea Traders operates just hours from the Darjeeling gardens and works within the Tea Board's licensing system, we can supply properly certified, traceable Darjeeling tea with the Certificate of Origin documentation export buyers require — without you needing to negotiate directly with individual estates.</p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
 
       <h2>Packaging Requirements</h2>
+
       <h3>Export-Grade Packaging</h3>
       <ul>
         <li><strong>Material:</strong> Food-grade aluminum foil + PE</li>
@@ -3231,11 +3266,12 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <h2>Shipping Process</h2>
+
       <h3>Container Options</h3>
       <ul>
-        <li><strong>20ft Container:</strong> 10-12 tons</li>
-        <li><strong>40ft Container:</strong> 20-24 tons</li>
-        <li><strong>Cost:</strong> ₹80,000-₹1,50,000 (to major ports)</li>
+        <li><strong>20ft Container:</strong> 10–12 tons</li>
+        <li><strong>40ft Container:</strong> 20–24 tons</li>
+        <li><strong>Cost:</strong> ₹80,000–₹1,50,000 (to major ports)</li>
       </ul>
 
       <h3>Major Export Ports</h3>
@@ -3245,42 +3281,83 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Chennai:</strong> For Southeast Asia</li>
       </ul>
 
-      <h2>Cost Breakdown (Example: 1 Container to UAE)</h2>
-      <ul>
-        <li><strong>Tea (20 tons @ ₹250/kg):</strong> ₹50,00,000</li>
-        <li><strong>Packaging:</strong> ₹1,00,000</li>
-        <li><strong>Testing:</strong> ₹25,000</li>
-        <li><strong>Documentation:</strong> ₹15,000</li>
-        <li><strong>Freight:</strong> ₹1,20,000</li>
-        <li><strong>Insurance:</strong> ₹30,000</li>
-        <li><strong>Total:</strong> ₹52,90,000</li>
-        <li><strong>Selling Price:</strong> ₹60,00,000+</li>
-        <li><strong>Profit:</strong> ₹7,00,000+ (13%)</li>
-      </ul>
+      <h3>Cost Breakdown (Example: 1 Container to UAE)</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Item</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Tea (20 tons @ ₹250/kg)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹50,00,000</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Packaging</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹1,00,000</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Testing</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹25,000</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Documentation</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹15,000</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Freight</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹1,20,000</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Insurance</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹30,000</td>
+          </tr>
+          <tr style="font-weight: bold; background-color: #f9fafb;">
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Total Cost</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹52,90,000</td>
+          </tr>
+          <tr style="color: #15803d; font-weight: bold;">
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Selling Price</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹60,00,000+</td>
+          </tr>
+          <tr style="color: #15803d; font-weight: bold;">
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Profit</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹7,00,000+ (≈13%)</td>
+          </tr>
+        </tbody>
+      </table>
 
       <h2>Payment Terms</h2>
-      <h3>Common Methods</h3>
       <ul>
         <li><strong>Letter of Credit (LC):</strong> Safest for new buyers</li>
-        <li><strong>Advance Payment:</strong> 30-50% upfront</li>
+        <li><strong>Advance Payment:</strong> 30–50% upfront</li>
         <li><strong>CAD (Cash Against Documents):</strong> Medium risk</li>
       </ul>
 
       <h2>Manish Tea Traders Export Support</h2>
-      <p>Ready to export? <a href="/services/private-label-tea/">Explore our private label export-packing service</a> or <a href="/contact-us/">contact our sales team</a> to request export-grade tea samples directly from Siliguri.</p>
-    
+      <p>We assist with export orders:</p>
+      <ul>
+        <li>MRL-compliant tea sourcing</li>
+        <li>Export documentation support, including Darjeeling Certificate of Origin</li>
+        <li>Container stuffing supervision</li>
+        <li>Quality certification</li>
+      </ul>
+      <p><a href="/contact-us"><strong>Contact us</strong></a> for export-ready tea.</p>
+
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/darjeeling-tea-flush-guide/">Darjeeling Tea Flush Guide for Wholesale Buyers</a></li>
+        <li><a href="/wholesale-supply/darjeeling-tea-supplier/">Darjeeling Tea Wholesale Supply</a></li>
+        <li><a href="/blog/assam-vs-darjeeling-chai-comparison-2026/">Assam vs. Darjeeling: What's the Difference?</a></li>
       </ul>
     `,
-    keywords: "export tea from india, tea export documentation, tea export license, MRL compliance tea",
+    keywords: "export tea from india, tea export documentation, tea export license, MRL compliance tea, Darjeeling GI export, tea export Siliguri",
     imageUrl: "/blog-images/tea-export-port.webp",
-    lang: 'en',
-    faqSchema: [
-      { question: "How to export tea from India?", answer: "To export tea from India, you need an Import Export Code (IEC) from DGFT, a Tea Board exporter license, an FSSAI exporter registration, and APEDA membership. You must also comply with target country Maximum Residue Limits (MRLs) and verify shipping documentation. Manish Tea Traders can assist you with sourcing and documentation." },
-      { question: "What is IEC in tea export?", answer: "IEC stands for Import Export Code, which is a 10-digit code issued by the Directorate General of Foreign Trade (DGFT), Ministry of Commerce, Government of India. It is mandatory for exporting commercial shipments of tea." },
-      { question: "Which licenses are needed for tea export?", answer: "You need: 1. IEC, 2. FSSAI Exporter Registration, 3. Tea Board of India Exporter License, 4. RCMC from Tea Board / APEDA, 5. Phytosanitary Certificate (if required by destination country)." }
-    ]},
+    lang: 'en'
+  },
   {
     id: "b39",
     title: "Tea Trading in India: Future Trends & Opportunities (2026-2030)",
