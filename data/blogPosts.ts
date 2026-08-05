@@ -1000,38 +1000,87 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b8",
-    title: "Tea Dust vs. Leaf Tea for Indian Market",
+    title: "Tea Dust vs. Leaf Tea for the Indian Market: A Complete Wholesale Guide",
     slug: "tea-dust-vs-leaf",
     date: "February 20, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Should you sell Dust or Leaf? Understand the preferences of Tea Stalls vs. Households in India.",
+    author: "Jaleshwar Ray",
+    excerpt: "Understand dust vs. leaf tea in the Indian wholesale market — particle sizes (PD, RD, SFD, CD), pricing, target customers, and the Family Mix blending strategy.",
     content: `
-      <p>In the wholesale tea business, "Dust" is not a dirty word. In fact, it's the highest-selling category in many states. But where does it fit?</p>
+      <p>In the wholesale tea business, "dust" is not a dirty word. In many states, it's the highest-selling category by volume. But dust and leaf tea serve completely different customers, at different price points, for different reasons — and knowing exactly where each one fits is what separates a stockist who guesses from one who builds a real, repeat-buying customer base.</p>
 
-      <h2>Tea Dust (The Hotel King)</h2>
-      <p>"Dust" refers to the smallest particle size of tea.</p>
+      <h2>What "Dust" Actually Means</h2>
+      <p>"Dust" refers to the smallest particle size produced during CTC (Crush-Tear-Curl) processing — not literal dust, but fine granules that brew fast and strong. Within the dust category, there are several recognised sub-grades worth knowing if you're buying or selling seriously:</p>
       <ul>
-        <li><strong>Pros:</strong> Brews instantly, gives very strong color, highly affordable.</li>
-        <li><strong>Target Audience:</strong> Tea Stalls (Dhabas), Railway Stations, Commercial Canteens, and lower-income households.</li>
-        <li><strong>Best Selling Grade:</strong> "Hotel Dust" or "Primary Dust". We supply <a href="/products/tea-dust/">wholesale tea dust for hotels</a> across India.</li>
+        <li><strong>PD (Pekoe Dust):</strong> The most common hotel-grade dust, valued for strong colour and quick brewing.</li>
+        <li><strong>RD (Red Dust) / SRD (Super Red Dust):</strong> Slightly coarser than PD, still strong, popular for high-volume commercial use.</li>
+        <li><strong>SFD (Super Fine Dust):</strong> Finer than standard dust, very fast-brewing, often used in tea bags.</li>
+        <li><strong>CD (Churamoni Dust):</strong> A premium, fine dust grade — despite being "dust," this one commands a higher price than standard grades due to its cleaner cup.</li>
       </ul>
 
-      <h2>Leaf Tea (The Household Favorite)</h2>
-      <p>"Leaf" usually refers to broken grades like BOP, BP, or BOPSM.</p>
+      <h2>Tea Dust: The Hotel and Dhaba King</h2>
       <ul>
-        <li><strong>Pros:</strong> Better flavor, stays fresh longer, less bitterness.</li>
-        <li><strong>Target Audience:</strong> Middle-class households, office pantries, premium cafes.</li>
+        <li><strong>Pros:</strong> Brews almost instantly, gives a strong, dark colour with minimal quantity, and is highly affordable per cup.</li>
+        <li><strong>Target audience:</strong> Tea stalls and dhabas, railway stations, commercial canteens, and lower-income households where cost-per-cup matters more than delicate flavour.</li>
+        <li><strong>Typical wholesale pricing:</strong> Standard hotel dust generally runs ₹100–230/kg, while premium grades like CD can go higher, sometimes ₹250–440/kg depending on quality and sourcing.</li>
+        <li><strong>Best-selling grade:</strong> "Hotel Dust" or "Primary Dust" (PD) remains the top mover in this category. We supply <a href="/products/tea-dust/">wholesale tea dust for hotels</a> across India.</li>
       </ul>
 
-      <h2>The Family Blend</h2>
-      <p>Many families prefer a mix. A popular strategy is to sell a "Family Blend" which is 70% Leaf (for taste) and 30% Dust (for strength). We help you create this perfect ratio.</p>
-    
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
+
+      <h2>Leaf Tea: The Household Favourite</h2>
+      <p>"Leaf" tea usually refers to broken grades like BOP, BP, or BOPSM — larger particle sizes than dust, which changes both the brewing behaviour and the taste.</p>
+      <ul>
+        <li><strong>Pros:</strong> Better, more rounded flavour; stays fresher for longer since larger particles oxidise more slowly than fine dust; generally less bitter when slightly over-brewed.</li>
+        <li><strong>Target audience:</strong> Middle-class households, office pantries, and premium cafés that value taste over speed of brewing.</li>
+        <li><strong>Typical wholesale pricing:</strong> Standard leaf grades generally run ₹200–320/kg, with premium orthodox leaf going considerably higher depending on origin and grade.</li>
+      </ul>
+
+      <h2>The "Family Mix" Strategy — What the Market Already Calls It</h2>
+      <p>Many households and retailers don't want to choose one or the other — they want both. In the wholesale trade, this is commonly sold as a "Family Mix" tea, and it's a real, established product category, not just an internal idea.</p>
+      <p><strong>A popular approach:</strong> roughly 70% leaf tea (for flavour) and 30% dust (for strength and colour). The leaf carries the taste; the dust makes sure the cup still looks and feels strong enough for Indian tastes, which generally expect a dark, robust cup even in a household blend.</p>
+      <p>We help retailers and private-label buyers build this exact ratio — see our full <a href="/blog/how-to-blend-tea-for-packing/">tea blending guide</a> for the complete process, including how to test and adjust a blend before committing to a full batch.</p>
+
+      <h2>Which Should You Stock? A Quick Decision Guide</h2>
+      <ul>
+        <li><strong>Running a tea stall, dhaba, or canteen?</strong> Stock dust (PD or RD) — customers want strong, fast, affordable chai, and dust delivers all three.</li>
+        <li><strong>Selling to households or running a café focused on taste?</strong> Stock leaf grades (BOP, BP, BOPSM) — the flavour difference is what these customers are paying for.</li>
+        <li><strong>Building a retail or private-label brand?</strong> Consider a Family Mix — it captures the strength Indian customers expect while still delivering a rounder taste than pure dust alone.</li>
+        <li><strong>Not sure which grade of dust to start with?</strong> PD is the safest, most broadly recognised starting point for hotel/commercial buyers; move to SFD if your customer specifically wants very fast-brewing tea (e.g., for tea bags), or CD if you're targeting a slightly more premium dust segment.</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is the difference between tea dust and leaf tea?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Tea dust is the finest particle size from CTC processing — it brews quickly and gives strong colour at a low cost, making it popular with tea stalls, dhabas, and canteens. Leaf tea (grades like BOP, BP, BOPSM) is a larger particle size with a more rounded flavour, popular with households and cafés that prioritise taste.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is PD grade tea?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">PD stands for Pekoe Dust — the most common hotel-grade tea dust, known for strong colour and quick brewing. It's typically the standard choice for tea stalls and commercial canteens.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is a Family Mix tea blend?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">A Family Mix is a blend of mostly leaf tea (commonly around 70%) with a smaller portion of dust (around 30%), combining the better flavour of leaf tea with the strength and colour of dust — a popular choice for households that want both in one packet.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Is dust tea lower quality than leaf tea?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Not necessarily — they're different products for different needs, not a strict quality ranking. Premium dust grades like CD (Churamoni Dust) can command higher prices than basic leaf grades. The right choice depends on your customer's priorities: speed and strength (dust) versus flavour depth (leaf).</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/tea-grades">Tea Grades Explained: Understanding BP, BOP, Dust &amp; Orthodox Leaf</a></li>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a></li>
+        <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Buying</a></li>
       </ul>
     `,
-    keywords: "tea dust vs leaf tea, hotel tea powder, best tea for tea stall",
+    keywords: "tea dust vs leaf tea, hotel tea powder, Pekoe Dust PD, Family Mix tea blend, wholesale tea dust, CD dust tea grade",
     imageUrl: teaDust,
     lang: 'en'
   },
