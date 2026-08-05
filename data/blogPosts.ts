@@ -1741,7 +1741,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p style="font-size: 13px; color: #6b7280; margin-top: 32px; border-top: 1px solid #e5e7eb; padding-top: 16px;"><em>Disclaimer: The figures in this guide are indicative ranges based on typical market conditions as of 2026 and general industry patterns. They are not a guarantee of income. Actual profit depends on your location, execution, marketing, and prevailing market prices — please treat this as a planning reference, not financial advice.</em></p>
     `,
     keywords: "tea business profit margin, tea wholesale price India, is tea business profitable, tea stall profit, retail tea margin 2026",
-    imageUrl: "/blog-images/private-label-packaging.webp",
+    imageUrl: "/blog-images/tea-business-profit-margin.jpg",
     lang: 'en'
   },
   {
