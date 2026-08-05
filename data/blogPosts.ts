@@ -1085,53 +1085,6 @@ export const BLOG_POSTS: BlogPost[] = [
     lang: 'en'
   },
   {
-    id: "b9",
-    title: "Tea Business Profit Margin 2026: 20–40% Explained with Real Numbers",
-    slug: "tea-business-profit-margin",
-    date: "February 25, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "See exactly how much profit tea business makes — 20% to 40% margins explained with real cost breakdowns. Free calculator logic included.",
-    content: `
-      <p>Let's talk numbers. Is selling tea profitable? If you <a href="/services/private-label-tea/">start your own tea brand</a> and <a href="/products/ctc-tea/">source CTC tea from Siliguri</a>, the margins are highly attractive. Here is a simple breakdown for a small tea packer.</p>
-
-      <h3>The Cost Breakdown (Per Kg) - Example</h3>
-      <ul>
-        <li><strong>Loose Tea cost (from Siliguri):</strong> ₹200/kg</li>
-        <li><strong>Transport to your City:</strong> ₹10/kg</li>
-        <li><strong>Packaging (Pouch + Labor):</strong> ₹30/kg</li>
-        <li><strong>Marketing/Distributor Margin:</strong> ₹40/kg</li>
-      </ul>
-      <p><strong>Total Cost to You:</strong> ₹280/kg</p>
-
-      <h3>The Selling Price</h3>
-      <ul>
-        <li><strong>Retail Market Price:</strong> ₹400 - ₹450/kg</li>
-      </ul>
-
-      <h3>The Profit</h3>
-      <ul>
-        <li><strong>Your Margin:</strong> ₹120 - ₹170 per kg.</li>
-      </ul>
-
-      <p>If you sell just <strong>100 kg per month</strong> (which is very low), you make ₹12,000 - ₹17,000 profit. A successful local brand easily sells 1000kg+ per month.</p>
-      <p><em>Note: Prices fluctuate. Contact us for today's live wholesale rates.</em></p>
-    
-
-      <h3>Related Reading</h3>
-      <ul>
-      </ul>
-    `,
-    keywords: "tea business profit margin, tea wholesale price India, is tea business profitable",
-    imageUrl: "/blog-images/tea-profit-calculator.webp",
-    lang: 'en',
-    translationId: 'tea-profit',
-    faqSchema: [
-      { question: "What is the profit margin in tea business in India?", answer: "Tea business profit margin ranges from 10–15% in wholesale/bulk distribution to 40–50% in retail packet models. Premium branded or private label tea can yield 60–100% gross margins. Sourcing directly from Siliguri instead of local middlemen adds ₹30–50/kg to your margin, making a significant difference at scale." },
-      { question: "How much can I earn from tea business per month?", answer: "Monthly earnings depend on model and volume. A wholesale distributor selling 2,000 kg/month at ₹15/kg margin earns ₹30,000. A retail brand selling 500 kg/month of branded tea at ₹150–200/kg margin earns ₹75,000–1,00,000. High-volume traders handling 5+ tonnes/month regularly earn ₹1–5 lakh net profit." },
-      { question: "Is tea business profitable compared to other food businesses?", answer: "Tea is one of the most profitable food businesses in India because of its high consumption frequency (Indians drink 2–3 cups/day), low perishability (tea lasts 12–18 months in proper storage), low entry capital (₹25,000–1 lakh to start), and strong brand loyalty once established. The market is large enough for new players at every tier." }
-    ]
-  },
-  {
     id: "b10",
     title: "Understanding Tea Grades: BP, BOP, OF, PD",
     slug: "tea-grades-explained",
@@ -1646,60 +1599,152 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b21",
-    title: "Tea Business Profit Margin in 2026: Real Numbers & Breakdown",
+    title: "Tea Business Profit Margin Guide (2026)",
     slug: "tea-business-profit-margin-guide-2025",
     date: "January 18, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "What is the actual profit margin in tea business? 20–50% explained with real cost data: wholesale, retail pouch, and private label models compared.",
+    author: "Jaleshwar Ray",
+    excerpt: "A model-by-model breakdown of tea business profit margins in 2026 — retail pouch, wholesale supply, tea stall, and premium orthodox — with real numbers and a worked example.",
     content: `
-      <p>The first question every entrepreneur asks: "How much will I make?" In the tea business, margins depend heavily on your business model. Here is the realistic breakdown for 2026.</p>
+      <p>The first question every entrepreneur asks: "How much will I make?" In the tea business, the honest answer is: it depends heavily on which model you choose. Selling loose tea in bulk and selling branded pouches to households are two completely different businesses with completely different margins. Here's a realistic, model-by-model breakdown for 2026 — with real numbers, not vague promises.</p>
+
+      <p><em>A quick honest note before we start: every figure below is an indicative range based on typical market conditions, not a guarantee. Your actual margin depends on your location, your sourcing, your marketing spend, and how well you execute. Treat these as planning numbers, not a promise.</em></p>
 
       <h2>1. The Retail Pouch Model (B2C)</h2>
       <p>Selling 250g/500g packets directly to households or shops.</p>
       <ul>
-        <li><strong>Buying Price (Bulk):</strong> ₹200 - ₹250/kg</li>
-        <li><strong>Packaging Cost:</strong> ₹30 - ₹50/kg</li>
-        <li><strong>Selling Price (MRP):</strong> ₹400 - ₹500/kg</li>
-        <li><strong>Gross Margin:</strong> 40% - 50%</li>
-        <li><strong>Net Profit (after marketing/ops):</strong> 20% - 25%</li>
+        <li><strong>Buying Price (Bulk):</strong> ₹200 – ₹250/kg</li>
+        <li><strong>Packaging Cost:</strong> ₹30 – ₹50/kg</li>
+        <li><strong>Selling Price (MRP):</strong> ₹400 – ₹500/kg</li>
+        <li><strong>Gross Margin:</strong> 40% – 50%</li>
+        <li><strong>Net Profit (after marketing/ops):</strong> 20% – 25%</li>
       </ul>
+
+      <h3>A Real Worked Example</h3>
+      <p>Numbers are easier to trust when you see them applied to an actual batch. Here's a typical cost build for this model:</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Item</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Loose tea (from Siliguri)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹200/kg</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Transport to your city</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹10/kg</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Packaging (pouch + labour)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹30/kg</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Marketing/distributor margin</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹40/kg</td>
+          </tr>
+          <tr style="font-weight: bold; background-color: #f9fafb;">
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Total cost to you</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹280/kg</td>
+          </tr>
+          <tr style="color: #15803d;">
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Retail selling price</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹400 – ₹450/kg</td>
+          </tr>
+          <tr style="color: #15803d; font-weight: bold;">
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Your profit</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹120 – ₹170/kg</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>If you sell just 100 kg a month — a genuinely modest, low-effort volume — that's ₹12,000 to ₹17,000 profit a month. A brand that's found real traction can easily move 1,000kg+ a month, at which point the same per-kg margin turns into a serious income. Prices shift with the season, so always confirm current wholesale rates before finalising your own numbers.</p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0; text-align: center;">
+        <p style="margin-bottom: 8px; font-weight: 600; color: #166534;">Free Tea Blend Calculator</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Instantly calculate blend ratios, batch cost per kg, and selling margin. Built for wholesale buyers and private label brands.</p>
+        <a href="/tea-blend-calculator" style="background-color: #15803d; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Open Free Calculator →</a>
+      </div>
 
       <h2>2. The Wholesale Supply Model (B2B)</h2>
       <p>Supplying loose tea to tea stalls, hotels, and smaller retailers.</p>
       <ul>
-        <li><strong>Buying Price:</strong> ₹180 - ₹200/kg</li>
-        <li><strong>Detailed Cost:</strong> Minimal (Gunny bag packing)</li>
-        <li><strong>Selling Price:</strong> ₹220 - ₹250/kg</li>
-        <li><strong>Gross Margin:</strong> 10% - 15%</li>
-        <li><strong>Volume Game:</strong> Margins are low, but you sell 50kg per day instead of 5kg.</li>
+        <li><strong>Buying Price:</strong> ₹180 – ₹200/kg</li>
+        <li><strong>Packing Cost:</strong> Minimal (gunny bag packing)</li>
+        <li><strong>Selling Price:</strong> ₹220 – ₹250/kg</li>
+        <li><strong>Gross Margin:</strong> 10% – 15%</li>
+        <li><strong>Volume Game:</strong> Margins are low per kg, but you're moving 50kg a day instead of 5kg — the model works on turnover, not markup.</li>
       </ul>
 
-      <h2>3. The Premium/Orthodox Model</h2>
-      <p>Selling Darjeeling/Green tea online or to cafes.</p>
+      <h2>3. The Tea Stall / Café Model (Per-Cup Economics)</h2>
+      <p>This is the model most first-time entrepreneurs actually picture when they think "tea business" — and it works completely differently from the two above, because you're selling by the cup, not by the kg.</p>
       <ul>
-        <li><strong>Buying Price:</strong> ₹500 - ₹1000/kg</li>
-        <li><strong>Selling Price:</strong> ₹1500 - ₹3000/kg</li>
-        <li><strong>Gross Margin:</strong> 100% - 200%</li>
-        <li><strong>Challenge:</strong> Finding the right customer requires high marketing spend.</li>
+        <li><strong>Raw material cost per cup:</strong> Roughly ₹3 – ₹8 (tea, milk, sugar, cup, gas)</li>
+        <li><strong>Typical selling price per cup:</strong> ₹15 – ₹30, depending on location and positioning</li>
+        <li><strong>Gross margin per cup:</strong> Roughly 40% – 60%</li>
+        <li><strong>Reality check:</strong> A single tea stall in India typically nets somewhere in the ₹15,000 – ₹60,000/month range, while a branded café-style outlet can reach ₹40,000 – ₹1,20,000+/month — but this depends enormously on footfall, rent, and location, far more than on the tea itself.</li>
+        <li><strong>Break-even expectation:</strong> Most small food and beverage outlets take roughly 12 to 18 months to break even. Budget for this timeline rather than expecting fast profit.</li>
+        <li><strong>Investment range:</strong> A basic stall/kiosk can start from ₹25,000 – ₹1 lakh (see our <a href="/blog/start-tea-brand-india/">guide to starting with ₹25,000</a>), while a proper café-style setup typically needs ₹2 – ₹10 lakh.</li>
       </ul>
 
-      <h2>How to Maximize Profit</h2>
+      <h2>4. The Premium/Orthodox Model</h2>
+      <p>Selling Darjeeling/Green tea online or to cafés.</p>
       <ul>
-        <li><strong>Source from Siliguri:</strong> Cut out the Kolkata/Delhi middlemen to save ₹30-₹50/kg by partnering directly with <a href="/wholesale-supply/siliguri-tea-supplier/">wholesale tea suppliers in Siliguri</a>.</li>
-        <li><strong>Create a Blend:</strong> Don't sell straight grades. Create a signature blend that customers can't find elsewhere.</li>
-        <li><strong>Hold Stock:</strong> Buy heavy during peak season (June-Oct) when quality is high and prices are stable.</li>
+        <li><strong>Buying Price:</strong> ₹500 – ₹1,000/kg</li>
+        <li><strong>Selling Price:</strong> ₹1,500 – ₹3,000/kg</li>
+        <li><strong>Gross Margin:</strong> 100% – 200%</li>
+        <li><strong>Challenge:</strong> Finding the right customer requires real marketing spend — premium positioning doesn't sell itself, even with a genuinely excellent product.</li>
       </ul>
-    
+
+      <h2>A Real Case Study: Turning a ₹160/kg Blend Into Real Margin</h2>
+      <p>Numbers on a page are one thing — a real order is another. We recently built a custom blend for a hotel client working to a strict ₹160/kg cost target for high-volume chai service (full blend breakdown in our <a href="/blog/how-to-blend-tea-for-packing/">tea blending guide</a>). Using a 70% Dooars CTC base and 30% Assam CTC strength, we landed the blend cost right at ₹160/kg.</p>
+      <p>Here's why that number matters for profit, not just for cost: hotel and canteen chai is typically served at ₹10–₹15 a cup, with each kg of tea brewing roughly 150–200 cups depending on strength. At even a conservative 150 cups/kg and ₹10/cup, that's ₹1,500 in revenue against a ₹160/kg tea cost — the tea itself is a small fraction of what the final cup earns, which is exactly why getting the blend cost right at scale makes a real difference to a high-volume buyer's bottom line.</p>
+
+      <h2>Need Funding to Get Started?</h2>
+      <p>If your own capital doesn't stretch to your target model, you don't have to fund everything yourself. We've covered this in detail in our <a href="/blog/start-tea-brand-india/">₹25,000 startup guide</a>, but in short: Udyam/MSME registration is free and unlocks access to schemes like MUDRA loans (collateral-free, up to ₹10 lakh) and PMFME (a credit-linked subsidy specifically for food processing businesses like tea packaging) — both worth checking before you assume you need to bootstrap the entire launch cost yourself.</p>
+
+      <h2>How to Maximise Profit, Whichever Model You Choose</h2>
+      <ul>
+        <li><strong>Source from Siliguri:</strong> Cut out the Kolkata/Delhi middlemen and save ₹30–₹50/kg by <a href="/wholesale-supply/siliguri-tea-supplier/">partnering directly with a Siliguri wholesale supplier</a>.</li>
+        <li><strong>Create a blend:</strong> Don't sell straight grades if you can help it. A signature blend customers can't find elsewhere is what actually builds repeat business and protects your margin from price comparison.</li>
+        <li><strong>Hold stock strategically:</strong> Buy heavier during peak season (roughly June–October) when quality is high and prices are stable, rather than buying small amounts reactively at whatever the rate happens to be that week.</li>
+        <li><strong>Add a second revenue stream if you can:</strong> Businesses that combine their core model with something else — retail add-ons for a wholesale buyer, a subscription option for a retail brand — tend to grow margin without proportionally growing costs.</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is the profit margin in the tea business in India?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">It depends on the model. Wholesale/bulk distribution typically runs 10–15% margin. Retail packet models run 40–50%. Premium branded or private label tea can reach 60–100%+ gross margin. A tea stall selling by the cup typically sees 40–60% margin per cup. Sourcing directly from Siliguri instead of through local middlemen can add ₹30–50/kg to your margin at any scale.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How much can I actually earn from a tea business per month?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">It depends heavily on your model and volume. A wholesale distributor moving 2,000 kg/month at a ₹15/kg margin earns around ₹30,000. A retail brand selling 500 kg/month of branded tea at ₹150–200/kg margin can earn ₹75,000–1,00,000. A standalone tea stall typically nets ₹15,000–60,000/month, while high-volume traders handling 5+ tonnes/month can see ₹1–5 lakh net profit. These are indicative ranges, not guarantees.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Is the tea business profitable compared to other food businesses?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Tea is generally considered one of the more resilient food businesses in India, thanks to high daily consumption (most people drink 2–3 cups a day), low perishability (properly stored tea holds for 12–18 months), and relatively low entry capital (₹25,000–1 lakh to start small). That said, no food business is guaranteed profitable — execution, location, and consistency matter as much as the product itself.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/start-tea-brand-india/">How to Start a Tea Business in India with ₹25,000</a></li>
+        <li><a href="/blog/high-profit-tea-business-ideas/">7 High-Profit Tea Business Ideas in India</a></li>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a></li>
       </ul>
+
+      <p style="font-size: 13px; color: #6b7280; margin-top: 32px; border-top: 1px solid #e5e7eb; padding-top: 16px;"><em>Disclaimer: The figures in this guide are indicative ranges based on typical market conditions as of 2026 and general industry patterns. They are not a guarantee of income. Actual profit depends on your location, execution, marketing, and prevailing market prices — please treat this as a planning reference, not financial advice.</em></p>
     `,
-    keywords: "tea profit margin, tea business profitability, wholesale tea margin, retail tea margin",
+    keywords: "tea business profit margin, tea wholesale price India, is tea business profitable, tea stall profit, retail tea margin 2026",
     imageUrl: "/blog-images/private-label-packaging.webp",
     lang: 'en'
   },
-    {
+  {
     id: "b23-hi",
     title: "चाय व्यापार लाभ मार्जिन गाइड (2026)",
     slug: "tea-business-profit-margin-hindi",
