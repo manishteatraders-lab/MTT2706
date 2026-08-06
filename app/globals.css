@@ -142,6 +142,10 @@ body {
   @apply bg-stone-50/50;
 }
 
+.prose a {
+  @apply text-tea-600 underline decoration-tea-300 decoration-1 hover:text-tea-800 hover:decoration-tea-500 transition-colors font-medium;
+}
+
 .overflow-x-auto {
   @apply overflow-x-auto;
 }
