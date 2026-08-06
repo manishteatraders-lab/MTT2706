@@ -1155,6 +1155,8 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <p><em>This list follows the official grading terms used by the Tea Board of India for CTC tea.</em></p>
 
+      <p>Want to browse this visually? We also have a dedicated <a href="/tea-grades/">Tea Grades page</a> on our site with the full grade breakdown laid out for quick reference — worth bookmarking alongside this guide.</p>
+
       <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
         <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
         <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
