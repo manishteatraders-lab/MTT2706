@@ -1292,41 +1292,118 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b11",
-    title: "Tea Warehouse Storage Tips 2026 — Keep Bulk Tea Fresh for 12 Months",
+    title: "How to Store Your First Bulk Tea Order — And Keep It Fresh for 12 Months",
     slug: "tea-storage-warehouse-tips",
     date: "March 5, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Bad storage kills your margins. Learn the exact warehouse setup, packaging rules, and common mistakes that destroy bulk tea stock in weeks.",
+    author: "Jaleshwar Ray",
+    excerpt: "Learn how to store loose tea in bulk — moisture, heat, light, and odour controls, warehouse placement rules, First-In First-Out, and seasonal storage checks.",
     content: `
-      <p>Tea enemies are Moisture, Heat, Light, and Odors. Incorrect storage can turn premium tea into trash in 2 weeks.</p>
+      <p>So you've just placed your first bulk tea order — maybe 30kg, maybe 100kg — and it's about to land at your door, your shop, or your garage. Exciting moment. But here's something nobody tells first-time buyers clearly enough: how you store that tea in the next few weeks matters almost as much as where you bought it from. Get it wrong, and a genuinely good batch can lose its freshness fast. Get it right, and it'll stay good for many months. Here's exactly what to do, no warehouse or fancy equipment required.</p>
 
-      <h2>1. The Warehouse Setup</h2>
+      <h2>The Four Things That Ruin Tea</h2>
+      <p>Tea has four real enemies: moisture, heat, light, and strong smells. That's it. Almost every storage mistake comes down to one of these four. If you remember nothing else from this guide, remember this list.</p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
+
+      <h2>Where to Keep It (You Don't Need a Warehouse)</h2>
+      <p>Most first-time buyers store their first bulk order at home, in a shop back-room, or a small storage space — and that's completely fine, as long as you follow a few basics:</p>
       <ul>
-        <li><strong>Floor:</strong> Never place tea bags directly on the floor. Use wooden pallets (4 inches high) to prevent ground moisture.</li>
-        <li><strong>Walls:</strong> Keep bags 1 foot away from walls to prevent dampness.</li>
-        <li><strong>Roof:</strong> Ensure no leaks. High humidity is a killer.</li>
+        <li><strong>Keep it off the floor.</strong> Even a couple of wooden planks or a simple pallet under the sacks makes a real difference — floors hold ground moisture, especially during monsoon.</li>
+        <li><strong>Keep it away from the wall.</strong> Dampness collects on walls first. A gap of even a foot helps air circulate and keeps moisture from creeping into your stock.</li>
+        <li><strong>Pick the driest room you have.</strong> A spare room or storage corner is fine — a damp garage or a spot near a leaking roof is not. If your storage area smells even slightly musty, that's a warning sign worth acting on before your tea absorbs it too.</li>
+        <li><strong>Rough humidity guide:</strong> Tea prefers a moderate, dry environment — ideally not more humid than a normal living space. If you're storing at any real scale, a cheap hygrometer (humidity meter) costs very little and takes the guesswork out entirely.</li>
       </ul>
 
-      <h2>2. What NOT to Store Nearby</h2>
-      <p>Tea is a sponge. Do not store it near:</p>
+      <h2>Keep It Away From These</h2>
+      <p>Tea acts like a sponge — it soaks up whatever smell is around it. Keep your first order well away from:</p>
       <ul>
-        <li>Spices (Cardamom, Clove) - unless you want masala chai!</li>
-        <li>Soaps or detergents.</li>
-        <li>Petrol or Chemicals.</li>
+        <li>Spices like cardamom or clove (unless you're deliberately blending a masala chai)</li>
+        <li>Soaps, detergents, or cleaning products</li>
+        <li>Petrol, paint, or any strong chemical smell</li>
+      </ul>
+      <p>This sounds obvious written down, but it's one of the most common mistakes first-time buyers make — storing tea in the same small room as household cleaning supplies "just for now," and finding it's picked up the smell weeks later.</p>
+
+      <h2>Should You Keep It in the Original Sack, or Move It?</h2>
+      <ul>
+        <li><strong>If you'll use it within 3-4 months:</strong> The original sack is generally fine, as long as the inner lining isn't torn or punctured. Check it when it arrives — a small tear is easy to miss but lets moisture in over time.</li>
+        <li><strong>If you're repacking into smaller quantities for retail:</strong> Move it into an airtight container — a steel or glass jar works well — as soon as you open the sack. An opened sack that's just loosely re-tied after each use is one of the fastest ways to lose freshness, since it's exposed to air every time you dip into it. If you're doing this to prepare for your own branded packets, our <a href="/services/private-label-tea/">private label packaging service</a> handles this step professionally once you're ready to scale beyond manual repacking.</li>
+      </ul>
+      <p><strong>A cheap trick that helps:</strong> A few food-grade silica gel packets inside your storage container quietly absorb stray moisture, especially useful if you're storing through a humid season. They're inexpensive and worth having on hand for your first few orders while you're still getting your storage setup right.</p>
+
+      <h2>One Habit Worth Building From Day One: First In, First Out</h2>
+      <p>Even with just one bulk order, start the habit that professional traders use: use your oldest stock first. As your business grows and you're placing repeat orders, this becomes genuinely important — older tea sitting untouched at the back while newer stock gets used first is a common, avoidable way to end up with a batch that's quietly gone stale. Starting this habit with your very first order means it's second nature by the time you're managing several batches at once.</p>
+
+      <h2>How Long Will It Actually Stay Fresh?</h2>
+      <p>Good quality tea, stored the way described above, can reasonably hold its flavour and aroma for 12-18 months. That's a solid window — you don't need to rush to use up your first order. But that number assumes decent storage. Tea left in poor conditions (damp, exposed, near strong smells) can noticeably decline in just a few weeks, which is really the whole point of this guide: the tea itself was probably fine when it arrived — what happens to it next is on you.</p>
+
+      <h2>Common Tea Storage Mistakes First-Time Buyers Make</h2>
+      <p>If you're learning how to store loose tea in bulk for the first time, most problems trace back to one of these avoidable mistakes:</p>
+      <ul>
+        <li>Leaving sacks directly on the floor — even for "just a few weeks," ground moisture starts working on tea faster than most people expect.</li>
+        <li>Re-tying an opened sack loosely instead of moving to an airtight container — this is probably the single most common mistake among first-time buyers, since it feels unnecessary for "just a bit of tea."</li>
+        <li>Storing tea in the same small room as cleaning supplies or spices "temporarily" — temporary often becomes permanent, and the smell transfer happens faster than you'd think.</li>
+        <li>Assuming all tea grades behave the same way in storage. They don't — finer grades like dust have more surface area exposed to air per kg than a leaf grade like BP, which means they can pick up moisture and lose freshness a little faster. If you're storing a mixed order of both, check our <a href="/blog/tea-grades-explained/">tea grades guide</a> to know which part of your order needs the most careful handling.</li>
+        <li>Buying more than you'll use in a reasonable window, then being surprised when the last few kg taste flatter than the first. This connects back to the point above about not over-ordering relative to your actual sales pace.</li>
       </ul>
 
-      <h2>3. Packaging for Storage</h2>
+      <h2>How to Keep It Fresh for the Full 12 Months (Not Just the First Few Weeks)</h2>
+      <p>Getting the initial setup right is step one — but tea sitting for 12 months needs a little ongoing attention too, not just a good start. Here's how to actually make that full window work in your favour:</p>
       <ul>
-        <li><strong>Original Sacks:</strong> Good for 3-4 months if the erratic inner liner is intact.</li>
-        <li><strong>Jars:</strong> For loose retail, transfer to airtight steel or glass jars immediately.</li>
+        <li><strong>Check in on it monthly, not just once.</strong> Open the storage area, have a look and a smell. You're checking for two things: any hint of dampness or mustiness, and any change in the tea's own smell. Catching a problem in month 2 is far easier to fix than discovering it in month 8.</li>
+        <li><strong>Adjust for the season.</strong> Storage that's perfectly fine in a dry winter month can become risky the moment monsoon humidity rolls in. If you notice the air around your storage area feeling noticeably damper in a particular season, that's the time to double-check your sacks, add a fresh desiccant packet, or move stock to a drier spot if you have one.</li>
+        <li><strong>Reseal properly every single time.</strong> It's tempting to just fold the top of a sack over after taking some tea out. Don't. A proper reseal — twist, fold, and tie or clip it shut — takes ten extra seconds and matters every time you open it, not just the first time.</li>
+        <li><strong>Replace desiccant packets periodically, not just once at the start.</strong> A silica gel packet that's absorbed as much moisture as it can stops being useful — swap it out every couple of months if you're storing through a humid season.</li>
+        <li><strong>Don't buy more than you can realistically use in that window.</strong> The 12-month figure is a ceiling under good conditions, not a target to stretch toward. If you're consistently carrying stock past the 9-10 month mark, it's worth reviewing whether your order sizes match your actual sales pace.</li>
+        <li><strong>Trust your nose over the calendar.</strong> These guidelines are solid averages, but your own tea is the real test. If something smells off before the 12-month mark, don't wait for a date on a calendar to tell you otherwise — check it properly using the <a href="/blog/identify-quality-tea/">quality tests in our identification guide</a>.</li>
       </ul>
-    
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How do I keep tea fresh for 12 months?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Start with the basics — dry storage off the floor and away from walls, no strong smells nearby, and an airtight container once opened. Then stay consistent: check your stock monthly, reseal properly every time, adjust for humid seasons, and don't let stock sit past 9-10 months if you're regularly carrying leftover inventory. The full 12-month window depends on ongoing care, not just a good first setup.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What's the best airtight container for storing tea?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Food-grade steel or glass jars with a tight-sealing lid work best for opened or repacked tea. The material matters less than the seal — the goal is to keep air and moisture out between uses, not to buy anything expensive.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What are the most common tea storage mistakes to avoid?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">The biggest ones: leaving sacks on the floor, loosely re-tying an opened sack instead of using an airtight container, storing tea near spices or cleaning products, and buying more than you'll realistically use within a reasonable window. Most freshness problems trace back to one of these.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Do I need to store dust and leaf grades differently?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Finer grades like dust have more surface area exposed to air, so they can lose freshness slightly faster than coarser leaf grades like BP or BOP. If your first order includes both, keep the dust portion tightly sealed and prioritise using it before the leaf portion.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How should I store my first bulk tea order at home?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Keep it off the floor and away from walls, in the driest room available, away from spices and strong smells. If the original sack's inner lining is intact, it's fine for 3-4 months; for longer storage or once opened, move it into an airtight container.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How long does bulk tea stay fresh after I buy it?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Properly stored tea can hold its quality for 12-18 months. Poor storage — high humidity, damaged packaging, or nearby strong odours — can cause noticeable quality loss in just a few weeks, so storage conditions matter more than time alone.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Do I need special equipment to store my first order properly?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">No. A dry room, something to keep sacks off the floor and away from walls, and an airtight container for any tea you've opened is enough for a first order. A hygrometer and some silica gel packets are cheap, optional upgrades once you're storing at a bigger scale.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/start-tea-brand-india/">How to Start a Tea Business in India with ₹25,000</a></li>
+        <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Buying</a></li>
+        <li><a href="/blog/tea-grades-explained/">Tea Grades Explained: Full Forms of BP, BOP, OF, PD</a></li>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a></li>
+        <li><a href="/services/private-label-tea/">Private Label Tea Packaging Service</a></li>
       </ul>
     `,
-    keywords: "how to store tea, bulk tea storage, tea warehouse guide",
+    keywords: "how to store tea, bulk tea storage, tea storage temperature, tea warehouse setup, prevent moisture tea, store loose tea",
     imageUrl: "/blog-images/tea-warehouse.webp",
     lang: 'en'
   },
