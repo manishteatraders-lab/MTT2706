@@ -1285,7 +1285,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "CTC tea grades, tea grade full form, BP BOP OF PD tea, Tea Board of India grades, orthodox tea grades, OP TGFOP meaning",
-    imageUrl: teaCtc,
+    imageUrl: "/blog-images/tea-grades-explained.jpg",
     lang: 'en'
   },
   {
