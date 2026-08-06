@@ -1086,40 +1086,205 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b10",
-    title: "Understanding Tea Grades: BP, BOP, OF, PD",
+    title: "Tea Grades Explained: Full Forms of BP, BOP, OF, PD (CTC & Orthodox)",
     slug: "tea-grades-explained",
     date: "March 1, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Confused by the acronyms? BP, BOP, OF, PD? We decode the grading system of CTC tea.",
+    author: "Jaleshwar Ray",
+    excerpt: "Decode tea grading systems for CTC and Orthodox tea in India. Full forms and explanation of BP, BP1, BOP, BOPSM, OF, PF, BOPF, PD, D, OP, TGFOP, and more.",
     content: `
-      <p>CTC (Crush, Tear, Curl) tea is the engine of the Indian tea industry. It’s what gives our chai its characteristic color and strength. But if you look at our price list, you see terms like BP, OF, PD. What do they mean?</p>
+      <p>CTC (Crush, Tear, Curl) tea is the engine of India's tea industry. It's what gives your everyday chai its strong colour and taste. But look at any wholesale price list and you'll see short codes like BP, OF, PD — and most guides never actually tell you what these letters mean. Let's fix that, in plain language.</p>
 
-      <h2>Decoding the Jargon</h2>
-      <p>Tea is graded by size, not necessarily quality. However, the size determines how the tea brews.</p>
+      <h2>CTC Tea Grades: Full List</h2>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Short Form</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Full Name</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">BP</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Broken Pekoe</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Leaf</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">BP1</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Broken Pekoe 1</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Leaf</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">BOP</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Broken Orange Pekoe</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Leaf</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">BOPSM</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Broken Orange Pekoe Small</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Leaf</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">OF</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Orange Fannings</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Fannings</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">PF</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Pekoe Fannings</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Fannings</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">BOPF</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Broken Orange Pekoe Fannings</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Fannings</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">PD</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Pekoe Dust</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Dust</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">D</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Dust</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Dust</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><em>This list follows the official grading terms used by the Tea Board of India for CTC tea.</em></p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
+
+      <h2>Why These Grades Exist (The One Rule That Explains Everything)</h2>
+      <p>Tea is graded by size, not directly by quality. A "higher" grade doesn't mean better — it just means a different size, which brews differently. Smaller pieces have more surface area, so they release colour and strength fast. Bigger pieces brew slower, but often give a smoother, rounder cup. Once you know this one rule, the whole system stops feeling like alphabet soup.</p>
 
       <h3>For Tea Stalls & Hotels (The Quick Brew)</h3>
-      <p>If you run a high-volume tea stall, you need color—fast. Customers won't wait 10 minutes.</p>
+      <p>Running a busy tea stall? You need colour fast. Customers won't wait 10 minutes for a cup.</p>
       <ul>
-        <li><strong>Recommended Grades:</strong> Dust, PD (Pekoe Dust), or OF (Orange Fannings).</li>
-        <li><strong>Why:</strong> Smaller granules have more surface area, releasing strong liquor instantly. Check out our <strong>Tea Dust (Hotel Special)</strong>.</li>
+        <li><strong>Best grades:</strong> Dust, PD (Pekoe Dust), or OF (Orange Fannings).</li>
+        <li><strong>Why:</strong> Small granules brew almost instantly and give strong colour. Check out our <a href="/products/tea-dust/">Tea Dust (Hotel Special)</a>. Want to go deeper into the different dust sub-types like SFD or CD? See our <a href="/blog/tea-dust-vs-leaf/">tea dust vs leaf guide</a>.</li>
       </ul>
 
-      <h3>For Households (The Flavorful Cup)</h3>
-      <p>Home consumers prefer a balance of flavor and strength. They don't like the "muddy" texture of pure dust.</p>
+      <h3>For Households (The Flavourful Cup)</h3>
+      <p>Home drinkers usually want a balance — good taste, not just strength. Most don't like the heavy, muddy feel of pure dust tea.</p>
       <ul>
-        <li><strong>Recommended Grades:</strong> BP (Broken Pekoe) or BOP (Broken Orange Pekoe). Many households <a href="/products/ctc-tea/">buy BP grade tea in bulk</a> for everyday consumption.</li>
-        <li><strong>Why:</strong> These larger granules take 3-4 minutes to brew but provide a richer, smoother taste.</li>
+        <li><strong>Best grades:</strong> BP (Broken Pekoe) or BOP (Broken Orange Pekoe). Many households <a href="/products/ctc-tea/">buy BP grade tea in bulk</a> for daily use.</li>
+        <li><strong>Why:</strong> These bigger pieces take 3–4 minutes to brew, but give a smoother, richer cup with less bitterness.</li>
       </ul>
 
-      <h2>The Secret: Blending</h2>
-      <p>Most successful brands don't sell just one grade. They blend. A common mix is <strong>60% BP (for flavor) + 40% OF (for color)</strong>. At Manish Tea Traders, we have ready-made blends like <em>Rajni Gold</em> and <em>Begam Gold</em> that are pre-mixed for the perfect cup.</p>
-    
+      <h2>What About Orthodox Tea Grades? (OP, FOP, TGFOP)</h2>
+      <p>If you sell or buy Darjeeling or premium Assam tea, you'll run into a completely different set of codes — because orthodox tea (rolled by hand or gentle machine, not crushed like CTC) uses its own grading language, based mainly on how much of the leaf is whole, and how many golden tips (young buds) it contains.</p>
+      <p>Here's the ladder, from simple to most premium:</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Short Form</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Full Name</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">What It Means</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">OP</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Orange Pekoe</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">The base grade — whole young leaves, no golden tips required. Note: "Orange" here has nothing to do with orange flavour — it's an old trade term.</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">FOP</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Flowery Orange Pekoe</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Whole leaf with a few young buds mixed in.</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">GFOP</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Golden Flowery Orange Pekoe</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">More visible golden tips than FOP.</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">TGFOP</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Tippy Golden Flowery Orange Pekoe</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">A high amount of golden tips — this is the main premium grade you'll see on good Darjeeling and Assam packets.</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">FTGFOP</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Finest Tippy Golden Flowery Orange Pekoe</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Even more tips and finer plucking — a top-tier grade.</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb; font-weight: bold;">SFTGFOP</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Special Finest Tippy Golden Flowery Orange Pekoe</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">The highest, rarest grade — reserved for the very best small lots.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Simple way to remember it: the more words in the name, the more golden tips (and usually the higher the price). A TGFOP or FTGFOP on a Darjeeling packet is a genuine sign of careful, high-quality plucking — not just marketing language.</p>
+      <p>One honest note: unlike CTC, where "bigger grade doesn't mean better," orthodox grading does track quality more closely, because more tips generally means younger, more carefully picked leaf. But even here, the garden, the season, and freshness matter just as much as the grade printed on the packet — a great OP from a top garden can beat a mediocre TGFOP from an average one.</p>
+
+      <h2>What a Tea Taster Looks For, Beyond the Grade Code</h2>
+      <p>The grade code tells you the size — not the quality within that size. Two BP batches can still be very different. Here are a few real terms tasters use to judge quality directly:</p>
+      <ul>
+        <li><strong>Coppery:</strong> The colour of the leaves after brewing (the "infused leaf") — usually a good sign, especially in CTC tea.</li>
+        <li><strong>Even:</strong> Infused leaves with a consistent colour and size — a sign of careful processing.</li>
+        <li><strong>Mixed/Uneven:</strong> Infused leaf with patches of different colours — a sign the batch wasn't processed evenly.</li>
+        <li><strong>Fibre:</strong> Bits of stalk mixed into a CTC grade — usually means careless plucking.</li>
+      </ul>
+      <p>Want the full step-by-step way to test a sample before a big order? See our guide on <a href="/blog/identify-quality-tea/">how to identify good quality tea for bulk buying</a>.</p>
+
+      <h2>The Secret: Blending Across Grades</h2>
+      <p>Most successful tea brands don't sell just one grade — they blend. A common mix is 60% BP (for taste) + 40% OF (for colour), combining the smoother flavour of a leaf grade with the strong colour of a fannings grade. At Manish Tea Traders, we have ready-made blends like Rajni Gold and Begam Gold, already mixed to get this balance right — or we can build a custom ratio for your specific market. See our <a href="/blog/how-to-blend-tea-for-packing/">full blending guide</a> for the complete process.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is the full form of BP in tea?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">BP stands for Broken Pekoe — a leaf-grade CTC tea, medium in size, known for a strong, brisk cup. It's commonly bought in bulk by households for everyday tea.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is BP1 tea grade?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">BP1 is a specific size within the Broken Pekoe (BP) category — generally a bit finer than standard BP, giving a slightly quicker brew and stronger cup.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is the full form of PD in tea?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">PD stands for Pekoe Dust — a fine CTC grade known for brewing fast and giving a strong, intense cup. It's especially popular for tea bags and busy tea stalls that need quick colour.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What does BOP mean in tea?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">BOP stands for Broken Orange Pekoe — a leaf-grade CTC tea, a bit finer than BP, giving a full-bodied cup that balances taste and strength.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is OF in tea grading?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">OF stands for Orange Fannings — a fannings-category CTC grade, finer than leaf grades like BP or BOP, but coarser than dust. Often used to boost colour and strength in a blend.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What are the CTC tea grades in India?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">The main CTC tea grades used in India are BP, BP1, BOP, and BOPSM (leaf grades), OF, PF, and BOPF (fannings), and PD and D (dust grades) — each recognised by the Tea Board of India and used depending on how fast and strong you want the tea to brew.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What are orthodox tea grades?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Orthodox tea grades (used for Darjeeling and premium Assam) include OP, FOP, GFOP, TGFOP, FTGFOP, and SFTGFOP — ranked by how much whole leaf and golden tip (young bud) the batch contains, from OP (the base grade) up to SFTGFOP (the rarest, most premium grade).</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Does a higher tea grade mean better quality?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">For CTC tea, not really — grade mainly tells you the size and brewing speed, not quality. For orthodox tea, grade tracks quality a bit more closely, since more golden tips usually means more careful plucking — but the garden, the season, and freshness still matter just as much as the grade printed on the packet.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/tea-dust-vs-leaf/">Tea Dust vs. Leaf Tea for the Indian Market</a></li>
+        <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Buying</a></li>
+        <li><a href="/blog/darjeeling-tea-flush-guide/">Darjeeling Tea Flush Guide for Wholesale Buyers</a></li>
       </ul>
     `,
-    keywords: "CTC tea grades, difference BP OF dust tea, best tea for hotel",
+    keywords: "CTC tea grades, tea grade full form, BP BOP OF PD tea, Tea Board of India grades, orthodox tea grades, OP TGFOP meaning",
     imageUrl: teaCtc,
     lang: 'en'
   },
