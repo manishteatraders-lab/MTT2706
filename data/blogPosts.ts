@@ -1404,7 +1404,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "how to store tea, bulk tea storage, tea storage temperature, tea warehouse setup, prevent moisture tea, store loose tea",
-    imageUrl: "/blog-images/tea-warehouse.webp",
+    imageUrl: "/blog-images/tea-storage-warehouse-tips.jpg",
     lang: 'en'
   },
   {
