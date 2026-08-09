@@ -1802,7 +1802,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "how to sell tea to stalls, tea marketing strategy, tea sales pitch, adulterated tea test, detect fake tea, FSSAI tea safety limit",
-    imageUrl: "/blog-images/tea-wholesale-market-scene.webp",
+    imageUrl: "/blog-images/sell-tea-to-tea-stalls.jpg",
     lang: 'en'
   },
   {
