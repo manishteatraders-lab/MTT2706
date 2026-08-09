@@ -1455,6 +1455,12 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <p>That's the core decision in one line: loose is free, pouches add roughly ₹8–12/kg, jars add roughly ₹35–85/kg. Everything below explains where these numbers come from and when each format actually makes sense.</p>
 
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
+
       <h2>1. Loose Tea (The "Khula Chai" Model)</h2>
       <p><strong>Packaging cost: ₹0/kg</strong> — nothing to buy, nothing to design.</p>
       <ul>
