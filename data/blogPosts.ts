@@ -2059,7 +2059,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea business name ideas, chai brand names, tea shop names, premium tea brand names, wholesale tea business name, MCA business name search India",
-    imageUrl: "/blog-images/tea-business-naming.webp",
+    imageUrl: "/blog-images/tea-business-naming.jpg",
     lang: 'en'
   },
   {
