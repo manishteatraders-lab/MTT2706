@@ -5,7 +5,12 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "manishteatraders.in" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "manishteatraders.in"
+        }
+      ],
       "destination": "https://www.manishteatraders.in/:path*",
       "permanent": true
     },
@@ -21,7 +26,7 @@
     },
     {
       "source": "/blog/tea-wholesalers-in-siliguri/",
-      "destination": "/blog/siliguri-tea-wholesale-market-guide-2026/",
+      "destination": "/blog/top-tea-companies-siliguri-wholesale/",
       "permanent": true
     },
     {

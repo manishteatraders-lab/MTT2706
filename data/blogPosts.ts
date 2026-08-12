@@ -2063,42 +2063,6 @@ export const BLOG_POSTS: BlogPost[] = [
     lang: 'en'
   },
   {
-    id: "b17",
-    title: "Complete Guide to Tea Wholesalers in Siliguri (2026)",
-    slug: "tea-wholesalers-in-siliguri",
-    date: "January 5, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Everything you need to know about sourcing from Siliguri wholesalers. How to find them, verify them, and negotiate.",
-    content: `
-      <p>Siliguri is home to over 500 tea traders. How do you find the right one?</p>
-
-      <h2>Types of Wholesalers</h2>
-      <ul>
-        <li><strong>Auction Buyers:</strong> Big players (like us) who buy directly from auctions. We have the best variety.</li>
-        <li><strong>Garden Agents:</strong> They sell only one garden's tea. Good price, but zero variety.</li>
-        <li><strong>Resellers:</strong> They buy from auction buyers and sell to you. Higher price.</li>
-      </ul>
-
-      <h2>Red Flags (Scammers)</h2>
-      <ul>
-        <li>Asking for 100% advance without GST number.</li>
-        <li>Refusing to send samples.</li>
-        <li>Offering branded tea (like Tata) at half price (it's fake).</li>
-      </ul>
-
-      <h2>Why Manish Tea Traders?</h2>
-      <p>We are a registered, GST-compliant firm operating since 2004. We are Auction Buyers. We welcome you to visit our office in Siliguri, taste our teas, and then do business.</p>
-    
-
-      <h3>Related Reading</h3>
-      <ul>
-      </ul>
-    `,
-    keywords: "tea wholesalers siliguri list, verify tea supplier, best tea wholesaler siliguri",
-    imageUrl: "/blog-images/siliguri-tea-market.webp",
-    lang: 'en'
-  },
-  {
     id: "b18",
     title: "Siliguri Tea Wholesale Market 2026 — Price List, MOQ & Supplier Guide",
     slug: "siliguri-tea-wholesale-market-guide-2026",
@@ -2246,57 +2210,104 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Top Tea Companies in Siliguri for Wholesale Partnership (2026)",
     slug: "top-tea-companies-siliguri-wholesale",
     date: "January 18, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Looking for a reliable partner? We list the types of tea companies in Siliguri and how to choose the right one for your wholesale business.",
+    author: "Jaleshwar Ray",
+    excerpt: "How to choose the right wholesale tea company in Siliguri. Learn the types of suppliers (auction buyers, blenders, garden direct) and red flags to spot scammers.",
     content: `
-      <p>Siliguri is the hub of the North Bengal tea trade, hosting hundreds of companies. From auction houses to blenders and exporters, the options are vast. But who should you partner with for your wholesale business? This guide helps you navigate the landscape of <strong>tea companies in Siliguri</strong>.</p>
+      <p>Siliguri is the hub of the North Bengal tea trade, home to over 500 tea traders — from auction houses to blenders and exporters. With that many options, how do you find the right partner instead of the wrong one? This guide covers the types of tea companies you'll encounter, the red flags that signal a scam, and how to vet a genuine partner before you commit your capital.</p>
 
       <h2>Types of Tea Companies in Siliguri</h2>
 
-      <h3>1. The Blenders and Packeters</h3>
-      <p>These companies specialize in creating consistent taste profiles. They buy from various gardens and mix teas (e.g., Assam + Dooars) to create "Family Blends" or "Hotel Mixtures".</p>
+      <h3>1. Auction Buyers</h3>
+      <p>Big players — including us — who buy directly from the Siliguri Tea Auction Centre and other major auctions.</p>
       <ul>
-        <li><strong>Best For:</strong> Retailers launching their own pouch brands.</li>
-        <li><strong>Key Advantage:</strong> Consistency. You get the same taste 365 days a year.</li>
+        <li><strong>Best for:</strong> Buyers who want variety across multiple gardens and grades in one place.</li>
+        <li><strong>Key advantage:</strong> The widest selection, since auction buyers aren't limited to a single estate's output.</li>
       </ul>
 
-      <h3>2. The Garden-Direct Traders</h3>
-      <p>They act as sales arms for specific tea estates. They sell exactly what the garden produces—season by season.</p>
+      <h3>2. Garden-Direct Traders</h3>
+      <p>These act as the sales arm for one specific tea estate, selling exactly what that garden produces, season by season.</p>
       <ul>
-        <li><strong>Best For:</strong> Bulk buyers who understand tea grades well and can manage quality variations.</li>
-        <li><strong>Key Advantage:</strong> Lowest possible price points.</li>
+        <li><strong>Best for:</strong> Bulk buyers who understand tea grades well and can manage natural quality variation between seasons.</li>
+        <li><strong>Key advantage:</strong> Often the lowest possible price point, since there's no reseller markup — but zero variety, since you're limited to one garden's output.</li>
       </ul>
 
-      <h3>3. The Export Houses</h3>
-      <p>focused on high-value Orthodox and Green teas for international markets (Japan, UK, Dubai).</p>
+      <h3>3. The Blenders and Packeters</h3>
+      <p>These companies specialise in creating a consistent taste profile by buying from various gardens and blending (e.g., Assam + Dooars) into "Family Blends" or "Hotel Mixtures."</p>
       <ul>
-        <li><strong>Best For:</strong> Buyers looking for premium "Champagne of Teas" (Darjeeling) or organic varieties.</li>
-        <li><strong>Key Advantage:</strong> Superior quality certification and packaging.</li>
+        <li><strong>Best for:</strong> Retailers launching their own pouch brands who need the same taste, batch after batch.</li>
+        <li><strong>Key advantage:</strong> Consistency — you get the same cup 365 days a year, regardless of what any single garden is doing that month.</li>
       </ul>
 
-      <h2>How to Vet a Tea Company</h2>
-      <p>Before committing your capital, verify these three pillars:</p>
-      <ol>
-        <li><strong>Infrastructure:</strong> Do they have a proper warehouse in Siliguri? Proper storage is vital to prevent moisture damage.</li>
-        <li><strong>Sampling Policy:</strong> Professional <strong>tea companies in Siliguri</strong> will always courier samples before a bulk deal. If they refuse, it's a red flag.</li>
-        <li><strong>GST Compliance:</strong> Ensure they provide proper GST bills. This is crucial for your input tax credit and transport documentation.</li>
-      </ol>
+      <h3>4. Resellers</h3>
+      <p>They buy from auction buyers and sell on to you, adding a markup along the way.</p>
+      <ul>
+        <li><strong>Watch for:</strong> Higher price for the same tea you could likely source more directly — worth asking any new supplier where their stock actually comes from.</li>
+      </ul>
+
+      <h3>5. Export Houses</h3>
+      <p>Focused on high-value Orthodox and Green teas for international markets like Japan, the UK, and Dubai.</p>
+      <ul>
+        <li><strong>Best for:</strong> Buyers looking for premium "Champagne of Teas" (Darjeeling) or organic varieties, or anyone planning to export.</li>
+        <li><strong>Key advantage:</strong> Superior quality certification and export-ready packaging.</li>
+      </ul>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
+
+      <h2>Red Flags: How to Spot a Scammer</h2>
+      <p>Before you send a single rupee, watch for these warning signs:</p>
+      <ul>
+        <li><strong>Asking for 100% advance payment without a GST number.</strong> A registered, compliant business has no reason to hide its GST details or demand full payment upfront with zero paper trail.</li>
+        <li><strong>Refusing to send samples.</strong> Any genuine tea company in Siliguri will courier samples before a bulk deal — refusal is one of the clearest red flags there is.</li>
+        <li><strong>Offering branded tea (like Tata) at half price.</strong> This is effectively always fake. No legitimate channel sells genuine branded tea at a steep discount — if the price looks too good to be true for a known brand, it is.</li>
+      </ul>
+
+      <h2>How to Vet a Legitimate Tea Company</h2>
+      <p>Beyond avoiding outright scams, verify these three pillars before committing real capital:</p>
+      <ul>
+        <li><strong>Infrastructure:</strong> Do they have a proper warehouse in Siliguri? Proper storage is vital to prevent moisture damage — see our <a href="/blog/tea-storage-warehouse-tips/">tea storage guide</a> for what good storage actually looks like.</li>
+        <li><strong>Sampling policy:</strong> Professional tea companies will always courier samples before a bulk deal. If they hesitate or refuse, treat it as the same red flag mentioned above.</li>
+        <li><strong>GST compliance:</strong> Ensure they provide proper GST bills — this matters for your own input tax credit and transport documentation, not just theirs.</li>
+      </ul>
 
       <h2>Manish Tea Traders: Your All-in-One Partner</h2>
-      <p>We bridge the gap between a garden-direct trader and a blender. Since 2004, we have operated from Siliguri, sourcing high-quality CTC and Orthodox teas. We offer:</p>
+      <p>We bridge the gap between a garden-direct trader and a blender. Since 2004, we've operated from Siliguri as a registered, GST-compliant firm and an Auction Buyer, sourcing high-quality CTC and Orthodox teas directly. We offer:</p>
       <ul>
-        <li><strong>Custom Blends:</strong> Tailored to your local market's water and taste preference.</li>
-        <li><strong>Bulk Supply:</strong> Direct garden sourcing for aggressive pricing.</li>
-        <li><strong>Guidance:</strong> We help new entrepreneurs understand the market.</li>
+        <li><strong>Custom blends:</strong> Tailored to your local market's water and taste preference — see our <a href="/blog/how-to-blend-tea-for-packing/">blending guide</a> for how this actually works.</li>
+        <li><strong>Bulk supply:</strong> Direct garden and auction sourcing for aggressive, transparent pricing.</li>
+        <li><strong>Guidance:</strong> We help new entrepreneurs understand the market, not just sell to them.</li>
       </ul>
-      <p>Partner with one of the most trusted <strong>tea companies in Siliguri</strong>. <a href="/contact-us">Contact us</a> to start your journey.</p>
-    
+      <p>We welcome you to visit our office in Siliguri, taste our teas, and then do business — no pressure, no advance-payment games.</p>
+      <p>Partner with one of the most trusted tea companies in Siliguri. <a href="/contact-us/">Contact us</a> to start your journey.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How do I find a reliable tea wholesaler in Siliguri?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Start by identifying what type of company you need — an auction buyer for variety, a garden-direct trader for the lowest price, or a blender if you want a consistent private label taste. Then vet them: check for proper GST compliance, a real warehouse, and a willingness to send samples before any bulk deal.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What are common scams to watch for when buying tea in Siliguri?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">The three biggest red flags: demands for 100% advance payment without a visible GST number, refusal to send samples before a bulk order, and branded tea (like Tata) offered at suspiciously low prices — which is almost always fake.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Should I buy from an auction buyer or a garden-direct trader?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">It depends on your priorities. Garden-direct traders often offer the lowest price but zero variety, since you're limited to one estate's output. Auction buyers, like Manish Tea Traders, offer wider variety across multiple gardens and grades, which suits most buyers who want flexibility.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/siliguri-tea-wholesale-market-guide-2026/">Siliguri Tea Wholesale Market Guide 2026</a></li>
+        <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Buying</a></li>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a></li>
       </ul>
     `,
-    keywords: "tea companies in siliguri, list of tea wholesalers siliguri, best tea company siliguri",
+    keywords: "tea companies in siliguri, list of tea wholesalers siliguri, best tea company siliguri, wholesale tea partnership siliguri, verify tea supplier",
     imageUrl: "/blog-images/top-tea-companies-siliguri.webp",
     lang: 'en'
   },
