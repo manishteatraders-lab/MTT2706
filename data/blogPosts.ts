@@ -2067,68 +2067,138 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Siliguri Tea Wholesale Market 2026 — Price List, MOQ & Supplier Guide",
     slug: "siliguri-tea-wholesale-market-guide-2026",
     date: "January 18, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Everything a serious buyer needs about Siliguri's tea wholesale market: current 2026 price ranges, visiting tips, top areas (Sevoke Rd, Mahananda Para), and red flags to avoid.",
+    author: "Jaleshwar Ray",
+    excerpt: "Everything a serious buyer needs about Siliguri's tea wholesale market: current 2026 price ranges, price factors, visiting tips, top areas (Sevoke Rd, Mahananda Para), and low-price traps to avoid.",
     content: `
-      <p>Walk into any tea wholesale market in Siliguri on a weekday morning, and you'll witness a scene that has remained largely unchanged for decades: traders examining tea leaves with practiced hands, the aroma of fresh CTC and orthodox teas filling the air, and negotiations happening in rapid-fire Bengali and Hindi. This is the <strong>Siliguri tea wholesale market</strong>—the nerve center of India's tea trade.</p>
-
-      <p>If you're sourcing bulk shipments, partner with a verified <a href="/wholesale-supply/siliguri-tea-supplier/">Siliguri tea supplier</a> to get garden-fresh <a href="/products/ctc-tea/">CTC tea</a> direct from the tea estates.</p>
+      <p>Walk into any tea wholesale market in Siliguri on a weekday morning, and you'll witness a scene that has remained largely unchanged for decades: traders examining tea leaves with practiced hands, the aroma of fresh CTC and orthodox teas filling the air, and negotiations happening in rapid-fire Bengali and Hindi. This is the Siliguri tea wholesale market — the nerve center of India's tea trade.</p>
+      <p>If you're sourcing bulk shipments, partner with a verified Siliguri tea supplier to get garden-fresh CTC tea direct from the tea estates.</p>
 
       <h2>Why Siliguri Dominates India's Tea Wholesale Trade</h2>
-      <p>Siliguri's position as India's premier tea wholesale hub isn't accidental. The city sits at a unique geographical crossroads:</p>
+      <p>Siliguri's position as a premier tea wholesale hub isn't accidental. The city sits at a unique geographical crossroads:</p>
       <ul>
-        <li><strong>30 km from Dooars tea gardens</strong> - Home to robust CTC teas</li>
-        <li><strong>50 km from Darjeeling</strong> - Source of world-renowned orthodox teas</li>
-        <li><strong>Direct highway access to Assam</strong> - India's largest tea-producing state</li>
+        <li><strong>30 km from Dooars tea gardens</strong> — home to robust CTC teas</li>
+        <li><strong>50 km from Darjeeling</strong> — source of world-renowned orthodox teas</li>
+        <li><strong>Direct highway access to Assam</strong> — India's largest tea-producing state</li>
         <li><strong>Rail and road connectivity</strong> to all major Indian cities</li>
       </ul>
 
       <h2>Top Tea Wholesale Markets in Siliguri</h2>
-      
+
       <h3>1. Sevoke Road (The Business Hub)</h3>
       <p>Sevoke Road is the legendary heart of Siliguri's tea business. Here, you'll find everything from tiny trading offices to massive corporate warehouses.</p>
       <ul>
-        <li><strong>What to Buy:</strong> All grades of CTC, Darjeeling Orthodox, and Green tea.</li>
-        <li><strong>Best For:</strong> First-time buyers and those looking for established warehouses.</li>
+        <li><strong>What to buy:</strong> All grades of CTC, Darjeeling Orthodox, and Green tea.</li>
+        <li><strong>Best for:</strong> First-time buyers and those looking for established warehouses.</li>
       </ul>
 
       <h3>2. Mahananda Para (The Traditional Pulse)</h3>
       <p>If you want to see how tea was traded 50 years ago, Mahananda Para is the place. It's crowded, chaotic, and home to some of the most knowledgeable tea tasters in the country.</p>
       <ul>
-        <li><strong>What to Buy:</strong> Primarily CTC teas for the domestic market.</li>
-        <li><strong>Best For:</strong> Negotiating for high-volume, standard-grade teas.</li>
+        <li><strong>What to buy:</strong> Primarily CTC teas for the domestic market.</li>
+        <li><strong>Best for:</strong> Negotiating for high-volume, standard-grade teas.</li>
       </ul>
 
       <h3>3. Bidhan Market Area</h3>
       <p>While primarily a general wholesale market, the peripheral areas of Bidhan Market house several specialty tea dealers who focus on retail-ready packaging and regional distribution.</p>
 
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
+
+      <h2>Current Wholesale Price List (2026)</h2>
+      <p>Prices are subject to weekly auction fluctuations — treat this as a planning reference, not a locked quote.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Tea Type/Grade</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Standard Quality (per kg)</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Premium Quality (per kg)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">CTC (Dust/PD)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹180 – ₹220</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹240 – ₹280</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">CTC (BP/BOP/OF)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹200 – ₹250</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹280 – ₹350</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Darjeeling Orthodox</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹350 – ₹500</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹800 – ₹2,500+</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Green Tea</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹250 – ₹400</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹500 – ₹900</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>What Actually Moves the Price</h2>
+      <ul>
+        <li><strong>The flush (season):</strong> Prices peak during Second Flush (June), when quality is at its finest. Monsoon tea (July–August) is usually cheaper, but thinner and less aromatic.</li>
+        <li><strong>Garden reputation:</strong> Tea from reputable Dooars or Assam estates commands a premium, since they maintain strict FSSAI compliance and use better processing machinery.</li>
+        <li><strong>Purchase volume:</strong> A few 30kg bags will always cost more per kg than a full truckload (9–10 tonnes). Most Siliguri wholesalers, including us, offer tiered pricing at 500kg, 1,000kg, and 5,000kg thresholds — always ask what breakpoints your supplier offers.</li>
+      </ul>
+
+      <h2>Avoiding the "Low Price" Trap</h2>
+      <p>Be wary of anyone offering "super premium" tea at budget prices — it's one of the most common ways buyers get burned in this market. Watch for:</p>
+      <ul>
+        <li><strong>Adulteration:</strong> Mixing fresh tea with "spent" (already-used) tea leaves, redried and recoloured to look fresh.</li>
+        <li><strong>Old stock sold as fresh:</strong> Last year's tea passed off as new — it will usually have a musty smell if you check carefully.</li>
+        <li><strong>Excess dust content:</strong> Fine dust added into a heavier grade purely to increase weight, not quality.</li>
+      </ul>
+      <p>For a deeper look at spotting adulterated tea specifically, see our guide on <a href="/blog/sell-tea-to-tea-stalls/">educating buyers on fake tea</a>.</p>
+
       <h2>The Buying Process: How to Source Like a Pro</h2>
-      <ol>
-        <li><strong>Sample or "Tasting" Request:</strong> Never buy without seeing the "liquor" (brewed tea). Traders will brew small cups for you to test for strength, color, and aroma.</li>
-        <li><strong>Checking the "Dana" (Grip):</strong> Examine the dry leaves. They should be heavy, uniform in color (blackish-brown for CTC), and free from excessive dust or stalks.</li>
-        <li><strong>Negotiation:</strong> Prices in the <strong>Siliguri tea wholesale market</strong> fluctuate based on auction rates. Always ask for the current "garden rate."</li>
-      </ol>
+      <ul>
+        <li><strong>Sample or "tasting" request:</strong> Never buy without seeing the "liquor" (brewed tea). Traders will brew small cups so you can test strength, colour, and aroma.</li>
+        <li><strong>Checking the "dana" (grip):</strong> Examine the dry leaves. They should be heavy, uniform in colour (blackish-brown for CTC), and free from excessive dust or stalks.</li>
+        <li><strong>Negotiation:</strong> Prices fluctuate based on auction rates. Always ask for the current "garden rate" as your negotiating baseline.</li>
+      </ul>
 
       <h2>Best Time to Visit</h2>
-      <p>The peak season is from <strong>April to November</strong>. If you are looking for premium "Second Flush" Darjeeling tea, June is your best bet. For strong "Monsoon CTC," August and September are ideal.</p>
+      <p>The peak season runs April to November. If you're after premium Second Flush Darjeeling, June is your best bet. For strong Monsoon CTC, August and September are ideal.</p>
 
       <h2>Why Choose Manish Tea Traders?</h2>
-      <p>Located in the heart of Siliguri, we've spent two decades building relationships with estates in Darjeeling and Dooars. We skip the middlemen of the <strong>Siliguri tea wholesale market</strong>, offering you garden-fresh prices and quality verification that only an on-ground partner can provide.</p>
-      <p>Ready to source? <a href="/contact-us">Contact us today</a> for a current price list of our top-selling blends.</p>
-    
+      <p>Located in the heart of Siliguri, we've spent two decades building relationships with estates in Darjeeling and Dooars. We skip the middlemen of the Siliguri tea wholesale market, offering you garden-fresh prices and quality verification that only an on-ground partner can provide — with transparent pricing and no low-price adulteration games.</p>
+      <p>Ready to source? <a href="/contact-us/">Contact us today</a> for a current price list of our top-selling blends.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is Siliguri famous for in the tea business?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Siliguri is a major tea trading hub, located at the junction of Darjeeling, Dooars, Terai, and Assam tea-producing regions. The Siliguri Tea Auction Centre (STAC) handles thousands of kilograms weekly, making it a key price discovery point for North Bengal tea. Buyers from Bihar, UP, Delhi, and exporters source from Siliguri for freshness and competitive wholesale prices.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How to buy wholesale tea from Siliguri?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Contact established traders like Manish Tea Traders directly. Request samples first (free from us), verify GST registration and FSSAI compliance, then place a trial order of 30–100 kg. Reliable suppliers dispatch via road transport with proper e-Way bills within 1–2 days of payment. Minimum order is 30 kg (one sack).</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is the wholesale price of tea in Siliguri in 2026?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Current 2026 wholesale prices range from ₹180–220/kg for standard hotel dust (up to ₹280/kg premium), ₹200–250/kg for standard CTC leaf (BP/BOP, up to ₹350/kg premium), ₹350–500/kg for standard Darjeeling Orthodox (up to ₹2,500+/kg for premium lots), and ₹250–400/kg for standard Green Tea. Prices fluctuate weekly based on auction results — contact Manish Tea Traders for today's exact rates and free samples.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/top-tea-companies-siliguri-wholesale/">Top Tea Companies in Siliguri for Wholesale Partnership</a></li>
+        <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Buying</a></li>
+        <li><a href="/blog/tea-grades-explained/">Tea Grades Explained: Full Forms of BP, BOP, OF, PD</a></li>
       </ul>
     `,
-    keywords: "siliguri tea wholesale market, tea wholesalers in siliguri, best tea market siliguri, buy tea bulk siliguri",
-    imageUrl: "/blog-images/siliguri-market-entrance.webp",
-    lang: 'en',
-    faqSchema: [
-      { question: "What is Siliguri famous for in the tea business?", answer: "Siliguri is India's largest tea trading hub, located at the junction of Darjeeling, Dooars, Terai, and Assam tea-producing regions. The Siliguri Tea Auction Centre (STAC) handles thousands of kilograms weekly, making it the primary price discovery point for North Bengal tea. Buyers from Bihar, UP, Delhi and exporters source from Siliguri for the freshest tea and best wholesale prices." },
-      { question: "How to buy wholesale tea from Siliguri?", answer: "You can buy wholesale tea from Siliguri by contacting established traders like Manish Tea Traders directly. Request samples first (free from us), verify GST registration and FSSAI compliance, then place a trial order of 30–100 kg. Reliable suppliers dispatch via road transport with proper e-Way bills within 1–2 days of payment. Minimum order is 30 kg (one sack)." },
-      { question: "What is the wholesale price of tea in Siliguri in 2026?", answer: "Current 2026 wholesale prices in Siliguri range from ₹120–170/kg for hotel dust, ₹180–240/kg for standard CTC leaf (BP/BOP), ₹190–310/kg for premium Assam CTC, and ₹350–800+/kg for Darjeeling Orthodox. Prices fluctuate weekly based on auction results. Contact Manish Tea Traders for today's exact rates and free samples." }
-    ]
+    keywords: "tea wholesale price siliguri, current tea price siliguri, buy tea bulk price, siliguri tea market rates, siliguri tea wholesale market",
+    imageUrl: "/blog-images/siliguri-tea-market.webp",
+    lang: 'en'
   },
   {
     id: "b19",
