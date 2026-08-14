@@ -2599,7 +2599,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "sourcing tea india, buy tea wholesale, tea supplier verification, tea sample testing, Gujarat tea consumption, South India Nilgiri meter tea",
-    imageUrl: "/blog-images/tea-sourcing-expert.webp",
+    imageUrl: "/blog-images/tea-sourcing-expert.jpg",
     lang: 'en',
     translationId: 'start-brand'
   },
