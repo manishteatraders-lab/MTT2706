@@ -2197,7 +2197,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
     `,
     keywords: "tea wholesale price siliguri, current tea price siliguri, buy tea bulk price, siliguri tea market rates, siliguri tea wholesale market",
-    imageUrl: "/blog-images/siliguri-tea-market.webp",
+    imageUrl: "/blog-images/siliguri-tea-market.jpg",
     lang: 'en'
   },
   {
