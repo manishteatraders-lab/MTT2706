@@ -2543,18 +2543,20 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "sourcing-tea-wholesale-guide",
     date: "January 18, 2026",
     author: "Jaleshwar Ray",
-    excerpt: "Sourcing is the backbone of your tea business. Learn regional taste preferences across India, sample testing basics, MOQ guidelines, and wholesale payment terms.",
+    excerpt: "Sourcing isn't a one-time purchase — it's an ongoing relationship. Learn regional taste preferences (Gujarat, South India, Bihar/UP), sample testing, MOQ guidelines, and wholesale payment terms.",
     content: `
-      <p>You can have the best packaging and marketing, but if your tea quality varies every month, you will lose customers. Sourcing is not just buying — it's managing taste, consistency, and supplier relationships.</p>
+      <p>You can have the best packaging and marketing, but if your tea quality varies every month, you will lose customers. Sourcing isn't a one-time purchase — it's an ongoing relationship you manage. And the single biggest sourcing mistake new buyers make isn't about quality at all — it's buying the wrong regional profile for their market.</p>
 
       <h2>Step 1: Identify Your Region's Taste</h2>
-      <p>India doesn't drink the same tea everywhere. Understanding regional preference is the single most important factor before placing your first wholesale order:</p>
+      <p>India doesn't drink the same tea everywhere, and the differences are bigger — and better documented — than most buyers realise.</p>
       <ul>
-        <li><strong>Bihar / UP / Jharkhand:</strong> Buyers demand a strong, dark liquor with quick color release. A blend of Dooars CTC (for fast color and body) and Assam CTC (for punch and aroma) is the dominant market leader.</li>
-        <li><strong>Gujarat / Maharashtra:</strong> Prefers a very strong, golden-red liquor made with superior Assam CTC grades. According to a Tea Board of India-commissioned study, Gujarat is India's #1 tea-consuming state by per-capita consumption — driven by high milk availability, heavy spice infusion, and a thriving "cutting chai" culture that demands a bold, unyielding tea base.</li>
-        <li><strong>South India:</strong> Beyond dust tea grades, South Indian teas (especially Nilgiri) have a distinct smooth, floral, brighter, and less-bitter profile. Combined with Tamil Nadu's iconic "meter tea" froth-pouring tradition, South Indian taste preferences represent a distinct regional brewing style, rather than just a budget selection.</li>
+        <li><strong>Bihar / UP / Jharkhand:</strong> Strong, dark liquor, typically a Dooars + Assam blend. Tea stall culture here is dense and constant — stalls sit outside offices, colleges, even temples — and the market rewards a tea that brews fast, dark, and cheap.</li>
+        <li><strong>Gujarat / Maharashtra:</strong> This region isn't just "superior Assam" — it's the single biggest tea-drinking market in India. A study commissioned by the Tea Board of India found Gujarat has the highest per-capita tea consumption of any Indian state, ahead of Haryana and Goa. Much of this is credited to the state's abundant milk supply (a legacy of the White Revolution) and its "cutting chai" culture — small, strong, milk-forward glasses served constantly through the day. A golden, malty Assam blend performs well here, but the real driver is volume and consistency, not just strength.</li>
+        <li><strong>South India:</strong> This is not simply "the dust tea market" — it has its own distinct character. Nilgiri tea, the region's signature, is known for a smooth, bright, floral profile that's notably less bitter than Assam or Dooars, even when oversteeped — which is part of why it's popular for both hot chai and iced tea. Tamil Nadu also has its own serving ritual, "meter tea," poured dramatically from a height between two vessels to froth it before serving. If you're supplying this region, matching this lighter, brighter character matters as much as price.</li>
       </ul>
-      <p style="background-color: #f9fafb; border-left: 4px solid #166534; padding: 12px 16px; margin: 20px 0; font-style: italic;"><strong>Our Recommendation:</strong> Send us a sample of the best-selling tea in your local market. Our tea tasters in Siliguri will reverse-engineer its grade composition, liquor strength, and cost structure for you.</p>
+
+      <h3>A Realistic Example: Matching a Blend to a New Region</h3>
+      <p>Say a distributor in Gujarat approaches you wanting to stock your tea, but their current bestseller is a golden, milk-forward blend their customers already love. Instead of pushing your standard Dooars-heavy CTC on them, the better move is to ask for a sample of their current bestseller and build a matching blend — leaning your ratio toward a stronger Assam base with a brighter, cleaner character, since that's what performs in that specific market. This is exactly the kind of reverse-engineering approach worth offering any new regional distributor: send us the best-selling tea in your area, and we'll match it, rather than assuming one national blend fits every state equally well.</p>
 
       <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
         <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
@@ -2563,24 +2565,28 @@ export const BLOG_POSTS: BlogPost[] = [
       </div>
 
       <h2>Step 2: Sample Testing</h2>
-      <p>Never place a bulk order without testing first. When you receive samples from a wholesaler, check appearance, dry leaf aroma, and perform a hot milk test under real brewing conditions. For a complete step-by-step professional evaluation, read our full <a href="/blog/identify-quality-tea/">guide to identifying good quality tea for bulk buying</a>.</p>
+      <p>Never place a bulk order without testing a sample first — a batch that looks fine on paper can still fail on taste, aroma, or freshness. For the complete professional process (dry leaf check, aroma test, liquor test, and the often-skipped infused leaf check), see our full guide on <a href="/blog/identify-quality-tea/">how to identify good quality tea for bulk buying</a>.</p>
 
-      <h2>Step 3: Minimum Order Quantity (MOQ) &amp; Storage</h2>
-      <p>Don't overbuy on your first order — start with 30kg to 200kg to test your local market. When stored properly in dry, airtight conditions away from moisture, bulk tea retains its peak freshness for 12 to 18 months. See our <a href="/blog/tea-storage-warehouse-tips/">tea storage and warehouse guide</a> for best practices.</p>
+      <h2>Step 3: Minimum Order Quantity (MOQ)</h2>
+      <p>Don't overbuy on a first order — start with 100–200kg while you're still confirming quality and demand in a new market. For the complete picture on storage and realistic shelf life (properly stored tea can hold quality for 12–18 months, not just a few months), see our guide on <a href="/blog/tea-storage-warehouse-tips/">how to store your first bulk tea order</a>.</p>
 
       <h2>Step 4: Payment Terms</h2>
-      <p>Most wholesale deals in Siliguri operate on <strong>100% Advance Payment</strong> for new buyers. Credit terms are typically extended only to established, long-term partners (3+ years of continuous business). Be cautious of unknown suppliers offering easy credit upfront to lure you in — it is a common scam tactic. Always ensure payments go to verified, GST-registered bank accounts with proper e-Way bills and transport paperwork.</p>
+      <p>Most wholesale deals in Siliguri run on advance payment. Credit terms are typically reserved for long-term partners — usually 3+ years into the relationship. Be cautious of new suppliers who offer generous credit terms upfront to win your business quickly; this is sometimes used as a tactic to lure buyers before disappearing with an order, so treat an unusually generous credit offer from an unfamiliar supplier as a reason for extra caution, not extra trust.</p>
 
       <h2>Frequently Asked Questions</h2>
 
       <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
         <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
-          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Does tea taste preference vary by region in India?</p>
-          <p style="margin: 0; color: #4b5563; font-size: 14px;">Yes, significantly. Bihar, UP, and Jharkhand prefer strong, quick-coloring Dooars and Assam CTC blends. Gujarat and Maharashtra prefer golden, heavy-body Assam CTC for high-milk cutting chai. South India leans toward bright, smooth Nilgiri teas and fine dust grades suited for meter chai.</p>
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Does tea taste preference really vary by region in India?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Yes, significantly. Bihar/UP/Jharkhand favour strong, dark, fast-brewing blends. Gujarat — India's highest per-capita tea-consuming state — favours a golden, milk-forward character built around constant "cutting chai" consumption. South India, especially around Nilgiri-growing areas, favours a smoother, brighter, less bitter profile. Matching your blend to the region you're selling into matters as much as matching your price to the market.</p>
         </div>
         <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
           <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What are standard payment terms when buying wholesale tea in Siliguri?</p>
-          <p style="margin: 0; color: #4b5563; font-size: 14px;">100% advance payment via bank transfer (NEFT/RTGS/IMPS) is standard for first-time and new wholesale buyers in Siliguri. Credit terms are only offered to long-term, verified buyers after years of regular transactions. Always demand a GST invoice and e-Way bill before releasing payment.</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Advance payment is standard for new buyers. Credit terms are typically only extended to partners with an established relationship, usually 3+ years. Be cautious of unfamiliar suppliers offering generous credit upfront — it's a known tactic used to lure new buyers before disappearing with payment.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How much tea should I order for my first purchase from a new supplier?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Start with a modest order, typically 100–200kg, while you confirm quality and market fit. Scale up only once you've validated both the tea's quality and how well it performs with your specific customer base.</p>
         </div>
       </div>
 
@@ -2589,10 +2595,10 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Buying</a></li>
         <li><a href="/blog/tea-storage-warehouse-tips/">How to Store Your First Bulk Tea Order</a></li>
         <li><a href="/blog/top-tea-companies-siliguri-wholesale/">Top Tea Companies in Siliguri for Wholesale Partnership</a></li>
-        <li><a href="/blog/assam-vs-darjeeling-chai-comparison-2026/">Assam CTC vs. Dooars CTC Tea Comparison</a></li>
+        <li><a href="/blog/assam-vs-darjeeling/">Assam CTC vs Dooars CTC: Which Should You Stock for Wholesale?</a></li>
       </ul>
     `,
-    keywords: "sourcing tea india, buy tea wholesale, tea supplier verification, tea sample testing, Gujarat tea consumption, South India meter tea",
+    keywords: "sourcing tea india, buy tea wholesale, tea supplier verification, tea sample testing, Gujarat tea consumption, South India Nilgiri meter tea",
     imageUrl: "/blog-images/tea-sourcing-expert.webp",
     lang: 'en',
     translationId: 'start-brand'
