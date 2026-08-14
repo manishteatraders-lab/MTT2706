@@ -2539,43 +2539,60 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b22",
-    title: "Guide to Sourcing Tea for Wholesale Business",
+    title: "Guide to Sourcing Tea for Wholesale Business (2026)",
     slug: "sourcing-tea-wholesale-guide",
     date: "January 18, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Sourcing is the backbone of your tea business. Learn how to find reliable suppliers, test samples, and negotiate bulk deals.",
+    author: "Jaleshwar Ray",
+    excerpt: "Sourcing is the backbone of your tea business. Learn regional taste preferences across India, sample testing basics, MOQ guidelines, and wholesale payment terms.",
     content: `
-      <p>You can have the best packaging and marketing, but if your tea quality varies every month, you will lose customers. Sourcing is not just bought; it's managed.</p>
+      <p>You can have the best packaging and marketing, but if your tea quality varies every month, you will lose customers. Sourcing is not just buying — it's managing taste, consistency, and supplier relationships.</p>
 
       <h2>Step 1: Identify Your Region's Taste</h2>
-      <p>India doesn't drink the same tea everywhere.</p>
+      <p>India doesn't drink the same tea everywhere. Understanding regional preference is the single most important factor before placing your first wholesale order:</p>
       <ul>
-        <li><strong>Bihar/UP/Jharkhand:</strong> Strong, dark liquor (Dooars + Assam Blend).</li>
-        <li><strong>Gujarat/Maharashtra:</strong> Very strong, golden liquor (Superior Assam).</li>
-        <li><strong>South India:</strong> Often prefers Dust tea or specific local blends.</li>
+        <li><strong>Bihar / UP / Jharkhand:</strong> Buyers demand a strong, dark liquor with quick color release. A blend of Dooars CTC (for fast color and body) and Assam CTC (for punch and aroma) is the dominant market leader.</li>
+        <li><strong>Gujarat / Maharashtra:</strong> Prefers a very strong, golden-red liquor made with superior Assam CTC grades. According to a Tea Board of India-commissioned study, Gujarat is India's #1 tea-consuming state by per-capita consumption — driven by high milk availability, heavy spice infusion, and a thriving "cutting chai" culture that demands a bold, unyielding tea base.</li>
+        <li><strong>South India:</strong> Beyond dust tea grades, South Indian teas (especially Nilgiri) have a distinct smooth, floral, brighter, and less-bitter profile. Combined with Tamil Nadu's iconic "meter tea" froth-pouring tradition, South Indian taste preferences represent a distinct regional brewing style, rather than just a budget selection.</li>
       </ul>
-      <p><em>Action:</em> Send us a sample of the best-selling tea in your area. We will reverse-engineer it.</p>
+      <p style="background-color: #f9fafb; border-left: 4px solid #166534; padding: 12px 16px; margin: 20px 0; font-style: italic;"><strong>Our Recommendation:</strong> Send us a sample of the best-selling tea in your local market. Our tea tasters in Siliguri will reverse-engineer its grade composition, liquor strength, and cost structure for you.</p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
 
       <h2>Step 2: Sample Testing</h2>
-      <p>Never place a bulk order without testing. When you receive samples from a wholesaler:</p>
-      <ol>
-        <li><strong>Check Appearance:</strong> Is it black or brown? (Black is better).</li>
-        <li><strong>Check Smell:</strong> Is it fresh?</li>
-        <li><strong>The Milk Test:</strong> Boil it as your customers would. Does it turn pink/red (good) or gray/muddy (bad)?</li>
-      </ol>
+      <p>Never place a bulk order without testing first. When you receive samples from a wholesaler, check appearance, dry leaf aroma, and perform a hot milk test under real brewing conditions. For a complete step-by-step professional evaluation, read our full <a href="/blog/identify-quality-tea/">guide to identifying good quality tea for bulk buying</a>.</p>
 
-      <h2>Step 3: Minimum Order Quantity (MOQ)</h2>
-      <p>Don't overbuy. Tea freshness lasts 6-9 months max in sacks. Start with 100-200kg.</p>
+      <h2>Step 3: Minimum Order Quantity (MOQ) &amp; Storage</h2>
+      <p>Don't overbuy on your first order — start with 30kg to 200kg to test your local market. When stored properly in dry, airtight conditions away from moisture, bulk tea retains its peak freshness for 12 to 18 months. See our <a href="/blog/tea-storage-warehouse-tips/">tea storage and warehouse guide</a> for best practices.</p>
 
       <h2>Step 4: Payment Terms</h2>
-      <p>Most wholesale deals in Siliguri are <strong>Advance Payment</strong>. Credit is only given to long-term partners (3+ years). Scammers often offer credit to lure you in—be careful.</p>
-    
+      <p>Most wholesale deals in Siliguri operate on <strong>100% Advance Payment</strong> for new buyers. Credit terms are typically extended only to established, long-term partners (3+ years of continuous business). Be cautious of unknown suppliers offering easy credit upfront to lure you in — it is a common scam tactic. Always ensure payments go to verified, GST-registered bank accounts with proper e-Way bills and transport paperwork.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Does tea taste preference vary by region in India?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Yes, significantly. Bihar, UP, and Jharkhand prefer strong, quick-coloring Dooars and Assam CTC blends. Gujarat and Maharashtra prefer golden, heavy-body Assam CTC for high-milk cutting chai. South India leans toward bright, smooth Nilgiri teas and fine dust grades suited for meter chai.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What are standard payment terms when buying wholesale tea in Siliguri?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">100% advance payment via bank transfer (NEFT/RTGS/IMPS) is standard for first-time and new wholesale buyers in Siliguri. Credit terms are only offered to long-term, verified buyers after years of regular transactions. Always demand a GST invoice and e-Way bill before releasing payment.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Buying</a></li>
+        <li><a href="/blog/tea-storage-warehouse-tips/">How to Store Your First Bulk Tea Order</a></li>
+        <li><a href="/blog/top-tea-companies-siliguri-wholesale/">Top Tea Companies in Siliguri for Wholesale Partnership</a></li>
+        <li><a href="/blog/assam-vs-darjeeling-chai-comparison-2026/">Assam CTC vs. Dooars CTC Tea Comparison</a></li>
       </ul>
     `,
-    keywords: "sourcing tea india, buy tea wholesale, tea supplier verification, tea sample testing",
+    keywords: "sourcing tea india, buy tea wholesale, tea supplier verification, tea sample testing, Gujarat tea consumption, South India meter tea",
     imageUrl: "/blog-images/tea-sourcing-expert.webp",
     lang: 'en',
     translationId: 'start-brand'
