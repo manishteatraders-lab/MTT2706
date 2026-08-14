@@ -2608,241 +2608,171 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Tea Wholesale MOQ, Pricing & Logistics: Complete Guide (2026)",
     slug: "tea-wholesale-moq-pricing-logistics-guide-2026",
     date: "January 18, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Understand minimum order quantities, pricing structures, and logistics in tea wholesale. Learn how to optimize costs and ensure smooth deliveries.",
+    author: "Jaleshwar Ray",
+    excerpt: "Understand minimum order quantities, pricing structures, volume discounts, transport logistics, and cost optimization strategies in tea wholesale.",
     content: `
-      <p>Understanding MOQ (Minimum Order Quantity), pricing structures, and logistics is crucial for successful <strong>tea wholesale</strong> operations. This guide breaks down these complex topics into actionable insights.</p>
+      <p>Understanding MOQ (Minimum Order Quantity), pricing structures, and logistics is crucial for successful tea wholesale operations. This guide breaks down these complex topics into actionable insights.</p>
 
       <h2>Minimum Order Quantities (MOQ)</h2>
 
       <h3>Why MOQ Exists</h3>
       <ul>
-        <li><strong>Operational Efficiency:</strong> Reduces handling costs</li>
-        <li><strong>Logistics Optimization:</strong> Makes delivery economical</li>
-        <li><strong>Quality Control:</strong> Ensures proper batch testing</li>
-        <li><strong>Inventory Management:</strong> Maintains stock rotation</li>
+        <li><strong>Operational efficiency:</strong> Reduces handling costs</li>
+        <li><strong>Logistics optimization:</strong> Makes delivery economical</li>
+        <li><strong>Quality control:</strong> Ensures proper batch testing</li>
+        <li><strong>Inventory management:</strong> Maintains stock rotation</li>
       </ul>
 
       <h3>Typical MOQ by Supplier Type</h3>
-
-      <h4>Local Distributors</h4>
       <ul>
-        <li><strong>MOQ:</strong> 25-100 kg</li>
-        <li><strong>Best For:</strong> Small retailers, tea stalls</li>
-        <li><strong>Pricing:</strong> Higher per-kg cost</li>
-        <li><strong>Delivery:</strong> Same-day or next-day</li>
-      </ul>
-
-      <h4>Siliguri Wholesalers</h4>
-      <ul>
-        <li><strong>MOQ:</strong> 100-500 kg</li>
-        <li><strong>Best For:</strong> Regular buyers, medium retailers</li>
-        <li><strong>Pricing:</strong> 15-20% cheaper than local</li>
-        <li><strong>Delivery:</strong> 3-7 days</li>
-      </ul>
-
-      <h4>Direct Estate Traders</h4>
-      <ul>
-        <li><strong>MOQ:</strong> 500 kg - 1 ton</li>
-        <li><strong>Best For:</strong> Large distributors, exporters</li>
-        <li><strong>Pricing:</strong> Best rates, factory-gate pricing</li>
-        <li><strong>Delivery:</strong> 5-10 days</li>
-      </ul>
-
-      <h4>Blending Houses</h4>
-      <ul>
-        <li><strong>MOQ:</strong> 1-2 tons</li>
-        <li><strong>Best For:</strong> Private label brands</li>
-        <li><strong>Pricing:</strong> Premium for custom blends</li>
-        <li><strong>Delivery:</strong> 7-14 days (blending time)</li>
+        <li><strong>Local Distributors:</strong> MOQ 25–100 kg | Best for small retailers, tea stalls | Higher per-kg cost | Same-day or next-day delivery</li>
+        <li><strong>Siliguri Wholesalers:</strong> MOQ 100–500 kg | Best for regular buyers, medium retailers | 15–20% cheaper than local | 3–7 days delivery</li>
+        <li><strong>Direct Estate Traders:</strong> MOQ 500 kg – 1 ton | Best for large distributors, exporters | Best rates, factory-gate pricing | 5–10 days delivery</li>
+        <li><strong>Blending Houses:</strong> MOQ 1–2 tons | Best for private label brands | Premium for custom blends | 7–14 days delivery (blending time)</li>
       </ul>
 
       <h2>Pricing Structures Explained</h2>
 
       <h3>Base Pricing Components</h3>
 
-      <h4>1. Tea Cost (per kg)</h4>
-      <p>Varies by grade:</p>
-      <ul>
-        <li>Dust: ₹180-250</li>
-        <li>PD: ₹220-300</li>
-        <li>OF: ₹250-350</li>
-        <li>BP: ₹280-400</li>
-        <li>BOP: ₹320-450</li>
-      </ul>
+      <h4>1. Tea Cost (per kg), by grade</h4>
+      <p>This table is aligned with our full <a href="/blog/siliguri-tea-wholesale-market-guide-2026/">Siliguri Wholesale Market Guide</a> — check there for Darjeeling Orthodox and Green Tea pricing too.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Grade</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Standard</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Premium</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Dust/PD</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹180–220/kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹240–280/kg</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">BP/BOP/OF</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹200–250/kg</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹280–350/kg</td>
+          </tr>
+        </tbody>
+      </table>
 
       <h4>2. Packaging Cost</h4>
       <ul>
-        <li><strong>Bulk (jute/PP sacks):</strong> ₹5-10 per kg</li>
-        <li><strong>Retail pouches:</strong> ₹15-30 per kg</li>
-        <li><strong>Custom branded:</strong> ₹25-50 per kg</li>
+        <li><strong>Bulk (jute/PP sacks):</strong> ₹5–10 per kg</li>
+        <li><strong>Retail pouches:</strong> ₹15–30 per kg</li>
+        <li><strong>Custom branded:</strong> ₹25–50 per kg — for a full breakdown of pouch vs. jar economics, see our <a href="/blog/tea-packaging-guide/">packaging comparison guide</a></li>
       </ul>
 
       <h4>3. Delivery Charges</h4>
       <ul>
-        <li><strong>Within state:</strong> ₹2-3 per kg</li>
-        <li><strong>Nearby states:</strong> ₹3-5 per kg</li>
-        <li><strong>Distant states:</strong> ₹5-8 per kg</li>
+        <li><strong>Within state:</strong> ₹2–3 per kg</li>
+        <li><strong>Nearby states:</strong> ₹3–5 per kg</li>
+        <li><strong>Distant states:</strong> ₹5–8 per kg</li>
       </ul>
 
       <h3>Volume Discount Structure</h3>
-
-      <h4>Standard Tiers</h4>
       <ul>
-        <li><strong>100-500 kg:</strong> Base price</li>
-        <li><strong>500 kg - 1 ton:</strong> 5-7% discount</li>
-        <li><strong>1-5 tons:</strong> 8-12% discount</li>
-        <li><strong>5-10 tons:</strong> 12-15% discount</li>
-        <li><strong>10+ tons:</strong> 15-18% discount + negotiable terms</li>
+        <li><strong>100–500 kg:</strong> Base price</li>
+        <li><strong>500 kg – 1 ton:</strong> 5–7% discount</li>
+        <li><strong>1–5 tons:</strong> 8–12% discount</li>
+        <li><strong>5–10 tons:</strong> 12–15% discount</li>
+        <li><strong>10+ tons:</strong> 15–18% discount + negotiable terms</li>
       </ul>
 
-      <h4>Example Calculation</h4>
-      <p>BP Grade CTC Tea:</p>
-      <ul>
-        <li><strong>Base Price:</strong> ₹320/kg</li>
-        <li><strong>Order: 1 ton (1,000 kg)</strong></li>
-        <li><strong>Discount:</strong> 10%</li>
-        <li><strong>Final Price:</strong> ₹288/kg</li>
-        <li><strong>Total Savings:</strong> ₹32,000</li>
-      </ul>
+      <p style="background-color: #f9fafb; border-left: 4px solid #166534; padding: 12px 16px; margin: 20px 0;"><strong>Example Calculation — BP Grade CTC Tea (Premium Tier):</strong><br />Base price: ₹300/kg | Order: 1 ton (1,000 kg) | Discount: 10%<br /><strong>Final price: ₹270/kg | Total savings: ₹30,000</strong></p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
 
       <h3>Payment Terms Impact on Pricing</h3>
-
-      <h4>Advance Payment</h4>
       <ul>
-        <li><strong>Discount:</strong> 2-3% additional</li>
-        <li><strong>Best For:</strong> New customers, small orders</li>
+        <li><strong>Advance Payment:</strong> 2–3% additional discount. Best for new customers, small orders.</li>
+        <li><strong>Cash on Delivery:</strong> 1–2% additional discount. Best for established relationships.</li>
+        <li><strong>Credit (15–30 days):</strong> Standard rates. Best for regular, high-volume buyers, requiring a good payment history and references.</li>
       </ul>
+      <p>For the general norms around advance payment vs. credit — including a caution on suppliers who offer generous credit too easily — see our <a href="/blog/sourcing-tea-wholesale-guide/">tea sourcing guide</a>.</p>
 
-      <h4>Cash on Delivery</h4>
+      <h2>Logistics &amp; Delivery</h2>
+
+      <h3>Delivery Timelines by Distance (From Siliguri)</h3>
       <ul>
-        <li><strong>Discount:</strong> 1-2% additional</li>
-        <li><strong>Best For:</strong> Established relationships</li>
-      </ul>
-
-      <h4>Credit (15-30 days)</h4>
-      <ul>
-        <li><strong>Discount:</strong> Standard rates</li>
-        <li><strong>Best For:</strong> Regular, high-volume buyers</li>
-        <li><strong>Requirements:</strong> Good payment history, references</li>
-      </ul>
-
-      <h2>Logistics & Delivery</h2>
-
-      <h3>Delivery Timelines by Distance</h3>
-
-      <h4>From Siliguri to Major Cities</h4>
-      <ul>
-        <li><strong>Kolkata:</strong> 2-3 days</li>
-        <li><strong>Patna:</strong> 2-3 days</li>
-        <li><strong>Delhi:</strong> 4-5 days</li>
-        <li><strong>Mumbai:</strong> 5-6 days</li>
-        <li><strong>Bangalore:</strong> 6-7 days</li>
-        <li><strong>Chennai:</strong> 6-7 days</li>
+        <li><strong>Kolkata:</strong> 2–3 days</li>
+        <li><strong>Patna:</strong> 2–3 days</li>
+        <li><strong>Delhi:</strong> 4–5 days</li>
+        <li><strong>Mumbai:</strong> 5–6 days</li>
+        <li><strong>Bangalore:</strong> 6–7 days</li>
+        <li><strong>Chennai:</strong> 6–7 days</li>
       </ul>
 
       <h3>Packaging for Transport</h3>
-
-      <h4>Standard Wholesale Packaging</h4>
       <ul>
-        <li><strong>26-30 kg jute sacks:</strong> Traditional, breathable</li>
-        <li><strong>30-35 kg PP sacks:</strong> Moisture-resistant</li>
+        <li><strong>26–30 kg jute sacks:</strong> Traditional, breathable</li>
+        <li><strong>30–35 kg PP sacks:</strong> Moisture-resistant</li>
         <li><strong>Multi-wall paper bags:</strong> Export-grade</li>
       </ul>
+      <p><strong>Long-distance considerations:</strong> Double-layer packaging for moisture protection, proper sealing to prevent aroma loss, cushioning for fragile grades, and clear labelling with grade and weight. For a deeper look at protecting freshness over longer periods, see our <a href="/blog/tea-storage-warehouse-tips/">storage guide</a>.</p>
 
-      <h4>Long-Distance Considerations</h4>
-      <ul>
-        <li>Double-layer packaging for moisture protection</li>
-        <li>Proper sealing to prevent aroma loss</li>
-        <li>Cushioning for fragile grades</li>
-        <li>Clear labeling with grade and weight</li>
-      </ul>
-
-      <h3>Tracking & Insurance</h3>
-
-      <h4>GPS Tracking</h4>
-      <p>Available for orders above:</p>
+      <h3>Tracking &amp; Insurance</h3>
+      <p><strong>GPS Tracking (available for orders above):</strong></p>
       <ul>
         <li>1 ton: Basic tracking</li>
         <li>5 tons: Real-time GPS</li>
         <li>10+ tons: Dedicated vehicle with live tracking</li>
       </ul>
-
-      <h4>Insurance</h4>
-      <ul>
-        <li><strong>Cost:</strong> 0.5-1% of order value</li>
-        <li><strong>Covers:</strong> Theft, damage, moisture</li>
-        <li><strong>Recommended For:</strong> Orders above ₹2 lakhs</li>
-      </ul>
+      <p><strong>Insurance:</strong> Cost is 0.5–1% of order value covering theft, damage, and moisture. Recommended for orders above ₹2 lakhs.</p>
 
       <h2>Cost Optimization Strategies</h2>
-
-      <h3>1. Consolidate Orders</h3>
       <ul>
-        <li>Order multiple grades together</li>
-        <li>Reach higher volume discount tiers</li>
-        <li>Reduce per-kg delivery cost</li>
-      </ul>
-
-      <h3>2. Plan Seasonal Buying</h3>
-      <ul>
-        <li><strong>Buy in Monsoon (June-Aug):</strong> Lower prices</li>
-        <li><strong>Avoid First Flush (March-May):</strong> Premium pricing</li>
-        <li><strong>Stock up in Autumn (Sept-Nov):</strong> Best quality-price ratio</li>
-      </ul>
-
-      <h3>3. Negotiate Payment Terms</h3>
-      <ul>
-        <li>Advance payment for extra discount</li>
-        <li>Build credit history for better terms</li>
-        <li>Commit to regular orders for preferential pricing</li>
+        <li><strong>1. Consolidate Orders:</strong> Order multiple grades together to reach higher volume discount tiers and reduce per-kg delivery cost.</li>
+        <li><strong>2. Plan Seasonal Buying:</strong>
+          <ul>
+            <li><em>First Flush (February–April):</em> Premium pricing, especially for Darjeeling — see our <a href="/blog/darjeeling-tea-flush-guide/">flush guide</a> for the full seasonal breakdown.</li>
+            <li><em>Monsoon Flush (June–August):</em> Lower prices, though quality is generally lighter — a good window for cost-conscious bulk CTC buying.</li>
+            <li><em>Autumn (September–November):</em> Often the best quality-to-price ratio for CTC grades, and a good time to stock up for the months ahead — broadly consistent with the "buy heavy in peak season" guidance in our <a href="/blog/tea-business-profit-margin-guide-2025/">profit margin guide</a>.</li>
+          </ul>
+        </li>
+        <li><strong>3. Negotiate Payment Terms:</strong> Advance payment for an extra discount, build a credit history over time for better terms, and commit to regular orders for preferential pricing.</li>
       </ul>
 
       <h2>Frequently Asked Questions</h2>
 
-      <h3>Can I order less than the MOQ?</h3>
-      <p>Some suppliers offer flexibility:</p>
-      <ul>
-        <li>Pay slightly higher per-kg rate</li>
-        <li>Combine with other buyers</li>
-        <li>Order samples first (100-250 grams)</li>
-      </ul>
-      <p>At Manish Tea Traders, we offer 100 kg MOQ for new customers.</p>
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Can I order less than the MOQ?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Some suppliers offer flexibility — a slightly higher per-kg rate, combining your order with other buyers, or ordering a small sample first (100–250 grams). At Manish Tea Traders, we offer a 100 kg MOQ for new customers.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How are delivery charges calculated?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Based on distance (longer = higher cost), weight (per-kg rate decreases with volume), mode (road is cheaper, air is faster but more expensive), and urgency (express delivery costs more).</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What payment methods are accepted?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">UPI/digital payments, NEFT/RTGS bank transfers, cheque (for credit customers), and cash (for local buyers).</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How can I reduce logistics costs?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Order in bulk to reduce per-kg delivery cost, plan orders in advance to avoid express shipping, consolidate with other buyers in your area, and choose suppliers with established logistics networks.</p>
+        </div>
+      </div>
 
-      <h3>How are delivery charges calculated?</h3>
-      <p>Based on:</p>
-      <ul>
-        <li><strong>Distance:</strong> Longer distance = higher cost</li>
-        <li><strong>Weight:</strong> Per kg rate decreases with volume</li>
-        <li><strong>Mode:</strong> Road (cheaper) vs Air (faster, expensive)</li>
-        <li><strong>Urgency:</strong> Express delivery costs more</li>
-      </ul>
-
-      <h3>What payment methods are accepted?</h3>
-      <ul>
-        <li>UPI/Digital payments</li>
-        <li>NEFT/RTGS bank transfers</li>
-        <li>Cheque (for credit customers)</li>
-        <li>Cash (for local buyers)</li>
-      </ul>
-
-      <h3>How can I reduce logistics costs?</h3>
-      <ul>
-        <li>Order in bulk to reduce per-kg delivery cost</li>
-        <li>Plan orders in advance (avoid express shipping)</li>
-        <li>Consolidate with other buyers in your area</li>
-        <li>Choose suppliers with good logistics networks</li>
-      </ul>
-
-      <h2>Conclusion</h2>
-      <p>Understanding MOQ, pricing, and logistics helps you optimize costs in <strong>tea wholesale</strong>. At <strong>Manish Tea Traders</strong>, we offer flexible MOQ (100 kg), transparent pricing, and reliable pan-India delivery. <a href="/contact-us">Contact us</a> for a detailed quotation.</p>
-    
+      <p>Understanding MOQ, pricing, and logistics helps you optimise costs in tea wholesale. At Manish Tea Traders, we offer a flexible 100 kg MOQ, transparent pricing, and reliable pan-India delivery. <a href="/contact-us/">Contact us</a> for a detailed quotation.</p>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/siliguri-tea-wholesale-market-guide-2026/">Siliguri Tea Wholesale Market Guide 2026</a></li>
+        <li><a href="/blog/sourcing-tea-wholesale-guide/">Guide to Sourcing Tea for Wholesale Business</a></li>
+        <li><a href="/blog/tea-storage-warehouse-tips/">How to Store Your First Bulk Tea Order</a></li>
+        <li><a href="/blog/tea-business-profit-margin-guide-2025/">Tea Business Profit Margin Guide</a></li>
       </ul>
     `,
-    keywords: "tea wholesale, tea moq, tea wholesale pricing, tea logistics, wholesale tea dealers",
+    keywords: "tea wholesale, tea moq, tea wholesale pricing, tea logistics, wholesale tea dealers, volume discount tea",
     imageUrl: "/blog-images/tea-logistics-truck.webp",
     lang: 'en'
   },
