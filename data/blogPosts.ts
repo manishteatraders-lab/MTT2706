@@ -2939,11 +2939,11 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b25",
-    title: "7 High-Profit Tea Business Ideas in India (2026)",
+    title: "5 High-Profit Tea Business Ideas in India (2026)",
     slug: "high-profit-tea-business-ideas",
     date: "January 18, 2026",
     author: "Jaleshwar Ray",
-    excerpt: "Discover 7 high-margin tea business models — corporate gifting, subscription boxes, private labeling, chai premix, and health teas — with equipment, warehouse, capital, and cost structures.",
+    excerpt: "Discover 5 high-margin tea business models — corporate gifting, subscription boxes, private labeling, chai premix, and health teas — with equipment, warehouse, capital, and cost structures.",
     content: `
       <p>Selling loose tea by the kg is competitive, and margins get thin fast. Here are 5 niche business models that carry meaningfully higher margins than plain bulk reselling.</p>
 
