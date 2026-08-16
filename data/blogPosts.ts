@@ -3123,63 +3123,128 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Private Label Tea Packaging: Complete Cost & Process Guide (2026)",
     slug: "private-label-tea-packaging-cost-process-2026",
     date: "January 18, 2026",
-    author: "Manish Tea Traders",
-    excerpt: "Launch your own tea brand with private label packaging. Complete guide to costs, MOQ, process, and choosing the right packaging partner.",
+    author: "Jaleshwar Ray",
+    excerpt: "Launch your own tea brand with private label packaging. Complete guide to setup costs, per-kg breakdowns (pouches vs. jars), MOQ tiers, 5-step production process, and compliance.",
     content: `
-      <p>Want to sell tea under your own brand name without owning a factory? <strong>Private label tea packaging</strong> is your answer. This guide covers everything from costs to choosing the right partner.</p>
+      <p>Want to sell tea under your own brand name without owning a factory? Private label tea packaging is your answer. This guide covers everything from costs to the actual production process — with numbers aligned to our detailed <a href="/blog/tea-packaging-guide/">packaging format comparison</a> for full transparency.</p>
 
       <h2>What is Private Label Tea Packaging?</h2>
-      <p>Private labeling means a manufacturer packages tea with YOUR brand name and logo. You focus on sales and marketing while they handle production.</p>
+      <p>Private labelling means a manufacturer packages tea with YOUR brand name and logo. You focus on sales and marketing while they handle sourcing and production — see our guide on <a href="/blog/starting-own-tea-brand-private-label-guide-2026/">starting your own tea brand</a> for the fuller picture on licensing, investment, and positioning before you commit to a first order.</p>
 
       <h2>Cost Breakdown</h2>
+
       <h3>Setup Costs</h3>
       <ul>
-        <li><strong>Packaging Design:</strong> ₹5,000-₹15,000 (one-time)</li>
-        <li><strong>Printing Cylinders:</strong> ₹8,000-₹25,000 (for pouch printing)</li>
-        <li><strong>FSSAI License:</strong> ₹2,000-₹5,000/year</li>
+        <li><strong>Packaging design:</strong> ₹5,000–₹15,000 (one-time)</li>
+        <li><strong>Printing cylinders (rotogravure, for high-volume pouch printing):</strong> ₹15,000–₹50,000 (one-time, per design + size) — see our <a href="/blog/tea-packaging-guide/">packaging comparison guide</a> for why this only makes sense once you're ordering in the thousands of kg. For a smaller first order, digital printing or stock pouches (as low as 200–2,000 units, no cylinder needed) is the more practical starting point.</li>
+        <li><strong>FSSAI License:</strong> ₹100–₹2,000/year depending on turnover tier — see our <a href="/blog/tea-business-license-india/">license guide</a> for the full FSSAI, Tea Board, and Legal Metrology requirements that apply to private label sellers specifically.</li>
       </ul>
 
       <h3>Per-Kg Costs</h3>
-      <ul>
-        <li><strong>Tea (bulk):</strong> ₹200-₹350/kg</li>
-        <li><strong>Packaging material:</strong> ₹20-₹40/kg</li>
-        <li><strong>Labor/packing:</strong> ₹10-₹15/kg</li>
-        <li><strong>Total:</strong> ₹230-₹405/kg</li>
-      </ul>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Item</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Tea (bulk)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹200–₹350/kg</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Packaging material — pouches (digital/small order)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹10–₹12/kg</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Packaging material — pouches (rotogravure, at scale)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹8–₹10/kg</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Packaging material — jars (standard PET)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹35/kg</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Labour/packing</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹10–₹15/kg</td>
+          </tr>
+          <tr style="font-weight: bold; background-color: #f9fafb;">
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Total (pouch, small order)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">≈ ₹220–₹377/kg</td>
+          </tr>
+          <tr style="font-weight: bold; background-color: #f9fafb;">
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Total (jar, standard)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">≈ ₹245–₹400/kg</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="font-size: 13px; color: #6b7280;"><em>Packaging material cost varies significantly by format — pouches and jars aren't interchangeable in this calculation. See our <a href="/blog/tea-packaging-guide/">full packaging cost breakdown</a> for the complete comparison, including the worked example of a first 200kg order.</em></p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
+        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+      </div>
 
       <h2>Minimum Order Quantities</h2>
       <ul>
-        <li><strong>Small packers:</strong> 100-500 kg</li>
-        <li><strong>Medium manufacturers:</strong> 500-2000 kg</li>
-        <li><strong>Large facilities:</strong> 2000+ kg</li>
+        <li><strong>Small packers (digital printing/stock pouches):</strong> 100–500 kg</li>
+        <li><strong>Medium manufacturers (early rotogravure runs):</strong> 500–2,000 kg</li>
+        <li><strong>Large facilities (full rotogravure economics):</strong> 2,000+ kg — real contract manufacturing listings in India commonly cite 1,000kg as the entry point for full OEM-style production, confirming this isn't an unusually high bar for the industry.</li>
       </ul>
+      <p>Volume isn't just about unit cost — it directly affects your margin too. Per-unit packaging and setup costs typically drop 25–35% once you scale from a small trial run into a larger production batch, which is exactly why our <a href="/blog/tea-business-profit-margin-guide-2025/">profit margin guide</a> shows private label margins climbing as volume grows, not just staying flat.</p>
 
       <h2>The Process</h2>
       <ol>
-        <li><strong>Choose your blend:</strong> Select tea grade and blend ratio</li>
-        <li><strong>Design packaging:</strong> Create brand identity</li>
-        <li><strong>Sample approval:</strong> Test final product</li>
-        <li><strong>Production:</strong> Bulk packing begins</li>
-        <li><strong>Delivery:</strong> Receive branded products</li>
+        <li><strong>Choose your blend:</strong> Select tea grade and blend ratio — see our <a href="/blog/how-to-blend-tea-for-packing/">blending guide</a> for the base/strength/top-note method, and our <a href="/blog/tea-grades-explained/">tea grades guide</a> if you're unsure what BP, BOP, or PD actually mean for your final cup.</li>
+        <li><strong>Design packaging:</strong> Create your brand identity, and make sure your design includes the legally required declarations (net weight, MRP, manufacturer details, packing date) — see our <a href="/blog/tea-business-license-india/">license guide</a> for what Legal Metrology requires.</li>
+        <li><strong>Sample approval:</strong> Test the final product before committing to a full production run — our <a href="/blog/identify-quality-tea/">quality identification guide</a> covers the professional tasting process worth applying at this stage, not just a quick taste.</li>
+        <li><strong>Production:</strong> Bulk packing begins.</li>
+        <li><strong>Delivery:</strong> Receive your branded products — once they arrive, proper storage matters just as much as sourcing did; see our <a href="/blog/tea-storage-warehouse-tips/">storage guide</a> for keeping your branded stock fresh until it sells.</li>
       </ol>
 
       <h2>Manish Tea Traders Private Label Service</h2>
       <p>We offer complete private label solutions:</p>
       <ul>
-        <li>MOQ: 100 kg (flexible for new brands)</li>
+        <li><strong>MOQ:</strong> 100 kg (flexible for new brands)</li>
         <li>Custom blending available</li>
         <li>Quality assurance testing</li>
         <li>Pan-India delivery</li>
       </ul>
-      <p><a href="/services/private-label-tea">Learn more about our private label service</a> or <a href="/contact-us">contact us</a> for a quote.</p>
-    
+      <p><a href="/services/private-label-tea/">Learn more about our private label service</a> or <a href="/contact-us/">contact us</a> for a quote.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How much does private label tea packaging cost per kg?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">For a small first order using pouches (digital printing), expect roughly ₹220–280/kg all-in (tea + packaging + labour). Using jars pushes this higher, roughly ₹245–400/kg, depending on tea grade and jar quality. Rotogravure pouch printing becomes more cost-effective per kg only once you're ordering in the thousands of kg — see our full <a href="/blog/tea-packaging-guide/">packaging comparison guide</a> for the detailed breakdown.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is the minimum order quantity for private label tea?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Many suppliers, including Manish Tea Traders, offer a 100 kg MOQ for new private label brands — you don't need a large upfront commitment to launch your own branded tea.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What licenses do I need for private label tea packaging?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">At minimum, FSSAI registration is mandatory. If you're packing your own tea (not just reselling), you also need Legal Metrology registration (₹500 flat fee) for correct package labelling, and depending on your activities, Tea Board of India registration may apply too — see our <a href="/blog/tea-business-license-india/">complete license guide</a>.</p>
+        </div>
+      </div>
 
       <h3>Related Reading</h3>
       <ul>
+        <li><a href="/blog/tea-packaging-guide/">Tea Packaging Comparison: Pouches vs. Jars vs. Loose Tea</a></li>
+        <li><a href="/blog/starting-own-tea-brand-private-label-guide-2026/">Starting Your Own Tea Brand: Complete Private Label Guide</a></li>
+        <li><a href="/blog/tea-business-license-india/">License Required for Tea Business in India</a></li>
+        <li><a href="/blog/how-to-blend-tea-for-packing/">How to Blend Tea for Your Own Tea Packing Brand</a></li>
+        <li><a href="/blog/tea-grades-explained/">Tea Grades Explained: Full Forms of BP, BOP, OF, PD</a></li>
+        <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Buying</a></li>
+        <li><a href="/blog/tea-storage-warehouse-tips/">How to Store Your First Bulk Tea Order</a></li>
+        <li><a href="/blog/tea-business-profit-margin-guide-2025/">Tea Business Profit Margin Guide</a></li>
       </ul>
     `,
-    keywords: "private label tea packaging, tea packaging cost, private label tea supplier, tea brand packaging",
-    imageUrl: "/blog-images/private-label-packaging.webp",
+    keywords: "private label tea packaging cost, private label tea manufacturer India, MOQ private label tea, OEM tea packing, pouch vs jar private label tea",
+    imageUrl: "/blog-images/private-label-tea-packaging.webp",
     lang: 'en'
   },
   {
