@@ -146,12 +146,33 @@ export default async function BlogPost({ params }: Props) {
       ? [blogSchema, faqPageSchema]
       : blogSchema;
 
+  const videoObjectSchema = post.videoSchema ? {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": post.videoSchema.name,
+    "description": post.videoSchema.description,
+    "thumbnailUrl": post.videoSchema.thumbnailUrl,
+    "uploadDate": post.videoSchema.uploadDate,
+    "embedUrl": post.videoSchema.embedUrl,
+    "publisher": {
+      "@type": "Organization",
+      "name": "Manish Tea Traders",
+      "logo": { "@type": "ImageObject", "url": "https://www.manishteatraders.in/logo.png" }
+    }
+  } : null;
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      {videoObjectSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(videoObjectSchema) }}
+        />
+      )}
       <div className="bg-white min-h-screen pt-8 pb-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-12 lg:items-start">

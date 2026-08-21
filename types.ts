@@ -38,6 +38,14 @@ export interface FaqItem {
   answer: string;
 }
 
+export interface VideoSchema {
+  name: string;
+  description: string;
+  thumbnailUrl: string;
+  uploadDate: string;
+  embedUrl: string;
+}
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -51,6 +59,7 @@ export interface BlogPost {
   lang: 'en' | 'hi';
   translationId?: string;
   faqSchema?: FaqItem[];
+  videoSchema?: VideoSchema;
 }
 
 export interface LocationPage {

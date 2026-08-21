@@ -186,7 +186,14 @@ export const BLOG_POSTS: BlogPost[] = [
     `,
     keywords: "how to blend tea, tea blending techniques, tea packing business, start tea brand, tea mixing ratio, tea tasting guide",
     imageUrl: "/blog-images/how-to-blend-tea-for-packing.webp",
-    lang: 'en'
+    lang: 'en',
+    videoSchema: {
+      name: "Hotel Tea Blend — Manish Tea Traders",
+      description: "How we built a ₹160/kg hotel chai blend using a two-component Dooars/Assam ratio.",
+      thumbnailUrl: "https://i.ytimg.com/vi/n6aKKW5fx-o/mqdefault.jpg",
+      uploadDate: "2026-04-24",
+      embedUrl: "https://www.youtube.com/embed/n6aKKW5fx-o"
+    }
   },
   {
     id: "b45",
