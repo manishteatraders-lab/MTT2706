@@ -191,7 +191,7 @@ export const BLOG_POSTS: BlogPost[] = [
       name: "Hotel Tea Blend — Manish Tea Traders",
       description: "How we built a ₹160/kg hotel chai blend using a two-component Dooars/Assam ratio.",
       thumbnailUrl: "https://i.ytimg.com/vi/n6aKKW5fx-o/mqdefault.jpg",
-      uploadDate: "2026-04-24",
+      uploadDate: "2026-04-24T00:00:00+05:30",
       embedUrl: "https://www.youtube.com/embed/n6aKKW5fx-o"
     }
   },
