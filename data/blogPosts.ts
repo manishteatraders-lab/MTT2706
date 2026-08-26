@@ -463,8 +463,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
         <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
-        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours.</p>
-        <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. You can request your price list online via WhatsApp or request free samples across India within 48 hours.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+          <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
+          <a href="https://wa.me/917001958588?text=Hi%2C%20please%20send%20me%20the%20latest%20tea%20wholesale%20price%20list" target="_blank" rel="noopener noreferrer" style="background-color: #ffffff; border: 2px solid #15803d; color: #15803d; padding: 8px 18px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Price List Online →</a>
+        </div>
       </div>
 
       <h2>2. Kolkata — The Historic Giant</h2>
@@ -2114,8 +2117,8 @@ export const BLOG_POSTS: BlogPost[] = [
         <a href="/request-free-tea-samples" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">Request Free Samples →</a>
       </div>
 
-      <h2>Current Wholesale Price List (2026)</h2>
-      <p>Prices are subject to weekly auction fluctuations — treat this as a planning reference, not a locked quote.</p>
+      <h2>Current Loose Tea Wholesale Price List (2026)</h2>
+      <p>Below is our current loose tea wholesale price list by grade. Please note that prices are subject to weekly auction fluctuations — treat this as a planning reference, not a locked quote.</p>
 
       <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
         <thead>
@@ -2132,7 +2135,7 @@ export const BLOG_POSTS: BlogPost[] = [
             <td style="padding: 10px; border: 1px solid #e5e7eb;">₹240 – ₹280</td>
           </tr>
           <tr>
-            <td style="padding: 10px; border: 1px solid #e5e7eb;">CTC (BP/BOP/OF)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">CTC BP/BOP/OF Loose Tea (CTC loose tea)</td>
             <td style="padding: 10px; border: 1px solid #e5e7eb;">₹200 – ₹250</td>
             <td style="padding: 10px; border: 1px solid #e5e7eb;">₹280 – ₹350</td>
           </tr>
@@ -2148,6 +2151,7 @@ export const BLOG_POSTS: BlogPost[] = [
           </tr>
         </tbody>
       </table>
+      <p><em>For small business owners and startup brands looking to test quality, we also offer a 1 kg loose tea wholesale price on request for trial quantities. This allows you to evaluate leaf grip, brew quality, and local taste preferences before scaling up.</em></p>
 
       <h2>What Actually Moves the Price</h2>
       <ul>
@@ -2199,6 +2203,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Related Reading</h3>
       <ul>
         <li><a href="/blog/top-tea-companies-siliguri-wholesale/">Top Tea Companies in Siliguri for Wholesale Partnership</a></li>
+        <li><a href="/blog/siliguri-tea-auction-guide/">Siliguri Tea Auction Guide & Brokers</a></li>
         <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Buying</a></li>
         <li><a href="/blog/tea-grades-explained/">Tea Grades Explained: Full Forms of BP, BOP, OF, PD</a></li>
       </ul>
@@ -2288,6 +2293,10 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Frequently Asked Questions</h2>
 
       <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Which is the best tea company in Siliguri for wholesale sourcing?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">The best tea company in Siliguri depends on your business size and needs. For small to medium brand owners, Manish Tea Traders is highly recommended because they act as both an auction buyer and blender, offering custom packaging services and free samples without the massive MOQs required by direct auction houses or estate-only sales agents.</p>
+        </div>
         <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
           <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How do I find a reliable tea wholesaler in Siliguri?</p>
           <p style="margin: 0; color: #4b5563; font-size: 14px;">Start by identifying what type of company you need — an auction buyer for variety, a garden-direct trader for the lowest price, or a blender if you want a consistent private label taste. Then vet them: check for proper GST compliance, a real warehouse, and a willingness to send samples before any bulk deal.</p>
@@ -4689,6 +4698,159 @@ export const BLOG_POSTS: BlogPost[] = [
     `,
     keywords: "tea trading trends, tea industry future, tea business opportunities, india tea market",
     imageUrl: "/blog-images/future-tea-tech.webp",
+    lang: 'en'
+  },
+  {
+    id: "b46",
+    title: "Siliguri Tea Auction: Price List, Brokers & How It Works (2026)",
+    slug: "siliguri-tea-auction-guide",
+    date: "August 26, 2026",
+    author: "Jaleshwar Ray",
+    excerpt: "Everything you need to know about the Siliguri Tea Auction Centre (STAC): weekly cataloguing, North India brokerages like Parcon, garden-wise pricing, and direct B2B buying alternatives.",
+    content: `
+      <p>If you're looking to purchase wholesale tea in North Bengal, you've likely come across reference rates tied to the weekly auctions. But how does the Siliguri tea auction market price list actually come together, and how does the auction system work for a business looking to source tea?</p>
+      
+      <p>This guide explains the mechanics of the Siliguri Tea Auction Centre (STAC), the role of tea brokers like Parcon, garden-wise pricing dynamics, and how you can get identical garden-fresh quality without navigating the complexities of direct bidding.</p>
+
+      <h2>How the Siliguri Tea Auction Works</h2>
+      <p>The tea auction follows a highly structured, weekly cycle designed to connect tea estates with wholesale buyers through registered brokers. The journey of a tea lot through the auction involves three distinct steps:</p>
+      <ul>
+        <li><strong>1. Garden to Broker:</strong> Tea estates manufacture CTC or orthodox teas, pack them into bags, and send them to registered warehouses in Siliguri. They assign their lots to a registered tea broker.</li>
+        <li><strong>2. Cataloguing & Sampling:</strong> The broker catalogs each lot, printing details like garden name, grade, and invoice number. A Kolkata tea auction catalogue or Siliguri catalogue is published. Most importantly, brokers distribute small 100g samples of each lot to buyers for pre-auction tasting. Buyers evaluate these samples — often following a professional <a href="/blog/identify-quality-tea/">tea quality identification guide</a> — to determine their bids.</li>
+        <li><strong>3. Bidding:</strong> On designated auction days, brokers conduct electronic bidding. Lots are sold to the highest registered buyer.</li>
+      </ul>
+
+      <h2>The Siliguri Tea Auction Centre (STAC)</h2>
+      <p>The <strong>Siliguri Tea Auction Centre (STAC)</strong> was officially inaugurated on 29th October 1976. At its inception, it was a modest setup with just 16 seller members, 132 buyer members, and 7 broker members working out of less than 40,000 sq. ft of warehouse space. Today, the centre handles tens of millions of kilograms of tea annually.</p>
+      <p>STAC is currently the third-largest tea auction centre in India by volume, following Kolkata and Guwahati. It sits at a crucial logistical corridor in Mallaguri, Siliguri, making it the primary price discovery point for Terai and Dooars tea gardens. For official enquiries, STAC is located at Mallaguri, P.O. Pradhan Nagar, Siliguri, West Bengal 734003.</p>
+
+      <h2>Tea Auction Brokers in Siliguri: Parcon & Catalogues</h2>
+      <p>Brokers are the intermediaries who evaluate tea, set valuation guidelines, and compile the auction catalog. When buyers search for the "Parcon tea auction price" or look for a "Parcon tea auction price list PDF," they are referring to one of the most prominent brokers in the industry.</p>
+      <p><strong>Parcon India Private Limited</strong> is a highly established firm, operating as the second-largest tea broker in North India. Since 1991, they have managed auctions at Kolkata, Siliguri, and Guwahati, handling over 100 million kg of tea annually. Buyers review weekly broker catalogues and price sheets to monitor "garden-wise" auction prices and track market trends. However, interpreting these catalogues and matching them to your business's exact blend requirements requires significant expertise and time.</p>
+
+      <h2>Garden-Wise Pricing: What It Means and Why It Fluctuates</h2>
+      <p>Auction prices are rarely flat; they fluctuate garden-by-garden based on several key factors:</p>
+      <ul>
+        <li><strong>Estate Reputation:</strong> Renowned gardens that maintain high quality and strict FSSAI compliance command higher bids than unbranded, smaller factories.</li>
+        <li><strong>Flush Quality:</strong> The quality shifts dramatically throughout the year. For Darjeeling teas, prices peak during the First and Second Flushes (March to June). You can learn more about these seasonal price shifts in our <a href="/blog/darjeeling-tea-flush-guide/">Darjeeling tea flush guide</a>.</li>
+        <li><strong>Grade & Leaf Size:</strong> Bold leaf grades (like BP and BOP) command different bidding interest than fine dust grades (PD and Dust) depending on whether blenders are building household tea or hotel chai mixtures.</li>
+      </ul>
+
+      <h2>Tea Factories in Siliguri: Directory & Sourcing</h2>
+      <p>Buyers looking for a "Siliguri tea factory list" or "Siliguri tea factory contact number" are usually trying to cut out the auction system entirely by buying directly from the processing unit. While buying directly from a tea factory seems cheaper, it presents serious challenges for small and medium buyers:</p>
+      <ul>
+        <li>Factories typically sell in massive minimum volumes (often 1,000kg+ per grade).</li>
+        <li>A single factory's quality varies from week to week based on green leaf intake.</li>
+        <li>Managing logistics, transport permits, and quality testing for multiple factories requires an on-ground presence.</li>
+      </ul>
+      <p>As a leading Siliguri tea supplier, Manish Tea Traders maintains direct sourcing contracts with dozens of verified gardens and tea factories. We manage the quality vetting, price negotiation, and logistics, giving you direct factory-level pricing without the stress of managing factory contacts yourself.</p>
+
+      <h2>Why Buy from Manish Tea Traders Instead of the Auction?</h2>
+      <p>Sourcing directly from the Siliguri tea auction market is a massive hurdle for most retail tea brands and startup packers. To bid directly, you must register as a buyer, pay security deposits, and buy full auction lots (minimum 120-240kg per grade). You also receive no consistency guarantees since every lot is different.</p>
+      <p>Manish Tea Traders acts as your practical sourcing partner: we buy bulk auction lots, blend them to your specific local water taste profile, and supply you with consistent, premium quality in manageable volumes (MOQ of just 30kg) — with no registration fees or broker overheads.</p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Looking for the latest wholesale prices?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">We keep our prices aligned with the weekly auction rates to ensure you get the best deal. Download our latest price guide or get a live quote on WhatsApp.</p>
+        <a href="/blog/siliguri-tea-wholesale-price-list-2026/" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">📄 Download Price List & Guide →</a>
+      </div>
+
+      <h2>Frequently Asked Questions</h2>
+      <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How do I get the Siliguri tea auction price list?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Official weekly price lists are published by registered auction brokers (like Parcon). However, they list hundreds of raw garden invoices. For a clean, simplified B2B price list showing current market rates by grade, you can download the Manish Tea Traders indicative price list online or message us on WhatsApp.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is Parcon tea auction, and how does it relate to pricing?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Parcon India Private Limited is one of the largest registered tea brokers in North India. They value, catalogue, and auction tea from various gardens. Their weekly sales reports and price sheets are widely used by traders to track the general market value of tea grades.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Where can I find a list of tea factories in Siliguri?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Dozens of processing factories operate in the Terai and Dooars regions surrounding Siliguri. Because direct factory contacts typically require massive minimum volumes, working with a partner like Manish Tea Traders allows you to tap into a vetted network of factories with lower investment and guaranteed quality consistency.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Do I need to register as a buyer to purchase tea from the Siliguri auction?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Yes. To buy directly from the Siliguri Tea Auction Centre (STAC), you must be a registered member, have a valid GST number, FSSAI central license, and purchase in full auction lots (120kg to 240kg+ per invoice). Partnering with a registered auction buyer like Manish Tea Traders eliminates these administrative barriers.</p>
+        </div>
+      </div>
+
+      <h3>Related Reading</h3>
+      <ul>
+        <li><a href="/blog/siliguri-tea-wholesale-market-guide-2026/">Siliguri Tea Wholesale Market Guide 2026</a></li>
+        <li><a href="/blog/top-tea-companies-siliguri-wholesale/">Top Tea Companies in Siliguri for Wholesale Partnership</a></li>
+        <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Sourcing</a></li>
+      </ul>
+    `,
+    keywords: "Siliguri tea auction market price list, Siliguri tea auction price, Siliguri tea auction garden wise price, tea brokers Siliguri, Parcon tea auction price, Siliguri tea factory list, tea manufacturers in Siliguri",
+    imageUrl: "/blog-images/tea-auction-bidding.webp",
+    lang: 'en'
+  },
+  {
+    id: "b47",
+    title: "Siliguri Tea Wholesale Price List (2026) — Download or Get It on WhatsApp",
+    slug: "siliguri-tea-wholesale-price-list-2026",
+    date: "August 26, 2026",
+    author: "Jaleshwar Ray",
+    excerpt: "Looking for a Siliguri tea wholesale price list PDF? Access our current 2026 loose tea price table or get real-time wholesale garden rates sent straight to your WhatsApp.",
+    content: `
+      <p>Because tea is an agricultural crop, raw leaf rates fluctuate weekly based on seasonal flushes, rain patterns, and bidding demand at the Siliguri Tea Auction Centre. Static price sheets can quickly become outdated, but having a solid benchmark is essential for calculating your business margins.</p>
+      
+      <p>Below is our current indicative loose tea wholesale price list by grade. These prices represent standard and premium quality ranges for bulk orders dispatched directly from our Siliguri warehouse.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f3f4f6; text-align: left;">
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Tea Type & Grade</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Standard Quality (per kg)</th>
+            <th style="padding: 10px; border: 1px solid #e5e7eb;">Premium Quality (per kg)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">CTC (Dust/PD) — Hotel Chai Blend</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹180 – ₹220</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹240 – ₹280</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">CTC BP/BOP/OF Loose Tea (CTC loose tea)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹200 – ₹250</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹280 – ₹350</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Darjeeling Orthodox (Premium Leafs)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹350 – ₹500</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹800 – ₹2,500+</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">Green Tea (Whole Leaf & Fannings)</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹250 – ₹400</td>
+            <td style="padding: 10px; border: 1px solid #e5e7eb;">₹500 – ₹900</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><em>Note: Prices shown above are indicative trade rates. Actual garden-wise rates vary depending on current week auction results and purchase volumes (MOQ is 30kg/1 sack). For trial batches, we also offer a 1 kg loose tea wholesale price on request.</em></p>
+
+      <div style="text-align: center; margin: 35px 0; padding: 25px; background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 16px;">
+        <h3 style="margin-top: 0; color: #166534; font-weight: bold; font-size: 20px;">Download Latest Price List PDF</h3>
+        <p style="color: #15803d; margin-bottom: 20px;">Get the active sheet sent straight to your phone. Hitting the button below will pre-fill a request message on WhatsApp so our team can send you the current live catalogue.</p>
+        <a href="https://wa.me/917001958588?text=Hi%2C%20please%20send%20me%20the%20latest%20tea%20wholesale%20price%20list" target="_blank" rel="noopener noreferrer" style="background-color: #15803d; color: white; padding: 12px 28px; border-radius: 9999px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); font-size: 16px; border: none; cursor: pointer;">
+          📄 Download Price List on WhatsApp
+        </a>
+      </div>
+
+      <p><strong>Sourcing for private label packaging?</strong> If you want to order online or request custom blends, we provide full support from garden procurement to customized pouch sealing — check out our <a href="/blog/private-label-tea-packaging-cost-process-2026/">private label tea packaging guide</a> for a complete overview of setup costs and process timelines.</p>
+
+      <h3>Related Reading</h3>
+      <ul>
+        <li><a href="/blog/siliguri-tea-wholesale-market-guide-2026/">Siliguri Tea Wholesale Market Guide 2026</a></li>
+        <li><a href="/blog/siliguri-tea-auction-guide/">Siliguri Tea Auction Guide & Brokers</a></li>
+        <li><a href="/blog/top-tea-companies-siliguri-wholesale/">Top Tea Companies in Siliguri for Wholesale Partnership</a></li>
+      </ul>
+    `,
+    keywords: "Siliguri tea wholesale price list PDF, Siliguri tea wholesale market price list, 1 kg loose tea wholesale price in Siliguri, CTC loose tea wholesale price, wholesale tea market in Siliguri online",
+    imageUrl: "/blog-images/tea-price-list.webp",
     lang: 'en'
   },
 ];
