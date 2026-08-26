@@ -4702,56 +4702,78 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "b46",
-    title: "Siliguri Tea Auction: Price List, Brokers & How It Works (2026)",
+    title: "Siliguri Tea Auction: Price List, Parcon, J. Thomas & Broker Guide (2026)",
     slug: "siliguri-tea-auction-guide",
     date: "August 26, 2026",
     author: "Jaleshwar Ray",
-    excerpt: "Everything you need to know about the Siliguri Tea Auction Centre (STAC): weekly cataloguing, North India brokerages like Parcon, garden-wise pricing, and direct B2B buying alternatives.",
+    excerpt: "Everything you need to know about the Siliguri Tea Auction Centre (STAC): weekly cataloguing, J. Thomas & Co., Parcon, garden-wise pricing, and direct B2B buying alternatives.",
     content: `
-      <p>If you're looking to purchase wholesale tea in North Bengal, you've likely come across reference rates tied to the weekly auctions. But how does the Siliguri tea auction market price list actually come together, and how does the auction system work for a business looking to source tea?</p>
+      <p>If you're sourcing wholesale tea in North Bengal, you've likely come across reference rates tied to the weekly auctions. But how does the Siliguri tea auction market price list actually come together, and can a business like yours actually buy through it?</p>
       
-      <p>This guide explains the mechanics of the Siliguri Tea Auction Centre (STAC), the role of tea brokers like Parcon, garden-wise pricing dynamics, and how you can get identical garden-fresh quality without navigating the complexities of direct bidding.</p>
+      <p>This guide explains how the Siliguri Tea Auction Centre (STAC) works, the brokers who run it — including Parcon, J. Thomas & Co., and others — garden-wise pricing dynamics, and why most small and mid-size buyers source through a partner rather than the auction floor directly.</p>
 
       <h2>How the Siliguri Tea Auction Works</h2>
-      <p>The tea auction follows a highly structured, weekly cycle designed to connect tea estates with wholesale buyers through registered brokers. The journey of a tea lot through the auction involves three distinct steps:</p>
+      <p>The auction follows a structured, weekly cycle connecting tea estates to wholesale buyers through registered brokers. A tea lot moves through three stages:</p>
       <ul>
-        <li><strong>1. Garden to Broker:</strong> Tea estates manufacture CTC or orthodox teas, pack them into bags, and send them to registered warehouses in Siliguri. They assign their lots to a registered tea broker.</li>
-        <li><strong>2. Cataloguing & Sampling:</strong> The broker catalogs each lot, printing details like garden name, grade, and invoice number. A Kolkata tea auction catalogue or Siliguri catalogue is published. Most importantly, brokers distribute small 100g samples of each lot to buyers for pre-auction tasting. Buyers evaluate these samples — often following a professional <a href="/blog/identify-quality-tea/">tea quality identification guide</a> — to determine their bids.</li>
-        <li><strong>3. Bidding:</strong> On designated auction days, brokers conduct electronic bidding. Lots are sold to the highest registered buyer.</li>
+        <li><strong>Garden to broker:</strong> Tea estates manufacture CTC or orthodox teas, pack them into bags, and send them to registered warehouses in Siliguri. Each garden assigns its lots to a registered tea broker.</li>
+        <li><strong>Cataloguing & sampling:</strong> The broker catalogues each lot — garden name, grade, invoice number — and publishes it ahead of the sale. Brokers distribute small samples of each lot to registered buyers for pre-auction tasting. Buyers evaluate these samples, ideally following a structured process like the one in our <a href="/blog/identify-quality-tea/">tea quality identification guide</a>, before deciding how to bid.</li>
+        <li><strong>Bidding:</strong> On designated auction days, brokers run the sale (increasingly via electronic bidding), and lots go to the highest registered buyer.</li>
       </ul>
 
       <h2>The Siliguri Tea Auction Centre (STAC)</h2>
-      <p>The <strong>Siliguri Tea Auction Centre (STAC)</strong> was officially inaugurated on 29th October 1976. At its inception, it was a modest setup with just 16 seller members, 132 buyer members, and 7 broker members working out of less than 40,000 sq. ft of warehouse space. Today, the centre handles tens of millions of kilograms of tea annually.</p>
-      <p>STAC is currently the third-largest tea auction centre in India by volume, following Kolkata and Guwahati. It sits at a crucial logistical corridor in Mallaguri, Siliguri, making it the primary price discovery point for Terai and Dooars tea gardens. For official enquiries, STAC is located at Mallaguri, P.O. Pradhan Nagar, Siliguri, West Bengal 734003.</p>
+      <p>STAC was officially inaugurated on 29th October 1976. At inception, it had just 16 seller members, 132 buyer members, and 7 broker members, working out of under 40,000 sq. ft of warehouse space. Today the centre handles tens of millions of kilograms annually and is the third-largest tea auction centre in India by volume, behind Kolkata and Guwahati. It sits in Mallaguri, Siliguri, making it the primary price discovery point for Terai and Dooars gardens.</p>
+      <p>For official enquiries: STAC, Mallaguri, P.O. Pradhan Nagar, Siliguri, West Bengal 734003.</p>
 
-      <h2>Tea Auction Brokers in Siliguri: Parcon & Catalogues</h2>
-      <p>Brokers are the intermediaries who evaluate tea, set valuation guidelines, and compile the auction catalog. When buyers search for the "Parcon tea auction price" or look for a "Parcon tea auction price list PDF," they are referring to one of the most prominent brokers in the industry.</p>
-      <p><strong>Parcon India Private Limited</strong> is a highly established firm, operating as the second-largest tea broker in North India. Since 1991, they have managed auctions at Kolkata, Siliguri, and Guwahati, handling over 100 million kg of tea annually. Buyers review weekly broker catalogues and price sheets to monitor "garden-wise" auction prices and track market trends. However, interpreting these catalogues and matching them to your business's exact blend requirements requires significant expertise and time.</p>
+      <h2>Tea Auction Brokers in Siliguri</h2>
+      <p>Brokers are the licensed intermediaries who value tea, compile the catalogue, and run the sale on a garden's behalf. Several established firms operate at Siliguri and the other North India centres:</p>
+      <ul>
+        <li><strong>J. Thomas & Co.</strong> — the world's largest and oldest tea brokerage, founded in the 19th century, handling roughly a third of all tea auctioned across India nationally (all auction centres combined — Kolkata, Siliguri, Guwahati, and the southern centres). Their Siliguri office is based in Uttorayon, Matigara.</li>
+        <li><strong>Parcon India Private Limited</strong> — the second-largest tea broker specifically within North India (Kolkata, Siliguri, and Guwahati), a narrower regional ranking rather than a national one. Operating since 1991, handling over 100 million kg annually. This is the firm most people mean when searching "Parcon tea auction price" or "Parcon tea auction price list PDF."</li>
+        <li><strong>Contemporary Brokers and Paramount Tea Marketing</strong> — both established, currently active North India tea brokers, alongside J. Thomas and Parcon, handling auction lots and catalogue distribution for various gardens.</li>
+      </ul>
+      <p>A quick clarification since it can look contradictory at a glance: J. Thomas is the largest broker nationally, across all of India's auction centres combined. Parcon's "second-largest" claim is specifically within North India's three centres — a narrower regional comparison, not a competing claim to J. Thomas's national position.</p>
+      <p>Buyers track these brokers' weekly catalogues and price sheets to monitor garden-wise auction trends. Interpreting them and matching them to your specific blend requirements, though, takes real time and trade expertise.</p>
+
+      <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
+        <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Sourcing tea for your business?</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">Get wholesale pricing on premium CTC, Assam, and Darjeeling teas. We dispatch free samples across India within 48 hours. <a href="/request-free-tea-samples/">Request Free Samples →</a></p>
+      </div>
+
+      <h2>Can You Buy Directly from J. Thomas or Parcon?</h2>
+      <p>This is a common point of confusion worth addressing directly: no, not as a retail buyer or small business, at least not without going through formal registration first.</p>
+      <p>Brokers like J. Thomas and Parcon work on behalf of tea gardens (as the seller's agent) and sell to registered auction buyers — not to the general public or to a business calling in asking for a few bags of tea. To buy directly through them, you would need to:</p>
+      <ul>
+        <li>Register as a buyer member with the relevant auction centre</li>
+        <li>Meet documentation requirements (valid GST number, FSSAI licensing, and typically a security deposit)</li>
+        <li>Purchase in full auction lots — commonly in the range of 120-240kg or more per invoice, not smaller trial quantities</li>
+        <li>Have the trade expertise to evaluate samples and bid competitively against experienced buyers</li>
+      </ul>
+      <p>This is a genuinely high barrier for a first-time or small-to-mid-size buyer — it's built for established, high-volume trading houses, not a retailer testing a new supply line. This is exactly the gap a partner like Manish Tea Traders fills: we hold the buyer registration, relationships, and trade expertise, and pass the sourcing through to you in manageable volumes without you needing to navigate broker registration yourself.</p>
 
       <h2>Garden-Wise Pricing: What It Means and Why It Fluctuates</h2>
-      <p>Auction prices are rarely flat; they fluctuate garden-by-garden based on several key factors:</p>
+      <p>Auction prices are rarely flat — they shift garden-by-garden based on:</p>
       <ul>
-        <li><strong>Estate Reputation:</strong> Renowned gardens that maintain high quality and strict FSSAI compliance command higher bids than unbranded, smaller factories.</li>
-        <li><strong>Flush Quality:</strong> The quality shifts dramatically throughout the year. For Darjeeling teas, prices peak during the First and Second Flushes (March to June). You can learn more about these seasonal price shifts in our <a href="/blog/darjeeling-tea-flush-guide/">Darjeeling tea flush guide</a>.</li>
-        <li><strong>Grade & Leaf Size:</strong> Bold leaf grades (like BP and BOP) command different bidding interest than fine dust grades (PD and Dust) depending on whether blenders are building household tea or hotel chai mixtures.</li>
+        <li><strong>Estate reputation:</strong> Renowned gardens maintaining high quality and strict FSSAI compliance command higher bids than smaller, unbranded factories.</li>
+        <li><strong>Flush quality:</strong> Quality shifts dramatically through the year. For Darjeeling teas specifically, prices peak during the First and Second Flush (roughly February to June) — see our <a href="/blog/darjeeling-tea-flush-guide/">Darjeeling flush guide</a> for the full seasonal breakdown.</li>
+        <li><strong>Grade and leaf size:</strong> Bold leaf grades (BP, BOP) draw different bidding interest than fine dust grades (PD, Dust), depending on whether blenders are building household tea or hotel-style chai mixtures.</li>
       </ul>
 
       <h2>Tea Factories in Siliguri: Directory & Sourcing</h2>
-      <p>Buyers looking for a "Siliguri tea factory list" or "Siliguri tea factory contact number" are usually trying to cut out the auction system entirely by buying directly from the processing unit. While buying directly from a tea factory seems cheaper, it presents serious challenges for small and medium buyers:</p>
+      <p>If you're searching for a "Siliguri tea factory list" or "Siliguri tea factory contact number," you're likely trying to skip the auction system entirely and buy straight from the processing unit. It's worth knowing this presents real challenges for small and mid-size buyers before you go down that road:</p>
       <ul>
-        <li>Factories typically sell in massive minimum volumes (often 1,000kg+ per grade).</li>
-        <li>A single factory's quality varies from week to week based on green leaf intake.</li>
-        <li>Managing logistics, transport permits, and quality testing for multiple factories requires an on-ground presence.</li>
+        <li>Factories typically sell in large minimum volumes — often 1,000kg+ per grade.</li>
+        <li>A single factory's output quality can vary week to week based on green leaf intake.</li>
+        <li>Managing logistics, transport permits, and quality testing across multiple factories requires genuine on-ground presence.</li>
       </ul>
-      <p>As a leading Siliguri tea supplier, Manish Tea Traders maintains direct sourcing contracts with dozens of verified gardens and tea factories. We manage the quality vetting, price negotiation, and logistics, giving you direct factory-level pricing without the stress of managing factory contacts yourself.</p>
+      <p>Manish Tea Traders maintains direct sourcing relationships with verified gardens and processing units across the region. We manage the quality vetting, price negotiation, and logistics — giving you factory-level sourcing without needing to build and manage those relationships yourself.</p>
 
-      <h2>Why Buy from Manish Tea Traders Instead of the Auction?</h2>
-      <p>Sourcing directly from the Siliguri tea auction market is a massive hurdle for most retail tea brands and startup packers. To bid directly, you must register as a buyer, pay security deposits, and buy full auction lots (minimum 120-240kg per grade). You also receive no consistency guarantees since every lot is different.</p>
-      <p>Manish Tea Traders acts as your practical sourcing partner: we buy bulk auction lots, blend them to your specific local water taste profile, and supply you with consistent, premium quality in manageable volumes (MOQ of just 30kg) — with no registration fees or broker overheads.</p>
+      <h2>Why Buy from Manish Tea Traders Instead of the Auction Directly?</h2>
+      <p>To bid directly at the Siliguri auction, you need buyer registration, security deposits, and the ability to purchase full auction lots — with no consistency guarantee, since every lot is different, even from the same garden.</p>
+      <p>Manish Tea Traders acts as your practical sourcing partner: we buy bulk auction lots, blend them to your specific local water and taste profile (see our <a href="/blog/how-to-blend-tea-for-packing/">blending guide</a> for how this works), and supply consistent, quality-checked tea in manageable volumes — MOQ of just 30kg — with no registration fees or broker overhead on your end.</p>
 
       <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; margin: 25px 0;">
         <p style="margin-bottom: 12px; font-weight: 600; color: #166534;">Looking for the latest wholesale prices?</p>
-        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">We keep our prices aligned with the weekly auction rates to ensure you get the best deal. Download our latest price guide or get a live quote on WhatsApp.</p>
+        <p style="margin-bottom: 12px; font-size: 14px; color: #15803d;">We keep our rates aligned with weekly auction trends to ensure you get a fair deal. Download our latest price guide or get a live quote on WhatsApp.</p>
         <a href="/blog/siliguri-tea-wholesale-price-list-2026/" style="background-color: #15803d; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: inline-block;">📄 Download Price List & Guide →</a>
       </div>
 
@@ -4759,19 +4781,23 @@ export const BLOG_POSTS: BlogPost[] = [
       <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 16px;">
         <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
           <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">How do I get the Siliguri tea auction price list?</p>
-          <p style="margin: 0; color: #4b5563; font-size: 14px;">Official weekly price lists are published by registered auction brokers (like Parcon). However, they list hundreds of raw garden invoices. For a clean, simplified B2B price list showing current market rates by grade, you can download the Manish Tea Traders indicative price list online or message us on WhatsApp.</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Official weekly price lists are published by registered auction brokers like J. Thomas & Co., Parcon, Contemporary Brokers, and others — but they list hundreds of raw garden invoices, not a simplified market view. For a clean, simplified B2B price list by grade, download the Manish Tea Traders indicative price list or message us directly on WhatsApp.</p>
         </div>
         <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
           <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">What is Parcon tea auction, and how does it relate to pricing?</p>
-          <p style="margin: 0; color: #4b5563; font-size: 14px;">Parcon India Private Limited is one of the largest registered tea brokers in North India. They value, catalogue, and auction tea from various gardens. Their weekly sales reports and price sheets are widely used by traders to track the general market value of tea grades.</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Parcon India Private Limited is the second-largest registered tea broker within North India specifically (Kolkata, Siliguri, and Guwahati) — a regional ranking, distinct from J. Thomas & Co.'s position as the largest broker nationally across all of India's auction centres. Parcon values, catalogues, and auctions tea on behalf of gardens, and its weekly sale reports are widely referenced to track general market rates by grade — but it sells to registered auction buyers, not directly to retail or small wholesale customers.</p>
+        </div>
+        <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Can I buy tea directly from J. Thomas & Co. or Parcon?</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Not without registering as a buyer member at the relevant auction centre, which requires GST and FSSAI documentation, a security deposit, and purchasing in full auction lots (commonly 120-240kg+ per invoice). Most small and mid-size buyers instead work with a registered auction buyer like Manish Tea Traders, who handles this process and supplies smaller, consistent volumes directly.</p>
         </div>
         <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
           <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Where can I find a list of tea factories in Siliguri?</p>
-          <p style="margin: 0; color: #4b5563; font-size: 14px;">Dozens of processing factories operate in the Terai and Dooars regions surrounding Siliguri. Because direct factory contacts typically require massive minimum volumes, working with a partner like Manish Tea Traders allows you to tap into a vetted network of factories with lower investment and guaranteed quality consistency.</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Dozens of processing factories operate across the Terai and Dooars regions surrounding Siliguri. Since direct factory sourcing typically requires large minimum volumes and hands-on quality management, working with a partner like Manish Tea Traders gives you access to a vetted factory network at a much lower investment.</p>
         </div>
         <div style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 16px; border-radius: 8px;">
           <p style="margin: 0 0 8px 0; font-weight: bold; color: #111827;">Do I need to register as a buyer to purchase tea from the Siliguri auction?</p>
-          <p style="margin: 0; color: #4b5563; font-size: 14px;">Yes. To buy directly from the Siliguri Tea Auction Centre (STAC), you must be a registered member, have a valid GST number, FSSAI central license, and purchase in full auction lots (120kg to 240kg+ per invoice). Partnering with a registered auction buyer like Manish Tea Traders eliminates these administrative barriers.</p>
+          <p style="margin: 0; color: #4b5563; font-size: 14px;">Yes. Buying directly from STAC requires registered buyer membership, a valid GST number, FSSAI licensing, and purchasing full auction lots. Partnering with an already-registered auction buyer like Manish Tea Traders removes these administrative barriers entirely.</p>
         </div>
       </div>
 
@@ -4780,13 +4806,14 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><a href="/blog/siliguri-tea-wholesale-market-guide-2026/">Siliguri Tea Wholesale Market Guide 2026</a></li>
         <li><a href="/blog/top-tea-companies-siliguri-wholesale/">Top Tea Companies in Siliguri for Wholesale Partnership</a></li>
         <li><a href="/blog/identify-quality-tea/">How to Identify Good Quality Tea for Bulk Sourcing</a></li>
+        <li><a href="/blog/darjeeling-tea-flush-guide/">Darjeeling Tea Flush Guide for Wholesale Buyers</a></li>
       </ul>
     `,
-    keywords: "Siliguri tea auction market price list, Siliguri tea auction price, Siliguri tea auction garden wise price, tea brokers Siliguri, Parcon tea auction price, Siliguri tea factory list, tea manufacturers in Siliguri",
+    keywords: "Siliguri tea auction market price list, Siliguri tea auction price, Siliguri tea auction garden wise price, tea brokers Siliguri, Parcon tea auction price, Siliguri tea factory list, tea manufacturers in Siliguri, J. Thomas & Co.",
     imageUrl: "/blog-images/tea-auction-bidding.webp",
     lang: 'en'
   },
-  {
+{
     id: "b47",
     title: "Siliguri Tea Wholesale Price List (2026) — Download or Get It on WhatsApp",
     slug: "siliguri-tea-wholesale-price-list-2026",
