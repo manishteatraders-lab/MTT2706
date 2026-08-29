@@ -11,8 +11,8 @@ import SampleRequestForm from '../../components/SampleRequestForm';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Free Tea Samples for Business & Serious Buyers | Manish Tea Traders",
-  description: "Get free CTC, Assam & Darjeeling tea samples for your business. For wholesalers, retailers & serious bulk buyers only — dispatched from Siliguri in 48 hours.",
+  title: "Tea Samples for Business & Serious Buyers | Manish Tea Traders",
+  description: "Get CTC, Assam & Darjeeling tea samples for your wholesale business. Business Sample (free tea + courier) or Startup Sample (₹600, 5–6×200g packs) — dispatched from Siliguri.",
   alternates: {
     canonical: "https://www.manishteatraders.in/request-free-tea-samples/"
   }
@@ -40,10 +40,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "Are free tea samples available?",
+      "name": "Are tea samples available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We dispatch free samples of CTC, Assam, Darjeeling and Tea Dust grades to serious wholesale buyers anywhere in India within 48 hours of request. No payment required."
+        "text": "Yes. We offer two options: (1) Business Sample — tea samples are free, only courier charges (~₹200) apply, refunded in your first order. (2) Startup Sample at ₹600 total, includes 5–6 varieties of 200g foil-packed tea plus courier. Both are dispatched from Siliguri within 48 hours of confirmation."
       }
     },
     {
@@ -87,19 +87,18 @@ export default function RequestSamples() {
 
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center">
                   <div className="flex justify-center gap-4 mb-8 text-sm font-semibold tracking-wider text-yellow-300">
-                      <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> Free Samples</span>
-                      <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> No Payment</span>
+                      <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> 2 Sample Options</span>
+                      <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> Business Sample Free</span>
                       <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> 48hr Dispatch</span>
                   </div>
 
-                  {/* ── NEW H1 ── */}
+                  {/* ── H1 ── */}
                   <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold mb-6 leading-tight">
-                      Free Tea Samples for Business<br />
+                      Tea Samples for Business<br />
                       <span className="text-yellow-400">&amp; Serious Buyers</span>
                   </h1>
                   <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mb-10 leading-relaxed">
-                      For wholesalers, retailers, and private label buyers only.
-                      Fill the form below — samples dispatched from Siliguri within 48 hours.
+                      For wholesalers, retailers, and private label buyers only. Choose between our <strong>Business Sample</strong> (free tea, courier extra) or <strong>Startup Sample</strong> (₹600 for 5–6 × 200g packs).
                   </p>
 
                   <a
@@ -133,7 +132,7 @@ export default function RequestSamples() {
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> FSSAI Licensed</span>
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> Tea Board of India Reg: KOL/B-7410</span>
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> GST Registered: 19AHJPR0891G1ZX</span>
-                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> No payment required for samples</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> Business Sample: Free Tea + Courier</span>
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> 500+ wholesale buyers trust us</span>
               </div>
           </section>
@@ -143,9 +142,9 @@ export default function RequestSamples() {
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="text-center mb-12">
                       <span className="text-tea-600 font-bold tracking-wider uppercase text-xs">Step 1 of a long partnership</span>
-                      <h2 className="text-3xl font-serif font-bold text-tea-900 mt-2 mb-3">Request Your Free Tea Samples</h2>
+                      <h2 className="text-3xl font-serif font-bold text-tea-900 mt-2 mb-3">Request Your Tea Samples</h2>
                       <p className="text-gray-600 max-w-xl mx-auto text-sm leading-relaxed">
-                          No payment. No obligation. For serious bulk buyers only.<br />
+                          For serious bulk buyers only. Choose between a free Business Sample (courier extra) or Startup Sample at ₹600 (5–6 × 200g packs, courier included).<br />
                           Our team reviews every request and responds on WhatsApp within a few hours.
                       </p>
                   </div>
@@ -164,10 +163,10 @@ export default function RequestSamples() {
                               <h3 className="font-serif font-bold text-tea-900 text-lg mb-4">What happens next?</h3>
                               <ol className="space-y-4">
                                   {[
-                                      { step: "01", title: "We review your request", desc: "Our team checks your requirement and selects the right grades." },
-                                      { step: "02", title: "WhatsApp confirmation", desc: "We reach out to confirm address and dispatch details within a few hours." },
-                                      { step: "03", title: "Samples dispatched", desc: "Free samples couriered from Siliguri within 48 hours of confirmation." },
-                                      { step: "04", title: "Follow-up price list", desc: "We send today's updated wholesale rates along with the samples." },
+                                      { step: "01", title: "Fill contact & address", desc: "Enter your business details and delivery address." },
+                                      { step: "02", title: "Choose sample type", desc: "Business Sample (free tea + courier) or Startup Sample (₹600 for 5–6 × 200g packs)." },
+                                      { step: "03", title: "WhatsApp confirmation", desc: "Our team confirms payment (courier or ₹600) and dispatches within 48 hours." },
+                                      { step: "04", title: "Price list follows", desc: "We send today's updated wholesale rates along with the samples." },
                                   ].map((item) => (
                                       <li key={item.step} className="flex gap-3">
                                           <div className="flex-none w-8 h-8 bg-tea-600 text-white rounded-full flex items-center justify-center text-xs font-bold">{item.step}</div>
@@ -307,9 +306,9 @@ export default function RequestSamples() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
                       <div className="hidden md:block absolute top-1/4 left-1/6 right-1/6 h-0.5 bg-tea-100 -z-10"></div>
                       {[
-                          { step: "01", title: "Fill the Form", desc: "Complete the sample request form above with your business details." },
+                          { step: "01", title: "Fill the Form", desc: "Enter your business details and select Business Sample or Startup Sample (₹600)." },
                           { step: "02", title: "Quality Selection", desc: "Our team selects the exact grades matching your market requirements." },
-                          { step: "03", title: "Free Delivery", desc: "Receive samples at your doorstep across India via courier within 3–7 days." }
+                          { step: "03", title: "Sample Delivery", desc: "Receive samples at your doorstep across India via courier within 3–7 days." }
                       ].map((item, idx) => (
                           <div key={idx} className="bg-white p-6">
                               <div className="w-16 h-16 bg-tea-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg relative z-10">
@@ -442,13 +441,13 @@ export default function RequestSamples() {
                   </div>
                   <div className="space-y-4">
                       {[
-                          { q: "How do I request tea samples?", a: "Fill the form on this page. We will contact you on WhatsApp within a few hours to confirm your sample details." },
-                          { q: "Is there any charge for samples?", a: "The tea samples are free. We may charge a nominal courier fee for new clients, which is refundable on your first order." },
-                          { q: "What information do I need to provide?", a: "We need your business name, GST number, full address with PIN code, and your preferred tea grade to send the right samples." },
-                          { q: "How long does sample delivery take?", a: "Once confirmed, samples are dispatched within 48 hours. Delivery takes 3–7 days depending on your location." },
+                          { q: "How do I request tea samples?", a: "Fill the 4-step form on this page. Step 2 asks you to choose your sample type. We will contact you on WhatsApp within a few hours to confirm details." },
+                          { q: "Is there any charge for samples?", a: "We have two options: (1) Business Sample — the tea is free, but courier charges (~₹200) apply and are refundable on your first order. (2) Startup Sample — ₹600 total, which includes 5–6 varieties of 200g foil-packed tea plus courier. Payment is collected via WhatsApp after form submission." },
+                          { q: "What information do I need to provide?", a: "We need your business name, GST number (or startup status), full address with PIN code, and your preferred tea grade to send the right samples." },
+                          { q: "How long does sample delivery take?", a: "Once confirmed and payment collected (courier or ₹600), samples are dispatched within 48 hours. Delivery takes 3–7 days depending on your location." },
                           { q: "Do you offer private label tea packaging?", a: "Yes! We specialize in private labeling. We can pack tea in your branded pouches starting from 500kg." },
                           { q: "What areas do you deliver to?", a: "We deliver to all states in India. We also have export licenses for international shipment." },
-                          { q: "What's your minimum order quantity?", a: "For samples: No minimum. For bulk orders: Usually 1 Lot for loose tea, or 500kg for private label." }
+                          { q: "What's your minimum order quantity?", a: "For samples: No minimum quantity. For bulk orders: Usually 1 Lot for loose tea, or 500kg for private label." }
                       ].map((item, idx) => (
                           <div key={idx} className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
                               <h3 className="font-bold text-gray-900 mb-2 flex gap-3 text-lg">
