@@ -294,7 +294,7 @@ export default function SampleRequestForm() {
               <div className="border-2 border-green-200 rounded-2xl overflow-hidden flex flex-col bg-white hover:border-green-400 transition-colors shadow-sm">
                 <div className="bg-green-600 text-white text-center py-2.5 px-4 font-bold text-sm">1️⃣ Business Sample</div>
                 <div className="relative w-full" style={{ aspectRatio: "4/3" }}>
-                  <Image src="/blog-images/business-sample-pack.jpg?v=2" alt="Business Sample — small zip-lock tea grade bags" fill className="object-cover" sizes="(max-width:768px) 100vw,50vw" />
+                  <Image src="/blog-images/businesssample.jpeg?v=1" alt="Business Sample — small zip-lock tea grade bags" fill className="object-cover" sizes="(max-width:768px) 100vw,50vw" />
                 </div>
                 <div className="p-4 flex-1 space-y-3">
                   <span className="inline-block bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-full">✅ Tea FREE — Courier charges extra</span>
@@ -320,7 +320,7 @@ export default function SampleRequestForm() {
               <div className="border-2 border-yellow-300 rounded-2xl overflow-hidden flex flex-col bg-white hover:border-yellow-500 transition-colors shadow-sm">
                 <div className="bg-yellow-500 text-white text-center py-2.5 px-4 font-bold text-sm">2️⃣ Startup Sample — ₹600</div>
                 <div className="relative w-full" style={{ aspectRatio: "4/3" }}>
-                  <Image src="/blog-images/startup-sample-pack.jpg?v=2" alt="Startup Sample — 200g foil-packed tea varieties" fill className="object-cover" sizes="(max-width:768px) 100vw,50vw" />
+                  <Image src="/blog-images/startupsample.jpeg?v=1" alt="Startup Sample — 200g foil-packed tea varieties" fill className="object-cover" sizes="(max-width:768px) 100vw,50vw" />
                 </div>
                 <div className="p-4 flex-1 space-y-3">
                   <span className="inline-block bg-yellow-100 text-yellow-800 text-xs font-bold px-3 py-1 rounded-full">💰 ₹600 Total — Courier included</span>
