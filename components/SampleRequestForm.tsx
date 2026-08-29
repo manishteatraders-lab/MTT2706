@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useRef, useEffect } from "react";
 import {
@@ -135,7 +135,12 @@ export default function SampleRequestForm() {
     if (Object.keys(errs).length > 0) { setErrors(errs); scrollToTop(); return; }
     setErrors({}); setStep(2); setTimeout(scrollToTop, 50);
   };
-  const handleNext2 = (type: SampleType) => { set("sampleType", type); setStep(3); setTimeout(scrollToTop, 50); };
+  const handleNext2 = (type: SampleType) => {
+    set("sampleType", type);
+    // Startup sample skips Step 3 (Tea Requirement) — go straight to confirm
+    setStep(type === "startup" ? 4 : 3);
+    setTimeout(scrollToTop, 50);
+  };
   const handleNext3 = () => {
     const errs = validateSection2(data);
     if (Object.keys(errs).length > 0) { setErrors(errs); scrollToTop(); return; }
@@ -153,7 +158,19 @@ export default function SampleRequestForm() {
     finally { setSubmitting(false); }
   };
 
-  const progressPct = Math.round((step / 4) * 100);
+  // For startup: 3 steps (1, 2, 4). For business: 4 steps (1, 2, 3, 4)
+  const isStartup = data.sampleType === "startup";
+  const totalSteps = isStartup ? 3 : 4;
+  // Map actual step to display step number
+  const displayStep = isStartup && step === 4 ? 3 : step;
+  const progressPct = Math.round((displayStep / totalSteps) * 100);
+  const stepLabel = step === 4
+    ? "Confirm Details"
+    : step === 3
+    ? "Tea Requirement"
+    : step === 2
+    ? "Sample Type"
+    : "Contact & Address";
 
   if (alreadySubmitted && !submitted) {
     return (
@@ -192,8 +209,8 @@ export default function SampleRequestForm() {
     <div ref={formTopRef} className="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
       <div className="bg-tea-900 px-6 py-5">
         <div className="flex items-center justify-between mb-3">
-          <span className="text-tea-200 text-sm font-medium">Step {step} of 4</span>
-          <span className="text-tea-300 text-xs">{STEP_LABELS[step]}</span>
+          <span className="text-tea-200 text-sm font-medium">Step {displayStep} of {totalSteps}</span>
+          <span className="text-tea-300 text-xs">{stepLabel}</span>
         </div>
         <div className="w-full bg-tea-800 rounded-full h-1.5">
           <div className="bg-yellow-400 h-1.5 rounded-full transition-all duration-500" style={{ width: `${progressPct}%` }} />
@@ -409,14 +426,17 @@ export default function SampleRequestForm() {
                 <div className="flex justify-between"><span className="text-gray-500">Delivery Address</span><span className="font-semibold text-right max-w-[200px] leading-tight">{data.street}, {data.city}, {data.state} - {data.pincode}</span></div>
               </div>
             </div>
-            <div className="border border-gray-200 rounded-xl overflow-hidden text-sm">
-              <div className="bg-gray-50 px-4 py-3 font-bold text-gray-900 border-b border-gray-200">Tea Requirement</div>
-              <div className="p-4 space-y-3">
-                <div className="flex justify-between border-b border-gray-100 pb-2"><span className="text-gray-500">Grades Selected</span><span className="font-semibold text-right max-w-[200px]">{data.teaGrades.join(", ")}</span></div>
-                <div className="flex justify-between border-b border-gray-100 pb-2"><span className="text-gray-500">Business Type</span><span className="font-semibold text-right">{data.businessType || "N/A"}</span></div>
-                <div className="flex justify-between"><span className="text-gray-500">Current Source</span><span className="font-semibold text-right">{data.purchaseFrom}</span></div>
+            {/* Hide Tea Requirement section for startup users who skipped step 3 */}
+            {data.sampleType !== "startup" && (
+              <div className="border border-gray-200 rounded-xl overflow-hidden text-sm">
+                <div className="bg-gray-50 px-4 py-3 font-bold text-gray-900 border-b border-gray-200">Tea Requirement</div>
+                <div className="p-4 space-y-3">
+                  <div className="flex justify-between border-b border-gray-100 pb-2"><span className="text-gray-500">Grades Selected</span><span className="font-semibold text-right max-w-[200px]">{data.teaGrades.join(", ")}</span></div>
+                  <div className="flex justify-between border-b border-gray-100 pb-2"><span className="text-gray-500">Business Type</span><span className="font-semibold text-right">{data.businessType || "N/A"}</span></div>
+                  <div className="flex justify-between"><span className="text-gray-500">Current Source</span><span className="font-semibold text-right">{data.purchaseFrom}</span></div>
+                </div>
               </div>
-            </div>
+            )}
             {data.sampleType === "business" ? (
               <div className="bg-green-50 border border-green-200 rounded-xl p-5">
                 <p className="text-sm text-green-900 leading-relaxed font-medium">
@@ -438,7 +458,7 @@ export default function SampleRequestForm() {
             )}
             {submitError && <div className="bg-red-50 border border-red-200 text-red-700 text-sm px-4 py-3 rounded-lg">{submitError}</div>}
             <div className="flex gap-3">
-              <button type="button" onClick={() => { setStep(3); scrollToTop(); }} disabled={submitting} className="flex-none bg-gray-100 hover:bg-gray-200 text-gray-700 px-5 py-3.5 rounded-lg font-semibold flex items-center gap-2 transition-colors disabled:opacity-50"><ArrowLeft className="h-4 w-4" /> Back</button>
+              <button type="button" onClick={() => { setStep(data.sampleType === "startup" ? 2 : 3); scrollToTop(); }} disabled={submitting} className="flex-none bg-gray-100 hover:bg-gray-200 text-gray-700 px-5 py-3.5 rounded-lg font-semibold flex items-center gap-2 transition-colors disabled:opacity-50"><ArrowLeft className="h-4 w-4" /> Back</button>
               <button type="button" onClick={handleSubmit} disabled={submitting} className="flex-1 bg-tea-600 hover:bg-tea-700 disabled:opacity-60 disabled:cursor-not-allowed text-white py-3.5 rounded-lg font-bold text-base flex items-center justify-center gap-2 transition-colors shadow-md">
                 {submitting ? <><Loader2 className="h-5 w-5 animate-spin" /> Sending…</> : <><Send className="h-5 w-5" /> Confirm &amp; Submit Request</>}
               </button>
