@@ -151,8 +151,12 @@ export default function SampleRequestForm() {
     if (data.website) return;
     setSubmitting(true); setSubmitError("");
     try {
-      const res = await fetch("/api/submit-sample-request", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
-      if (!res.ok) throw new Error("Server error");
+      // Static site — POST directly to Google Apps Script (no Next.js API route available)
+      const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx5_0WxvI1lTZL7a7blCzzAoUFZmYRHIoTYOqlycEqD_5GtCgr6fKBdx-UBq5sYScVKnQ/exec";
+      const submission = { ...data, submittedAt: new Date().toISOString(), deliveryAddress: `${data.street}, ${data.city}, ${data.state} - ${data.pincode}` };
+      const res = await fetch(GOOGLE_SCRIPT_URL, { method: "POST", mode: "no-cors", headers: { "Content-Type": "application/json" }, body: JSON.stringify(submission) });
+      // no-cors means we can't read the response — assume success
+      void res;
       setSubmitted(true); localStorage.setItem("mtt_sample_requested", "true"); scrollToTop();
     } catch { setSubmitError("Something went wrong. Please try WhatsApp or call us directly."); }
     finally { setSubmitting(false); }
