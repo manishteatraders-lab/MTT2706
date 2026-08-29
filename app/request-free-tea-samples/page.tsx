@@ -11,8 +11,8 @@ import SampleRequestForm from '../../components/SampleRequestForm';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Tea Samples for Business & Serious Buyers | Manish Tea Traders",
-  description: "Get CTC, Assam & Darjeeling tea samples for your wholesale business. Business Sample (free tea + courier) or Startup Sample (₹600, 5–6×200g packs) — dispatched from Siliguri.",
+  title: "Free Tea Samples for Business & Serious Buyers | Manish Tea Traders",
+  description: "Get free CTC, Assam & Darjeeling tea samples for your wholesale business. Business Sample (free tea + courier) or Startup Sample (₹600, 5–6×200g packs) — dispatched from Siliguri.",
   alternates: {
     canonical: "https://www.manishteatraders.in/request-free-tea-samples/"
   }
@@ -94,7 +94,7 @@ export default function RequestSamples() {
 
                   {/* ── H1 ── */}
                   <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold mb-6 leading-tight">
-                      Tea Samples for Business<br />
+                      Free Tea Samples for Business<br />
                       <span className="text-yellow-400">&amp; Serious Buyers</span>
                   </h1>
                   <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mb-10 leading-relaxed">
@@ -142,7 +142,7 @@ export default function RequestSamples() {
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="text-center mb-12">
                       <span className="text-tea-600 font-bold tracking-wider uppercase text-xs">Step 1 of a long partnership</span>
-                      <h2 className="text-3xl font-serif font-bold text-tea-900 mt-2 mb-3">Request Your Tea Samples</h2>
+                      <h2 className="text-3xl font-serif font-bold text-tea-900 mt-2 mb-3">Request Your Free Tea Samples</h2>
                       <p className="text-gray-600 max-w-xl mx-auto text-sm leading-relaxed">
                           For serious bulk buyers only. Choose between a free Business Sample (courier extra) or Startup Sample at ₹600 (5–6 × 200g packs, courier included).<br />
                           Our team reviews every request and responds on WhatsApp within a few hours.
