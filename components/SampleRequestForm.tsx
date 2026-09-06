@@ -6,6 +6,7 @@ import {
   Phone, Package, ChevronDown, Loader2, Send, Check
 } from "lucide-react";
 import Image from "next/image";
+import { trackEvent } from "../lib/analytics";
 
 const INDIAN_STATES = [
   "Andaman & Nicobar Islands","Andhra Pradesh","Arunachal Pradesh","Assam",
@@ -157,6 +158,18 @@ export default function SampleRequestForm() {
       const res = await fetch(GOOGLE_SCRIPT_URL, { method: "POST", mode: "no-cors", headers: { "Content-Type": "application/json" }, body: JSON.stringify(submission) });
       // no-cors means we can't read the response — assume success
       void res;
+
+      // Track successful sample form submission in GA4
+      trackEvent("sample_form_submit", {
+        event_category: "leads",
+        event_label: data.sampleType || "Unknown Sample",
+        sample_type: data.sampleType,
+        business_type: data.businessType,
+        tea_grades: data.teaGrades.join(", "),
+        city: data.city,
+        state: data.state,
+      });
+
       setSubmitted(true); localStorage.setItem("mtt_sample_requested", "true"); scrollToTop();
     } catch { setSubmitError("Something went wrong. Please try WhatsApp or call us directly."); }
     finally { setSubmitting(false); }

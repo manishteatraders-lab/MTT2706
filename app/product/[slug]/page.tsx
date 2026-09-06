@@ -154,6 +154,8 @@ export default async function ProductDetail({ params }: Props) {
                                   href="/request-free-tea-samples/#sample-form"
                                   target="_blank"
                                   rel="noopener noreferrer"
+                                  data-product-name={product.name}
+                                  data-product-slug={product.slug}
                                   className="w-full flex items-center justify-center gap-2 bg-white text-stone-800 border-2 border-stone-200 hover:border-tea-600 font-bold py-4 rounded-2xl transition-all"
                               >
                                   Request Samples

@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Mail, Check, MessageSquare, ArrowRight, Bell } from 'lucide-react';
 import { CONTACT_INFO } from '../constants';
+import { trackEvent } from '../lib/analytics';
 
 const Newsletter: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -11,6 +12,13 @@ const Newsletter: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (email) {
+      // Track GA4 event for email digest subscribe
+      trackEvent("email_subscribe", {
+        event_category: "engagement",
+        event_label: "Weekly Email Digest",
+        subscription_type: "weekly_rate_digest",
+      });
+
       // Simulate API call
       setTimeout(() => {
         setSubscribed(true);

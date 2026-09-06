@@ -1,49 +1,65 @@
-import ReactGA from "react-ga4";
+// Centralized GA4 & Event Tracking for manishteatraders.in
 
-// Replace with your GA4 Measurement ID
-export const GA_MEASUREMENT_ID = "G-51CXM4KKZ2";
+export const GA_MEASUREMENT_ID = "G-FXJ2QZ3N1F";
+export const CLARITY_PROJECT_ID = "ydxfpniuta";
 
-// Replace with your Webhook URL (e.g., Formspree, Make.com, etc.)
-export const TRACKING_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyO3wOtQcSrk6_5joKqffSQTtNOJg5PicLTlikAkKXbJgvl6bubvA2Raph2O_ubmdXk/exec";
+// Silent Webhook Notification (Google Sheets backup)
+export const TRACKING_WEBHOOK_URL =
+  "https://script.google.com/macros/s/AKfycbyO3wOtQcSrk6_5joKqffSQTtNOJg5PicLTlikAkKXbJgvl6bubvA2Raph2O_ubmdXk/exec";
 
-export const initGA = () => {
-    if (GA_MEASUREMENT_ID && !GA_MEASUREMENT_ID.includes("XXX")) {
-        ReactGA.initialize(GA_MEASUREMENT_ID);
-    }
+// Type declaration for gtag and clarity
+declare global {
+  interface Window {
+    dataLayer?: any[];
+    gtag?: (...args: any[]) => void;
+    clarity?: (...args: any[]) => void;
+  }
+}
+
+/**
+ * Trigger GA4 event safely via window.gtag
+ */
+export const trackEvent = (
+  eventName: string,
+  params?: Record<string, any>
+) => {
+  if (typeof window !== "undefined" && typeof window.gtag === "function") {
+    window.gtag("event", eventName, params || {});
+  }
 };
 
-export const trackWhatsAppClick = async (location: string) => {
-    const timestamp = new Date().toLocaleString();
-    const pagePath = window.location.pathname;
+/**
+ * Dedicated helper for WhatsApp Clicks
+ */
+export const trackWhatsAppClick = (location: string, href?: string) => {
+  const pagePath = typeof window !== "undefined" ? window.location.pathname : "";
+  const timestamp = new Date().toLocaleString();
 
-    // 1. Track in GA4
-    if (GA_MEASUREMENT_ID && !GA_MEASUREMENT_ID.includes("XXX")) {
-        ReactGA.event("whatsapp_click", {
-            click_location: location,
-            page_path: pagePath,
-            timestamp: timestamp
-        });
-    }
+  // GA4 event
+  trackEvent("whatsapp_click", {
+    event_category: "engagement",
+    event_label: location || href || "WhatsApp Link",
+    click_location: location,
+    page_path: pagePath,
+  });
 
-    // 2. Silent Webhook Notification (Google Sheets)
-    if (TRACKING_WEBHOOK_URL) {
-        try {
-            // Using 'no-cors' to avoid CORS preflight (OPTIONS) issues with Google Apps Script.
-            // Sending the JSON as a string in the body. Since we don't set Content-Type to JSON, 
-            // it behaves as a 'simple request' and populates e.postData.contents in the script.
-            fetch(TRACKING_WEBHOOK_URL, {
-                method: "POST",
-                mode: "no-cors",
-                body: JSON.stringify({
-                    event: "WhatsApp Click",
-                    location: location,
-                    page: pagePath,
-                    timestamp: timestamp
-                }),
-                keepalive: true
-            });
-        } catch (error) {
-            console.error("Silent tracking failed", error);
-        }
+  // Silent Webhook Notification (Google Sheets)
+  if (TRACKING_WEBHOOK_URL) {
+    try {
+      fetch(TRACKING_WEBHOOK_URL, {
+        method: "POST",
+        mode: "no-cors",
+        body: JSON.stringify({
+          event: "WhatsApp Click",
+          location: location,
+          page: pagePath,
+          timestamp: timestamp,
+        }),
+        keepalive: true,
+      });
+    } catch {
+      // ignore
     }
+  }
 };
+
