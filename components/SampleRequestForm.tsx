@@ -400,7 +400,7 @@ export default function SampleRequestForm() {
               <div className="p-4 sm:p-5 flex flex-col md:flex-row gap-5 items-start">
                 <div className="relative w-full md:w-56 h-44 rounded-xl overflow-hidden flex-shrink-0 border border-gray-200">
                   <Image
-                    src="/blog-images/business-sample-pack.jpg?v=3"
+                    src="/blog-images/business-sample-pack.webp"
                     alt="Business Sample - small zip-lock tea grade bags"
                     fill
                     className="object-cover"
@@ -427,7 +427,7 @@ export default function SampleRequestForm() {
               <div className="p-4 sm:p-5 flex flex-col md:flex-row gap-5 items-start">
                 <div className="relative w-full md:w-56 h-44 rounded-xl overflow-hidden flex-shrink-0 border border-gray-200">
                   <Image
-                    src="/blog-images/startup-sample-pack.jpg?v=3"
+                    src="/blog-images/startup-sample-pack.webp"
                     alt="Startup Sample - 200g foil-packed tea varieties"
                     fill
                     className="object-cover"
