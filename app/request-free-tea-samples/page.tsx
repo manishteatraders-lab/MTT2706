@@ -12,7 +12,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Free Tea Samples for Business & Serious Buyers | Manish Tea Traders",
-  description: "Get free CTC, Assam & Darjeeling tea samples for your wholesale business. Business Sample (free tea + courier) or Startup Sample (₹600, 5–6×200g packs) — dispatched from Siliguri.",
+  description: "Get free CTC, Assam & Darjeeling tea samples for your wholesale business. Choose between our Business Sample or Startup Sample — dispatched from Siliguri.",
   alternates: {
     canonical: "https://www.manishteatraders.in/request-free-tea-samples/"
   }
@@ -98,7 +98,7 @@ export default function RequestSamples() {
                       <span className="text-yellow-400">&amp; Serious Buyers</span>
                   </h1>
                   <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mb-10 leading-relaxed">
-                      For wholesalers, retailers, and private label buyers only. Choose between our <strong>Business Sample</strong> (free tea, courier extra) or <strong>Startup Sample</strong> (₹600 for 5–6 × 200g packs).
+                      For wholesalers, retailers, and private label buyers only. Choose between our <strong>Business Sample</strong> (Free) or <strong>Startup Sample</strong>.
                   </p>
 
                   <a
@@ -132,7 +132,7 @@ export default function RequestSamples() {
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> FSSAI Licensed</span>
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> Tea Board of India Reg: KOL/B-7410</span>
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> GST Registered: 19AHJPR0891G1ZX</span>
-                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> Business Sample: Free Tea + Courier</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> Free Business Sample</span>
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-tea-600" /> 500+ wholesale buyers trust us</span>
               </div>
           </section>
@@ -144,7 +144,7 @@ export default function RequestSamples() {
                       <span className="text-tea-600 font-bold tracking-wider uppercase text-xs">Step 1 of a long partnership</span>
                       <h2 className="text-3xl font-serif font-bold text-tea-900 mt-2 mb-3">Request Your Free Tea Samples</h2>
                       <p className="text-gray-600 max-w-xl mx-auto text-sm leading-relaxed">
-                          For serious bulk buyers only. Choose between a free Business Sample (courier extra) or Startup Sample at ₹600 (5–6 × 200g packs, courier included).<br />
+                          For serious bulk buyers only. Choose between our free Business Sample or Startup Sample.<br />
                           Our team reviews every request and responds on WhatsApp within a few hours.
                       </p>
                   </div>
@@ -164,8 +164,8 @@ export default function RequestSamples() {
                               <ol className="space-y-4">
                                   {[
                                       { step: "01", title: "Fill contact & address", desc: "Enter your business details and delivery address." },
-                                      { step: "02", title: "Choose sample type", desc: "Business Sample (free tea + courier) or Startup Sample (₹600 for 5–6 × 200g packs)." },
-                                      { step: "03", title: "WhatsApp confirmation", desc: "Our team confirms payment (courier or ₹600) and dispatches within 48 hours." },
+                                      { step: "02", title: "Choose sample type", desc: "Select Business Sample (Free) or Startup Sample." },
+                                      { step: "03", title: "WhatsApp confirmation", desc: "Our team confirms details and dispatches within 48 hours." },
                                       { step: "04", title: "Price list follows", desc: "We send today's updated wholesale rates along with the samples." },
                                   ].map((item) => (
                                       <li key={item.step} className="flex gap-3">
