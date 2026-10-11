@@ -123,11 +123,20 @@ const Navbar: React.FC = () => {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          {/* Mobile Right Actions */}
+          <div className="md:hidden flex items-center gap-2">
+            <a
+              href={`tel:${CONTACT_INFO.phone}`}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-tea-50 text-tea-700 border border-tea-200 text-xs font-bold hover:bg-tea-100 transition-colors"
+              aria-label="Call Manish Tea Traders"
+            >
+              <Phone className="h-3.5 w-3.5 text-tea-600" />
+              <span>{CONTACT_INFO.displayPhone}</span>
+            </a>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 rounded-md text-gray-700"
+              aria-label="Toggle navigation menu"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>

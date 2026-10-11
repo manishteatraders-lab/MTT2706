@@ -78,7 +78,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${merriweather.variable} font-sans bg-tea-50 text-stone-800 antialiased`}>
         <AnalyticsTracker />
         <Navbar />
-        <main className="pt-20 min-h-screen">
+        <main className="pt-20 pb-20 md:pb-0 min-h-screen">
           {children}
         </main>
         <Footer />

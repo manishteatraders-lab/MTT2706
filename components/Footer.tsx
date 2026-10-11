@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-tea-900 text-tea-100 pt-16 pb-8 border-t border-tea-800">
+    <footer className="bg-tea-900 text-tea-100 pt-16 pb-24 md:pb-8 border-t border-tea-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12 border-b border-tea-800 pb-12">
           {/* Brand */}

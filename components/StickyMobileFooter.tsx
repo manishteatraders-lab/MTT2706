@@ -1,38 +1,56 @@
 "use client";
 
-import React from 'react';
-import { Phone, MessageCircle } from 'lucide-react';
-import { CONTACT_INFO } from '../constants';
+import React from "react";
+import { usePathname } from "next/navigation";
+import { MessageSquareText, Package } from "lucide-react";
 
 const StickyMobileFooter: React.FC = () => {
+  const pathname = usePathname();
+  const isSamplesPage = pathname?.includes("/request-free-tea-samples");
+
+  const handleSamplesClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (isSamplesPage) {
+      e.preventDefault();
+      const formElement = document.getElementById("sample-form");
+      if (formElement) {
+        formElement.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }
+  };
+
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] z-40 md:hidden flex">
-      <a 
-        href={`tel:${CONTACT_INFO.phone}`}
-        className="flex-1 flex items-center justify-center gap-1.5 py-3 bg-white text-tea-800 font-bold text-xs sm:text-sm hover:bg-gray-50 active:bg-gray-100 transition-colors"
-      >
-        <Phone className="h-4 w-4 sm:h-5 sm:w-5" />
-        Call Now
-      </a>
-      <div className="w-px bg-gray-300 my-2"></div>
-      <a 
-        href={`https://wa.me/${CONTACT_INFO.phone}`}
+    <nav
+      aria-label="Mobile quick actions"
+      className="fixed bottom-0 left-0 right-0 w-full bg-white border-t border-gray-200 shadow-[0_-4px_12px_rgba(0,0,0,0.15)] z-40 md:hidden flex p-2 gap-2"
+      style={{
+        paddingBottom: "max(0.5rem, env(safe-area-inset-bottom))",
+      }}
+    >
+      {/* Button 1: Get Today's Price List (Green) */}
+      <a
+        href="https://wa.me/917001958588?text=Hi%2C%20please%20send%20me%20today%27s%20tea%20price%20list."
         target="_blank"
         rel="noopener noreferrer"
-        className="flex-1 flex items-center justify-center gap-1.5 py-3 bg-[#25D366] text-white font-bold text-xs sm:text-sm hover:bg-[#20bd5a] active:bg-[#1da851] transition-colors"
+        aria-label="Get Today's Price List on WhatsApp"
+        className="flex-1 flex items-center justify-center gap-1.5 py-3 px-2 rounded-lg bg-[#25D366] text-white font-bold text-xs sm:text-sm hover:bg-[#20bd5a] active:bg-[#1da851] transition-colors shadow-sm text-center leading-tight"
       >
-        <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5" />
-        WhatsApp
+        <MessageSquareText className="h-4 w-4 flex-shrink-0" />
+        <span>Get Today&apos;s Price List</span>
       </a>
-      <div className="w-px bg-gray-300 my-2"></div>
-      <a 
-        href="/request-free-tea-samples"
-        className="flex-1 flex items-center justify-center gap-1.5 py-3 bg-tea-600 text-white font-bold text-xs sm:text-sm hover:bg-tea-700 active:bg-tea-800 transition-colors"
+
+      {/* Button 2: Get Free Samples (Brand Tea Colour) */}
+      <a
+        href="/request-free-tea-samples/#sample-form"
+        onClick={handleSamplesClick}
+        aria-label="Get Free Samples"
+        className="flex-1 flex items-center justify-center gap-1.5 py-3 px-2 rounded-lg bg-tea-700 text-white font-bold text-xs sm:text-sm hover:bg-tea-800 active:bg-tea-900 transition-colors shadow-sm text-center leading-tight"
       >
-        <span className="text-sm sm:text-base leading-none">🍵</span>
-        Samples
+        <Package className="h-4 w-4 flex-shrink-0" />
+        <span>Get Free Samples</span>
       </a>
-    </div>
+    </nav>
   );
 };
 
