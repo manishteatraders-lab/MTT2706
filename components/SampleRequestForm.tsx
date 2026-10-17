@@ -1,13 +1,20 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
-import { CheckCircle, Loader2, Send, AlertTriangle, Smartphone } from "lucide-react";
+import { CheckCircle, Loader2, Send, AlertTriangle, Smartphone, MapPin } from "lucide-react";
 import Image from "next/image";
 import { trackEvent } from "../lib/analytics";
 
 // --- Types -------------------------------------------------------------------
 type SampleType = "business" | "startup" | null;
 type TeaType = "CTC" | "Orthodox";
+
+interface ServiceableArea {
+  areaName: string;
+  districtName: string;
+  stateName: string;
+  pincode: string;
+}
 
 interface FormData {
   name: string;
@@ -19,6 +26,9 @@ interface FormData {
   sampleType: SampleType;
   address: string;
   pincode: string;
+  selectedArea: string; // From Skyking API or custom area
+  isCustomArea: boolean; // True if "My area is not listed"
+  customAreaName: string; // If customer types their area name manually
   website: string; // honeypot
 }
 
@@ -44,6 +54,9 @@ const EMPTY: FormData = {
   sampleType: null,
   address: "",
   pincode: "",
+  selectedArea: "",
+  isCustomArea: false,
+  customAreaName: "",
   website: "",
 };
 
@@ -51,7 +64,7 @@ const EMPTY: FormData = {
 const isValidMobile = (v: string) => /^[6-9]\d{9}$/.test(v.replace(/\s/g, ""));
 const isValidPincode = (v: string) => /^[1-9][0-9]{5}$/.test(v);
 
-function validate(data: FormData): Errors {
+function validate(data: FormData, hasAreaOptions: boolean): Errors {
   const e: Errors = {};
   if (!data.name.trim()) e.name = "Full name is required";
   if (!data.firmName.trim()) e.firmName = "Business / firm name is required";
@@ -64,6 +77,17 @@ function validate(data: FormData): Errors {
   if (!data.address.trim()) e.address = "Delivery address is required";
   if (!data.pincode.trim()) e.pincode = "Pincode is required";
   else if (!isValidPincode(data.pincode)) e.pincode = "Enter a valid 6-digit pincode";
+
+  // Validate area selection if Skyking returned serviceable areas
+  if (hasAreaOptions && !data.selectedArea) {
+    e.selectedArea = "Please select your delivery area or choose 'My area is not listed'";
+  }
+
+  // If user selected "My area is not listed", ensure custom area name is entered
+  if (data.isCustomArea && !data.customAreaName.trim()) {
+    e.customAreaName = "Please enter your area or locality name";
+  }
+
   return e;
 }
 
@@ -94,11 +118,11 @@ function Select({ error, children, className = "", ...props }: React.SelectHTMLA
     <div className="relative w-full">
       <select
         {...props}
-        className={`w-full appearance-none border rounded-lg px-3 py-2.5 text-sm text-gray-900 outline-none transition-all pr-8 focus:ring-2 focus:ring-tea-500 focus:border-transparent ${error ? "border-red-400 bg-red-50" : "border-gray-300 bg-white hover:border-gray-400"} ${className}`}
+        className={`w-full appearance-none border rounded-lg px-3 py-2.5 sm:py-2.5 min-h-[44px] text-sm text-gray-900 outline-none transition-all pr-9 focus:ring-2 focus:ring-tea-500 focus:border-transparent truncate ${error ? "border-red-400 bg-red-50" : "border-gray-300 bg-white hover:border-gray-400"} ${className}`}
       >
         {children}
       </select>
-      <svg className="absolute right-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      <svg className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
     </div>
   );
 }
@@ -112,6 +136,12 @@ export default function SampleRequestForm() {
   const [submitError, setSubmitError] = useState("");
   const [alreadySubmitted, setAlreadySubmitted] = useState(false);
   const formTopRef = useRef<HTMLDivElement>(null);
+
+  // Skyking Pincode Courier Lookup State
+  const [serviceableAreas, setServiceableAreas] = useState<ServiceableArea[]>([]);
+  const [isLoadingAreas, setIsLoadingAreas] = useState<boolean>(false);
+  const [areaLookupStatus, setAreaLookupStatus] = useState<"idle" | "found" | "empty" | "error">("idle");
+  const lastCheckedPincode = useRef<string>("");
 
   useEffect(() => {
     if (localStorage.getItem("mtt_sample_requested")) setAlreadySubmitted(true);
@@ -136,13 +166,126 @@ export default function SampleRequestForm() {
     clearErr("sampleType");
   };
 
+  // --- Fetch Courier Serviceability from Skyking API ---
+  const fetchCourierAreas = async (pin: string) => {
+    if (lastCheckedPincode.current === pin) return;
+    lastCheckedPincode.current = pin;
+
+    setIsLoadingAreas(true);
+    setAreaLookupStatus("idle");
+    setServiceableAreas([]);
+    set("selectedArea", "");
+    set("isCustomArea", false);
+    set("customAreaName", "");
+
+    try {
+      // Direct call to Skyking API
+      const formData = new URLSearchParams();
+      formData.append("pincodeList", pin);
+
+      const res = await fetch("https://live.skyking.co/api/pincode_api/bindSearviceablityBranch", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: formData.toString(),
+      });
+
+      if (!res.ok) {
+        throw new Error("Courier lookup failed");
+      }
+
+      const list = await res.json();
+
+      if (Array.isArray(list)) {
+        // Filter ONLY areas where Serviceability is "Yes"
+        const yesAreas = list
+          .filter((item: any) => item?.Serviceability?.toString().trim().toLowerCase() === "yes")
+          .map((item: any) => ({
+            areaName: item?.AreaName?.toString().trim() || "",
+            districtName: item?.DistrictName?.toString().trim() || "",
+            stateName: item?.StateName?.toString().trim() || "",
+            pincode: item?.Pincode?.toString().trim() || pin,
+          }))
+          .filter((item: any) => item.areaName.length > 0);
+
+        // Deduplicate area names
+        const seen = new Set<string>();
+        const unique = yesAreas.filter(a => {
+          const k = a.areaName.toLowerCase();
+          if (seen.has(k)) return false;
+          seen.add(k);
+          return true;
+        });
+
+        if (unique.length > 0) {
+          setServiceableAreas(unique);
+          setAreaLookupStatus("found");
+        } else {
+          setServiceableAreas([]);
+          setAreaLookupStatus("empty");
+        }
+      } else {
+        setAreaLookupStatus("empty");
+      }
+    } catch {
+      // Fallback: If direct client fetch faces CORS or network issue, try local proxy route
+      try {
+        const proxyRes = await fetch("/api/check-pincode", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ pincode: pin }),
+        });
+        const proxyData = await proxyRes.json();
+        if (proxyData.areas && proxyData.areas.length > 0) {
+          setServiceableAreas(proxyData.areas);
+          setAreaLookupStatus("found");
+        } else {
+          setServiceableAreas([]);
+          setAreaLookupStatus("empty");
+        }
+      } catch {
+        setAreaLookupStatus("error");
+      }
+    } finally {
+      setIsLoadingAreas(false);
+    }
+  };
+
+  const handlePincodeChange = (val: string) => {
+    const digitsOnly = val.replace(/\D/g, "");
+    set("pincode", digitsOnly);
+    clearErr("pincode");
+
+    if (digitsOnly.length === 6 && isValidPincode(digitsOnly)) {
+      fetchCourierAreas(digitsOnly);
+    } else {
+      setServiceableAreas([]);
+      setAreaLookupStatus("idle");
+      lastCheckedPincode.current = "";
+    }
+  };
+
+  const handleAreaSelect = (areaVal: string) => {
+    clearErr("selectedArea");
+    if (areaVal === "__CUSTOM__") {
+      set("selectedArea", "__CUSTOM__");
+      set("isCustomArea", true);
+    } else {
+      set("selectedArea", areaVal);
+      set("isCustomArea", false);
+      set("customAreaName", "");
+    }
+  };
+
   const scrollToTop = () => formTopRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
 
   const handleSubmit = async (e?: React.FormEvent) => {
     if (e) e.preventDefault();
     if (data.website) return;
 
-    const errs = validate(data);
+    const hasAreaOptions = serviceableAreas.length > 0;
+    const errs = validate(data, hasAreaOptions);
     if (Object.keys(errs).length > 0) {
       setErrors(errs);
       scrollToTop();
@@ -156,8 +299,28 @@ export default function SampleRequestForm() {
       const GOOGLE_SCRIPT_URL =
         "https://script.google.com/macros/s/AKfycbzo2PJ3rqhp2SLvXwEmO2OJXXdWGkGzLoXSGfntkAmaDTOjw7ZAS0VNMgq1C0TF1uPnIg/exec";
 
+      // Formulate final area and serviceability for delivery record
+      let finalAreaName = "";
+      let isServiceable = "No";
+
+      if (data.isCustomArea) {
+        finalAreaName = data.customAreaName ? `${data.customAreaName} (Not listed)` : "Not listed";
+        isServiceable = "No";
+      } else if (data.selectedArea) {
+        finalAreaName = data.selectedArea;
+        isServiceable = "Yes";
+      } else if (serviceableAreas.length === 0 && data.pincode) {
+        finalAreaName = "Pincode not covered by Skyking";
+        isServiceable = "No";
+      } else {
+        finalAreaName = "Standard Pincode Area";
+        isServiceable = "Yes";
+      }
+
       const submission = {
         ...data,
+        courierArea: finalAreaName,
+        isServiceable: isServiceable,
         submittedAt: new Date().toISOString(),
         teaTypes: data.teaTypes.join(", "),
       };
@@ -179,6 +342,8 @@ export default function SampleRequestForm() {
         tea_types: data.teaTypes.join(", "),
         monthly_requirement: data.monthlyRequirement,
         pincode: data.pincode,
+        courier_area: finalAreaName,
+        courier_serviceable: isServiceable,
       });
 
       setSubmitted(true);
@@ -451,30 +616,111 @@ export default function SampleRequestForm() {
           )}
         </div>
 
-        {/* --- Section 5: Delivery --- */}
+        {/* --- Section 5: Delivery & Courier Area Selection --- */}
         <div>
           <h3 className="text-base font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">Delivery</h3>
           <div className="space-y-4">
             <Field label="Full Address" error={errors.address} required>
               <Input
                 type="text"
-                placeholder="House number, area name, landmark, city"
+                placeholder="House number, building name, street, landmark"
                 value={data.address}
                 error={errors.address}
                 onChange={e => { set("address", e.target.value); clearErr("address"); }}
               />
             </Field>
-            <Field label="Pincode" error={errors.pincode} required>
-              <Input
-                type="text"
-                placeholder="800001"
-                maxLength={6}
-                value={data.pincode}
-                error={errors.pincode}
-                className="max-w-[160px]"
-                onChange={e => { set("pincode", e.target.value.replace(/\D/g, "")); clearErr("pincode"); }}
-              />
-            </Field>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-start">
+              <Field label="Pincode (6 digits)" error={errors.pincode} required>
+                <div className="relative">
+                  <Input
+                    type="text"
+                    placeholder="e.g. 734005, 201301"
+                    maxLength={6}
+                    value={data.pincode}
+                    error={errors.pincode}
+                    onChange={e => handlePincodeChange(e.target.value)}
+                  />
+                  {isLoadingAreas && (
+                    <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5 text-xs text-tea-700 bg-white/80 px-1 py-0.5 rounded">
+                      <Loader2 className="w-4 h-4 animate-spin text-tea-600" />
+                      <span>Checking courier...</span>
+                    </div>
+                  )}
+                </div>
+              </Field>
+
+              {/* Serviceable Area Selection (Appears when Skyking API returns areas) */}
+              {areaLookupStatus === "found" && serviceableAreas.length > 0 && (
+                <Field
+                  label="Select Your Area / Branch"
+                  error={errors.selectedArea}
+                  required
+                >
+                  <Select
+                    value={data.selectedArea}
+                    error={errors.selectedArea}
+                    onChange={e => handleAreaSelect(e.target.value)}
+                  >
+                    <option value="">-- Select your area ({serviceableAreas.length} serviceable) --</option>
+                    {serviceableAreas.map(a => (
+                      <option key={a.areaName} value={a.areaName}>
+                        {a.areaName} ({a.districtName})
+                      </option>
+                    ))}
+                    <option value="__CUSTOM__">❌ My area is not listed</option>
+                  </Select>
+                </Field>
+              )}
+            </div>
+
+            {/* Area lookup feedback badge */}
+            {data.pincode.length === 6 && (
+              <div>
+                {areaLookupStatus === "found" && (
+                  <div className="flex items-center gap-1.5 text-xs text-green-700 bg-green-50 border border-green-200 px-3 py-2 rounded-lg">
+                    <CheckCircle className="w-4 h-4 flex-shrink-0 text-green-600" />
+                    <span>
+                      Courier service verified for PIN <strong>{data.pincode}</strong>: {serviceableAreas.length} serviceable areas found.
+                    </span>
+                  </div>
+                )}
+
+                {areaLookupStatus === "empty" && !isLoadingAreas && (
+                  <div className="flex items-center gap-1.5 text-xs text-amber-800 bg-amber-50 border border-amber-200 px-3 py-2 rounded-lg">
+                    <MapPin className="w-4 h-4 flex-shrink-0 text-amber-600" />
+                    <span>
+                      Direct branch pickup not listed for PIN {data.pincode}. No worries &mdash; our team will dispatch via alternate national courier.
+                    </span>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Custom Area input when user chooses "My area is not listed" */}
+            {data.isCustomArea && (
+              <div className="p-4 bg-tea-50/70 border border-tea-200 rounded-xl space-y-2 animate-fadeIn">
+                <Field
+                  label="Enter your specific locality / area name"
+                  error={errors.customAreaName}
+                  required
+                >
+                  <Input
+                    type="text"
+                    placeholder="e.g. Sector 44, Near Kali Mandir, Subhash Pally"
+                    value={data.customAreaName}
+                    error={errors.customAreaName}
+                    onChange={e => {
+                      set("customAreaName", e.target.value);
+                      clearErr("customAreaName");
+                    }}
+                  />
+                </Field>
+                <p className="text-[11px] text-gray-500">
+                  We will arrange the nearest serviceable courier hub or alternate delivery partner for this locality.
+                </p>
+              </div>
+            )}
           </div>
         </div>
 
